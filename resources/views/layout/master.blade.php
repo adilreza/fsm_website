@@ -87,8 +87,8 @@
             <div class="header-logo-address last-child">
               <div class="header-logo-icon"> <i class="fa fa-globe"></i> </div>
               <div class="header-logo-text">
-                <p>www.website.com</p>
-                <p>www.test.com</p>
+                <p>www.frontiersemi.com</p>
+                <p>www.fsmtranscriber.com</p>
               </div>
             </div>
           </div>
