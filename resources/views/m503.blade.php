@@ -8,11 +8,10 @@
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
   <div class="container">
-    <h1>503</h1>
+    <h1>Error! 503</h1>
     <ul class="page-breadcrumb">
-      <li><a href="index.html">Home</a></li>
-	  <li>Pages</li>
-      <li>503</li>
+    <li><a href="{{URL::to('/')}}">Home</a></li>
+	  
     </ul>
   </div>
 </div>
@@ -23,9 +22,9 @@
 <div class="row">
 <div class="col-lg-12 text-center">
     <div class="errorcontent">
-	 <p>Service is Temporary Unavailable</p>
+	 <p>Service Unavailable. The server is currently unable to handle the request due to a temporary overloading or maintenance of the server</p>
       <div class="h1">503</div>
-      <a href="index.html"><i class="icofont icofont-arrow-left"></i> Go back to home</a> </div>
+    <a href="{{URL::to('/')}}"><i class="icofont icofont-arrow-left"></i> Go back to home</a> </div>
   </div>
 </div>
 </div>
@@ -35,8 +34,8 @@
 <div class="our-cta-wrapper">
 <div class="container">
 <div class="cta-content">
-<h2>Do you Need This Template. Please Download Now!</h2>
-<a href="https://themeforest.net/user/sbtechnosoft/portfolio" class="bttn">Buy Now</a>
+<h2>Your suggestion for improving the services</h2>
+<a href="{{URL::to('contact_us')}}" class="bttn">Contact Us</a>
 </div>
 </div>
 </div>

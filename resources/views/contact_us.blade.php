@@ -77,10 +77,10 @@
       <li><span class="fa fa-phone"></span><b>Phone / Fax</b>+1 408 432 8838</li>
     </ul>
     <ul class="social-icon-three">
-      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://web.facebook.com/fsmofp"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
     </ul>
   </div>
 </div>
