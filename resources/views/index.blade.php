@@ -287,8 +287,8 @@ Our Featured Wrapper Start -->
     </ul>
   </div>
   <div class="blog_btm_cntnt">
-    <h2>Rewarded Products from MIT</h2>
-    <p class="pad-b-10">Integer dignissim egestas est, id tristique eros pharetra sit amet. Duis et ipsum pellentesque, porta ante.</p>
+    <h2>Rewarded 413 C2C</h2>
+    <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</p>
     <a href="javascript:void(0)" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>
@@ -303,8 +303,8 @@ Our Featured Wrapper Start -->
     </ul>
   </div>
   <div class="blog_btm_cntnt">
-    <h2>Duis ultricies aliquet mauris</h2>
-    <p class="pad-b-10">Integer dignissim egestas est, id tristique eros pharetra sit amet. Duis et ipsum pellentesque, porta ante.</p>
+    <h2>Rewarded 128 C2C</h2>
+    <p class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
     <a href="javascript:void(0)" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>

@@ -17,7 +17,23 @@
 </div>
 <!-- Breadcrumb Wrapper End -->
 <!-- Inner Page Wrapper Start -->
+
+
+
 <div class="inner-page-wrapper contactus-wrapper">
+    <div class="container">
+
+        <h3>We are here to help you</h3>
+        <hr style="width:70%;padding:0.5px;">
+        <p>Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+        </p>
+    
+    </div>
+
+    <br/>>
+    <br/>
+    <br/>
+
 <div class="container">
 <div class="row">
   <div class="col-lg-7 mb-30">
@@ -27,14 +43,14 @@
         <div class="row clearfix">
           <div class="col-md-6 column">
             <div class="form-group">
-              <label>Name</label>
+              <label>Name <span style="color:red;">*</span></label>
               <input name="form_name" class="form-control" value="" placeholder="" required type="text">
             </div>
           </div>
           <div class="col-md-6 column">
             <div class="form-group">
-              <label>Email</label>
-              <input name="form_email" class="form-control required email" value="" placeholder="" required  type="email">
+              <label>Email <span style="color:red;">*</span></label>
+              <input required name="form_email" class="form-control required email" value="" placeholder=""   type="email">
             </div>
           </div>
           <div class="col-md-6 column">
@@ -45,8 +61,8 @@
           </div>
           <div class="col-md-6 column">
             <div class="form-group">
-              <label>Services</label>
-              <input name="form_subject" class="form-control" value="" placeholder="" type="text">
+              <label>Services <span style="color:red;">*</span></label>
+              <input required name="form_subject" class="form-control" value="" placeholder="" type="text">
             </div>
           </div>
           <div class="col-md-12 column">
