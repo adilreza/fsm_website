@@ -99,9 +99,35 @@ class fsm_maincontroller extends Controller
     {
         return view('adt.film_stress');
     }
+    public function tsv_process_control_page()
+    {
+        return view('adt.tsv_process_control');
+    }
+    public function film_adhesion_page()
+    {
+        return view('adt.film_adhesion');
+    }
+    public function raman_spectroscopy_page()
+    {
+        return view('adt.raman_spectroscopy');
+    }
 
-
-
+    public function laser_scanning_page()
+    {
+        return view('adt.laser_scanning');
+    }
+    public function thin_wafer_metrology_page()
+    {
+        return view('adt.thin_wafer_metrology');
+    }
+    public function electrical_characterization_page()
+    {
+        return view('adt.electrical_characterization');
+    }
+    public function low_coherence_page()
+    {
+        return view('adt.low_coherence');
+    }
 
 
 

@@ -291,6 +291,13 @@
 @yield('m404_page')
 @yield('m503_page')
 @yield('film_stress_page')
+@yield('tsv_process_control_page')
+@yield('laser_scanning_page')
+@yield('film_adhesion_page')
+@yield('raman_spectroscopy')
+@yield('thin_wafer_metrology')
+@yield('low_coherence')
+@yield('electrical_characterization')
 
 
 

@@ -84,7 +84,7 @@ Our Featured Wrapper Start -->
 <div class="col-md-6 col-lg-4">
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-compress-arrows-alt"></i>
-      <div class="media-body"> <h3><a href="javascript:void(0)">Film Adhesion</a></h3>
+    <div class="media-body"> <h3><a href="{{URL::to('film_adhesion')}}">Film Adhesion</a></h3>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
       </div>
     </div>
@@ -93,7 +93,7 @@ Our Featured Wrapper Start -->
 <div class="col-md-6 col-lg-4">
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-tasks"></i>
-      <div class="media-body"> <h3><a href="javascript:void(0)">3DIC TSV Process Control</a></h3>
+    <div class="media-body"> <h3><a href="{{URL::to('tsv_process_control')}}">3DIC TSV Process Control</a></h3>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
       </div>
     </div>
@@ -102,7 +102,7 @@ Our Featured Wrapper Start -->
 <div class="col-md-6 col-lg-4">
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-tools"></i>
-      <div class="media-body"> <h3><a href="javascript:void(0)">Raman Spectroscopy</a></h3>
+      <div class="media-body"> <h3><a href="{{URL::to('raman_spectroscopy')}}">Raman Spectroscopy</a></h3>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
       </div>
     </div>
@@ -111,7 +111,7 @@ Our Featured Wrapper Start -->
 <div class="col-md-6 col-lg-4">
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-cogs"></i>
-      <div class="media-body"> <h3><a href="javascript:void(0)">Laser Scanning</a></h3>
+      <div class="media-body"> <h3><a href="{{URL::to('laser_scanning')}}">Laser Scanning</a></h3>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
       </div>
     </div>
@@ -121,7 +121,7 @@ Our Featured Wrapper Start -->
 <div class="col-md-6 col-lg-4">
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-stroopwafel"></i>
-        <div class="media-body"> <h3><a href="javascript:void(0)">Thin wafer metrology</a></h3>
+        <div class="media-body"> <h3><a href="">Thin wafer metrology</a></h3>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </div>
       </div>
@@ -130,7 +130,7 @@ Our Featured Wrapper Start -->
   <div class="col-md-6 col-lg-4">
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-microchip"></i>
-        <div class="media-body"> <h3><a href="javascript:void(0)">Electrical Characterization</a></h3>
+        <div class="media-body"> <h3><a href="{{URL::to('electrical_characterization')}}">Electrical Characterization</a></h3>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </div>
       </div>
@@ -139,7 +139,7 @@ Our Featured Wrapper Start -->
   <div class="col-md-6 col-lg-6">
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-shapes"></i>
-        <div class="media-body"> <h3><a href="javascript:void(0)">Low Coherence Interferometry</a></h3>
+        <div class="media-body"> <h3><a href="{{URL::to('low_coherence')}}">Low Coherence Interferometry</a></h3>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </div>
       </div>

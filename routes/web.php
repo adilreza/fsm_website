@@ -33,6 +33,11 @@ Route::get('/product_list', 'fsm_maincontroller@product_list_page')->name('produ
 Route::get('/product_list2', 'fsm_maincontroller@product_list2_page')->name('product_list2');
 
 Route::get('/film_stress', 'fsm_maincontroller@film_stress_page')->name('film_stress');
-
-
+Route::get('/tsv_process_control', 'fsm_maincontroller@tsv_process_control_page')->name('tsv_process_control');
+Route::get('/film_adhesion', 'fsm_maincontroller@film_adhesion_page')->name('film_adhesion');
+Route::get('/raman_spectroscopy', 'fsm_maincontroller@raman_spectroscopy_page')->name('raman_spectroscopy');
+Route::get('/laser_scanning', 'fsm_maincontroller@laser_scanning_page')->name('laser_scanning');
+Route::get('/thin_wafer_metrology', 'fsm_maincontroller@thin_wafer_metrology_page')->name('thin_wafer_metrology');
+Route::get('/electrical_characterization', 'fsm_maincontroller@electrical_characterization_page')->name('electrical_characterization');
+Route::get('/low_coherence', 'fsm_maincontroller@low_coherence_page')->name('low_coherence');
 
