@@ -265,21 +265,67 @@
 
 
 
-
-
-
-
-
-<!-- Our CTA Wrapper Start -->
-<div class="our-cta-wrapper">
-<div class="container">
-  <div class="cta-content">
-    <h2>Your request for Information or proposal</h2>
-    <a href="https://themeforest.net/user/sbtechnosoft/portfolio" class="bttn">RFP / RFI</a>
+<section class="testimonials-wrapper">
+  <div class="container">
+  <div class="section-title">
+  <h2>TESTIMONIALS</h2>
+  <div class="separator"></div>
   </div>
-</div>
-</div>
-<!-- Our CTA Wrapper End -->
+  <div class="two-item-carousel owl-carousel owl-theme">
+  <!--Testimonial Block-->
+  <div class="testimonial-block">
+    <div class="inner-box">
+      <div class="image"> <img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/testimonial/comments1.png')}}" alt="" /> </div>
+      <div class="content">
+        <div class="quote-icon fa fa-quote-right"></div>
+        <div class="author-info">Jeson Jons <span>/ CEO at Showroom Prohub</span></div>
+        <div class="text">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</div>
+      </div>
+    </div>
+  </div>
+  <!--Testimonial Block-->
+  <div class="testimonial-block">
+    <div class="inner-box">
+    <div class="image"> <img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/testimonial/comments2.png')}}" alt="" /> </div>
+      <div class="content">
+        <div  class="quote-icon fa fa-quote-right"></div>
+        <div class="author-info">Mark Warren <span>/ Managerment at Envato</span></div>
+        <div class="text">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</div>
+      </div>
+    </div>
+  </div>
+  <!--Testimonial Block-->
+  <div class="testimonial-block">
+    <div class="inner-box">
+      <div class="image"> <img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/testimonial/comments3.png')}}" alt="" /> </div>
+      <div class="content">
+        <div class="quote-icon fa fa-quote-right"></div>
+        <div class="author-info">Les Stone <span>/ CEO at Showroom INC</span></div>
+        <div class="text">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</div>
+      </div>
+    </div>
+  </div>
+  <!--Testimonial Block-->
+  <div class="testimonial-block">
+    <div class="inner-box">
+      <div class="image"> <img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/testimonial/comments1.png')}}" alt="" /> </div>
+      <div class="content">
+        <div class="quote-icon fa fa-quote-right"></div>
+        <div class="author-info">John Doe <span>/ Managerment at Envato</span></div>
+        <div class="text">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+
+
+
+
+
+
 <!-- News Letter Wrapper End -->
 
 

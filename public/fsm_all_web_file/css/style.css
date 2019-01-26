@@ -2465,7 +2465,7 @@ figure:hover {
 ================================================
 */
 .testimonials-wrapper {
-	background: rgba(0, 0, 0, 0) url("../images/patteren.jpg") repeat scroll left top;
+	background:#D2D7D3;
 	padding: 70px 0 80px;
 	position: relative;
 }
