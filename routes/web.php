@@ -15,6 +15,8 @@ Route::get('/accordion', 'fsm_maincontroller@accordion_page')->name('accordion')
 Route::get('/appointment ', 'fsm_maincontroller@appointment_page')->name('appointment');
 
 Route::get('/blog_classic ', 'fsm_maincontroller@blog_classic_page')->name('blog_classic');
+
+
 Route::get('/product_details ', 'fsm_maincontroller@product_details_page')->name('product_details');
 
 Route::get('/product_fullwidth2', 'fsm_maincontroller@product_fullwidth2_page')->name('product_fullwidth2');
