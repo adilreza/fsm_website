@@ -35,8 +35,6 @@ class fsm_maincontroller extends Controller
     {
         return view('services');
     }
-
-
     public function accordion_page()
     {
         return view('accordion');
@@ -51,10 +49,65 @@ class fsm_maincontroller extends Controller
         return view('blog_classic');
     }
 
+
+
     public function product_details_page()
     {
         return view('product_details.product_details');
     }
+    public function product_details_page_128l_C2C()
+    {
+        return view('product_details.product_details_128L_C2C');
+    }
+    public function product_details_page_128G_450()
+    {
+        return view('product_details.product_details_128G_450');
+    }
+    public function product_details_page_128NT()
+    {
+        return view('product_details.product_details_128NT');
+    }
+    public function product_details_page_128C2C()
+    {
+        return view('product_details.product_details_128_C2C');
+    }
+    public function product_details_page_413C2C()
+    {
+        return view('product_details.product_details_413_C2C');
+    }
+    public function product_details_page_413SA()
+    {
+        return view('product_details.product_details_413_SA');
+    }
+    public function product_details_page_413PR()
+    {
+        return view('product_details.product_details_413_PR');
+    }
+    public function product_details_page_413MOT()
+    {
+        return view('product_details.product_details_413_MOT');
+    }
+
+    public function product_details_page_vitc2c()
+    {
+        return view('product_details.product_details_vit_c2c');
+    }
+    public function product_details_page_8108vite()
+    {
+        return view('product_details.product_details_8108_vite');
+    }
+    public function product_details_page_900C2C()
+    {
+        return view('product_details.product_details_900_c2c');
+    }
+    public function product_details_page_900TC_VAC()
+    {
+        return view('product_details.product_details_900TC_VAC');
+    }
+
+
+
+
 
     public function product_fullwidth_page()
     {

@@ -17,7 +17,24 @@ Route::get('/appointment ', 'fsm_maincontroller@appointment_page')->name('appoin
 Route::get('/blog_classic ', 'fsm_maincontroller@blog_classic_page')->name('blog_classic');
 
 
-Route::get('/product_details ', 'fsm_maincontroller@product_details_page')->name('product_details');
+Route::get('/product_128L ', 'fsm_maincontroller@product_details_page')->name('product_128L');
+Route::get('/product_128L_C2C', 'fsm_maincontroller@product_details_page_128l_C2C')->name('product_128L_C2C');
+Route::get('/product_128G_450', 'fsm_maincontroller@product_details_page_128G_450')->name('product_128G_450');
+Route::get('/product_128NT', 'fsm_maincontroller@product_details_page_128NT')->name('product_128NT');
+Route::get('/product_128_C2C', 'fsm_maincontroller@product_details_page_128C2C')->name('product_128_C2C');
+
+Route::get('/product_413_C2C', 'fsm_maincontroller@product_details_page_413C2C')->name('product_413_C2C');
+Route::get('/product_413_SA', 'fsm_maincontroller@product_details_page_413SA')->name('product_413_SA');
+Route::get('/product_413_PR', 'fsm_maincontroller@product_details_page_413PR')->name('product_413_PR');
+Route::get('/product_413_MOT', 'fsm_maincontroller@product_details_page_413MOT')->name('product_413_MOT');
+
+Route::get('/product_VIT_C2C', 'fsm_maincontroller@product_details_page_vitc2c')->name('product_VIT_C2C');
+Route::get('/product_8108_VIT', 'fsm_maincontroller@product_details_page_8108vite')->name('product_8108_VITE');
+
+
+Route::get('/product_900_C2C', 'fsm_maincontroller@product_details_page_900C2C')->name('product_900_C2C');
+Route::get('/product_900TC_VAC', 'fsm_maincontroller@product_details_page_900TC_VAC')->name('product_900TC_VAC');
+
 
 Route::get('/product_fullwidth2', 'fsm_maincontroller@product_fullwidth2_page')->name('product_fullwidth2');
 
