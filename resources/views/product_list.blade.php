@@ -257,7 +257,7 @@
             
           </ul>
         </div>
-      <a href="{{URL::to('/product_VIT_C2C')}}">
+      <a href="{{URL::to('/product_VITE_C2C')}}">
           <div class="blog_btm_cntnt">
             <h2>VIT C2C</h2>
             <p class="pad-b-10">Dimensional metrology system for 3D-IC application: Through Silicon Via (TSV) ..</p>
@@ -267,7 +267,7 @@
       </div>
     </a>
 
-  <a href="{{URL::to('/product_8108_VIT')}}">
+  <a href="{{URL::to('/product_8108_VITE')}}">
     <div class="col-md-4">
     <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_8108_VITE.png')}}" alt=""> </div>
@@ -277,7 +277,7 @@
           
         </ul>
       </div>
-      <a href="{{URL::to('/product_8108_VIT')}}">
+      <a href="{{URL::to('/product_8108_VITE')}}">
         <div class="blog_btm_cntnt">
           <h2>8108 VITE</h2>
           <p class="pad-b-10">New high speed, high accuracy non-contact characterization of thin wafers...</p>

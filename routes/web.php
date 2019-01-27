@@ -28,8 +28,8 @@ Route::get('/product_413_SA', 'fsm_maincontroller@product_details_page_413SA')->
 Route::get('/product_413_PR', 'fsm_maincontroller@product_details_page_413PR')->name('product_413_PR');
 Route::get('/product_413_MOT', 'fsm_maincontroller@product_details_page_413MOT')->name('product_413_MOT');
 
-Route::get('/product_VIT_C2C', 'fsm_maincontroller@product_details_page_vitc2c')->name('product_VIT_C2C');
-Route::get('/product_8108_VIT', 'fsm_maincontroller@product_details_page_8108vite')->name('product_8108_VITE');
+Route::get('/product_VITE_C2C', 'fsm_maincontroller@product_details_page_vitc2c')->name('product_VITE_C2C');
+Route::get('/product_8108_VITE', 'fsm_maincontroller@product_details_page_8108vite')->name('product_8108_VITE');
 
 
 Route::get('/product_900_C2C', 'fsm_maincontroller@product_details_page_900C2C')->name('product_900_C2C');
