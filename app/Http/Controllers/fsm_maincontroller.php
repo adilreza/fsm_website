@@ -53,7 +53,7 @@ class fsm_maincontroller extends Controller
 
     public function product_details_page()
     {
-        return view('product_details');
+        return view('product_details.product_details');
     }
 
     public function product_fullwidth_page()
