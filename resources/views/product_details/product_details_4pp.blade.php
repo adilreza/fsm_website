@@ -16,7 +16,7 @@
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
     <div class="container">
-        <h1>900 C2C</h1>
+        <h1>4PP</h1>
         <ul class="page-breadcrumb">
             <li><a href="{{route('index')}}">Home</a></li>
             <li>Product</li>
@@ -31,27 +31,27 @@
         <div class="row">
             <div class="col-md-12 col-lg-12 col-xl-8">
                 <div class="blog_box_wrapper blog_box_padding posts">
-                    <div class="blog_img_wraper blog_img_wraper_2 text-center text-center" > <img style="height:450px;width:380px;" style="height:450px; width:300px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900_C2C.png')}}" alt=""> </div>
+                    <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:430px;width:480px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_4PP.png')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
                         <ul>
                             <li> 10 <span> SOLD</span> </li>
                         </ul>
                     </div>
                     <div class="btc_blog_cate_cont_wrapper">
-                        <h5>About 900 C2C </h5>
+                        <h5>About 4PP Product </h5>
                         <hr style="background:#071E33;width:70%;">
                         <br>
                         <p>
-                            Stress Hysteresis in vacuum or gas up to 900C for the study of annealing cycles. Thermal Desorption, Film Shrinkage, Reflectivity, and Resistivity options provide additional insight to causes of material changes with temperature. NEW: Optional wafer rotation offers unique 2D/3D mapping to study wafer deformation as a function of temperature.
+                            Contact and Non-Contact sheet resistance measurement systems for implantation, diffusion, metallization, and many other applications.
                             <br>
                             <br>
-                            Rapid Thermal Mechanical Characterization of novel materials. Simulataneous extraction of stress hysteresis, thermal desorption, film shrinkage and reflectivity data during thermal cycling in vaccum up to 900 degree C. Fully automated cassette to cassette system for 300mm wafers. SECS/GEM option.
+                            4-Point Probe Technique for measuring the sheet resistance of epi, metal films, substrates. Table top and fully automated cassette to cassette systems available.
                     </div>
 
                     <div>
 
 
-                        <h2>900 C2C</h2>
+                        <h2>4PP</h2>
                         <p>Below all about the product's feature specification and applications</p>
 
                         <div class="tab">
@@ -117,12 +117,13 @@
                     <hr style="width:80%;background:darkblue;">
                     <div class="latest_post_wrapper">
                         <div class="blog_wrapper1">
-                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900TC_VAC_sm.PNG')}}"> </div>
+                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" style="height:80px;width:80px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_RSL.PNG')}}"> </div>
                             <div class="sc_blog_text">
-                                <h5><a href="{{URL::to('/product_900TC_VAC')}}">900TC-VAC</a></h5>
+                                <h5><a href="{{URL::to('/product_rsl')}}">RSL</a></h5>
                                 <div class="sc_blog_date">June 28, 2018</div>
                             </div>
                         </div>
+
 
                     </div>
                 </div>

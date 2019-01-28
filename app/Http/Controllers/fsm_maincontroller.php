@@ -88,6 +88,11 @@ class fsm_maincontroller extends Controller
         return view('product_details.product_details_413_MOT');
     }
 
+    public function product_details_page_500TC()
+    {
+        return view('product_details.product_details_500TC');
+    }
+
     public function product_details_page_vitc2c()
     {
         return view('product_details.product_details_vit_c2c');
@@ -104,7 +109,34 @@ class fsm_maincontroller extends Controller
     {
         return view('product_details.product_details_900TC_VAC');
     }
-
+    public function product_details_page_raman360()
+    {
+        return view('product_details.product_details_raman_360');
+    }
+    public function product_details_page_127C2C()
+    {
+        return view('product_details.product_details_127_C2C');
+    }
+    public function product_details_page_rms()
+    {
+        return view('product_details.product_details_rms');
+    }
+    public function product_details_page_melt()
+    {
+        return view('product_details.product_details_melt');
+    }
+    public function product_details_page_aquaflex()
+    {
+        return view('product_details.product_details_aquaflex');
+    }
+    public function product_details_page_4pp()
+    {
+        return view('product_details.product_details_4pp');
+    }
+    public function product_details_page_rsl()
+    {
+        return view('product_details.product_details_rsl');
+    }
 
 
 

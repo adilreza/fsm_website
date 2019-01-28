@@ -28,12 +28,26 @@ Route::get('/product_413_SA', 'fsm_maincontroller@product_details_page_413SA')->
 Route::get('/product_413_PR', 'fsm_maincontroller@product_details_page_413PR')->name('product_413_PR');
 Route::get('/product_413_MOT', 'fsm_maincontroller@product_details_page_413MOT')->name('product_413_MOT');
 
+Route::get('/product_500TC', 'fsm_maincontroller@product_details_page_500TC')->name('product_500TC');
+
+Route::get('/product_raman360', 'fsm_maincontroller@product_details_page_raman360')->name('product_raman360');
+Route::get('/product_127_C2C', 'fsm_maincontroller@product_details_page_127C2C')->name('product_127_C2C');
+
+Route::get('/product_rms', 'fsm_maincontroller@product_details_page_rms')->name('product_rms');
+
+Route::get('/product_melt', 'fsm_maincontroller@product_details_page_melt')->name('product_melt');
+Route::get('/product_aquaflex', 'fsm_maincontroller@product_details_page_aquaflex')->name('product_aquaflex');
+
+
 Route::get('/product_VITE_C2C', 'fsm_maincontroller@product_details_page_vitc2c')->name('product_VITE_C2C');
 Route::get('/product_8108_VITE', 'fsm_maincontroller@product_details_page_8108vite')->name('product_8108_VITE');
 
 
 Route::get('/product_900_C2C', 'fsm_maincontroller@product_details_page_900C2C')->name('product_900_C2C');
 Route::get('/product_900TC_VAC', 'fsm_maincontroller@product_details_page_900TC_VAC')->name('product_900TC_VAC');
+
+Route::get('/product_4pp', 'fsm_maincontroller@product_details_page_4pp')->name('product_4pp');
+Route::get('/product_rsl', 'fsm_maincontroller@product_details_page_rsl')->name('product_rsl');
 
 
 Route::get('/product_fullwidth2', 'fsm_maincontroller@product_fullwidth2_page')->name('product_fullwidth2');
