@@ -11,7 +11,7 @@
         <div class="container">
             <h1> All about Laser Scanning</h1>
             <ul class="page-breadcrumb">
-                <li><a href="index.html">Home</a></li>
+            <li><a href="{{URL::to('/')}}">Home</a></li>
                 <li>Application</li>
                 <li>Laser Scanning</li>
             </ul>
@@ -87,7 +87,7 @@
                 <hr style="width:75%;">
                 <br>
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_128L')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L.jpg')}}" alt=""> </div>
@@ -97,7 +97,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_128L')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>128L</h2>
                                         <p class="pad-b-10">Film stress and wafer bow measurement for wafers up to 300mm wafer. 2D/3D stress..</p>
@@ -108,7 +108,7 @@
                     </a>
 
                     <div class="col-md-4">
-                        <a href="{{URL::to('/product_details')}}">
+                        <a href="{{URL::to('/product_128G_450')}}">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128G-450.png')}}" alt=""> </div>
                                 <div class="blog_icon_overlay">
@@ -117,7 +117,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_128G_450')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>128G-450</h2>
                                         <p class="pad-b-10">Film stress and wafer bow measurement for wafers up to 450mm wafer or flat....</p>
@@ -127,7 +127,7 @@
                         </a>
 
                     </div>
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_128NT')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img width="400" height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128NT.PNG" alt=""> </div>
@@ -137,7 +137,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_128NT')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>128NT</h2>
                                         <p class="pad-b-10">Film stress and wafer bow measurement for wafers up to 200mm wafer...</p>
@@ -152,7 +152,7 @@
                 <br>
                 <!-- second row------------------------------------------ -->
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_128_C2C')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128_C2C.png')}}" alt=""> </div>
@@ -162,7 +162,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_128_C2C')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>128 C2C</h2>
                                         <p class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput...</p>
@@ -172,7 +172,7 @@
                         </div>
                     </a>
 
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_128L_C2C')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNg')}}" alt=""> </div>
@@ -182,7 +182,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_128L_C2C')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>128L C2C</h2>
                                         <p class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process..</p>
@@ -200,7 +200,7 @@
                 <hr style="width:75%;">
                 <br>
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_500TC')}}">
                         <div class="col-md-7">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper text-center"> <img height="380px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_500TC.png')}}" alt=""> </div>
@@ -210,7 +210,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_500TC')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>500TC</h2>
                                         <p class="pad-b-10">Evaluate the thermal properties and stability (film stress) of thin films up to 500 degree C in inert gas. 200mm or 300mm chamber. Manually loading...</p>
@@ -231,7 +231,7 @@
                 <hr style="width:75%;">
                 <br>
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_900_C2C')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900_C2C.png')}}" alt=""> </div>
@@ -241,7 +241,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_900_C2C')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>900 C2C</h2>
                                         <p class="pad-b-10">Rapid Thermal Mechanical Characterization of novel materials. Simulataneous..</p>
@@ -250,7 +250,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_900TC_VAC')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900TC_VAC.png')}}" alt=""> </div>
@@ -260,7 +260,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_900TC_VAC')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>900TC-VAC </h2>
                                         <p class="pad-b-10">Rapid Thermal Mechanical Characterization of novel materials. Simulataneous...</p>

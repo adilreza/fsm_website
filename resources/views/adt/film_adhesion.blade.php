@@ -88,7 +88,7 @@
             <hr style="width:75%;">
             <br>
             <div class="row">
-                <a href="{{URL::to('/product_details')}}">
+                <a href="{{URL::to('/product_melt')}}">
                     <div class="col-md-6">
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_melt.PNG')}}" alt=""> </div>
@@ -97,7 +97,7 @@
                                     <li> 19 <span> SOLD</span> </li>
                                 </ul>
                             </div>
-                            <a href="{{URL::to('/product_details')}}">
+                            <a href="{{URL::to('/product_melt')}}">
                                 <div class="blog_btm_cntnt">
                                     <h2>MELT</h2>
                                     <p class="pad-b-10">Modified Edge Liftoff Test to measure adhesion of thin film and thin film stacks on a wide variety of crystalline and non-crystaline substrates, such as Silicon</p>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{URL::to('/product_details')}}">
+                <a href="{{URL::to('/product_aquaflex')}}">
                     <div class="col-md-6">
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img width="320px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_AQUAFLEX.PNG')}}" alt=""> </div>
@@ -116,7 +116,7 @@
 
                                 </ul>
                             </div>
-                            <a href="{{URL::to('/product_details')}}">
+                            <a href="{{URL::to('/product_aquaflex')}}">
                                 <div class="blog_btm_cntnt">
                                     <h2>AQUAFLEX</h2>
                                     <p class="pad-b-10">4-Point Bend film adhesion test. Measurement in air or liquid. For low to mid adhesion samples. Multi-chamber option for rapid testing.</p>

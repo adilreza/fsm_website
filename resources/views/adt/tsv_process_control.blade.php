@@ -88,7 +88,7 @@
                 <hr style="width:75%;">
                 <br>
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_413_C2C')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}" alt=""> </div>
@@ -98,7 +98,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_413_C2C')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>413 C2C</h2>
                                         <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer..</p>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_413_PR')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_PR.png')}}" alt=""> </div>
@@ -117,7 +117,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_413_PR')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>413 PR</h2>
                                         <p class="pad-b-10">413PR is specially designed for automatic substrate thickness measurement on wafers...</p>
@@ -127,7 +127,7 @@
                         </div>
                     </a>
 
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_413_SA')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA.PNG" alt=""> </div>
@@ -137,7 +137,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_413_SA')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>413 SA</h2>
                                         <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness...</p>
@@ -152,7 +152,7 @@
                 <br>
                 <!-- second row------------------------------------------ -->
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_413_MOT')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413MOT.png')}}" alt=""> </div>
@@ -162,7 +162,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="{{URL::to('/product_details')}}">
+                                <a href="{{URL::to('/product_413_MOT')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>413MOT</h2>
                                         <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness...</p>

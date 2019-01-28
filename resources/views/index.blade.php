@@ -121,7 +121,7 @@ Our Featured Wrapper Start -->
 <div class="col-md-6 col-lg-4">
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-stroopwafel"></i>
-        <div class="media-body"> <h3><a href="">Thin wafer metrology</a></h3>
+        <div class="media-body"> <h3><a href="{{URL::to('/thin_wafer_metrology')}}">Thin wafer metrology</a></h3>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </div>
       </div>
@@ -130,7 +130,7 @@ Our Featured Wrapper Start -->
   <div class="col-md-6 col-lg-4">
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-microchip"></i>
-        <div class="media-body"> <h3><a href="{{URL::to('electrical_characterization')}}">Electrical Characterization</a></h3>
+        <div class="media-body"> <h3><a href="{{URL::to('/electrical_characterization')}}">Electrical Characterization</a></h3>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </div>
       </div>
@@ -289,7 +289,7 @@ Our Featured Wrapper Start -->
   <div class="blog_btm_cntnt">
     <h2>Rewarded 413 C2C</h2>
     <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</p>
-    <a href="javascript:void(0)" class="tb_toppadder20">read more</a> </div>
+    <a href="{{URL::to('/product_413_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>
 <div class="col-md-6">
@@ -305,7 +305,7 @@ Our Featured Wrapper Start -->
   <div class="blog_btm_cntnt">
     <h2>Rewarded 128 C2C</h2>
     <p class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
-    <a href="javascript:void(0)" class="tb_toppadder20">read more</a> </div>
+    <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>
 </div>

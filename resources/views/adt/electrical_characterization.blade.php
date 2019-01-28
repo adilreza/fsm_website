@@ -87,7 +87,7 @@
             <hr style="width:75%;">
             <br>
             <div class="row">
-                <a href="javascript:void(0)">
+                <a href="{{URL::to('/product_4pp')}}">
                     <div class="col-md-4">
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_4PP.png')}}" alt=""> </div>
@@ -97,7 +97,7 @@
 
                                 </ul>
                             </div>
-                            <a href="javascript:void(0)">
+                            <a href="{{URL::to('/product_4pp')}}">
                                 <div class="blog_btm_cntnt">
                                     <h2>4PP</h2>
                                     <p class="pad-b-10">4-Point Probe Technique for measuring the sheet resistance of epi, metal films, substrates...</p>
@@ -121,7 +121,7 @@
                 <hr style="width:75%;">
                 <br>
                 <div class="row">
-                    <a href="{{URL::to('/product_details')}}">
+                    <a href="{{URL::to('/product_rsl')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_RSL.png')}}" alt=""> </div>
@@ -131,7 +131,7 @@
 
                                     </ul>
                                 </div>
-                                <a href="javascript:void(0)">
+                                <a href="{{URL::to('/product_rsl')}}">
                                     <div class="blog_btm_cntnt">
                                         <h2>RsL </h2>
                                         <p class="pad-b-10">Non-contact sheet resistance and leakage measurement of ultra shallow junctions (UJS)...</p>
