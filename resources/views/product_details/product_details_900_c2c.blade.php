@@ -66,11 +66,34 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>FSM 900TC-VRC-C2C-SF-450 FULLY AUTOMATED SINGLE FOUP - STRESS
+                                        HYSTERESIS MEASUREMENT SYSTEM WITH AUTOMATIC STAGE
+                                        ROTATION FOR 3D MAPPING, HIGH AND CRYO TEMPERATURE VACUUM
+                                        CHAMBER AND INTEGRATED METROLOGY FOR LOW K, CU AND NOVEL
+                                        FILMS CHARACTERIZATION</li>
+                                    <li>The system is a fully automated stress measurements tool with heating
+                                        capability. Wafer stress is determined by measuring the wafer curvature before
+                                        and after film deposition on silicon wafers</li>
+                                    <li>FSM control module with Intel Core i5/i7 or later processor, greater than or
+                                        equial to 1TB of data storage capacity, 2GB of RAM, 4 USB ports min., 2RJ-45
+                                        Ethernet connections, and DVD R/W drive</li>
+                                    <li><strong>Stress Range</strong> : 1 x 10<sup>7</sup>
+
+                                        to 4 x 10<sup>10</sup> dynes/cm<sup>2</sup></li>
+                                    <li><strong>Scan range</strong> : Up to 447mm</li>
+                                    <li><strong>General
+                                            Capabilities</strong> : Capable of 300/450mm wafer
+                                        w/ or w/o notch (P1)</li>
+                                    <li><strong>Wafer Position Accuracy</strong> : Translation: <0.1mm
+                                        Rotation:<1 degree (P1)
+                                    </li>
+                                    <li><strong>Tool up time</strong> : >95% (P1)</li>
+                                    <li><strong>Safety Specs</strong> : <br>(1) SEMI S2, S8 (P1)<br>
+                                        &nbsp;(2) CE and Oregon State
+                                        approved 3rd party electrical
+                                        inspection (P1)</li>
+                                    <li><strong>Temperature range:
+                                            Vacuum mode</strong>Ambient to 900 C.</li>
                                 </ul>
                             </div>
                         </div>
@@ -81,11 +104,16 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>The system is able to determine film stress (either compressive or tensile) from
+                                        1X10<sup>7</sup> dynes/cm<sup>2</sup> to 4X10<sup>10</sup> dynes/cm2</li>
+                                    <li>System is capable of performing up to 180 line scans, user programmable</li>
+                                    <li>The system is capable of Stress vs. Temperature and Stress vs. Time Profiles</li>
+                                    <li>Film stress measurement data and wafer bow results can be displayed and printed
+                                        in tabular formats</li>
+                                    <li>Temperature range from ambient to 900oC; cryo cooling to -50 ̊C</li>
+                                    <li>The system is capable of determining temperature expansion coefficients and
+                                        thermal stability of thin films after multiple thermal cycles</li>
+                                    <li>The pre and post stress wafers can be tracked by slot number or wafer ID</li>
                                 </ul>
                             </div>
                         </div>
@@ -96,11 +124,26 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>One FEM unit equipped with robotic handler and pre-aligner</li>
+                                    <li>FSM control module with Intel Core i5/i7 or later processor, greater than or
+                                        equial to 1TB of data storage capacity, 2GB of RAM, 4 USB ports min., 2RJ-45
+                                        Ethernet connections, and DVD R/W drive</li>
+                                    <li>The system includes a 19” Flat Screen color monitor, 104 keyboard and mouse</li>
+                                    <li>One fully automated vacuum pumping system complete with turbo-molecular
+                                        pump</li>
+                                    <li>Programmable recipes for stress, wafer bow and hysteresis measurement</li>
+                                    <li>Can operate in automated non-heating mode for room temperature stress
+                                        and wafer bow measurement</li>
+                                    <li>The system conforms to S2 and S8 guidelines. (3rd party certification.</li>
+                                    <li>An emergency shut off (EMO) circuit is provided to totally de-energize the
+                                        equipment in the event of an emergency situation – EMO circuits are
+
+                                        supplemented by a control circuit which must be manually activated to re-
+                                        energize the equipment. EMO buttons are of mushroom style, one inch in
+
+                                        diameter, red in color, and with a protective collar to prevent accidental
+                                        activation.</li>
+                                    <li>All System software is the most current version offered by FSM</li>
                                 </ul>
                             </div>
                         </div>

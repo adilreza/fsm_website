@@ -69,11 +69,27 @@
   <hr style="width:70%">
   <div style="margin-left:20px;" id="listdetails">
     <ul type="square">
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
+        <li>FSM 128-L (300MM) MANUAL FILM STRESS AND WAFER BOW
+            MAPPING SYSTEM</li>
+        <li>The system is a semi automated room temperature stress measurement tool.Wafer stress is determined by measuring the wafer curvature before and after
+            film deposition on silicon wafers.</li>
+
+        <li>FSM control module with Intel Core i3/i5 or later of greater than or equal to 1.0
+            TB of data storage capacity, 2 GB of RAM, 4 USB ports min., 2RJ-45 ethernet
+            connections, and DVD R/W drive.</li>
+        <li><strong>Stress range</strong> : 1 x 10 to 4 x 1010 dynes/cm2 (Provided the wafer curvature change before and after
+            processing is greater than 1micron (bow height) for a 447 mm
+            scan line.)</li>
+        <li><strong>Wafer bow sensitivity</strong> : 1 micron bow height change. P doped Si<100> </li>
+        <li><strong>Wafer sizes </strong>: 50mm, 100mm, 150mm, 200mm and 300mm</li>
+        <li><strong>Scan range</strong> : Up to 194mm with 3mm edge exclusion</li>
+      <li><strong>Scan line</strong> : Single scan line at any wafer orientation</li>
+        <li><strong>Mapping</strong> : Multiple scan lines for wafer maps up to 32
+            line scans, 6 lines recommended.</li>
+        <li><strong>Data Acqusition</strong> : 40 points/mm along line scan</li>
+        <li><strong>Static Stress
+                Repeatability R/2%</strong>0.5% using a 5000Å W deposited film,
+            ambient, repeat 10 X’s.</li>
     </ul>
   </div>
 </div>
@@ -84,11 +100,14 @@
   <hr style="width:70%">
   <div style="margin-left:20px;" id="listdetails">
     <ul type="square">
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
+      <li>The system is able to determine film stress (either compressive or tensile) from
+          1X107 dynes/cm2 to 4X1010 dynes/cm2</li>
+      <li>System is capable of performing single scan line or multi scan lines for stress or
+          wafer bow mapping.</li>
+      <li>Film stress measurement data and wafer bow results can be displayed and
+          printed in tabular formats.</li>
+      <li>Stress and wafer bow maps can be exported as bitmap files.</li>
+      <li>The pre and post stress wafers can be tracked by wafer number or wafer ID.</li>
     </ul>
   </div>
 </div>
@@ -99,11 +118,23 @@
   <hr style="width:70%">
   <div style="margin-left:20px;" id="listdetails">
     <ul type="square">
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
-      <li>Specification</li>
+      <li>Manual loading of wafers on to sample.</li>
+      <li>Capable of accepting 300mm or smaller wafer.</li>
+      <li>Motorized wafer stage to enable easy wafer loading and retrieval.</li>
+
+              <li>The system conforms to S2-0200 guidelines.</li>
+              <li>An emergency shut off (EMO) circuit is provided to totally de-energize the
+                  equipment in the event of an emergency situation – EMO circuits are
+
+                  supplemented by a control circuit which must be manually activated to re-
+                  energize the equipment. EMO buttons are of mushroom style, one inch in
+
+                  diameter, red in color, and with a protective collar to prevent accidental
+                  activation.</li>
+
+        <li>The system includes a 17” Flat Screen color monitor and 104 keyboard and
+            mouse</li>
+        <li>One stress measurement unit.</li>
     </ul>
   </div>
 </div>

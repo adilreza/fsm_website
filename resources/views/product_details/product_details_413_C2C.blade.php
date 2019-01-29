@@ -66,11 +66,36 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>FSM 413C2C (DP) 300 MM 1SMIF FULLY AUTOMATED WAFER SUBSTRATE
+                                        THICKNESS MAPPER SYSTEM SINGLE FOUP SYSTEM, DUAL PROBE</li>
+                                    <li>The Wafer Thickness Measurement System measures Substrate thickness using
+                                        a non contact optical system with improved Dual Echoprobe sensors4</li>
+                                    <li>Manual loading for 200mm and 300mm wafers with frame onto measurement
+                                        stage. Manual loading of wafers is done through a manual loading port in the
+                                        tool.</li>
+                                    <li>The system is able to measure Wafer Substrate Thickness after backgrind or
+                                        etching, when at least one surface is smooth not patterned and other surface is
+                                        smooth, not patterned, or patterned</li>
+                                    <li>Improved range of Si wafer thickness is from 20 microns6
+
+                                        to 780 microns, when
+
+                                        warp is below 3 mm for 200 mm wafer in fully automated mode.</li>
+                                    <li><strong>Quantity Measured</strong> : Thickness of the transparent portion of the
+
+                                        substrate (for single probe operation)<br>
+                                        Total thickness of stack of materials (for dual probe operation)
+                                    </li>
+                                    <li><strong>Range</strong>: 20-780 um for Si (in semi-auto mode)<br>
+                                        0 - 3 mm(for dual probe operation)
+                                    </li>
+                                    <li><strong>Materials Measured</strong> : Si, GaAs, other isotropic materials when
+                                        user provides refractive index at 1.3 um (for single probe operation)<br>
+                                        Transparent and one nontransparent
+                                        materials sandwich in between(for dual probe operation)
+                                    </li>
+                                    <li><strong>Spot Size</strong> : 60um</li>
+                                    <li><strong>Accuracy</strong> : 10um for warp <200um</li>
                                 </ul>
                             </div>
                         </div>
@@ -81,11 +106,19 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Measuring the Wafer substrates with grinding tape5
+
+                                        (with probe facing the backside of
+
+                                        the wafer)</li>
+                                    <li>You can measure Bare Si wafer substrate, Untaped Si wafer substrate</li>
+                                    <li>You can measure Via depth using microscope and CCD camera</li>
+                                    <li>Robotic Handling System (vacuum end effector) to handle 200mm unmounted
+                                        wafers with full automated thickness measurement with Notch Aligner
+                                        operational (upgradeable to FOUP for 300mm wafers).</li>
+                                    <li>The system is able to measure Wafer Substrate Thickness after backgrind or
+                                        etching, when at least one surface is smooth not patterned and other surface is
+                                        smooth, not patterned, or patterned</li>
                                 </ul>
                             </div>
                         </div>
@@ -96,11 +129,26 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Programmable data points available for 2D color mapping. Results in Minimum,
+                                        Maximum, Average.</li>
+                                    <li>All system software (32 bit) Windows XP Pro based, will be the most current
+                                        version offered by FSM</li>
+                                    <li><strong>Requirements</strong> : <b>Power:</b> 110 or 220VAC, 50/60 Hz, Single Phase, 3 wires
+                                        <b> Vacuum</b>: > 25" Hg(600mm) @ 50 sec/cc,
+                                        <b> Air</b>: 70psi compressed air,
+                                        Vibration of the floor on which system is installed has to meet FSM
+                                        specifications.</li>
+                                    <li><strong>Warranty</strong> : The parts and labor warranty period will be one year against manufacturing
+                                        defects upon acceptance or 14 months upon ex-factory date, whichever occurs
+                                        first. In no case shall acceptance of the tool exceed 2 months from the date of
+                                        ex-factory.</li>
+                                    <li><strong>Note</strong> : Warranty does not include consumables.<br>
+                                         All items in this standard are subject to change pending submission of buyer’s
+                                        purchase order, specifications (if applicable) and agreement by FSM and buyer to
+                                        the term and conditions of purchase.<br>
+
+                                        All representative wafers and all wafer- tape combination have to be tested and pre-
+                                        qualified for wafer handling by FSM engineers at FSM facilities.: </li>
                                 </ul>
                             </div>
                         </div>

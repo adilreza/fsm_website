@@ -16,7 +16,7 @@
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
     <div class="container">
-        <h1>VIT C2C</h1>
+        <h1>VITE C2C</h1>
         <ul class="page-breadcrumb">
             <li><a href="{{route('index')}}">Home</a></li>
             <li>Product</li>
@@ -38,7 +38,7 @@
                         </ul>
                     </div>
                     <div class="btc_blog_cate_cont_wrapper">
-                        <h5>About VIT C2C Product </h5>
+                        <h5>About VITE C2C Product </h5>
                         <hr style="background:#071E33;width:70%;">
                         <br>
                         <p>
@@ -51,7 +51,7 @@
                     <div>
 
 
-                        <h2>VIT C2C</h2>
+                        <h2>VITE C2C</h2>
                         <p>Below all about the product's feature specification and applications</p>
 
                         <div class="tab">
@@ -66,11 +66,25 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>FSM 8108VITE C2C DP FOUP 300MM WAFER - FULLY-AUTOMATED HIGH RESOLUTION WAFER SUBSTRATE THICKNESS MEASUREMENT TOOL, DUAL VITE PROBE–WITH OPTION FOR STANDARD MECHANICAL INTERFACE FOR 200MM WAFERS
+                                    </li>
+                                    <li>
+                                        Provides high resolution real time image to user to allow for more
+                                        precise selection of measurement site.                                     </li>
+                                    <li>
+                                        Allows automatic positioning of the probe beam on area of interest.
+                                        Required for automatic positioning and measurement based on offset
+                                        from trained pattern.
+                                    </li>
+                                    <li>
+                                        The Thin Film Option extends the thickness range per thin layers on
+                                        top of the wafer using a non- contact optical system that is integrated
+                                        to FSM8108VITE system.
+                                    </li>
+                                    <li>
+                                        FSM unique patent pending VITE technology for faster
+                                        TTV measurements of thicker wafers.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -81,26 +95,53 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>This system measures Layer Thickness and Total Thickness Variation (TTV) of Silicon using our unique improved patent pending VITE Non-Contact Optical Technology.
+                                    </li>
+                                    <li>You can measure Bare Si Wafer, Bonded wafers, Wafers without tape, Wafers with tape</li>
+                                    <li>
+                                        Software automation designed specifically for the handling
+                                        and measuring of 300mm wafers.
+                                    </li>
+                                    <li>
+                                        Provides high resolution real time image to user to allow for more
+                                        precise selection of measurement site.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-
                         <div id="feature" class="tabcontent">
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Features</h3>
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>
+
+
+                                        In the event that the customer wants additional time for installation or
+
+
+                                        training, customer shall pay FSM for such services in accordance with
+
+
+                                        FSM’s prevailing rates and policies as set forth Billing
+
+
+                                        Rates & Billing Policies, which are attached hereto.
+                                    </li>
+                                    <li>
+                                        Onsite assistance for SECS/GEM hookup of system to Customer host
+                                        Requires item 7.0. In the event that the customer wants additional
+                                        functions not specified and complied by FSM, customer
+                                        shall pay FSM for such services in accordance with FSM’s prevailing
+                                        rates and policies as set forth Billing Rates & Exhibit II-
+                                        Billing Policies, which are attached hereto.
+                                    </li>
+                                    <li><strong>Note</strong> : FSM will retain ownership of the tool being shipped to the buyer. As soon as full payment is completed by the buyer, FSM tool ownership will then be transferred to the buyer, subject to the terms and conditions of the licensing right of the software license agreement contained therein. In the event of non-payment, FSM may exercise the option to reclaim the tool from the buyer.
+                                    </li>
+                                    <li><strong>Warranty</strong> : One (1) Year against manufacturing defects upon acceptance. Acceptance of the tool is deemed given 2 months from the date of ex-factory. Warranty does not include consumables and robot.
+                                    </li>
+
                                 </ul>
                             </div>
                         </div>

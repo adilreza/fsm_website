@@ -68,11 +68,24 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>FSM 128L C2C (300MM) – SINGLE FOUP AUTOMATED FILM STRESS
+                                        AND WAFER BOW MEASUREMENT SYSTEM WITH INTEGRATED
+                                        WAFER SUBSTRATE THICKNESS MEASUREMENT</li>
+                                    <li>The system is a Fully Automated room temperature stress measurements tool
+                                        complete with Automatic Wafer Substrate Thickness Measurement (Micro
+                                        Balance). Thin film stress is determined by measuring the wafer curvature
+                                        before and after film deposition on 300mm diameter silicon wafers.</li>
+
+                                    <li>Integrated with Wafer Substrate Thickness Measurement (Micro Balance).</li>
+                                    <li><strong>Stress range</strong> : 1 x 10<sup>7</sup>
+
+                                        to 4 x 10<sup>10</sup> dynes/cm<sup>2</sup></li>
+                                    <li><strong>Wafer sizes</strong> : 200mm (via insert) and 300mm</li>
+                                    <li><strong>Scan Range</strong> : Up to 294mm with 3mm edge exclusion</li>
+                                    <li><strong>Laser type</strong> : Dual wavelength, 650nm and 780nm laser
+                                        diodes</li>
+                                    <li><strong>Capacity</strong> : 350g</li>
+                                    <li><strong>Tare range</strong> : 0-350g</li>
                                 </ul>
                             </div>
                         </div>
@@ -83,11 +96,25 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>The system is able to determine film stress (either compressive or tensile) from
+                                        1X107 dynes/cm2 to 4X1010 dynes/cm2
+
+                                        , (provided the wafer curvature change
+                                        before and after processing is greater than 1micron (bow height) for a 294 mm
+                                        scan line.) System is capable of performing single scan line or multi scan lines
+                                        for stress or wafer bow mapping.</li>
+                                    <li>Film stress measurement data and wafer bow results can be displayed and
+                                        printed in tabular formats. Stress and wafer bow maps can be exported as
+                                        bitmap files.</li>
+                                    <li>System is capable of measuring the average wafer substrate thickness with
+                                        Precision better than 3 microns (1sigma) for a 20 x measurement on a 300 mm
+                                        blank Si wafer.</li>
+                                    <li>The pre and post stress wafers can be tracked by slot number or wafer ID.</li>
+                                    <li>Stress repeatability: 1.0% (1 sigma) using a 5000Å W deposited film, ambient,
+                                        repeat 20 X’s.</li>
+                                    <li>Wafers are contacted, held, and handled on the backside only, using vacuum
+                                        during transfer. No metal contact with the wafer. For stress measurements,
+                                        the wafers are supported by a 3 pin ceramic support.</li>
                                 </ul>
                             </div>
                         </div>
@@ -98,11 +125,25 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
+                                    <li>Programmable system recipes for stress and wafer bow measurement.</li>
+                                    <li>Automated loading of wafers from FOUP, which includes finding and
+                                        orienting the wafer center and notch.</li>
+                                    <li>The system conforms to S2-0200 guidelines.</li>
                                     <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>An emergency shut off (EMO) circuit is provided to totally de-energize the
+                                        equipment in the event of an emergency situation – EMO circuits are
+
+                                        supplemented by a control circuit which must be manually activated to re-
+                                        energize the equipment. EMO buttons are of mushroom style, one inch in
+
+                                        diameter, red in color, and with a protective collar to prevent accidental
+                                        activation.</li>
+                                    <li>A control module with Intel Core i7 or later, 1TB or greater storage capacity,
+                                        and 2GB or greater of RAM, 4 USB ports min., 2RJ-45 ethernet connections.</li>
+                                    <li>The system is designed to avoid breakage of wafers in the event of a system
+                                        power loss. The system will not automatically perform operations that may
+                                        result in wafer breakage when power is restored. Software will be available to
+                                        interactively recover wafers after a power loss.</li>
                                 </ul>
                             </div>
                         </div>
