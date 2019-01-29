@@ -48,7 +48,7 @@
                             413PR is specially designed for automatic substrate thickness measurement on wafers with optically turbid (milky) tapes, as well as for applications demanding fast, reliable, automatic measurement site location. Special optics and illumiation allow rapid location of areas of interest.  Semi-automatic system with enclosure for wafers up to 300mm with or without frame..
                     </div>
 
-                    <div>
+                    <div class="detailstab">
 
 
                         <h2>413 PR</h2>
