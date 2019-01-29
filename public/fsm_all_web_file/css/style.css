@@ -2901,8 +2901,8 @@ figure:hover {
   border-top: 1px solid #ccc;
 }
 #accordion .card{border: none;-webkit-box-shadow: 0 0px 35px rgba(232, 232, 232, 1.1);
--moz-box-shadow: 0 0px 35px rgba(232, 232, 232, 1.1);
-box-shadow: 0 0px 35px rgba(232, 232, 232, 1.1);}
+-moz-box-shadow: 0px 0px 20px 2px #b2bec3;
+box-shadow: 0px 0px 20px 2px #b2bec3;}
 #accordion .card-header, .card-link, .card-link:hover {
   background-color: #fff;
   text-align: left;

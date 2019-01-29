@@ -33,9 +33,9 @@
           </div>
           <br>
           <div class="card">
-                <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3">Which services you will get?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:green;">FSM's success in film stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                 <div id="menu3" class="collapse show">
-                  <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                  <div class="card-body"> Frontier semiconductor offers solutions for all types like local, global and lattice level stress. For measuring this stress fsm offer product which series 128/500/900 series, 127 series, and Raman 360 tools. </div>
                 </div>
               </div>
             <br> 
@@ -52,18 +52,28 @@
       <div class="col-lg-6 col-md-12">
         <div id="accordion" class="accordion-new">
           <div class="card">
-            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:#B53471">Traditional Film Stress.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-            <div id="menuonee" class="collapse">
-              <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
-            </div>
-          </div>
-		  <br>
-          <div class="card">
-            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:#0652DD;">What FSM's achievement about film stress!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:green;">What FSM's achievement about film stress!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menu31" class="collapse show">
               <div class="card-body"> 
-              <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/short_image/fim_stress.jpeg')}}" alt="">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+              <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs128.png')}}" alt="">
+                  <p>
+                    Global film stress measurements at room Temperature
+                  </p>
+                <hr>
+                <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs500.png')}}" alt="">
+                  <p>
+                    Stress Hysteresis Measurement up to 500C for thermal property and stability tests of thin films in air.
+                  </p>
+
+                  <hr>
+                <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs900.jpg')}}" alt="">
+                  <p>
+                    Stress Hysteresis in vacuum or gas up to 900C for the study of annealing cycles. Thermal Desorption, Film Shrinkage, Reflectivity, and Resistivity options provide additional insight to causes of material changes with temperature.
+
+
+                  </p>
+
+              </div>
             </div>
           </div>
           <br>
