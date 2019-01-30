@@ -121,7 +121,7 @@
                 </ul>
               </li>
 
-              <li><a href="{{URL::to('/product_list')}}">Research & Papers </a></li>
+              <li><a href="#">Research & Papers </a></li>
 
 
 
