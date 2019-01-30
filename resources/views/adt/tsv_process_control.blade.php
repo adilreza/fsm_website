@@ -134,7 +134,7 @@
                     <a href="{{URL::to('/product_413_SA')}}">
                         <div class="col-md-4">
                             <div class="blog_box_wrapper">
-                                <div class="blog_img_wraper"> <img height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA.PNG" alt=""> </div>
+                                <div class="blog_img_wraper"> <img height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA.png" alt=""> </div>
                                 <div class="blog_icon_overlay">
                                     <ul>
                                         <li> 19 <span> SOLD</span> </li>
