@@ -21,7 +21,7 @@
 </head>
 <body>
 <!-- Pre Loader -->
-<div id="dvLoading"></div>
+<div id="dvLoadingg"></div>
 <!-- Top Wrapper Start -->
 
 {{-- <div class="top-wrapper">
