@@ -13,7 +13,7 @@
 
 
 
-<!-- Breadcrumb Wrapper Start -->
+<!-- Breadcrumb Wrapper Startt -->
 <div class="breadcrumb-wrapper">
     <div class="container">
         <h1>4PP</h1>
@@ -117,7 +117,7 @@
                     <hr style="width:80%;background:darkblue;">
                     <div class="latest_post_wrapper">
                         <div class="blog_wrapper1">
-                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" style="height:80px;width:80px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_RSL.PNG')}}"> </div>
+                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" style="height:80px;width:80px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_RSL.png')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_rsl')}}">RSL</a></h5>
                                 <div class="sc_blog_date">June 28, 2018</div>
