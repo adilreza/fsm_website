@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12 col-xl-8">
                 <div class="blog_box_wrapper blog_box_padding posts">
-                    <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:450px; width:500px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_AQUAFLEX.png')}}" alt=""> </div>
+                    <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:450px; width:500px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_AQUAFLEX.PNG')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
                         <ul>
                             <li> 10 <span> SOLD</span> </li>
