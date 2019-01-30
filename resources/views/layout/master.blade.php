@@ -147,60 +147,11 @@
             <div class="mobile-menu">
               <nav id="mobile-menu-active">
                 <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>			
-                <li class="meg-drp-menu"><a href="#">SERIES</a>
-                  <ul class="mega-menu">
-                    <li>
-                      <a href="#">Pages</a>
-                      <ul>
-                        <li><a href="about-us.html">About Us</a></li>
-						            <li><a href="services.html">Services</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="our-team.html">Our Team</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="appointment.html">Appointment</a></li>
-                      </ul>
-                    </li>
-                  <li>
-                    <a href="#">Extras</a>
-                              <ul>
-                              <li><a href="404.html">404</a></li>
-                              <li><a href="503.html">503</a></li>
-                              <li><a href="coming-soon.html">Coming Soon</a></li>
-                              <li><a href="login.html">Login</a></li>
-                              <li><a href="register.html">Register</a></li>
-                              <li><a href="search-results.html">Search results</a></li>
-                              <li><a href="privacy-policy.html">Terms of use</a></li>
-                      </ul>
-                    </li>
-					<li>
-					  <a href="#">Components</a>
-                      <ul>
-                        <li><a href="accordion.html">Accordion</a></li>
-                        <li><a href="buttons.html">Buttons</a></li>
-                        <li><a href="grid.html">Grid</a></li>
-                        <li><a href="forms.html">Forms</a></li>
-						<li><a href="tabs.html">Tabs</a></li>
-						<li><a href="table-styles.html">Table styles</a></li>
-						<li><a href="typography.html">Typography</a></li>
-                      </ul>
-                    </li>
-                    <li>
-					  <a href="#">Blog</a>
-                      <ul>
-					    <li><a href="blog-classic.html">Blog classic</a></li>
-						<li><a href="blog-grid.html">Blog grid</a></li>
-                        <li><a href="blog-left.html">Blog Left</a></li>
-                        <li><a href="blog-right.html">Blog Right</a></li>
-                        <li><a href="blog-fullwidth.html">Blog Full Width</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
+                <li class="active"><a href="{{URL::to('/')}}">Home</a></li>
+               			
+					  
                 <li><a href="{{URL::to('/product_list')}}">Products</a></li>
+                <li><a href="{{URL::to('/about_us')}}">About Us</a></li>
                
                 <li><a href="{{URL::to('/contact_us')}}">Contact Us</a></li>
               </ul>
