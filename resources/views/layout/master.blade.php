@@ -110,54 +110,6 @@
               <li class=""><a href="{{route('index')}}">Home</a></li>
                
       			
-                <li class="meg-drp-menu"><a href="#">SERIES <i class="fa fa-angle-down"></i></a>
-                  <ul class="mega-menu">
-                    <li>
-                      <h2>128 SERIES</h2>
-                      <hr style="background:#4AC8ED;padding:0.2px; width:80%">
-                        <ul>
-                          <li><a href="">128L C2C</a></li>
-                          <li><a href="">128L </a></li>
-                          <li><a href="">128L 128NT</a></li>
-                          <li><a href="">128G-450</a></li>
-                          <li><a href="">128 C2C</a></li>
-                          
-                        </ul>
-                    </li>
-					          <li>
-                      <h2>413 SERIES</h2>
-                      <hr style="background:#4AC8ED;padding:0.2px; width:80%">
-                        <ul>
-                          <li><a href="">413 C2C</a></li>
-                          <li><a href="">413 SA</a></li>
-                          <li><a href="">413 PR</a></li>
-                          <li><a href="">413 MOT</a></li>
-
-
-                        </ul>
-                  </li>
-					          <li>
-                      <h2>500 SERIES</h2>
-                      <hr style="background:#4AC8ED;padding:0.2px; width:80%">
-                        <ul>
-                          <li><a href="accordion.html">500TC</a></li>
-                        
-                        </ul>
-                     </li>
-                    <li>
-                      <h2>900 SERIES</h2>
-                      <hr style="background:#4AC8ED;padding:0.2px; width:80%">
-                        <ul>
-                          <li><a href="">900 C2C</a></li>
-                          <li><a href="">900TC-VAC</a></li>
-                         
-                        </ul>
-                    </li>
-
-
-                    
-                  </ul>
-                </li>
            
               <li><a href="{{URL::to('/product_list')}}">Products </a></li>
               
@@ -168,6 +120,8 @@
                       
                 </ul>
               </li>
+
+              <li><a href="{{URL::to('/product_list')}}">Research & Papers </a></li>
 
 
 

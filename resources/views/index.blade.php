@@ -396,6 +396,17 @@ Our Featured Wrapper Start -->
             if(code==="bd")
             {
 
+              var newline ="<br/>";
+              var line = "<hr>"
+              var title ="<h3 style='color:green;font-size:22px;'>FSM IN BANGLADESH</h3>";
+              var campanyName = "<span style='font-size:20px;'>DHAKA DOHS</span>";
+              var type = "<span style='font-size:17px;'>Services & Engineering</span>";
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
+              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
+              var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
+              var newline ="<br/>";
+              var address = "Room 2906, Fu Li Ying Building, No. 2 Huaqiang Road, Tianhe District"+newline+"Guanghou, China 510623";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
             }
             else if(code ==="us")
