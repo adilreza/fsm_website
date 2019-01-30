@@ -166,14 +166,14 @@
                     <hr style="width:80%;background:darkblue;">
                     <div class="latest_post_wrapper">
                         <div class="blog_wrapper1">
-                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C_sm.PNG')}}"> </div>
+                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C_sm.png')}}"> </div>
                             <div class="sc_blog_text">
                             <h5><a href="{{URL::to('/product_413_C2C')}}">413 C2C</a></h5>
                                 <div class="sc_blog_date">June 28, 2018</div>
                             </div>
                         </div>
                         <div class="blog_wrapper2">
-                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA_sm.PNG')}}"> </div>
+                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA_sm.png')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_413_SA')}}">413 SA</a></h5>
                                 <div class="sc_blog_date">June 28, 2018</div>
