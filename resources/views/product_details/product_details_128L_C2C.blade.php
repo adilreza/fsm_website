@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12 col-xl-8">
                 <div class="blog_box_wrapper blog_box_padding posts">
-                    <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:450px;width:400px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.png')}}" alt="" style="width:500px;height:600px;"> </div>
+                    <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:450px;width:400px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNG')}}" alt="" style="width:500px;height:600px;"> </div>
                     <div class="blog_icon_overlay">
                         <ul>
                             <li> 10 <span> SOLD</span> </li>
@@ -160,7 +160,7 @@
                     <hr style="width:80%;background:darkblue;">
                     <div class="latest_post_wrapper">
                         <div class="blog_wrapper1">
-                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_sm.PNG')}}"> </div>
+                            <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_sm.png')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_128L')}}">128L </a></h5>
                                 <div class="sc_blog_date">June 28, 2018</div>
