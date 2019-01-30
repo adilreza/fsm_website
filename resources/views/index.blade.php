@@ -76,7 +76,8 @@ Our Featured Wrapper Start -->
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-balance-scale"></i>
     <div class="media-body"> <h3><a href="{{URL::to('film_stress')}}">Film Stress</a></h3>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        <p> Film stress and and wafer bow measurements are an integral part in the process of reliability monitor...
+          </p>
       </div>
     </div>
   </div>
@@ -85,7 +86,7 @@ Our Featured Wrapper Start -->
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-compress-arrows-alt"></i>
     <div class="media-body"> <h3><a href="{{URL::to('film_adhesion')}}">Film Adhesion</a></h3>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        <p>Film adhesion tests are a critical step in film process development and reliability control...</p>
       </div>
     </div>
   </div>
@@ -94,7 +95,7 @@ Our Featured Wrapper Start -->
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-tasks"></i>
     <div class="media-body"> <h3><a href="{{URL::to('tsv_process_control')}}">3DIC TSV Process Control</a></h3>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        <p>3DIC manufacturing is facing enormous process control issues. FSM developed an innovative technology to..</p>
       </div>
     </div>
   </div>
@@ -103,7 +104,7 @@ Our Featured Wrapper Start -->
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-tools"></i>
       <div class="media-body"> <h3><a href="{{URL::to('raman_spectroscopy')}}">Raman Spectroscopy</a></h3>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        <p>The Raman effect is the inelastic scattering of photons. The shift in energy gives information about the vibrational modes....</p>
       </div>
     </div>
   </div>
@@ -112,7 +113,7 @@ Our Featured Wrapper Start -->
   <div class="single-services">
     <div class="media"> <i class="mt-2 fas fa-cogs"></i>
       <div class="media-body"> <h3><a href="{{URL::to('laser_scanning')}}">Laser Scanning</a></h3>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+        <p>FSM uses patented Laser Scanning technology to measure the radius of curvature and bow of wafers... </p>
       </div>
     </div>
   </div>
@@ -122,7 +123,7 @@ Our Featured Wrapper Start -->
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-stroopwafel"></i>
         <div class="media-body"> <h3><a href="{{URL::to('/thin_wafer_metrology')}}">Thin wafer metrology</a></h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+          <p>Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation...</p>
         </div>
       </div>
     </div>
@@ -131,7 +132,7 @@ Our Featured Wrapper Start -->
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-microchip"></i>
         <div class="media-body"> <h3><a href="{{URL::to('/electrical_characterization')}}">Electrical Characterization</a></h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+          <p>In IC device manufacturing electrical characteristics of layers and films must be well controlled...</p>
         </div>
       </div>
     </div>
@@ -140,7 +141,7 @@ Our Featured Wrapper Start -->
     <div class="single-services">
       <div class="media"> <i class="mt-2 fas fa-shapes"></i>
         <div class="media-body"> <h3><a href="{{URL::to('low_coherence')}}">Low Coherence Interferometry</a></h3>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+          <p>A Michelson Interferometer with a low coherence light source is used to determine distances: L2 is the beam path...</p>
         </div>
       </div>
     </div>
