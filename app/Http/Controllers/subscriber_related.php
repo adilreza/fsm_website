@@ -29,7 +29,7 @@ class subscriber_related extends Controller
         }
         else
         {
-            return view('thank_you');
+            return view('thank_you')->with('thank_you_message','Sorry this email is already used by another user!!');
         }
 
         

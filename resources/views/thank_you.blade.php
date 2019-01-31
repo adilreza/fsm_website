@@ -148,11 +148,12 @@
     <br>
     <h5>You will be notified in your provided email <strong style="color:firebrick;"> {{session('subscriber_email','')}}</strong> </h5>
   @else
-    @if($thank_you_message=='')
-    <h2>Sorry! This email is already used</h2>
-    @else
-    <h3>{{$thank_you_message}}</h3>
+    @if(!empty($thank_you_message))
+      @if($thank_you_message!='')
+      <h3>{{$thank_you_message}}</h3>
+      @endif
     @endif
+      
   @endif
   
 </div>
