@@ -225,10 +225,10 @@
         <form method="post" action="{{URL::to('/thank_you')}}" >
             <input name="_token" type="hidden" value="{{ csrf_token() }}"/>
             <div class="form-group">
-              <input class="form-control" id="exampleInputName" placeholder="Your name" type="text" name="subscriber_name">
+              <input required class="form-control" id="exampleInputName" placeholder="Your name" type="text" name="subscriber_name">
             </div>
             <div class="form-group">
-              <input class="form-control" id="exampleInputEmail" placeholder="Your email" type="email" name="subscriber_email">
+              <input required class="form-control" id="exampleInputEmail" placeholder="Your email" type="email" name="subscriber_email">
             </div>
             <button type="submit" class="bttn">Subscribe</button>
           </form>

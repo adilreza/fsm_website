@@ -39,36 +39,37 @@
   <div class="col-lg-7 mb-30">
     <div class="default-form-area">
       <h1>Send A Message</h1>
-      <form id="contact-form" name="contact_form" class="contact-form style-five" action="inc/sendmail.php" method="post" novalidate>
-        <div class="row clearfix">
+    <form id="contact-form" name="contact_form" class="contact-form style-five" action="{{URL::to('/contact_us_message')}}" method="post" novalidate>
+      <input name="_token" type="hidden" value="{{ csrf_token() }}"/>  
+      <div class="row clearfix">
           <div class="col-md-6 column">
             <div class="form-group">
               <label>Name <span style="color:red;">*</span></label>
-              <input name="form_name" class="form-control" value="" placeholder="" required type="text">
+              <input required name="contact_name" class="form-control" value="" placeholder="" required type="text">
             </div>
           </div>
           <div class="col-md-6 column">
             <div class="form-group">
               <label>Email <span style="color:red;">*</span></label>
-              <input required name="form_email" class="form-control required email" value="" placeholder=""   type="email">
+              <input required name="contact_email" class="form-control required email" value="" placeholder=""   type="email">
             </div>
           </div>
           <div class="col-md-6 column">
             <div class="form-group">
               <label>Phone</label>
-              <input name="form_phone" class="form-control" value="" placeholder="" type="text">
+              <input required name="contact_phone" class="form-control" value="" placeholder="" type="text">
             </div>
           </div>
           <div class="col-md-6 column">
             <div class="form-group">
               <label>Services <span style="color:red;">*</span></label>
-              <input required name="form_subject" class="form-control" value="" placeholder="" type="text">
+              <input required name="contact_subject" class="form-control" value="" placeholder="your service type" type="text">
             </div>
           </div>
           <div class="col-md-12 column">
             <div class="form-group">
-              <label>Message</label>
-              <textarea name="form_message" class="form-control textarea required" placeholder="" ></textarea>
+              <label>Your Query</label>
+              <textarea required name="contact_message" class="form-control textarea required" placeholder="" ></textarea>
             </div>
           </div>
         </div>
@@ -80,6 +81,7 @@
         </div>
       </form>
     </div>
+  <h6 style="color:firebrick;">@if(!empty($successMsg)){{$successMsg}}@endif</h6>
   </div>
   <div class="col-lg-5 mb-md-5 pl-lg-5">
     <div class="title">

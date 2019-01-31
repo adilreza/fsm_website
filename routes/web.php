@@ -77,3 +77,5 @@ Route::get('/low_coherence', 'fsm_maincontroller@low_coherence_page')->name('low
 Route::get('/thank_you','subscriber_related@thank_you')->name('thank_you');
 Route::post('thank_you', 'subscriber_related@get_subscriber_request')->name('gratitiude');
 
+Route::post('/contact_us_message', 'contact_controller@contact_us_message')->name('contact_us_message');
+
