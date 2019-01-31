@@ -11,7 +11,7 @@ class subscriber_related extends Controller
 {
     public function thank_you()
     {
-        return view('thank_you');
+        return view('thank_you')->with('thank_you_message','This page is under constructions');
     }
     public function get_subscriber_request(request $subscriber_data)
     {
