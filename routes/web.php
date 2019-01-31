@@ -74,3 +74,6 @@ Route::get('/thin_wafer_metrology', 'fsm_maincontroller@thin_wafer_metrology_pag
 Route::get('/electrical_characterization', 'fsm_maincontroller@electrical_characterization_page')->name('electrical_characterization');
 Route::get('/low_coherence', 'fsm_maincontroller@low_coherence_page')->name('low_coherence');
 
+Route::get('/thank_you','subscriber_related@thank_you')->name('thank_you');
+Route::post('thank_you', 'subscriber_related@get_subscriber_request')->name('gratitiude');
+

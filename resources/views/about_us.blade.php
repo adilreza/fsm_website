@@ -149,7 +149,7 @@
             <div class="col-md-3">
 
                 <div data-animate="fadeInUp" class="team-member">
-                <div class="image"><a href="team-member.html"><img style="height:220px; width:200px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member1.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
+                <div class="image"><a href="team-member.html"><img style="height:170px; width:175px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member1.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
                     <h4><a href="team-member.html">Han Solo</a></h4>
                     <p class="role">Founder</p>
                     <ul class="social list-inline">
@@ -166,7 +166,7 @@
             </div>
             <div class="col-md-3">
                 <div data-animate="fadeInUp" class="team-member">
-                    <div class="image"><a href="team-member.html"><img style="height:220px;width:200px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
+                    <div class="image"><a href="team-member.html"><img style="height:170px;width:175px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
                         <h4><a href="team-member.html">ADIL REZA</a></h4>
                         <p class="role">CTO</p>
                         <ul class="social list-inline">
@@ -183,7 +183,7 @@
             <div class="col-md-3">
 
                 <div data-animate="fadeInUp" class="team-member">
-                    <div class="image"><a href="team-member.html"><img style="height:220px;width:200px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member3.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
+                    <div class="image"><a href="team-member.html"><img style="height:170px;width:175px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member3.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
                         <h4><a href="team-member.html">PRINCESS LEIA</a></h4>
                         <p class="role">Team Leader</p>
                         <ul class="social list-inline">
@@ -201,7 +201,7 @@
             <div class="col-md-3">
 
                 <div data-animate="fadeInUp" class="team-member">
-                    <div class="image"><a href="team-member.html"><img style="height:220px;width:200px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
+                    <div class="image"><a href="team-member.html"><img style="height:170px;width:175px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="img-fluid rounded-circle" ></a></div>
                         <h4><a href="team-member.html">LUKE SKYWAL</a></h4>
                         <p class="role">Lead Developer</p>
                         <ul class="social list-inline">

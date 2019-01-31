@@ -222,14 +222,15 @@
             For Latest <span class="text-primary">Update</span></h4>
         </div>
         <div class="col-lg-9 col-12">
-          <form>
+        <form method="post" action="{{URL::to('/thank_you')}}" >
+            <input name="_token" type="hidden" value="{{ csrf_token() }}"/>
             <div class="form-group">
-              <input class="form-control" id="exampleInputName" placeholder="Your name" type="text">
+              <input class="form-control" id="exampleInputName" placeholder="Your name" type="text" name="subscriber_name">
             </div>
             <div class="form-group">
-              <input class="form-control" id="exampleInputEmail" placeholder="Your email" type="email">
+              <input class="form-control" id="exampleInputEmail" placeholder="Your email" type="email" name="subscriber_email">
             </div>
-            <button class="bttn">Subscribe</button>
+            <button type="submit" class="bttn">Subscribe</button>
           </form>
         </div>
       </div>
@@ -311,6 +312,7 @@
   <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.nivo.slider.pack.js') }}"></script> 
   <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/magnific-popup.min.js') }}"></script> 
   <script src="{{ URL::asset('fsm_all_web_file/js/custom.js') }}"></script>
+  
   @yield('custome_js_file')
 
   </body>
