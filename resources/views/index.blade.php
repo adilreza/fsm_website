@@ -273,7 +273,7 @@ Our Featured Wrapper Start -->
 <div class="blog-wrapper">
 <div class="container">
 <div class="section-title">
-<h2><i> <b>Our Rewarded Products</b></i></h2>
+<h2><i> <b>Our Featured Product</b></i></h2>
 <div class="separator"></div>
 </div>
 <div class="row">
@@ -288,7 +288,7 @@ Our Featured Wrapper Start -->
     </ul>
   </div>
   <div class="blog_btm_cntnt">
-    <h2>Rewarded 413 C2C</h2>
+    <h2>Featured 413 C2C</h2>
     <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</p>
     <a href="{{URL::to('/product_413_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
@@ -304,7 +304,7 @@ Our Featured Wrapper Start -->
     </ul>
   </div>
   <div class="blog_btm_cntnt">
-    <h2>Rewarded 128 C2C</h2>
+    <h2>Featured 128 C2C</h2>
     <p class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
     <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
