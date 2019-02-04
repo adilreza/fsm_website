@@ -187,6 +187,9 @@
 </div>
 <!-- Inner Page Wrapper End -->
 
+<script type="text/javascript">
+    document.getElementById("defaultOpen").click();
+</script>
 
 
 
