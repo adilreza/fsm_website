@@ -111,7 +111,7 @@
 <div class="container">
 <div class="cta-content">
 <h2>Your request for Information or proposal</h2>
-<a href="https://themeforest.net/user/sbtechnosoft/portfolio" class="bttn">RFP / RFI</a>
+<a href="{{URL::to('/contact_us')}}" class="bttn">RFP / RFI</a>
 </div>
 </div>
 </div>
