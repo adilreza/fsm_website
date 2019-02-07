@@ -153,6 +153,7 @@
                			
 					  
                 <li><a href="{{URL::to('/product_list')}}">Products</a></li>
+                <li><a href="{{URL::to('/application')}}">Application </a></li>
                 <li><a href="{{URL::to('/about_us')}}">About Us</a></li>
                
                 <li><a href="{{URL::to('/contact_us')}}">Contact Us</a></li>
