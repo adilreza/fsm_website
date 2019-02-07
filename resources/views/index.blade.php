@@ -414,7 +414,7 @@ Our Featured Wrapper Start -->
             {
               var newline ="<br/>";
               var line = "<hr>"
-              var title ="<h3 style='color:green;'> NORTH AMERICA </h3>";
+              var title ="<h3 style='color:green;'> AMERICA </h3>";
               var campanyName = "<span style='font-size:20px;'>FRONTIER SEMICONDUCTOR</span>";
               var type = "<span style='font-size:17px;'>Corporate Head Office</span>";
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+1 408 432 8838 ";
@@ -516,7 +516,7 @@ Our Featured Wrapper Start -->
 
         var newline ="<br/>";
               var line = "<hr>"
-              var title ="<h3 style='color:green;'> NORTH AMERICA </h3>";
+              var title ="<h3 style='color:green;'> AMERICA </h3>";
               var campanyName = "<span style='font-size:20px;'>FRONTIER SEMICONDUCTOR</span>";
               var type = "<span style='font-size:17px;'>Corporate Head Office</span>";
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+1 408 432 8838 ";
