@@ -214,6 +214,11 @@ class fsm_maincontroller extends Controller
         return view('adt.low_coherence');
     }
 
+    public function application_page()
+    {
+        return view('application');
+    }
+
 
 
 }

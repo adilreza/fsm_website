@@ -433,7 +433,7 @@ section {
 	position: absolute;
 	right: -27px;
 	top: -25px;
-	width: 1px;
+	width: 0px;
 	height: 206%;
 	background: #ddd;
 	content: "";

@@ -79,3 +79,5 @@ Route::post('thank_you', 'subscriber_related@get_subscriber_request')->name('gra
 
 Route::post('/contact_us_message', 'contact_controller@contact_us_message')->name('contact_us_message');
 
+Route::get('/application', 'fsm_maincontroller@application_page')->name('application');
+

@@ -12,6 +12,16 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <link rel="shortcut icon" type="image/x-icon" href="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}">
 
+<style>
+  @media only screen and (max-width : 990px) {
+ #mailandcont {
+   display: none!important;
+ }    
+}
+
+</style>
+
+
 <!-- page independent js or css file -->
   @yield('custome_static')
 
@@ -51,22 +61,22 @@
 
 <!-- Top Wrapper End -->
 <!-- Header Logo Area Start -->
-<div class="header-logo-area">
+<div class="header-logo-area" style="height:130px;margin-top:-30px;">
   <div class="container">
     <div class="row">
       <div class="col-xl-5 col-lg-3 col-md-12">
 {{-- 
       <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"> F<span>SM</span></a> </div> --}}
 
-      <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="120px" height="50px" alt=""></a> </div>
+      <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="140px" height="95px" alt=""></a> </div>
 
 
 
 
       </div>
-      <div class="col-xl-7 col-lg-9 col-md-12 d-none d-lg-block d-md-block">
+      <div class="col-xl-7 col-lg-9 col-md-12 d-none d-lg-block d-md-block" id="mailandcont" style="margin-top:30px;">
         <div class="row">
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-6 col-sm-6">
             <div class="header-logo-address">
               <div class="header-logo-icon"> <i class="fa fa-phone-square"></i> </div>
               <div class="header-logo-text">
@@ -75,21 +85,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-6 col-sm-6">
             <div class="header-logo-address">
               <div class="header-logo-icon"> <i class="fa fa-envelope"></i> </div>
               <div class="header-logo-text">
                 <p>fsm100@frontiersemi.com</p>
                 <p>fsm100@frontiersemi.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="header-logo-address last-child">
-              <div class="header-logo-icon"> <i class="fa fa-globe"></i> </div>
-              <div class="header-logo-text">
-                <p>www.frontiersemi.com</p>
-                <p>www.fsmtranscriber.com</p>
               </div>
             </div>
           </div>
@@ -112,6 +113,7 @@
       			
            
               <li><a href="{{URL::to('/product_list')}}">Products </a></li>
+              <li><a href="{{URL::to('/application')}}">Application </a></li>
               
               <li><a href="#">Company<i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown_menu">
@@ -204,6 +206,8 @@
 @yield('thin_wafer_metrology')
 @yield('low_coherence')
 @yield('electrical_characterization')
+
+@yield('application_page')
 
 
 
