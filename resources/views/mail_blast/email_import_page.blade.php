@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 	<title>import client email</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -10,12 +10,14 @@
 				<a class="navbar-brand" href="#">fsm_admin -Import Excel and CSV into database</a>
 			</div>
 		</div>
-	</nav>
+    </nav>
+    <hr>
 	<div class="container">
-		<a href="{{ URL::to('downloadExcel/xls') }}"><button class="btn btn-success">Download Excel xls</button></a>
-		<form style="border: 4px solid #a1a1a1;margin-top: 15px;padding: 10px;" action="{{ URL::to('/admin/insert_email') }}" class="form-horizontal" method="post" enctype="multipart/form-data">
+		<a href="{{ URL::to('downloadExcel/xls') }}"><button class="btn btn-success">See all client email list</button></a>
+		<form style="border: 1px solid #a1a1a1;margin-top: 15px;padding: 30px;border-radius:10px;background:#f5f6fa;" action="{{ URL::to('/admin/insert_email') }}" class="form-horizontal" method="post" enctype="multipart/form-data">
             {{ csrf_field() }}
-            <input type="file" name="import_file" />
+            <input type="file" name="import_file" class="form-control btn-sm" />
+            <br>
 			<button class="btn btn-primary">Import File</button>
 		</form>
 	</div>
