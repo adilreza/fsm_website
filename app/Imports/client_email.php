@@ -2,10 +2,10 @@
 
 namespace App\Imports;
 
-use App\elient_email;
+use App\client_list;
 use Maatwebsite\Excel\Concerns\ToModel;
 
-class clien_email implements ToModel
+class client_email implements ToModel
 {
     /**
     * @param array $row
@@ -14,7 +14,7 @@ class clien_email implements ToModel
     */
     public function model(array $row)
     {
-        return new elient_email([
+        return new client_list([
             'name' => $row[0],
             'email' =>$row[1]
         ]);
