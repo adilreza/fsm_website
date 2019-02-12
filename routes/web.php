@@ -82,6 +82,7 @@ Route::post('/contact_us_message', 'contact_controller@contact_us_message')->nam
 Route::get('/application', 'fsm_maincontroller@application_page')->name('application');
 Route::get('/admin/import_page', 'mailblastController@import_page')->name('import_page');
 Route::post('/admin/insert_email','mailblastController@insert_email')->name('insert_email');
-Route::get('/sendbulk','sendgrid_bulkemail@sendgrid_bulkemail');
+Route::get('/sendbulk_request','sendgrid_bulkemail@sendbulk_request');
+Route::post('/sendbulk','sendgrid_bulkemail@sendgrid_bulkemail');
 
 
