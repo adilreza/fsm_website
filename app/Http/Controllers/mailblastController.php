@@ -19,6 +19,6 @@ class mailblastController extends Controller
     public function insert_email()
     {
         Excel::import(new client_email, request()->file('import_file'));
-        return back();
+        return view('mail_blast.email_import_page')->with('msg','successfull Inserted from your csv to database');
     }
 }

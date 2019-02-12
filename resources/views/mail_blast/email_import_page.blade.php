@@ -21,5 +21,12 @@
 			<button class="btn btn-primary">Import File</button>
 		</form>
 	</div>
+<div class="container">
+	@if(isset($msg))
+		<hr>
+		<p  style="color:green;">{{$msg}}</p>
+	@endif
+</div>
+
 </body>
 </html>
