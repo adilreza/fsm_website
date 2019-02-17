@@ -85,4 +85,6 @@ Route::post('/admin/insert_email','mailblastController@insert_email')->name('ins
 Route::get('/sendbulk_request','sendgrid_bulkemail@sendbulk_request');
 Route::post('/sendbulk','sendgrid_bulkemail@sendgrid_bulkemail');
 
+Route::get('/testroute','sendgrid_bulkemail@testfun');
+
 

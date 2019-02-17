@@ -16,7 +16,7 @@ class sendgrid_bulkemail extends Controller
     }
     public function sendgrid_bulkemail(Request $given_data)
     {
-        $mail_list = array('adilreza043@gmail.com','xuetianhc@gmail.com','fsmgroupa@gmail.com');
+        $mail_list = array('xuetianhc@gmail.com','fsmgroupa@gmail.com');
         $subject = $given_data->subject;
         $message = $given_data->news;
         $data = ['message' => $message,'subject'=>$subject];
@@ -26,10 +26,17 @@ class sendgrid_bulkemail extends Controller
             //array_push($mail_list,$list->email);
         //return $mail_list;
 
-        for($i=0; $i<=2; $i++){
+        for($i=0; $i<=1; $i++){
             Mail::to( $mail_list[$i] )->send(new BulkEmail($data));
         }
 
         return "Ok! your message is sending to your provided email";
     }
+
+    public function testfun()
+    {
+        return view('bulkemails.dynamic_message')->with('message','This is test for jeem vai ');
+    }
+
 }
+
