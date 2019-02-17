@@ -130,14 +130,14 @@
 
 
               </ul>
-			<div class="search-form d-sm-none d-md-none d-xl-block">
+		    	{{-- <div class="search-form d-sm-none d-md-none d-xl-block">
               <form method="post" action="contact-us.html">
                 <div class="form-group clearfix">
                   <input name="email" value="" placeholder="Search" required="" type="email">
                   <button type="submit" class="theme-btn subscribe-btn"><span class="fa fa-search"></span></button>
                 </div>
               </form>
-            </div>	  
+            </div>	   --}}
             </nav>
           </div>
         </div>
