@@ -35,10 +35,6 @@ class fsm_maincontroller extends Controller
     {
         return view('services');
     }
-    public function accordion_page()
-    {
-        return view('accordion');
-    }
 
     public function appointment_page()
     {
@@ -162,11 +158,6 @@ class fsm_maincontroller extends Controller
         return view('product_list2');
     }
 
-
-    public function our_team_page()
-    {
-        return view('our_team');
-    }
     public function m404_page()
     {
         return view('m404');
