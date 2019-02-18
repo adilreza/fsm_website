@@ -2,6 +2,21 @@
 
 
 
+
+//This is Admin Section
+
+Route::group(['prefix'=>'admin'], function(){
+    Route::get('/home','admin_controller@home');
+    Route::get('/charts','admin_controller@charts');
+});
+
+//End of admin Section
+
+
+
+
+
+
 Route::get('/', 'fsm_maincontroller@index')->name('index');
 Route::get('/about_us','fsm_maincontroller@about_us_page')->name('about_us');
 Route::get('/contact_us','fsm_maincontroller@contact_us_page')->name('contact_us');

@@ -44,4 +44,18 @@ class admin_controller extends Controller
         DB::table('admin_problem_reports')->insert($make_array);
         echo "success";
     }
+
+    public function home()
+    {
+        return view('admin.admin_panel.index');
+    }
+
+    public function charts()
+    {
+        return view('admin.admin_panel.charts');
+    }
+
+
+
+
 }
