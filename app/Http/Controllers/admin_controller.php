@@ -21,8 +21,8 @@ class admin_controller extends Controller
         if($about_admin)
         {
             session(['login_status'=>"success"]);
+            session(['admin_login_status'=>'admin_access_granted']);
             echo "success";
-
         }
         else
         {

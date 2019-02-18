@@ -6,8 +6,8 @@
 //This is Admin Section
 
 Route::group(['prefix'=>'admin'], function(){
-    Route::get('/home','admin_controller@home');
-    Route::get('/charts','admin_controller@charts');
+    Route::get('/home','admin_controller@home')->middleware('admin_permission');
+    Route::get('/charts','admin_controller@charts')->middleware('admin_permission');
 });
 
 //End of admin Section
