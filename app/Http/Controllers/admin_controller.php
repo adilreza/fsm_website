@@ -30,6 +30,11 @@ class admin_controller extends Controller
             echo "failed";
         }
     }
+    public function admin_logout()
+    {
+        session(['admin_login_status'=>'']);
+        return redirect('/fsm_admin/private/login');
+    }
     public function admin_report()
     {
         return view('admin.admin_report');

@@ -209,6 +209,10 @@ class fsm_maincontroller extends Controller
     {
         return view('application');
     }
+    public function library_page()
+    {
+        return view('library');
+    }
 
 
 

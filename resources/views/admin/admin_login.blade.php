@@ -180,7 +180,7 @@
 <script type="text/javascript">
 
 function pageRedirect() {
-    window.location.replace("{{URL::to('/about_us')}}");
+    window.location.replace("{{URL::to('/admin/home')}}");
     }   
 
     $('#admin_login_form').on('submit', function(e){

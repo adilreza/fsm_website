@@ -8,6 +8,9 @@
 Route::group(['prefix'=>'admin'], function(){
     Route::get('/home','admin_controller@home')->middleware('admin_permission');
     Route::get('/charts','admin_controller@charts')->middleware('admin_permission');
+    Route::get('/logout', 'admin_controller@admin_logout')->middleware('admin_permission');
+    Route::get('/import_page', 'mailblastController@import_page')->middleware('admin_permission');
+    Route::post('/insert_email','mailblastController@insert_email')->middleware('admin_permission');
 });
 
 //End of admin Section
@@ -91,13 +94,14 @@ Route::post('thank_you', 'subscriber_related@get_subscriber_request')->name('gra
 Route::post('/contact_us_message', 'contact_controller@contact_us_message')->name('contact_us_message');
 
 Route::get('/application', 'fsm_maincontroller@application_page')->name('application');
-Route::get('/admin/import_page', 'mailblastController@import_page')->name('import_page');
-Route::post('/admin/insert_email','mailblastController@insert_email')->name('insert_email');
+Route::get('/library','fsm_maincontroller@library_page');
+
 Route::get('/sendbulk_request','sendgrid_bulkemail@sendbulk_request');
 Route::post('/sendbulk','sendgrid_bulkemail@sendgrid_bulkemail');
 
 Route::get('/fsm_admin/private/login','admin_controller@admin_login');
 Route::post('/fsm_admin/login_request','admin_controller@admin_login_request');
+
 Route::get('/fsm_admin/admin_report','admin_controller@admin_report');
 Route::post('/fsm_admin/admin_report',"admin_controller@admin_report_request");
 

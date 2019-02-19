@@ -7,16 +7,19 @@
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">fsm_admin -Import Excel and CSV into database</a>
+			<a href="{{URL::to('/admin/home')}}">
+					<button class="btn btn-warning"> Go DashBoard</button>
+				</a>
+				<a class="navbar-brand" href="#">Import Excel and CSV into database</a>
 			</div>
 		</div>
     </nav>
     <hr>
 	<div class="container">
-		<a href="{{ URL::to('downloadExcel/xls') }}"><button class="btn btn-success">See all client email list</button></a>
+		<button class="btn btn-info">Hei, Your Insertion is Secure</button>
 		<form style="border: 1px solid #a1a1a1;margin-top: 15px;padding: 30px;border-radius:10px;background:#f5f6fa;" action="{{ URL::to('/admin/insert_email') }}" class="form-horizontal" method="post" enctype="multipart/form-data">
             {{ csrf_field() }}
-            <input type="file" name="import_file" class="form-control btn-sm" />
+            <input type="file" required name="import_file" class="form-control btn-sm" />
             <br>
 			<button class="btn btn-primary">Import File</button>
 		</form>

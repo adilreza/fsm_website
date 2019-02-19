@@ -123,7 +123,7 @@
                 </ul>
               </li>
 
-              <li><a href="#">Library</a></li>
+            <li><a href="{{URL::to('/library')}}">Library</a></li>
 
 
 
@@ -209,6 +209,7 @@
 @yield('electrical_characterization')
 
 @yield('application_page')
+@yield('library_page')
 
 
 
