@@ -59,6 +59,26 @@ class admin_controller extends Controller
     {
         return view('admin.admin_panel.charts');
     }
+    public function widgets()
+    {
+        return view('admin.admin_panel.widgets');
+    }
+    public function tables()
+    {
+        return view('admin.admin_panel.tables');
+    }
+    public function grid_full()
+    {
+        return view('admin.admin_panel.grid_full');
+    }
+    public function form_basic()
+    {
+        return view('admin.admin_panel.form_basic');
+    }
+    public function form_wizard()
+    {
+        return view('admin.admin_panel.form_wizard');
+    }
 
 
 

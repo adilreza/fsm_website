@@ -8,9 +8,16 @@
 Route::group(['prefix'=>'admin'], function(){
     Route::get('/home','admin_controller@home')->middleware('admin_permission');
     Route::get('/charts','admin_controller@charts')->middleware('admin_permission');
+    Route::get('/widgets','admin_controller@widgets')->middleware('admin_permission');
+    Route::get('/tables','admin_controller@tables')->middleware('admin_permission');
+    Route::get('/grid_full','admin_controller@grid_full')->middleware('admin_permission');
+    Route::get('/form_basic','admin_controller@form_basic')->middleware('admin_permission');
+    Route::get('/form_wizard','admin_controller@form_wizard')->middleware('admin_permission');
+    
     Route::get('/logout', 'admin_controller@admin_logout')->middleware('admin_permission');
     Route::get('/import_page', 'mailblastController@import_page')->middleware('admin_permission');
     Route::post('/insert_email','mailblastController@insert_email')->middleware('admin_permission');
+    
 });
 
 //End of admin Section
