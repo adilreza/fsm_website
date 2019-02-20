@@ -1,6 +1,9 @@
 @extends('layout.master')
 
 @section('page_title', "Library | Frontier Semicondructor")
+@section('custome_static')
+<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">    
+@endsection
 <style>
 #library_single
 {
@@ -14,6 +17,13 @@
     box-shadow:10px 5px 20px darkgrey;
     padding:15px 0px;
     cursor: pointer;
+}
+#library_single h3{
+    color:#4AC8ED;
+    font-family: 'Old Standard TT', serif;
+}
+#library_single p{
+    font-family: 'Titillium Web';
 }
 </style>
 
@@ -35,9 +45,9 @@
                     <div class="containr" style="background:white; padding:70px 10px;border-radius:10px;">
 
                         <div class="row" style="">
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-7 col-sm-6">
                                     <select name="cars" class="custom-select custom-select-lg mb-3">
-                                            <option selected>Application</option>
+                                            <option selected>Application Type</option>
                                             <option value="volvo">Film Stress</option>
                                             <option value="fiat">Film Adhension</option>
                                             <option value="audi">Laser Scanning</option>
@@ -48,26 +58,8 @@
                                             <option value="audi">Low Coherence Interferometry</option>
                                     </select>
                             </div>
-                            <div class="col-md-3 col-sm-6">
-
-                                    <select name="cars" class="custom-select custom-select-lg mb-3">
-                                            <option selected>Type</option>
-                                            <option value="volvo">News Letter </option>
-                                            <option value="fiat">Research papers</option>
-                                            <option value="audi">Anual declaration</option>
-                                    </select>
-
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                    <select name="cars" class="custom-select custom-select-lg mb-3">
-                                            <option selected>Topics</option>
-                                            <option value="volvo">Stress</option>
-                                            <option value="fiat">mesurement</option>
-                                            <option value="audi">wafer</option>
-                                            <option value="audi">simulation</option>
-                                    </select>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
+                          
+                            <div class="col-md-5 col-sm-6">
                                             <form action="/action_page.php">
                                             <input class="form-control btn-lg" type="text" placeholder="Search.." name="search">
                                             </form>
@@ -87,7 +79,7 @@
 
             </div>
             <div class="col-lg-8 col-md-8 col-sm-6">
-                <h3 style="text-align:left;">This is Title section fo film stress and stress mesuremnt</h3>
+                <h3 style="text-align:left;color:#4AC8ED;">This is Title section fo film stress and stress mesuremnt</h3>
                 <hr>
                 <p style="text-align:left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates dignissimos ut, unde reprehenderit, temporibus ipsam sit, error porro eligendi a esse quis consequuntur itaque. Quo error facere ut eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, itaque nam, eaque error odio cumque, obcaecati quibusdam ab rem maiores autem...</p>
             </div>
