@@ -48,14 +48,14 @@
                             <div class="col-md-7 col-sm-6">
                                     <select name="cars" class="custom-select custom-select-lg mb-3">
                                             <option selected>Application Type</option>
-                                            <option value="volvo">Film Stress</option>
-                                            <option value="fiat">Film Adhension</option>
-                                            <option value="audi">Laser Scanning</option>
-                                            <option value="audi">Thin Wafer Metrology</option>
-                                            <option value="audi">Electrical Characterization</option>
-                                            <option value="audi">Raman Spectroscopy</option>
-                                            <option value="audi">3DIC TSV Process Control</option>
-                                            <option value="audi">Low Coherence Interferometry</option>
+                                            <option value="Film Stress">Film Stress</option>
+                                            <option value="Film Adhension">Film Adhension</option>
+                                            <option value="Laser Scanning">Laser Scanning</option>
+                                            <option value="Thin Wafer Metrology">Thin Wafer Metrology</option>
+                                            <option value="Electrical Characterization">Electrical Characterization</option>
+                                            <option value="Raman Spectroscopy">Raman Spectroscopy</option>
+                                            <option value="3DIC TSV Process Control">3DIC TSV Process Control</option>
+                                            <option value="Low Coherence Interferometry">Low Coherence Interferometry</option>
                                     </select>
                             </div>
                           

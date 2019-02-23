@@ -84,6 +84,27 @@ class admin_controller extends Controller
         return view('admin.admin_panel.library_text_editor');
     }
 
+    public function library_text_editor_post(request $data)
+    {
+        $post_title = $data->post_title;
+        $application_type= $data->application_type;
+        $main_content = $data->main_content;
+        $image_name="";
+        if($data->hasfile('display_image'))
+        {
+            $image_name = $data->file('display_image')->getClientOriginalName();
+            $name_upadate = $image_name;
+            $data->file('display_image')->move(public_path().'/fsm_all_web_file/fsm_image_gallery/library_image',$image_name);
+            //return ("succesfull inserted you ")
+
+        }
+        $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name, 'main_content'=>$main_content,'admin_email'=>"adilreza043@gmail.com" );
+        DB::table('article_tables')->insert($make_array);
+        return view("admin.admin_panel.library_text_editor")->with('msg_status','success');
+
+
+    }
+
 
 
 

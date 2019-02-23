@@ -18,6 +18,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/import_page', 'mailblastController@import_page')->middleware('admin_permission');
     Route::post('/insert_email','mailblastController@insert_email')->middleware('admin_permission');
     Route::get('/library_text_editor','admin_controller@library_text_editor')->middleware('admin_permission');
+    Route::post('/library_text_editor','admin_controller@library_text_editor_post')->middleware('admin_permission');
     
 });
 
