@@ -308,6 +308,7 @@
             @yield('admin_tables_page')
             @yield('admin_grid_full_page')
             @yield('admin_form_wizard_page')
+            @yield('library_text_editor_page')
 
 
 
@@ -326,7 +327,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center">
-                All Rights Reserved by Matrix-admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.
+                All Rights Reserved by FSM-admin. Designed and Developed by <a href="http://www.frontiersemi.com">frontiersemi</a>.
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

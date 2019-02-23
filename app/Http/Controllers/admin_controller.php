@@ -79,6 +79,10 @@ class admin_controller extends Controller
     {
         return view('admin.admin_panel.form_wizard');
     }
+    public function library_text_editor()
+    {
+        return view('admin.admin_panel.library_text_editor');
+    }
 
 
 
