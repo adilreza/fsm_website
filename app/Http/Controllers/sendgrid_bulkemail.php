@@ -45,9 +45,10 @@ class sendgrid_bulkemail extends Controller
         {
             $content_details = $content->main_content;
             $content_subject = $content->post_title;
+            $display_image = $content->display_image;
         }
-        $email = "xuetianhc@gmail.com";
-        $data_object = ['message' => $content_details,'subject'=>$content_subject];
+        //$email = "xuetianhc@gmail.com";
+        $data_object = ['message' => $content_details,'post_title'=>$content_subject, 'display_image'=>$display_image];
         //return $content_details;
         //$mail_list = array('xuetianhc@gmail.com','fsmgroupa@gmail.com','adilreza043@gmail.com','mdfahimfaysal44@gmail.com');
         $mail_array = array();

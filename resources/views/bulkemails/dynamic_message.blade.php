@@ -17,8 +17,12 @@
 <body>
 
 
-<div class="container">
-  
+<div class="container" style="padding:50px;">
+<h4>{{$post_title}}</h4>
+
+<hr>
+<img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/library_image/'.$display_image)}}" alt="user" style="height:160px;width:250px;">
+<br>
   {!! $msgggg !!}      
 
 </div>

@@ -32,11 +32,11 @@ class BulkEmail extends Mailable
     public function build()
     {
         $address = 'fsmgroupa@gmail.com';
-        $subject = $this->data['subject'];
+        $subject = $this->data['post_title'];
         $newsletter = $this->data['message'];
         //$newsletter = "this is another testing";
         $name = 'fsm_webserver';
         
-    return $this->view('bulkemails.dynamic_message')->from($address, $name)->replyTo($address, $name)->subject($subject)->with('msgggg',$this->data['message']);
+    return $this->view('bulkemails.dynamic_message')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('msgggg'=>$this->data['message'],'post_title'=>$this->data['post_title'],'display_image'=>$this->data['display_image']));
     }
 }
