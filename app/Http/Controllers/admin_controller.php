@@ -21,6 +21,7 @@ class admin_controller extends Controller
         if($about_admin)
         {
             session(['login_status'=>"success"]);
+            session(['admin_email'=>$email]);
             session(['admin_login_status'=>'admin_access_granted']);
             echo "success";
         }
@@ -84,6 +85,19 @@ class admin_controller extends Controller
         return view('admin.admin_panel.library_text_editor');
     }
 
+    public function email_delete($delete_id)
+    {
+        $blog = DB::table('client_lists')->where('id',$delete_id)->delete();
+        return back();
+
+    }
+
+    public function client_mail_list()
+    {
+        $all_email = DB::table('client_lists')->get();
+        return view('admin.admin_panel.client_mail_list')->with('client_emails',$all_email);
+    }
+
     public function library_text_editor_post(request $data)
     {
         $post_title = $data->post_title;
@@ -98,14 +112,35 @@ class admin_controller extends Controller
             //return ("succesfull inserted you ")
 
         }
-        $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name, 'main_content'=>$main_content,'admin_email'=>"adilreza043@gmail.com" );
+        $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name, 'main_content'=>$main_content,'admin_email'=>session('admin_email') );
         DB::table('article_tables')->insert($make_array);
         return view("admin.admin_panel.library_text_editor")->with('msg_status','success');
 
 
     }
 
+    public function article_send_to_client()
+    {
+        $all_article =DB::table('article_tables')->orderBy('id', 'DESC')->get();
+        return view('admin.admin_panel.article_send_to_client')->with('all_articles',$all_article);
+    }
 
+    public function filter_by_application_type(request $data)
+    {
+        $application_type=$data->application_type;
+        //return $application_type;
+        if($application_type!="All type")
+        {
+        $selected_data=DB::table('article_tables')->where('application_type',$application_type)->orderBy('id', 'DESC')->get();
+
+        return view('admin.admin_panel.article_send_to_client')->with('all_articles',$selected_data);
+        }
+        else
+         {
+            $all_article =DB::table('article_tables')->orderBy('id', 'DESC')->get();
+            return view('admin.admin_panel.article_send_to_client')->with('all_articles',$all_article);
+         }
+    }
 
 
 }

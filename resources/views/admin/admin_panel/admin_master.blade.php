@@ -309,6 +309,8 @@
             @yield('admin_grid_full_page')
             @yield('admin_form_wizard_page')
             @yield('library_text_editor_page')
+            @yield('client_mail_list_page')
+            @yield('article_send_to_client_page')
 
 
 

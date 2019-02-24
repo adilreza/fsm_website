@@ -57,12 +57,14 @@
                     <!-- Column -->
                     <!-- Column -->
                     <div class="col-md-6 col-lg-4 col-xlg-3">
-                        <div class="card card-hover">
-                            <div class="box bg-danger text-center">
-                                <h1 class="font-light text-white"><i class="mdi mdi-receipt"></i></h1>
-                                <h6 class="text-white">Forms</h6>
+                        <a href="{{URL::to('/admin/article_send_to_client')}}">
+                            <div class="card card-hover">
+                                <div class="box bg-danger text-center">
+                                    <h1 class="font-light text-white"><i class=" far fa-paper-plane"></i></h1>
+                                    <h6 class="text-white">Blast article to multiple mail</h6>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">
@@ -90,12 +92,14 @@
                     
                     <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">
+                        <a href="{{URL::to('/admin/client_mail_list')}}">
                         <div class="card card-hover">
                             <div class="box bg-success text-center">
-                                <h1 class="font-light text-white"><i class="mdi mdi-calendar-check"></i></h1>
-                                <h6 class="text-white">Calnedar</h6>
+                                <h1 class="font-light text-white"><i class="fas fa-users"></i></h1>
+                                <h6 class="text-white">Check clients</h6>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">

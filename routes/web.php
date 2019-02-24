@@ -13,6 +13,11 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/grid_full','admin_controller@grid_full')->middleware('admin_permission');
     Route::get('/form_basic','admin_controller@form_basic')->middleware('admin_permission');
     Route::get('/form_wizard','admin_controller@form_wizard')->middleware('admin_permission');
+    Route::get('/client_mail_list','admin_controller@client_mail_list')->middleware('admin_permission');
+    Route::get('/email_delete/{delete_id}', 'admin_controller@email_delete')->middleware('admin_permission');
+    Route::get('/article_send_to_client', 'admin_controller@article_send_to_client')->middleware('admin_permission');
+    Route::post('/filter_by_application_type','admin_controller@filter_by_application_type')->middleware('admin_permission');
+    Route::get('/filter_by_application_type','admin_controller@article_send_to_client')->middleware('admin_permission');
     
     Route::get('/logout', 'admin_controller@admin_logout')->middleware('admin_permission');
     Route::get('/import_page', 'mailblastController@import_page')->middleware('admin_permission');
