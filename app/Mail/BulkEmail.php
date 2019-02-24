@@ -37,10 +37,6 @@ class BulkEmail extends Mailable
         //$newsletter = "this is another testing";
         $name = 'fsm_webserver';
         
-        return $this->view('bulkemails.dynamic_message')
-                    ->from($address, $name)
-                    ->replyTo($address, $name)
-                    ->subject($subject)
-                    ->with(['message'=> $newsletter]);
+    return $this->view('bulkemails.dynamic_message')->from($address, $name)->replyTo($address, $name)->subject($subject)->with('msgggg',$this->data['message']);
     }
 }

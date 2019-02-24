@@ -16,7 +16,7 @@ class sendgrid_bulkemail extends Controller
     }
     public function sendgrid_bulkemail(Request $given_data)
     {
-        $mail_list = array('xuetianhc@gmail.com','fsmgroupa@gmail.com');
+        $mail_list = array('xuetianhc@gmail.com','fsmgroupa@gmail.com','adilreza043@gmail.com');
         $subject = $given_data->subject;
         $message = $given_data->news;
         $data = ['message' => $message,'subject'=>$subject];
@@ -26,7 +26,7 @@ class sendgrid_bulkemail extends Controller
             //array_push($mail_list,$list->email);
         //return $mail_list;
 
-        for($i=0; $i<=1; $i++){
+        for($i=0; $i<=2; $i++){
             Mail::to( $mail_list[$i] )->send(new BulkEmail($data));
         }
 
@@ -36,6 +36,29 @@ class sendgrid_bulkemail extends Controller
     public function testfun()
     {
         return view('bulkemails.dynamic_message')->with('message','This is test for jeem vai ');
+    }
+
+    public function mail_blast($article_id)
+    {
+        $article_content = DB::table('article_tables')->where('id',$article_id)->get();
+        foreach($article_content as $content)
+        {
+            $content_details = $content->main_content;
+            $content_subject = $content->post_title;
+        }
+        $email = "xuetianhc@gmail.com";
+        $data_object = ['message' => $content_details,'subject'=>$content_subject];
+        //return $content_details;
+        //$mail_list = array('xuetianhc@gmail.com','fsmgroupa@gmail.com','adilreza043@gmail.com','mdfahimfaysal44@gmail.com');
+        $mail_array = array();
+        $all_email_from_db = DB::table('client_lists')->get();
+        foreach($all_email_from_db as $mail)
+        {
+            array_push($mail_array,$mail);
+        }
+
+        Mail::to($mail_array)->send(new BulkEmail($data_object));
+        return back();
     }
 
 }

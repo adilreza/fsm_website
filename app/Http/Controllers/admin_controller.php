@@ -112,8 +112,9 @@ class admin_controller extends Controller
             //return ("succesfull inserted you ")
 
         }
-        $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name, 'main_content'=>$main_content,'admin_email'=>session('admin_email') );
+        $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name,'blasting'=>'not published', 'main_content'=>$main_content,'admin_email'=>session('admin_email') );
         DB::table('article_tables')->insert($make_array);
+        //DB::table('article_tables')->where('id',$article_id)->update(['blasting'=>'already published']);
         return view("admin.admin_panel.library_text_editor")->with('msg_status','success');
 
 
@@ -140,6 +141,26 @@ class admin_controller extends Controller
             $all_article =DB::table('article_tables')->orderBy('id', 'DESC')->get();
             return view('admin.admin_panel.article_send_to_client')->with('all_articles',$all_article);
          }
+    }
+    public function delete_article($delet_id)
+    {
+        DB::table('article_tables')->where('id', $delet_id)->delete();
+        return back();
+
+    }
+
+    public function publish_the_post($article_id)
+    {
+        $article = DB::table('article_tables')->where('id',$article_id)->get()->toArray();
+        foreach($article as $art)
+        {
+            DB::table('published_articles')->insert(get_object_vars($art));
+        }
+        DB::table('article_tables')->where('id',$article_id)->update(['blasting'=>'already published']);
+        DB::table('published_articles')->where('id',$article_id)->update(['blasting'=>'published']);
+        
+        return back();
+
     }
 
 

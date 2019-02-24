@@ -4,7 +4,7 @@
 
 <head>
 
-  <title>Bootstrap Example</title>
+  <title>Fsm Article Send Example</title>
 
   <meta charset="utf-8">
 
@@ -16,25 +16,10 @@
 
 <body>
 
-​
-
-<div class="jumbotron jumbotron-fluid">
-
-  <div class="container">
-
-    <h1>Fsm News Letter</h1>      
-
-    <p>This is news letter content from the inputed person</p>
-
-  </div>
-
-</div>
 
 <div class="container">
-
-  <p>This is some text.</p>      
-
-  <p>This is another text.</p>      
+  
+  {!! $msgggg !!}      
 
 </div>
 

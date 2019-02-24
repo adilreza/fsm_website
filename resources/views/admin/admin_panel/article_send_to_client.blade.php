@@ -61,9 +61,17 @@
                                                         <div class="comment-footer">
                                                         <span class="text-muted float-right">{{$article->application_type}}</span> 
                                                             
-                                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                                            <button type="button" class="btn btn-cyan btn-sm">Preview</button>
+                                                            <button type="button" class="btn btn-success btn-sm">Preview</button>
+                                                        <a href="{{URL::to('/admin/publish_the_post/'.$article->id)}}">
+                                                        <button type="button" class="btn btn-cyan btn-sm">{{$article->blasting}}</button>
+                                                        </a>
+
+                                                        <a href="{{URL::to('/admin/mail_blast/'.$article->id)}}">
+                                                                <button type="button" class="btn btn-info btn-sm">Blast This article</button>
+                                                            </a>
+                                                        <a href="{{URL::to('/admin/delete_article/'.$article->id)}}">
                                                             <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                                        </a>
                                                         </div>
                                                     </div>
                                             </div>
