@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class fsm_maincontroller extends Controller
 {
@@ -211,7 +212,23 @@ class fsm_maincontroller extends Controller
     }
     public function library_page()
     {
-        return view('library');
+        $all_article_post = DB::table('published_articles')->get();
+        return view('library')->with('all_article',$all_article_post);
+    }
+    public function filter_by_application(request $data)
+    {
+        $application_type = $data->cars;
+        if($application_type!='Application All Type')
+        {
+        $all_article_post = DB::table('published_articles')->where('application_type',$application_type)->get();
+        return view('library')->with('all_article',$all_article_post);
+        }
+        else
+        {
+        $all_article_post = DB::table('published_articles')->get();
+        return view('library')->with('all_article',$all_article_post);
+
+        }
     }
 
 

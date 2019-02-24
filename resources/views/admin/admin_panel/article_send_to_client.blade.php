@@ -52,26 +52,29 @@
                                                 
                                            
 
-                                            <div style="background:#ecf0f1;" class="d-flex flex-row comment-row m-t-0">
-                                                <div class="p-2"><img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/library_image/'.$article->display_image)}}" alt="user" width="120" class="rounded-circle"></div>
+                                            <div style="background:#ecf0f1;padding:20px;" class="d-flex flex-row comment-row m-t-0">
+                                                <div class="p-2"><img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/library_image/'.$article->display_image)}}" alt="user" style="height:160px;width:250px;">
+                                                </div>
                                                     <div class="comment-text w-100">
                                                         <h2 class="font-medium">{{$article->post_title}}</h2>
-                                                        <span class="m-b-15 d-block">{!! str_limit($article->main_content, $limit = 300, $end = '...') !!}</span>
+                                                        <p>{!!  str_limit($article->main_content, $limit = 400, $end = '...')  !!}</p>
+                                                        <br>
                                                         <br>
                                                         <div class="comment-footer">
-                                                        <span class="text-muted float-right">{{$article->application_type}}</span> 
-                                                            
-                                                            <button type="button" class="btn btn-success btn-sm">Preview</button>
-                                                        <a href="{{URL::to('/admin/publish_the_post/'.$article->id)}}">
-                                                        <button type="button" class="btn btn-cyan btn-sm">{{$article->blasting}}</button>
-                                                        </a>
-
-                                                        <a href="{{URL::to('/admin/mail_blast/'.$article->id)}}">
-                                                                <button type="button" class="btn btn-info btn-sm">Blast This article</button>
+                                                            <span class="text-muted float-right">{{$article->application_type}}</span> 
+                                                            <a href="{{URL::to('/article/article_details/'.$article->id)}}">
+                                                                <button type="button" class="btn btn-success btn-sm">Preview</button>
                                                             </a>
-                                                        <a href="{{URL::to('/admin/delete_article/'.$article->id)}}">
-                                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                                        </a>
+                                                            <a href="{{URL::to('/admin/publish_the_post/'.$article->id)}}">
+                                                            <button type="button" class="btn btn-cyan btn-sm">{{$article->blasting}}</button>
+                                                            </a>
+
+                                                            <a href="{{URL::to('/admin/mail_blast/'.$article->id)}}">
+                                                                    <button type="button" class="btn btn-info btn-sm">Blast This article</button>
+                                                                </a>
+                                                            <a href="{{URL::to('/admin/delete_article/'.$article->id)}}">
+                                                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                                            </a>
                                                         </div>
                                                     </div>
                                             </div>
