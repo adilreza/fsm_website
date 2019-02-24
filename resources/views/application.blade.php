@@ -21,7 +21,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="pricing_table">
                     <div class="top_border_1"></div>
-                    <div class="price_table_icon"> <i class="fas fa-balance-scale"></i> </div>
+                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/fs900_stress.jpg')}}" style="height:100px; width:120px;"> </div>
                     <div class="price_table_title">
                         <h5>Film Stress</h5>
                     </div>
@@ -35,7 +35,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="pricing_table">
                 <div class="top_border_1"></div>
-                <div class="price_table_icon"> <i class="fas fa-compress-arrows-alt"></i> </div>
+                <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/filmadhesion.png')}}" style="height:100px; width:120px;"> </div>
                 <div class="price_table_title">
                     <h5>Film Adhesion</h5>
                 </div>
@@ -49,7 +49,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="pricing_table">
                     <div class="top_border_1"></div>
-                    <div class="price_table_icon"> <i class="fas fa-cogs"></i> </div>
+                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/laser_scan.png')}}" style="height:100px; width:120px;"> </div>
                     <div class="price_table_title">
                         <h5>Laser Scanning</h5>
                     </div>
@@ -67,7 +67,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="pricing_table">
                         <div class="top_border_1"></div>
-                        <div class="price_table_icon"> <i class="fas fa-stroopwafel"></i> </div>
+                        <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/thin_wafer.gif')}}" style="height:100px; width:120px;"> </div>
                         <div class="price_table_title">
                             <h5>Thin wafer metrology</h5>
                         </div>
@@ -81,7 +81,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="pricing_table">
                     <div class="top_border_1"></div>
-                    <div class="price_table_icon"> <i class="fas fa-microchip"></i> </div>
+                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/ecdefault.png')}}" style="height:100px; width:120px;"> </div>
                     <div class="price_table_title">
                         <h5>Electrical Characterization</h5>
                     </div>
@@ -95,7 +95,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="pricing_table">
                         <div class="top_border_1"></div>
-                        <div class="price_table_icon"> <i class="fas fa-tools"></i> </div>
+                        <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/rsdefault.png')}}" style="height:100px; width:120px;"> </div>
                         <div class="price_table_title">
                             <h5>Raman Spectroscopy</h5>
                         </div>
@@ -115,7 +115,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="pricing_table">
                         <div class="top_border_1"></div>
-                        <div class="price_table_icon"> <i class="fas fa-tasks"></i> </div>
+                        <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/tsv413.png')}}" style="height:100px; width:120px;"></div>
                         <div class="price_table_title">
                             <h5>3DIC TSV Process Control </h5>
                         </div>
@@ -129,7 +129,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="pricing_table">
                     <div class="top_border_1"></div>
-                    <div class="price_table_icon"> <i class="fas fa-shapes"></i> </div>
+                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/low_coherency.png')}}" style="height:100px; width:120px;"> </div>
                     <div class="price_table_title" >
                         <h5>Low Coherence Interferometry</h5>
                     </div>
