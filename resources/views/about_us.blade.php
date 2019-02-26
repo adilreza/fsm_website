@@ -139,13 +139,12 @@
 
 
 
-  <div class="container" >
+  <div class="container">
       
           <div class="heading" >
-            <h2>Meet Our Team</h2>
-            <hr>
+            <h5>..</h5>
           </div>
-          <div class="row text-center">
+          <div class="row text-center" style="background:red;display:none;">
             <div class="col-md-3">
 
                 <div data-animate="fadeInUp" class="team-member">
