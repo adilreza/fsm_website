@@ -87,7 +87,7 @@
                 </ul>
               </li>
 
-              <li><a href="#">Libarary </a></li>
+            <li><a href="{{URL::to('/library')}}">Library </a></li>
 
 
 

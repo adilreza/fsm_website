@@ -32,6 +32,22 @@ Route::group(['prefix'=>'admin'], function(){
 
 //End of admin Section
 
+
+//start user section 
+
+Route::group(['prefix'=>'user'], function(){
+    Route::get('/login','user_controller@login');
+    Route::post('/login','user_controller@login_request');
+    Route::get('/register','user_controller@register');
+    Route::post('/register', 'user_controller@register_request');
+});
+
+//end of user secion
+Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function(){
+    Route::get('/dashboard','user_controller@user_dashboard');
+});
+
+
 //article section
 
 Route::get('/article/article_details/{article_id}','article_handler@article_details');
