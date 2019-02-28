@@ -40,11 +40,13 @@ Route::group(['prefix'=>'user'], function(){
     Route::post('/login','user_controller@login_request');
     Route::get('/register','user_controller@register');
     Route::post('/register', 'user_controller@register_request');
+    Route::get('/logout','user_controller@logout');
 });
 
 //end of user secion
 Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function(){
     Route::get('/dashboard','user_controller@user_dashboard');
+    Route::get('/drf_form','user_controller@drf_form');
 });
 
 

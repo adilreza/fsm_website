@@ -113,14 +113,14 @@
         </div>
       </li>  --}}
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
+      <a class="nav-link" href="{{URL::to('/product_list')}}">
+          <i class="fas fa-microchip"></i>
+          <span>View Product</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+      <a class="nav-link" href="{{URL::to('library')}}">
+         <i class="far fa-newspaper"></i>
+          <span>library</span></a>
       </li>
     </ul>
 
@@ -128,6 +128,7 @@
 
   
             @yield('dashboard')
+            @yield('drf_form')
 
 
 
@@ -159,7 +160,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Confirm logout?</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
@@ -167,7 +168,7 @@
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+        <a class="btn btn-primary" href="{{URL::to('/user/logout')}}">Logout</a>
         </div>
       </div>
     </div>

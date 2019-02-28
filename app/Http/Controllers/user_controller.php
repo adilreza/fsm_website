@@ -58,4 +58,22 @@ class user_controller extends Controller
     {
         return view('user.user_panel.index');
     }
+
+    public function logout()
+    {
+        session(['user_name'=>'']);
+        return redirect('/');
+    }
+
+    public function drf_form()
+    {
+        return view('user.user_panel.drf_form');
+    }
+
+
+
+
+
+
+
 }
