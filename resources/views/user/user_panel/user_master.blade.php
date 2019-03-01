@@ -11,6 +11,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}">
 
   <title>@yield('page_title')</title>
+  @yield('static_css_file')
 
   <!-- Custom fonts for this template-->
   <link href="{{URL::asset('fsm_user/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
