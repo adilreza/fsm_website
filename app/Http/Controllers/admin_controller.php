@@ -163,5 +163,11 @@ class admin_controller extends Controller
 
     }
 
+    public function admin_presentation_upload()
+    {
+        return view('admin.admin_panel.presentation_upload');
+    }
+
+
 
 }

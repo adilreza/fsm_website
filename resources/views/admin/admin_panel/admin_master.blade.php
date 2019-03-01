@@ -311,11 +311,14 @@
             @yield('library_text_editor_page')
             @yield('client_mail_list_page')
             @yield('article_send_to_client_page')
+            @yield('admin_presentation_upload')
 
 
 
 
-
+        
+        
+        </div>
 
 
 

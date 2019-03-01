@@ -21,6 +21,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/mail_blast/{article_id}', 'sendgrid_bulkemail@mail_blast')->middleware('admin_permission');
     Route::get('/delete_article/{article_id}', 'admin_controller@delete_article')->middleware('admin_permission');
     Route::get('/publish_the_post/{article_id}', 'admin_controller@publish_the_post')->middleware('admin_permission');
+    Route::get('/admin_presentation_upload','admin_controller@admin_presentation_upload')->middleware('admin_permission');
 
     Route::get('/logout', 'admin_controller@admin_logout')->middleware('admin_permission');
     Route::get('/import_page', 'mailblastController@import_page')->middleware('admin_permission');

@@ -20,12 +20,14 @@
                     </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-4 col-xlg-3">
-                        <div class="card card-hover">
-                            <div class="box bg-success text-center">
-                                <h1 class="font-light text-white"><i class="mdi mdi-chart-areaspline"></i></h1>
-                                <h6 class="text-white">Charts</h6>
+                        <a href="{{URL::to('/admin/admin_presentation_upload')}}">
+                            <div class="card card-hover">
+                                <div class="box bg-success text-center">
+                                    <h1 class="font-light text-white"><i class="mdi mdi-chart-areaspline"></i></h1>
+                                    <h6 class="text-white">Charts</h6>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                      <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">
