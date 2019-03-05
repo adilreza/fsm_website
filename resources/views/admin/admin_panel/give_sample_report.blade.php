@@ -1,28 +1,24 @@
 @extends('/admin/admin_panel/admin_master')
 
-@section('page_title', 'Presentation Upload | Frontier Semiconductor')
+@section('page_title', 'provide sample report | Frontier Semiconductor')
 
-@section('admin_presentation_upload')
+@section('give_sample_report')
             <div class="container-fluid">
                
-               <div class="container">
-                    <div class="card border-primary">
+               <div class="container" style="border-radius:15px;">
+                    <div class="card border-primary" style="border-radius:10px;">
                             <div class="card-header bg-info ">
-                             <h3 style="color:white;">Upload Presentation</h3>
+                             <h3 style="color:white;">Provide Sample Report</h3>
                             </div>
                             <div class="card-body" style="background:#dfe4ea;">
                             <form action="{{URL::to('/admin/admin_presentation_upload')}}" method="post" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                     <div class="form-group">
-                                        <label for="title">Presentation Title</label>
+                                        <label for="title">Select The User </label>
                                         <input type="text" required class="form-control" id="title" name="p_title">
                                     </div>
-                                    <div class="form-group">
-                                            <label for="details">Presentation descriptions</label>
-                                            <textarea name="p_description"  required class="form-control" id="details" cols="40" rows="7" style="padding:10px;border:none;"></textarea>
-                                        </div>
                                         <div class="form-group">
-                                                <label for="file">Presentation file( <i>pptx/pdf/docx</i> )</label>
+                                                <label for="file">Sample Report file( <i>pptx/pdf/docx</i> )</label>
                                                 <input required class="form-control" type="file" name="presentation_file" id="file" style="padding:10px;border:none;">
                                         </div>
                                         <br>

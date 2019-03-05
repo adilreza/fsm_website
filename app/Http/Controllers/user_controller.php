@@ -70,6 +70,17 @@ class user_controller extends Controller
         return view('user.user_panel.drf_form');
     }
 
+    public function presentation_list()
+    {
+        $all_presentation = DB::table('presentation_lists')->get();
+        return view('user.user_panel.fsm_all_presentation')->with(['all_presentation'=>$all_presentation]);
+    }
+    public function fsm_presentation_details($selected_id)
+    {
+        $presentation = DB::table('presentation_lists')->where('id',$selected_id)->get();
+        return view('user.user_panel.presentation_details')->with(['result_presentation'=>$presentation]);
+    }
+
 
 
 

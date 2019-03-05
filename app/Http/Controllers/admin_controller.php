@@ -167,6 +167,26 @@ class admin_controller extends Controller
     {
         return view('admin.admin_panel.presentation_upload');
     }
+    public function admin_presentation_upload_req(request $data)
+    {
+        $p_title = $data->p_title;
+        $p_description = $data->p_description;
+        $file_name="";
+        if($data->hasfile('presentation_file'))
+        {
+            $file_name = $data->file('presentation_file')->getClientOriginalName();
+            $data->file('presentation_file')->move(public_path().'/fsm_all_web_file/fsm_presentation',$file_name);
+        }
+
+        $make_array = array('p_title'=>$p_title, 'p_description'=>$p_description,'presentation_file'=>$file_name);
+        DB::table('presentation_lists')->insert($make_array);
+        return view('admin.admin_panel.presentation_upload')->with("p_msg","Ok successfully uploaded your presentation");
+        
+    }
+    public function give_sample_report()
+    {
+        return view('admin.admin_panel.give_sample_report');
+    }
 
 
 

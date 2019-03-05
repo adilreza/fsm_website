@@ -122,8 +122,16 @@
                       
                 </ul>
               </li>
+              
 
             <li><a href="{{URL::to('/library')}}">Library</a></li>
+            <li><a href="#">User<i class="fa fa-angle-down"></i></a>
+              <ul class="dropdown_menu">
+                  <li><a href="{{URL::to('/user/register')}}">Registration</a></li>
+                  <li><a href="{{URL::to('/user/login')}}">login</a></li>
+                    
+              </ul>
+            </li>
 
 
 

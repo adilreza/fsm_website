@@ -18,7 +18,7 @@
                 </div>
                 <div class="mr-5"><h3>Presentation</h3></div>
               </div>
-              <a class="card-footer text-white clearfix small z-1" href="#">
+            <a class="card-footer text-white clearfix small z-1" href="{{URL::to('/fsm_client/presentation_list')}}">
                 <span class="float-left">presentation details</span>
                 <span class="float-right">
                   <i class="fas fa-angle-right"></i>

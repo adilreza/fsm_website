@@ -22,6 +22,9 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/delete_article/{article_id}', 'admin_controller@delete_article')->middleware('admin_permission');
     Route::get('/publish_the_post/{article_id}', 'admin_controller@publish_the_post')->middleware('admin_permission');
     Route::get('/admin_presentation_upload','admin_controller@admin_presentation_upload')->middleware('admin_permission');
+    Route::post('/admin_presentation_upload','admin_controller@admin_presentation_upload_req')->middleware('admin_permission');
+    Route::get('/give_sample_report','admin_controller@give_sample_report')->middleware('admin_permission');
+   
 
     Route::get('/logout', 'admin_controller@admin_logout')->middleware('admin_permission');
     Route::get('/import_page', 'mailblastController@import_page')->middleware('admin_permission');
@@ -42,12 +45,15 @@ Route::group(['prefix'=>'user'], function(){
     Route::get('/register','user_controller@register');
     Route::post('/register', 'user_controller@register_request');
     Route::get('/logout','user_controller@logout');
+    
 });
 
 //end of user secion
 Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function(){
     Route::get('/dashboard','user_controller@user_dashboard');
     Route::get('/drf_form','user_controller@drf_form');
+    Route::get('/presentation_list','user_controller@presentation_list');
+    Route::get('/fsm_presentation_details/{selected_id}','user_controller@fsm_presentation_details');
 });
 
 

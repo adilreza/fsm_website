@@ -130,6 +130,8 @@
   
             @yield('dashboard')
             @yield('drf_form')
+            @yield('fsm_all_presentation')
+            @yield('fsm_presentation_details')
 
 
 
@@ -193,6 +195,7 @@
   <!-- Demo scripts for this page-->
   <script src="{{URL::asset('fsm_user/js/demo/datatables-demo.js')}}"></script>
   <script src="{{URL::asset('fsm_user/js/demo/chart-area-demo.js')}}"></script>
+  
 
 </body>
 
