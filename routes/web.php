@@ -54,6 +54,7 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
     Route::get('/drf_form','user_controller@drf_form');
     Route::get('/presentation_list','user_controller@presentation_list');
     Route::get('/fsm_presentation_details/{selected_id}','user_controller@fsm_presentation_details');
+    Route::post('/drf_submit', 'user_controller@drf_submit');
 });
 
 

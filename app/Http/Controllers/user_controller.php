@@ -81,6 +81,24 @@ class user_controller extends Controller
         return view('user.user_panel.presentation_details')->with(['result_presentation'=>$presentation]);
     }
 
+    public function drf_submit(Request $data)
+    {
+        $drf_data = $data->data;
+        $drf_from = session('user_name');
+        $cnt = DB::table('drf_tables')->where('drf_from',$drf_from)->where('drf_data',$drf_data)->count();
+        if($cnt==0)
+        {
+        $make_array = array('drf_from'=>$drf_from, 'drf_to'=>'admin', 'drf_data'=>$drf_data, 'drf_user_mark'=>'green');
+         DB::table('drf_tables')->insert($make_array);
+         //return view('index');
+         echo "success";
+        }
+        else
+        {
+            echo 'exist';
+        }
+    }
+
 
 
 

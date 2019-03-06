@@ -15,7 +15,9 @@
                                 {{ csrf_field() }}
                                     <div class="form-group">
                                         <label for="title">Select The User </label>
-                                        <input type="text" required class="form-control" id="title" name="p_title">
+                                        <select type="text" required class="form-control" id="title" name="p_title">
+                                            <option value="{{}}" ></option>
+                                        </select>
                                     </div>
                                         <div class="form-group">
                                                 <label for="file">Sample Report file( <i>pptx/pdf/docx</i> )</label>
