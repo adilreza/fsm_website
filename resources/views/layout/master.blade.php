@@ -135,7 +135,7 @@
             </li>
             @endif
             @if(!empty(session('user_name')))
-              <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}"><i style="font-size:20px; background:green;padding:5px;border-radius:7px;" class="fas fa-user-tie"></i></a></li>
+              <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}">my account</a></li>
             @endif  
 
 
