@@ -29,15 +29,6 @@
 
 @section('library_page')
 
-<div class="breadcrumb-wrapper">
-        <div class="container">
-          <h1>Library</h1>
-          <ul class="page-breadcrumb">
-          <li><a href="{{URL::to('/')}}">Home</a></li>
-            <li>library</li>
-          </ul>
-        </div>
-</div>
 
 
 <div class="inner-page-wrapper pricing-wrapper text-center" style="background:#f1f2f6;">
@@ -71,7 +62,7 @@
                             </div>
                             
                             <div class="col-md-4 col-sm-4">
-                                            <form action="/action_page.php">
+                                            <form action="#">
                                             <input class="form-control btn-lg" type="text" placeholder="Search.." name="search">
                                             </form>
                             </div>

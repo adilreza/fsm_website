@@ -125,6 +125,7 @@
               
 
             <li><a href="{{URL::to('/library')}}">Library</a></li>
+            @if(empty(session('user_name')))
             <li><a href="#">User<i class="fa fa-angle-down"></i></a>
               <ul class="dropdown_menu">
                   <li><a href="{{URL::to('/user/register')}}">Registration</a></li>
@@ -132,6 +133,10 @@
                     
               </ul>
             </li>
+            @endif
+            @if(!empty(session('user_name')))
+              <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}"><i style="font-size:20px; background:green;padding:5px;border-radius:7px;" class="fas fa-user-tie"></i></a></li>
+            @endif  
 
 
 

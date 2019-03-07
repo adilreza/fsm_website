@@ -196,7 +196,7 @@ class admin_controller extends Controller
             $user_compnay[$client->user_name]=$client->company;
         }
 
-        $all_unseen_drf=DB::table('drf_tables')->where('drf_status','unseen')->get();
+        $all_unseen_drf=DB::table('drf_tables')->where('drf_user_mark','green')->get();
         return view('admin.admin_panel.index')->with(['all_unseen_drf'=>$all_unseen_drf,'all_client'=>$user_compnay]);
 
     }
@@ -204,7 +204,34 @@ class admin_controller extends Controller
     public function drf_details_request($drf_id)
     {
         $drf_details = DB::table('drf_tables')->where('id',$drf_id)->get();
+        DB::table('drf_tables')->where('id',$drf_id)->update(['drf_status'=>"seen"]);
         return view('admin.admin_panel.drf_details')->with(['drf_details'=>$drf_details]);
+    }
+    public function drf_hiding_request($drf_id)
+    {
+       DB::table('drf_tables')->where('id',$drf_id)->update(['drf_user_mark'=>'red']);
+
+        return back();
+    }
+    public function send_sample_replay_drf($user_name)
+    {
+        return view('admin.admin_panel.give_sample_report')->with('user_name', $user_name);
+    }
+    public function send_sample_report(request $data)
+    {
+        $sample_report_from ="fsm_admin";
+        $sample_report_to = $data->to_sample;
+        $sampl_report_file_name ="";
+        if($data->hasfile('sample_report_file'))
+        {
+            $sampl_report_file_name = $data->file('sample_report_file')->getClientOriginalName();
+            
+            $data->file('sample_report_file')->move(public_path().'/fsm_all_web_file/sample_report',$sampl_report_file_name);
+
+        }
+        $make_array =array(['sampl_report_from'=>$sample_report_from,'sampl_report_to'=>$sample_report_to,'sample_report_name'=>$sampl_report_file_name]);
+        DB::table('sampl_report_tables')->insert($make_array);
+        return view('admin.admin_panel.give_sample_report')->with('success_message','Your sample Report has already sent to the user <span style="color:red">"'.$sample_report_to.'"</span> ');
     }
 
 
