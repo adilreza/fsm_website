@@ -24,6 +24,8 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/admin_presentation_upload','admin_controller@admin_presentation_upload')->middleware('admin_permission');
     Route::post('/admin_presentation_upload','admin_controller@admin_presentation_upload_req')->middleware('admin_permission');
     Route::get('/give_sample_report','admin_controller@give_sample_report')->middleware('admin_permission');
+    Route::get('/home/drf','admin_controller@admin_drf_request')->middleware('admin_permission');
+    Route::get('/home/drf/{drf_id}','admin_controller@drf_details_request');
    
 
     Route::get('/logout', 'admin_controller@admin_logout')->middleware('admin_permission');

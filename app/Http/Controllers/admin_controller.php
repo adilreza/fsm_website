@@ -187,6 +187,25 @@ class admin_controller extends Controller
     {
         return view('admin.admin_panel.give_sample_report');
     }
+    public function admin_drf_request()
+    {
+        $user_compnay=array();
+        $all_client = DB::table('user_registrations')->get();
+        foreach($all_client as $client)
+        {
+            $user_compnay[$client->user_name]=$client->company;
+        }
+
+        $all_unseen_drf=DB::table('drf_tables')->where('drf_status','unseen')->get();
+        return view('admin.admin_panel.index')->with(['all_unseen_drf'=>$all_unseen_drf,'all_client'=>$user_compnay]);
+
+    }
+
+    public function drf_details_request($drf_id)
+    {
+        $drf_details = DB::table('drf_tables')->where('id',$drf_id)->get();
+        return view('admin.admin_panel.drf_details')->with(['drf_details'=>$drf_details]);
+    }
 
 
 

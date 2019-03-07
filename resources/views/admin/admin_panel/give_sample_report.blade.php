@@ -16,7 +16,7 @@
                                     <div class="form-group">
                                         <label for="title">Select The User </label>
                                         <select type="text" required class="form-control" id="title" name="p_title">
-                                            <option value="{{}}" ></option>
+                                           
                                         </select>
                                     </div>
                                         <div class="form-group">

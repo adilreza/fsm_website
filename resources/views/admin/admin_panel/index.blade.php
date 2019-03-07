@@ -197,53 +197,38 @@
                 <div class="row">
                     <!-- column -->
                     <div class="col-lg-6">
-                        <div class="card">
+                        <div class="card" style="height:520px;">
                             <div class="card-body">
-                                <h4 class="card-title">Latest Posts</h4>
+                            <h4 class="card-title">DRF Request From FSM Client <a href="{{URL::to('/admin/home/drf')}}"><span class="float-right"><i style="color:green;cursor:pointer;hover:orange;" class="fas fa-th"></i></span></a></h4>
+                                
+                                <hr>
                             </div>
                             <div class="comment-widgets scrollable">
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row m-t-0">
-                                <div class="p-2"><img src="{{URL::asset('fsm_admin/assets/images/users/1.jpg')}}" alt="user" width="50" class="rounded-circle"></div>
-                                    <div class="comment-text w-100">
-                                        <h6 class="font-medium">James Anderson</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">April 14, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                
+                               @if(!empty($all_unseen_drf))
+                                    @foreach ($all_unseen_drf as $unseen_drf)
+                                        
+                                    
+                                
+                                        <div class="d-flex flex-row comment-row m-t-0">
+                                        <div class="p-2"><img src="{{URL::asset('fsm_admin/assets/images/users/1.jpg')}}" alt="user" width="50" class="rounded-circle"></div>
+                                            <div class="comment-text w-100">
+                                            <h6 class="font-medium">{{$unseen_drf->drf_from}}</h6>
+                                            <p class="m-b-15 d-block"><span><i>{{$unseen_drf->drf_from}}</i> from the company  "<b> {{$all_client[$unseen_drf->drf_from]}} </b>" sent a DRF to frontier Semiconductor  </span></p>
+                                                <div class="comment-footer">
+                                                    <span class="text-muted float-right">April 14, 2016</span> 
+                                                <a href="{{URL::to('/admin/home/drf/'.$unseen_drf->id)}}"><button type="button" class="btn btn-cyan btn-sm">view details</button></a>
+                                                    <button type="button" class="btn btn-success btn-sm">mark seen</button>
+                                                    <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row">
-                                    <div class="p-2"><img src="{{URL::asset('fsm_admin/assets/images/users/4.jpg')}}" alt="user" width="50" class="rounded-circle"></div>
-                                    <div class="comment-text active w-100">
-                                        <h6 class="font-medium">Michael Jorden</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">May 10, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Comment Row -->
-                                <div class="d-flex flex-row comment-row">
-                                    <div class="p-2"><img src="{{URL::asset('fsm_admin/assets/images/users/5.jpg')}}" alt="user" width="50" class="rounded-circle"></div>
-                                    <div class="comment-text w-100">
-                                        <h6 class="font-medium">Johnathan Doeting</h6>
-                                        <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
-                                        <div class="comment-footer">
-                                            <span class="text-muted float-right">August 1, 2016</span> 
-                                            <button type="button" class="btn btn-cyan btn-sm">Edit</button>
-                                            <button type="button" class="btn btn-success btn-sm">Publish</button>
-                                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
-                                        </div>
-                                    </div>
-                                </div>
+
+                                    @endforeach
+
+                                @endif
+                               
+                              
                             </div>
                         </div>
                         <!-- Card -->
