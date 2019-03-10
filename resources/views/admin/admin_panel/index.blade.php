@@ -119,7 +119,7 @@
                 <!-- ============================================================== -->
                 <!-- Sales chart -->
                 <!-- ============================================================== -->
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-body">
@@ -187,13 +187,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- ============================================================== -->
                 <!-- Sales chart -->
                 <!-- ============================================================== -->
                 <!-- ============================================================== -->
                 <!-- Recent comment and chats -->
                 <!-- ============================================================== -->
+                @if(!empty($delete))
+                    <h3 style="color:red">{{$delete}}</h3>
+                @endif
                 <div class="row">
                     <!-- column -->
                     <div class="col-lg-6">
@@ -220,7 +223,7 @@
                                                 <a href="{{URL::to('/admin/home/drf/'.$unseen_drf->id)}}"><button type="button" class="btn btn-cyan btn-sm">view details</button></a>
                                                 <button type="button" class="btn btn-success btn-sm">{{$unseen_drf->drf_status}}</button>
                                                 <a href="{{URL::to('/admin/home/drf/hide/'.$unseen_drf->id)}}"><button type="button" class="btn btn-warning btn-sm">Hide This</button></a>
-                                                <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                                                <a href="{{URL::to('/admin/home/drf/delete/'.$unseen_drf->id)}}"><button type="button" class="btn btn-danger btn-sm">Delete</button></a>
                                                 </div>
                                             </div>
                                         </div>

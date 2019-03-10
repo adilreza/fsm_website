@@ -27,6 +27,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/home/drf','admin_controller@admin_drf_request')->middleware('admin_permission');
     Route::get('/home/drf/{drf_id}','admin_controller@drf_details_request')->middleware('admin_permission');
     Route::get('/home/drf/hide/{drf_id}','admin_controller@drf_hiding_request')->middleware('admin_permission');
+    Route::get('/home/drf/delete/{drf_id}','admin_controller@delete_drf')->middleware('admin_permission');
     Route::get('/home/send_sample/{user_name}','admin_controller@send_sample_replay_drf')->middleware('admin_permission');
     Route::post('/home/send_sample','admin_controller@send_sample_report')->middleware('admin_permission');
     
@@ -37,6 +38,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::post('/insert_email','mailblastController@insert_email')->middleware('admin_permission');
     Route::get('/library_text_editor','admin_controller@library_text_editor')->middleware('admin_permission');
     Route::post('/library_text_editor','admin_controller@library_text_editor_post')->middleware('admin_permission');
+    Route::get('/drf_test','admin_controller@drf_test');
     
 });
 

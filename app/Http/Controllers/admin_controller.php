@@ -7,6 +7,51 @@ use Illuminate\Support\Facades\DB;
 
 class admin_controller extends Controller
 {
+
+    public function serialize_to_array($s_data)
+	{
+		$make_array = array();
+
+		$len = strlen($s_data);
+		$index_string="";
+		$data_string ="";
+		for($i=0;$i<$len;$i++)
+		{
+			if($s_data[$i]=="=")
+			{
+
+				for($j=$i+1;$j<$len;$j++)
+				{
+					if($s_data[$j]=="&"){
+						break;
+					}
+					else{
+						$data_string=$data_string.$s_data[$j];
+					}
+
+				}
+				$make_array[$index_string]=$data_string;
+				$index_string="";
+				$data_string ="";
+				$i=$j;
+				
+			}
+			else
+			{
+				$index_string=$index_string.$s_data[$i];
+				
+			}
+		}
+
+		return $make_array;
+	}
+
+
+
+
+
+
+
     public function admin_login()
     {
         return view('admin.admin_login');
@@ -204,8 +249,14 @@ class admin_controller extends Controller
     public function drf_details_request($drf_id)
     {
         $drf_details = DB::table('drf_tables')->where('id',$drf_id)->get();
+        foreach($drf_details as $d)
+            $final=$d->drf_data;
+        $data = $final;
+        $data=$data."&";
         DB::table('drf_tables')->where('id',$drf_id)->update(['drf_status'=>"seen"]);
-        return view('admin.admin_panel.drf_details')->with(['drf_details'=>$drf_details]);
+        $drf_detailss =$this->serialize_to_array($data);
+
+        return view('user.user_panel.drf_form')->with(['data'=>$drf_detailss]);
     }
     public function drf_hiding_request($drf_id)
     {
@@ -232,6 +283,25 @@ class admin_controller extends Controller
         $make_array =array(['sampl_report_from'=>$sample_report_from,'sampl_report_to'=>$sample_report_to,'sample_report_name'=>$sampl_report_file_name]);
         DB::table('sampl_report_tables')->insert($make_array);
         return view('admin.admin_panel.give_sample_report')->with('success_message','Your sample Report has already sent to the user <span style="color:red">"'.$sample_report_to.'"</span> ');
+    }
+    public function delete_drf($drf_id)
+    {
+        DB::table('drf_tables')->where('id', $drf_id)->delete();
+        return back();
+    }
+
+    
+    public function drf_test()
+    {
+        $data = DB::table('drf_tables')->where('id',8)->get();
+        $final="";
+        foreach($data as $d)
+            $final=$d->drf_data;
+        $data = $final;
+        $data=$data."&";
+        $get_array=$this->serialize_to_array($data);
+
+        return view('user.user_panel.drf_form')->with(['data'=>$get_array]);
     }
 
 
