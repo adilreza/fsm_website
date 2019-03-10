@@ -133,6 +133,8 @@
             @yield('drf_form')
             @yield('fsm_all_presentation')
             @yield('fsm_presentation_details')
+            @yield('sample_report_list')
+            @yield('download_sample_report')
 
 
 

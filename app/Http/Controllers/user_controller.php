@@ -99,6 +99,20 @@ class user_controller extends Controller
         }
     }
 
+    public function sample_report_list()
+    {
+        $sample_report = DB::table('sampl_report_tables')->where('sampl_report_to',session('user_name'))->get();
+        return view('user.user_panel.sample_report_list')->with(['sample_reports'=>$sample_report]);
+
+    }
+    public function download_sample_form($report_id)
+    {
+        DB::table('sampl_report_tables')->where('id', $report_id)->update(['seen_by_client'=>'seen']);
+        $sample_report = DB::table('sampl_report_tables')->where('id', $report_id)->orderBy('id','DESC')->get();
+        return view('user.user_panel.download_sample_report')->with(['sample_report'=>$sample_report]);
+
+    }
+
 
 
 
