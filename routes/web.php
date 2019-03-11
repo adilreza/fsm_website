@@ -30,6 +30,9 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/home/drf/delete/{drf_id}','admin_controller@delete_drf')->middleware('admin_permission');
     Route::get('/home/send_sample/{user_name}','admin_controller@send_sample_replay_drf')->middleware('admin_permission');
     Route::post('/home/send_sample','admin_controller@send_sample_report')->middleware('admin_permission');
+    Route::get('/rfq_from_client','admin_controller@rfq_from_client')->middleware('admin_permission');
+    Route::get('/download/rfq_file/{rfq_id}','admin_controller@rfq_download')->middleware('admin_permission');
+    
     
    
 
@@ -53,6 +56,7 @@ Route::group(['prefix'=>'user'], function(){
     Route::get('/register','user_controller@register');
     Route::post('/register', 'user_controller@register_request');
     Route::get('/logout','user_controller@logout');
+    route::get('/dynamic_blank','user_controller@dynamic_blank');
     
 });
 
@@ -65,6 +69,8 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
     Route::post('/drf_submit', 'user_controller@drf_submit');
     Route::get('/sample_report_list','user_controller@sample_report_list');
     Route::get('/sample_report/download/{report_id}', 'user_controller@download_sample_form');
+    Route::get('/rfq_page','user_controller@rfq_page');
+    Route::post('/rfq_page','user_controller@rfq_page_insert');
 });
 
 

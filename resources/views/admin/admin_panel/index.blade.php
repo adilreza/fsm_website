@@ -42,12 +42,14 @@
                     </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">
-                        <div class="card card-hover">
-                            <div class="box bg-danger text-center">
-                                <h1 class="font-light text-white"><i class="mdi mdi-border-outside"></i></h1>
-                                <h6 class="text-white">Tables</h6>
-                            </div>
-                        </div>
+                        <a href="{{URL::to('/admin/rfq_from_client')}}">
+                                <div class="card card-hover">
+                                    <div class="box bg-danger text-center">
+                                        <h1 class="font-light text-white"><i class="mdi mdi-border-outside"></i></h1>
+                                        <h6 class="text-white">RFQ From Clients</h6>
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">

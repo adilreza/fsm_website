@@ -34,7 +34,7 @@
 
 
     <div id="content-wrapper">
-        @if(!empty($data['number_of_sample'])){{$data['number_of_sample']}}@endif
+       
 
         <div class="container-fluid">
             

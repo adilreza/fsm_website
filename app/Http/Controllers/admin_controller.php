@@ -304,6 +304,25 @@ class admin_controller extends Controller
         return view('user.user_panel.drf_form')->with(['data'=>$get_array]);
     }
 
+    public function rfq_from_client()
+    {
+        $user_compnay=array();
+        $all_client = DB::table('user_registrations')->get();
+        foreach($all_client as $client)
+        {
+            $user_compnay[$client->user_name]=$client->company;
+        }
+
+        $all_unseen_rfq=DB::table('rfq_tables')->where('rfq_seen_unseen','unseen')->orderBy('id','DESC')->get();
+
+        return view('admin.admin_panel.rfq_from_client')->with(['all_unseen_rfq'=>$all_unseen_rfq,'all_client'=>$user_compnay]);
+    }
+    public function rfq_download($rfq_id)
+    {
+        return back();
+
+    }
+
 
 
 }

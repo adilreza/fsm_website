@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Redirect;
 
 class user_controller extends Controller
 {
@@ -112,7 +113,47 @@ class user_controller extends Controller
         return view('user.user_panel.download_sample_report')->with(['sample_report'=>$sample_report]);
 
     }
+    public function rfq_page()
+    {
+        return view('user.user_panel.rfq_page');
+    }
+    
+    public function rfq_page_insert(request $data)
+    {
+        $file_name="";
+        $rfq_from =session('user_name');
+        $rfq_to = "admin";
+        $rfq_comment = $data->rfq_description;
+        if($rfq_comment!=""){
+            $rfq_comment = $data->rfq_description;
+        }
+        else
+        {
+            $rfq_comment="No comment";
+        }
+        if($data->hasfile('rfq_file'))
+        {
+            $file_name =$data->file('rfq_file')->getClientOriginalName();
+            $data->file('rfq_file')->move(public_path().'/fsm_all_web_file/rfq_file',$file_name);
+        }
+        if($file_name==!"")
+        {
+            $make_array = array('rfq_from'=>$rfq_from, 'rfq_to'=>$rfq_to, 'optional_comment'=>$rfq_comment,'rfq_file_name'=>$file_name);
+            DB::table('rfq_tables')->insert($make_array);
+             return view('user.user_panel.rfq_page')->with('rfq_msg','success');
+            //return Redirect::back()->with('rfq_msg','success');
 
+        }
+        else{
+            return view('user.user_panel.rfq_page')->with('rfq_msg','failed');
+        }
+       
+    }
+
+    public function dynamic_blank()
+    {
+        return view('user.user_panel.dynamic_blank');
+    }
 
 
 

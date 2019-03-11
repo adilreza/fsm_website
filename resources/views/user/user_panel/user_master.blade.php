@@ -135,6 +135,7 @@
             @yield('fsm_presentation_details')
             @yield('sample_report_list')
             @yield('download_sample_report')
+            @yield('rfq_page')
 
 
 

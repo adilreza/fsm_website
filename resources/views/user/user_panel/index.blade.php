@@ -66,7 +66,7 @@
                 </div>
                 <div class="mr-5"><h3>RFQ</h3></div>
               </div>
-              <a class="card-footer text-white clearfix small z-1" href="#">
+            <a class="card-footer text-white clearfix small z-1" href="{{URL::to('/fsm_client/rfq_page')}}">
                 <span class="float-left">View Details</span>
                 <span class="float-right">
                   <i class="fas fa-angle-right"></i>

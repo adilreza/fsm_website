@@ -314,6 +314,7 @@
             @yield('admin_presentation_upload')
             @yield('give_sample_report')
             @yield('drf_details_page')
+            @yield('rfq_from_client')
 
 
 
