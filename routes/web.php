@@ -32,6 +32,8 @@ Route::group(['prefix'=>'admin'], function(){
     Route::post('/home/send_sample','admin_controller@send_sample_report')->middleware('admin_permission');
     Route::get('/rfq_from_client','admin_controller@rfq_from_client')->middleware('admin_permission');
     Route::get('/download/rfq_file/{rfq_id}','admin_controller@rfq_download')->middleware('admin_permission');
+    Route::get('/rfq_replay_admin/{user_name}', 'admin_controller@rfq_replay_admin')->middleware('admin_permission');
+    Route::post('/rfq_replay_admin_client', 'admin_controller@rfq_replay_admin_client')->middleware('admin_permission');
     
     
    
@@ -71,6 +73,7 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
     Route::get('/sample_report/download/{report_id}', 'user_controller@download_sample_form');
     Route::get('/rfq_page','user_controller@rfq_page');
     Route::post('/rfq_page','user_controller@rfq_page_insert');
+    Route::get('/rfq_page/history','user_controller@show_user_rfq_history');
 });
 
 

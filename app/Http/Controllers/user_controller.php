@@ -155,6 +155,13 @@ class user_controller extends Controller
         return view('user.user_panel.dynamic_blank');
     }
 
+    public function show_user_rfq_history()
+    {
+        $user = session('user_name');
+        $all_history = DB::table('rfq_tables')->where('rfq_from',$user)->orderBy('id','DESC')->orWhere('rfq_to',$user)->get();
+        return view('user.user_panel.rfq_page')->with('history',$all_history);
+    }
+
 
 
 

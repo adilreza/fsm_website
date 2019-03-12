@@ -323,6 +323,27 @@ class admin_controller extends Controller
 
     }
 
+    public function rfq_replay_admin($user_name)
+    {
+        return view('admin.admin_panel.rfq_replay_admin')->with('user_name',$user_name);
+
+    }
+    public function rfq_replay_admin_client(Request $data)
+    {
+        $rfq_from ="admin";
+        $rfq_to = $data->to_sample;
+        $rfq_file_name = "";
+        $optoional = "No comment";
+        if($data->hasfile('rfq_report_file'))
+        {
+            $rfq_file_name = $data->file('rfq_report_file')->getClientOriginalName();
+            $data->file('rfq_report_file')->move(public_path().'/fsm_all_web_file/rfq_file',$rfq_file_name);
+            $make_array = array(['optional_comment'=>$optoional,'rfq_from'=>$rfq_from,'rfq_to'=>$rfq_to,'rfq_file_name'=>$rfq_file_name]);
+            DB::table('rfq_tables')->insert($make_array);
+        }
+        return view('admin.admin_panel.rfq_replay_admin')->with('success_message','Ok done you message sent');
+    }
+
 
 
 }
