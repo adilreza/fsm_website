@@ -115,7 +115,9 @@ class user_controller extends Controller
     }
     public function rfq_page()
     {
-        return view('user.user_panel.rfq_page');
+        $user = session('user_name');
+        $all_history = DB::table('global_crms')->where('msg_from',$user)->orderBy('id','DESC')->orWhere('msg_to',$user)->get();
+        return view('user.user_panel.rfq_page')->with('history',$all_history);
     }
     
     public function rfq_page_insert(request $data)
@@ -123,6 +125,7 @@ class user_controller extends Controller
         $file_name="";
         $rfq_from =session('user_name');
         $rfq_to = "admin";
+        $file_type = $data->file_type;
         $rfq_comment = $data->rfq_description;
         if($rfq_comment!=""){
             $rfq_comment = $data->rfq_description;
@@ -138,8 +141,8 @@ class user_controller extends Controller
         }
         if($file_name==!"")
         {
-            $make_array = array('rfq_from'=>$rfq_from, 'rfq_to'=>$rfq_to, 'optional_comment'=>$rfq_comment,'rfq_file_name'=>$file_name);
-            DB::table('rfq_tables')->insert($make_array);
+            $make_array = array('msg_from'=>$rfq_from, 'msg_to'=>$rfq_to,'msg_seen_unseen'=>'unseen', 'msg_optional_comment'=>$rfq_comment,'msg_file'=>$file_name,'msg_file_type'=>$file_type);
+            DB::table('global_crms')->insert($make_array);
              return view('user.user_panel.rfq_page')->with('rfq_msg','success');
             //return Redirect::back()->with('rfq_msg','success');
 
@@ -158,7 +161,7 @@ class user_controller extends Controller
     public function show_user_rfq_history()
     {
         $user = session('user_name');
-        $all_history = DB::table('rfq_tables')->where('rfq_from',$user)->orderBy('id','DESC')->orWhere('rfq_to',$user)->get();
+        $all_history = DB::table('global_crms')->where('msg_from',$user)->orWhere('msg_to',$user)->orderBy('id','DESC')->get();
         return view('user.user_panel.rfq_page')->with('history',$all_history);
     }
 

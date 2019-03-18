@@ -307,15 +307,16 @@ class admin_controller extends Controller
     public function rfq_from_client()
     {
         $user_compnay=array();
-        $all_client = DB::table('user_registrations')->get();
+        $all_client = DB::table('user_registrations')->orderBy('id','DESC')->get();
+        $all_user = $all_client;
         foreach($all_client as $client)
         {
             $user_compnay[$client->user_name]=$client->company;
         }
 
-        $all_unseen_rfq=DB::table('rfq_tables')->where('rfq_seen_unseen','unseen')->orderBy('id','DESC')->get();
+        //$all_unseen_rfq=DB::table('rfq_tables')->where('rfq_seen_unseen','unseen')->orderBy('id','DESC')->get();
 
-        return view('admin.admin_panel.rfq_from_client')->with(['all_unseen_rfq'=>$all_unseen_rfq,'all_client'=>$user_compnay]);
+        return view('admin.admin_panel.rfq_from_client')->with(['all_client'=>$user_compnay,'all_user'=>$all_user]);
     }
     public function rfq_download($rfq_id)
     {
@@ -325,21 +326,31 @@ class admin_controller extends Controller
 
     public function rfq_replay_admin($user_name)
     {
-        return view('admin.admin_panel.rfq_replay_admin')->with('user_name',$user_name);
+        $all_history = DB::table('global_crms')->where('msg_from',$user_name)->orWhere('msg_to',$user_name)->orderBy('id','DESC')->get();
+        return view('admin.admin_panel.rfq_replay_admin')->with(['user_name'=>$user_name,'history'=>$all_history]);
 
     }
     public function rfq_replay_admin_client(Request $data)
     {
         $rfq_from ="admin";
         $rfq_to = $data->to_sample;
+        $file_type = $data->file_type;
+
         $rfq_file_name = "";
+        $comments = $data->admin_comment;
+        if($comments!="")
+        {
+        $optoional = $data->admin_comment;
+        }
+        else{
         $optoional = "No comment";
+        }
         if($data->hasfile('rfq_report_file'))
         {
             $rfq_file_name = $data->file('rfq_report_file')->getClientOriginalName();
             $data->file('rfq_report_file')->move(public_path().'/fsm_all_web_file/rfq_file',$rfq_file_name);
-            $make_array = array(['optional_comment'=>$optoional,'rfq_from'=>$rfq_from,'rfq_to'=>$rfq_to,'rfq_file_name'=>$rfq_file_name]);
-            DB::table('rfq_tables')->insert($make_array);
+            $make_array = array('msg_from'=>$rfq_from, 'msg_to'=>$rfq_to,'msg_seen_unseen'=>'unseen', 'msg_optional_comment'=>$optoional,'msg_file'=>$rfq_file_name,'msg_file_type'=>$file_type);
+            DB::table('global_crms')->insert($make_array);
         }
         return view('admin.admin_panel.rfq_replay_admin')->with('success_message','Ok done you message sent');
     }

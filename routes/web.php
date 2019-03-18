@@ -74,6 +74,7 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
     Route::get('/rfq_page','user_controller@rfq_page');
     Route::post('/rfq_page','user_controller@rfq_page_insert');
     Route::get('/rfq_page/history','user_controller@show_user_rfq_history');
+    //Route::get('/global_conversation','user_controller@global_conversation');
 });
 
 
