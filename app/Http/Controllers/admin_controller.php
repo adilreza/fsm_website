@@ -326,6 +326,7 @@ class admin_controller extends Controller
 
     public function rfq_replay_admin($user_name)
     {
+        session(['conversation_user'=>$user_name]);
         $all_history = DB::table('global_crms')->where('msg_from',$user_name)->orWhere('msg_to',$user_name)->orderBy('id','DESC')->get();
         return view('admin.admin_panel.rfq_replay_admin')->with(['user_name'=>$user_name,'history'=>$all_history]);
 

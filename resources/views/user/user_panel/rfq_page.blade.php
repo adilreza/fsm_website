@@ -17,7 +17,7 @@
             <script type="text/javascript">
               function autoRefreshPage()
               {
-                console.log("hello adil");
+                //console.log("hello adil");
                   window.location.replace("{{URL::to('/fsm_client/rfq_page')}}");
               }
               setTimeout("autoRefreshPage()", 2000);

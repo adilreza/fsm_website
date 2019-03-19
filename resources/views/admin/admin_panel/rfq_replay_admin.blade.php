@@ -1,6 +1,6 @@
 @extends('/admin/admin_panel/admin_master')
 
-@section('page_title', 'Replay replay message to client | Frontier Semiconductor')
+@section('page_title', 'Replay message to client | Frontier Semiconductor')
 
 @section('rfq_replay_admin')
             <div class="container-fluid">
@@ -12,14 +12,14 @@
                        
                     <div class="card border-primary" style="border-radius:10px;">
                             <div class="card-header bg-info ">
-                             <h4 style="color:white;">Replay a RFQ to <i style="color:#b3b3ff;">@if(!empty($user_name)) {{$user_name}} @endif</i></h4>
+                             <h4 style="color:white;">Replay a RFQ to <i style="color:#b3b3ff;">@if(!empty($user_name)) {{session('conversation_user')}} @endif</i></h4>
                             </div>
                                         <div class="card-body" style="background:#dfe4ea;">
                                                 <form action="{{URL::to('/admin/rfq_replay_admin_client')}}" method="post" enctype="multipart/form-data">
                                                         {{ csrf_field() }}
                                                         <div class="form-group">
                                                                 <label for="title">Selected User </label>
-                                                                <input type="text" required class="form-control" id="title" name="to_sample" @if(!empty($user_name)) value="{{$user_name}}" {{"readonly"}} @endif>
+                                                                <input type="text" required class="form-control" id="title" name="to_sample" @if(!empty($user_name)) value="{{$user_name}}"@endif>
                                                                 
                                                         </div>
                                                         <div class="form-group">
@@ -47,6 +47,13 @@
                                                                 @if(!empty($success_message))
                                                                         <h4 style="color:green;">{!! $success_message !!}</h4>
                                                                         <br>
+                                                                        <script>
+                                                                            function refresher()
+                                                                            {
+                                                                              
+                                                                            } 
+                                                                            setTimeout("refresher()",2000);
+                                                                        </script>
                                                                 @endif
                                                         <center>
                                                         <input class="btn btn-success btn-lg text-center" type="submit" value="Replay Rfq Now" />
@@ -65,7 +72,7 @@
 
 
                                 <div class="card card-register mx-auto mt-0" style="background:#f1f2f6;" >
-                                                <div class="card-header">Conversation History <a href="{{URL::asset('/fsm_client/rfq_page/history')}}"><i class="fas fa-sync-alt float-right" style="color:green;font-weight:bold;"></i></a></div>
+                                <div class="card-header">Conversation History <a href="{{URL::to('/admin/rfq_replay_admin/'.session('conversation_user'))}}"><i class="fas fa-sync-alt float-right" style="color:green;font-weight:bold;"></i></a></div>
                                                     <div class="card-body" style="height:550px;overflow:scroll;">
                                                       @if(!empty($history))
                                                         @foreach ($history as $data)
