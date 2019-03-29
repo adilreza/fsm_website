@@ -62,7 +62,7 @@
                                                         <br>
                                                         <div class="comment-footer">
                                                             <span class="text-muted float-right">{{$article->application_type}}</span> 
-                                                            <a href="{{URL::to('/article/article_details/'.$article->id)}}">
+                                                            <a href="{{URL::to('/article/article_details_admin/'.$article->id)}}">
                                                                 <button type="button" class="btn btn-success btn-sm">Preview</button>
                                                             </a>
                                                             <a href="{{URL::to('/admin/publish_the_post/'.$article->id)}}">

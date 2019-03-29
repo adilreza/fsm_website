@@ -190,6 +190,7 @@ class admin_controller extends Controller
     public function delete_article($delet_id)
     {
         DB::table('article_tables')->where('id', $delet_id)->delete();
+        DB::table('published_articles')->where('id', $delet_id)->delete();
         return back();
 
     }

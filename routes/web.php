@@ -81,6 +81,7 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
 //article section
 
 Route::get('/article/article_details/{article_id}','article_handler@article_details');
+Route::get('/article/article_details_admin/{article_id}','article_handler@article_details_admin');
 Route::post('/library', 'fsm_maincontroller@filter_by_application');
 Route::get('/article_page',function(){
    return view('article_details'); 

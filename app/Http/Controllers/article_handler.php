@@ -12,4 +12,10 @@ class article_handler extends Controller
         $single_article = DB::table('published_articles')->where('id',$article_id)->get();
         return view('article_details')->with('single_article',$single_article);
     }
+    public function article_details_admin($article_id)
+    {
+        $single_article = DB::table('article_tables')->where('id',$article_id)->get();
+        return view('article_details')->with('single_article',$single_article);
+
+    }
 }
