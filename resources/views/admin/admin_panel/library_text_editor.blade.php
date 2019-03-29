@@ -27,9 +27,10 @@
 
                                     {{-- which generate a html lin --}}
                                 <section>
-                                    <label for="post_title">Article Title</label>
+                                    <label for="post_title"><b>Article Title</b></label>
                                     <input id="post_title" name="post_title" type="text" class="required form-control">
                                     <br>
+                                    <label for="post_title"><b>Article Type</b></label>
                                     <select class="form-control" required name="application_type">
                                             <option value="Film Stress">Film Stress</option>
                                             <option value="Film Adhension">Film Adhension</option>
@@ -43,7 +44,7 @@
                                     <br>
                                     <div class=row>
                                         <div class="col-md-6">
-                                            <label for="display_image">Display_image</label>
+                                            <label for="display_image"><b>Display image</b></label>
                                             <input required onchange="readURL(this);" id="display_image" name="display_image" type="file" class="required  form-control">
                                         </div>
                                         <div class="col-md-6">
@@ -62,6 +63,7 @@
                         </form>
                     </div>
                 </div>
+            <button class="btn btn-danger"><a href="{{URL::to('/admin/article_send_to_client')}}" style="color:white;">Check previous article</a></button>
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
                 <!-- ============================================================== -->
