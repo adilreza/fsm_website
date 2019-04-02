@@ -231,6 +231,11 @@ class fsm_maincontroller extends Controller
         }
     }
 
+    public function newsletter1()
+    {
+        return view('admin.newsletter.fsm_newsletter');
+    }
+
 
 
 }

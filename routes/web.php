@@ -183,3 +183,7 @@ Route::post('/fsm_admin/admin_report',"admin_controller@admin_report_request");
 Route::get('/testroute','sendgrid_bulkemail@testfun');
 
 
+
+Route::get('/newsletter/newsletter1','fsm_maincontroller@newsletter1');
+
+

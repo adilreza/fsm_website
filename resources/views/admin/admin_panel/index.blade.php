@@ -109,12 +109,14 @@
                     </div>
                     <!-- Column -->
                     <div class="col-md-6 col-lg-2 col-xlg-3">
+                        <a href="{{URL::to('/newsletter/newsletter1')}}">
                         <div class="card card-hover">
                             <div class="box bg-warning text-center">
                                 <h1 class="font-light text-white"><i class="mdi mdi-alert"></i></h1>
-                                <h6 class="text-white">Errors</h6>
+                                <h6 class="text-white">Newsletter</h6>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <!-- Column -->
                 </div>
