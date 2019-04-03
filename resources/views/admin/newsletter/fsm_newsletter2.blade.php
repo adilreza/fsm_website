@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Newsletter | Frontier semiconductor </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  
+<div class="container" style="width:60%;margin-top:20px;">
+    <div style="width:100%; margin:auto;">
+            <div class="row" style="">
+                <div class="col-md-9">
+                    <!--
+                    -->
+                    <h3>Newsletter from Frontier Semiconductor</h3>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="http://webtest.fsmtranscriber.com/fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png" style="height: 50px; margin-top: -10px">
+                </div>
+
+            <div style="background:black; width:100%" class="text-center mt-3">
+                <h4 class="text-center" style="color:white;text-weight:bold;">The Newest Solutions, Resources and Offers from FSM</h4>
+                
+            </div>
+
+            </div>
+            
+
+
+    
+        <div class="row mt-3" style="background:#E8EBEE;border:1px solid #cccccc;" >
+            <div class="col-md-5 text-center">
+                <a href="http://www.frontiersemi.com/center/products.php"><img src="http://img.egetinnz.com/aeto/1487250184527fNTwEZEafB.PNG" style="height:230px; width:200px;" class="img-responsive"></a>
+            </div>
+            
+                <div class="col-md-7" style="margin-top:10px;">
+                    <h5 class="name">
+                        <a href="http://www.frontiersemi.com/center/products.php">
+                            128NT,128L,128G
+                        </a>
+                    </h5>
+                    
+                        <a href="http://www.frontiersemi.com/center/Products.php?category=128+Series&type=3">
+                            <span style="color:#99c2ff;">128 Series</span>
+                        </a>
+                        <br>
+                        <hr>
+                    <p>
+                        Film Stress and Wafer bow measurement for wafers up to 200 nm, 300nm or 450nm diameter
+                        at room temperature. 2D/3D stress mapping standard. Semi-automatic system with convenient
+                        wafer loading and retrieval.
+                    </p>
+                    <p>
+                        <a href="http://www.frontiersemi.com/center/products.php" class="btn btn-warning">MORE DETAILS (Product)</a>
+                        <!--<button class="btn btn-warning">MORE DETAILS (Product)</button>-->
+                    </p>
+
+                </div>
+        </div>
+
+
+         <div class="row" style="background:white;border-right:1px solid #cccccc;border-left:1px solid #cccccc;border-bottom:1px solid #cccccc;" >
+            <div class="col-md-5 text-center">
+                <a href="http://www.frontiersemi.com/center/Products.php?productid=9">
+                <img src="http://img.egetinnz.com/aeto/1487246695323WitMkXQKXw.png" style="height:230px; width:200px;" class="img-responsive">
+                </a>
+            </div>
+            
+                <div class="col-md-7" style="margin-top:10px;">
+                    <h5 class="name">
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=9">
+                            500TC
+                        </a>
+                    </h5>
+                    
+                        <a href="http://www.frontiersemi.com/center/Products.php?category=500+Series&type=3">
+                            <span style="color:#99c2ff;">500 Series</span>
+                        </a>
+                        <br>
+                        <hr>
+                    <p>
+                        Film Stress and Wafer bow hypothesis measurement for thermal property
+                        and stability tests of thin films in inert gas up to 500 degree celsius.<br>
+                        Manual Loading system.
+                    </p>
+                    <p>
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=9" class="btn btn-warning">MORE DETAILS (Product)</a>
+                    </p>
+
+                </div>
+        </div>
+
+
+         <div class="row" style="background:#E8EBEE;border-right:1px solid #cccccc;border-left:1px solid #cccccc;border-bottom:1px solid #cccccc;" >
+            <div class="col-md-5 text-center">
+                <a href="http://www.frontiersemi.com/center/Products.php?productid=6">
+                <img src="http://img.egetinnz.com/aeto/1487247665020imaPXffaAN.png" style="height:230px; width:200px;" class="img-responsive">
+                </a>
+            </div>
+            
+                <div class="col-md-7" style="margin-top:10px;">
+                    <h5 class="name">
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=6">
+                            900TC-VAC
+                        </a>
+                    </h5>
+                    
+                        <a href="http://www.frontiersemi.com/center/Products.php?category=900+Series&type=3">
+                            <span style="color:#99c2ff;">900 Series</span>
+                        </a>
+                        <br>
+                        <hr>
+                    <p>
+                        Integrated metrology chamber for film Stress and wafer bow hypothesis, outgassing(TDS), film thickness
+                        , and more in vacuum up to 900 degree celsius.<br>
+                        Manual Loading system.
+                    </p>
+                    <p>
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=6" class="btn btn-warning">MORE DETAILS (Product)</a>
+                    </p>
+
+                </div>
+        </div>
+
+
+        <div class="row" style="background:white;border-right:1px solid #cccccc;border-left:1px solid #cccccc;border-bottom:1px solid #cccccc;" >
+            <div class="col-md-5 text-center">
+                <a href="http://www.frontiersemi.com/center/Products.php?productid=3">
+                <img src="http://img.egetinnz.com/aeto/1487184378905jbthXTYGMr.png" style="height:230px; width:200px;" class="img-responsive">
+                </a>
+            </div>
+            
+                <div class="col-md-7" style="margin-top:10px;">
+                    <h5 class="name">
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=3">
+                            900C2C
+                        </a>
+                    </h5>
+                    
+                        <a href="http://www.frontiersemi.com/center/Products.php?category=900+Series&type=3">
+                            <span style="color:#99c2ff;">900 Series</span>
+                        </a>
+                        <br>
+                        <hr>
+                    <p>
+                        Integrated metrology chamber for film Stress and wafer bow hypothesis, outgassing(TDS), film thickness
+                        , and more in vacuum up to 900 degree celsius.<br>
+                        Fully automated cassette to cassette system.
+                    </p>
+                    <p>
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=3" class="btn btn-warning">MORE DETAILS (Product)</a>
+                    </p>
+
+                </div>
+        </div>
+
+
+        <div class="row" style="background:#E8EBEE;border-right:1px solid #cccccc;border-left:1px solid #cccccc;border-bottom:1px solid #cccccc;" >
+            <div class="col-md-5 text-center">
+                <a href="http://www.frontiersemi.com/center/Products.php?productid=52">
+                <img src="http://img.egetinnz.com/aeto/15506087459278HWCBYtW6Z.jpg" style="height:230px; width:200px;" class="img-responsive">
+                </a>
+            </div>
+            
+                <div class="col-md-7" style="margin-top:10px;">
+                    <h5 class="name">
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=52">
+                            128FPD
+                        </a>
+                    </h5>
+                    
+                        <a href="http://www.frontiersemi.com/center/Products.php?category=128+Series&type=3">
+                            <span style="color:#99c2ff;">128 Series</span>
+                        </a>
+                        <br>
+                        <hr>
+                    <p>
+                        Full panel local and global stress managements on glass using reflected pattern
+                        and photo-elastic measurement technology.<br>
+                        Panel size G4.5 and G6.
+                    </p>
+                    <p>
+                        <a href="http://www.frontiersemi.com/center/Products.php?productid=52" class="btn btn-warning">MORE DETAILS (Product)</a>
+                    </p>
+
+                </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+</body>
+</html>

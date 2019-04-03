@@ -185,5 +185,6 @@ Route::get('/testroute','sendgrid_bulkemail@testfun');
 
 
 Route::get('/newsletter/newsletter1','fsm_maincontroller@newsletter1');
+Route::get('/newsletter/newsletter2','fsm_maincontroller@newsletter2');
 
 
