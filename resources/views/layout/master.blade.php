@@ -78,18 +78,17 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="header-logo-address">
-              <div class="header-logo-icon"> <i class="fa fa-phone-square"></i> </div>
+              <div class="header-logo-icon">  </div>
               <div class="header-logo-text">
-                <p>+1 408 432 8838</p>
-                <p>+1 408 232 1115</p>
+                
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="header-logo-address">
-              <div class="header-logo-icon"> <i class="fa fa-envelope"></i> </div>
+              <div class="header-logo-icon"> <i class="far fa-address-book"></i></i> </div>
               <div class="header-logo-text">
-                <p>fsm100@frontiersemi.com</p>
+                <p>+1 408 432 8838</p>
                 <p>fsm100@frontiersemi.com</p>
               </div>
             </div>
