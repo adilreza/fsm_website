@@ -231,7 +231,7 @@
 
 <div class="col-lg-12 col-md-12">
 <div class="about-sec mt-5">
-  <h3 class="text-center text-primary">31 Year’s of Experience</h3>
+  <h3 class="text-center text-primary">25 Year’s of Experience</h3>
   <div class="separator mt-3"></div>
 </div>
 <div class="tab-box mb-30 text-center">
@@ -242,13 +242,22 @@
   </ul>
   <div class="tab-content">
     <div class="tab-item active-tab" id="tab-one">
-      <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+      <div class="text"><strong>FSM</strong> are manufacturing metrological devices and offering solutions for <strong>semiconductor</strong>, <strong>LED</strong>, <strong>Solar</strong>, <strong>FPD</strong>, <strong>Data Storage</strong> and <strong>MEMS</strong> applications for over 25 years. Customer’s from around the world come to us and expect a reliable, dependable products which can provide them highly accurate results. So we focus on our customers’ demand, evaluate their investments. Our mission is to provide them the best products that combine speed, reliability, quality and high performance as far as their requirements. 
+      </div>
     </div>
     <div class="tab-item" id="tab-two">
-      <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</div>
+      <div class="text">With the advancement of nano technology one day the earth will be totally computerized. All people’s basic needs will be fulfilled by the most efficient way possible. Our vision is to be the part of that world, be the part for the improvement of electronics devices.
+      </div>
     </div>
     <div class="tab-item" id="tab-three">
-      <div class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</div>
+      <div class="text">
+        <ul>
+          <li>Improve our service approach for new and existing customers. </li>
+          <li>Provide best possible solutions to our customers with high quality products. </li>
+          <li>Expand our sales to existing customers.</li>
+          <li>Introduce new and advance products to new and existing markets. </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
