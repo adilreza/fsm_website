@@ -62,7 +62,7 @@ class admin_controller extends Controller
         $password = $data->password;
         //$test_data = $email.$password;
         
-        $about_admin = DB::table('admin_infos')->where('admin_email',$email)->where('admin_password',$password)->first();
+        $about_admin = DB::table('admin_infos')->where('admin_email',$email)->where('admin_password',$password)->count();
         if($about_admin)
         {
             session(['login_status'=>"success"]);

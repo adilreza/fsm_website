@@ -31,7 +31,8 @@ class BulkEmail extends Mailable
      */
     public function build()
     {
-        $address = 'fsmgroupa@gmail.com';
+        //$address = '';
+        $address = session('admin_email');
         $subject = $this->data['post_title'];
         $newsletter = $this->data['message'];
         //$newsletter = "this is another testing";
