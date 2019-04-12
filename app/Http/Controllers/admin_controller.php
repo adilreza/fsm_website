@@ -357,6 +357,76 @@ class admin_controller extends Controller
         return view('admin.admin_panel.rfq_replay_admin')->with('success_message','Ok done you message sent');
     }
 
+    public function newsletter_control()
+    {
+        $all_newsletter =DB::table('newsletter_lists')->get();
+        return view('admin.admin_panel.newsletter_control')->with(['all_newsletters'=>$all_newsletter]);
+    }
+
+    public function newsletter_control_post(Request $data)
+    {
+       // echo $data;
+       //echo "success";
+       $newsletter_title = $data->newsletter_title;
+       $newsletter_description = $data->newsletter_description;
+       $newsletter_file = $data->newsletter_file;
+       $file = $data->file('newsletter_file');
+
+       $extension = $request->file('newsletter_file')->getClientOriginalExtension();
+            $dir = 'uploads/';
+            $filename = "adil". '_' . time() . '.' . $extension;
+            $data->file('newsletter_file')->move($dir, $filename);
+
+
+
+
+       //$data->file('newsletter_file')->move(public_path().'/fsm_all_web_file/rfq_file',$file);
+       $make_array = array('admin_email'=>session('admin_email'), 'newsletter_title'=>$newsletter_title,'newsletter_short'=>$newsletter_description, 'newsletter_name'=>"bals");
+       DB::table('newsletter_lists')->insert($make_array);
+       echo 'success';
+
+    }
+    public function newsletter_uploader()
+    {
+        return view('admin.admin_panel.newsletter_uploader');
+    }
+
+    public function newsletter_control_post2(Request $data)
+    {
+        $newsletter_title = $data->newsletter_title;
+        $newsletter_description = $data->newsletter_description;
+        $newsletter_file_name='';
+        if($data->hasfile('newsletter_file'))
+        {
+            $newsletter_file_name = $data->file('newsletter_file')->getClientOriginalName();
+            $data->file('newsletter_file')->move(public_path().'/uploads',$newsletter_file_name);
+           
+        }
+        $make_array = array('admin_email'=>session('admin_email'), 'newsletter_title'=>$newsletter_title,'newsletter_short'=>$newsletter_description, 'newsletter_name'=>$newsletter_file_name);
+        DB::table('newsletter_lists')->insert($make_array);
+        return view('admin.admin_panel.newsletter_uploader')->with('uploaded_newsletter',"uploaded succesfully");
+    }
+    public function news_letter_api($id)
+    {
+        $name = DB::table('newsletter_lists')->where('id',$id)->value('newsletter_name');
+        $blade_file='/uploads/'.$name;
+        
+        return \File::get(public_path() .$blade_file);
+    }
+
+    public function newsletter_operation($id)
+    {
+        session(['newsletter_admin_opt_id'=>$id]);
+        return view('admin.admin_panel.newsletter_operation');
+    }
+
+    public function newsletter_delete($id)
+    {
+        DB::table('newsletter_lists')->where('id',$id)->delete();
+        $all_newsletter =DB::table('newsletter_lists')->get();
+        return redirect('admin/newsletter_control')->with(['all_newsletters'=>$all_newsletter]);
+    }
+
 
 
 }

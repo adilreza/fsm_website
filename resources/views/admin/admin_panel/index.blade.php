@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <!-- Column -->
-                    <div class="col-md-6 col-lg-4 col-xlg-3">
+                    <div class="col-md-6 col-lg-3 col-xlg-3">
                         <a href="{{URL::to('/admin/admin_presentation_upload')}}">
                             <div class="card card-hover">
                                 <div class="box bg-success text-center">
@@ -52,13 +52,15 @@
                         </a>
                     </div>
                     <!-- Column -->
-                    <div class="col-md-6 col-lg-2 col-xlg-3">
-                        <div class="card card-hover">
-                            <div class="box bg-info text-center">
-                                <h1 class="font-light text-white"><i class="mdi mdi-arrow-all"></i></h1>
-                                <h6 class="text-white">Full Width</h6>
+                    <div class="col-md-6 col-lg-3 col-xlg-3">
+                        <a href="{{URL::to('/admin/newsletter_control')}}">
+                            <div class="card card-hover">
+                                <div class="box bg-info text-center">
+                                    <h1 class="font-light text-white"><i class="fas fa-newspaper"></i></h1>
+                                    <h6 class="text-white">Newsletter</h6>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Column -->
                     <!-- Column -->
@@ -113,7 +115,7 @@
                         <div class="card card-hover">
                             <div class="box bg-warning text-center">
                                 <h1 class="font-light text-white"><i class="mdi mdi-alert"></i></h1>
-                                <h6 class="text-white">Newsletter</h6>
+                                <h6 class="text-white">Testing</h6>
                             </div>
                         </div>
                     </a>

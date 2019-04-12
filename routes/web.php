@@ -18,7 +18,10 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/article_send_to_client', 'admin_controller@article_send_to_client')->middleware('admin_permission');
     Route::post('/filter_by_application_type','admin_controller@filter_by_application_type')->middleware('admin_permission');
     Route::get('/filter_by_application_type','admin_controller@article_send_to_client')->middleware('admin_permission');
+
     Route::get('/mail_blast/{article_id}', 'sendgrid_bulkemail@mail_blast')->middleware('admin_permission');
+    Route::get('/newsletter_blast/{id}','sendgrid_bulkemail@newsletter_blast')->middleware('admin_permission');
+
     Route::get('/delete_article/{article_id}', 'admin_controller@delete_article')->middleware('admin_permission');
     Route::get('/publish_the_post/{article_id}', 'admin_controller@publish_the_post')->middleware('admin_permission');
     Route::get('/admin_presentation_upload','admin_controller@admin_presentation_upload')->middleware('admin_permission');
@@ -34,6 +37,16 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/download/rfq_file/{rfq_id}','admin_controller@rfq_download')->middleware('admin_permission');
     Route::get('/rfq_replay_admin/{user_name}', 'admin_controller@rfq_replay_admin')->middleware('admin_permission');
     Route::post('/rfq_replay_admin_client', 'admin_controller@rfq_replay_admin_client')->middleware('admin_permission');
+    Route::get('/newsletter_control','admin_controller@newsletter_control')->middleware('admin_permission');
+    Route::post('/newsletter_control_post','admin_controller@newsletter_control_post');
+    Route::post('/newsletter_control_post2','admin_controller@newsletter_control_post2');
+    Route::get('/newsletter_uploader','admin_controller@newsletter_uploader');
+    Route::get('/newsletter_operation/{id}','admin_controller@newsletter_operation');
+    Route::get('/news_letter_api/{id}','admin_controller@news_letter_api');
+    Route::get('/newsletter_delete/{id}','admin_controller@newsletter_delete');
+    
+
+  
     
     
    
@@ -46,6 +59,8 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/drf_test','admin_controller@drf_test');
     
 });
+
+Route::get('/adil','admin_controller@adil_reza');
 
 //End of admin Section
 
@@ -186,5 +201,6 @@ Route::get('/testroute','sendgrid_bulkemail@testfun');
 
 Route::get('/newsletter/newsletter1','fsm_maincontroller@newsletter1');
 Route::get('/newsletter/newsletter2','fsm_maincontroller@newsletter2');
+
 
 

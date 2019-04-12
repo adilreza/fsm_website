@@ -48,7 +48,7 @@ class sendgrid_bulkemail extends Controller
             $display_image = $content->display_image;
         }
         //$email = "xuetianhc@gmail.com";
-        $data_object = ['message' => $content_details,'post_title'=>$content_subject, 'display_image'=>$display_image];
+        $data_object = ['message' => $content_details,'post_title'=>$content_subject, 'display_image'=>$display_image,'type'=>'Article'];
         //return $content_details;
         //$mail_list = array('xuetianhc@gmail.com','fsmgroupa@gmail.com','adilreza043@gmail.com','mdfahimfaysal44@gmail.com');
         $mail_array = array();
@@ -60,6 +60,25 @@ class sendgrid_bulkemail extends Controller
 
         Mail::to($mail_array)->send(new BulkEmail($data_object));
         return back();
+    }
+
+    public function newsletter_blast($id)
+    {
+        $mail_array = array();
+        $all_email_from_db = DB::table('client_lists')->get();
+
+        
+
+        foreach($all_email_from_db as $mail)
+        {
+            array_push($mail_array,$mail);
+        }
+        $data_object = ['type'=>'newsletter','file_id'=>$id];
+
+        Mail::to($mail_array)->send(new BulkEmail($data_object));
+        return back();
+
+
     }
 
 }

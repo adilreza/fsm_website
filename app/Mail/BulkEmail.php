@@ -31,6 +31,20 @@ class BulkEmail extends Mailable
      */
     public function build()
     {
+        $type = $this->data['type'];
+        if($type=='newsletter')
+        {
+            $name = 'Frontier Semiconductor';
+            
+            $address = session('admin_email');
+            $file_id = $this->data['file_id'];
+            //$blade_file='/uploads/'.$file_name;
+
+            return $this->view('bulkemails.dynamic_message2')->from($address, $name)->replyTo($address, $name)->subject("Frontier Semiconductor Newsletter")->with(array('file_id'=>$this->data['file_id']));
+            //return \File::get(public_path().$blade_file);
+        }
+        else
+        {
         //$address = '';
         $address = session('admin_email');
         $subject = $this->data['post_title'];
@@ -38,6 +52,7 @@ class BulkEmail extends Mailable
         //$newsletter = "this is another testing";
         $name = 'fsm_webserver';
         
-    return $this->view('bulkemails.dynamic_message')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('msgggg'=>$this->data['message'],'post_title'=>$this->data['post_title'],'display_image'=>$this->data['display_image']));
+        return $this->view('bulkemails.dynamic_message')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('msgggg'=>$this->data['message'],'post_title'=>$this->data['post_title'],'display_image'=>$this->data['display_image']));
+        }
     }
 }
