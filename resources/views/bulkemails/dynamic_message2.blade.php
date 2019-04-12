@@ -1,4 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
 
-<h3>This is newsletter boss</h3>
-<h3>{{$file_id}}</h3>
-<iframe style="height:700px;width:700px;margin:0 auto;overflow:scroll;" id="newsletter_preview" src="http://webtest.fsmtranscriber.com/admin/news_letter_api/{{$file_id}}"></iframe>
+<h2>HTML Iframes</h2>
+<p>You can also use the CSS height and width properties to specify the size of the iframe:</p>
+
+<iframe src="https://www.w3schools.com/bootstrap4/default.asp" style="height:600px;width:800px"></iframe>
+
+</body>
+</html>
