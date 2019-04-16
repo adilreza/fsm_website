@@ -38,9 +38,10 @@ class BulkEmail extends Mailable
             
             $address = session('admin_email');
             $file_id = $this->data['file_id'];
+            $file_name = $this->data['newsletter_name'];
             //$blade_file='/uploads/'.$file_name;
 
-            return $this->view('bulkemails.dynamic_message2')->from($address, $name)->replyTo($address, $name)->subject("Frontier Semiconductor Newsletter")->with(array('file_id'=>$this->data['file_id']));
+            return $this->view($file_name)->from($address, $name)->replyTo($address, $name)->subject("Frontier Semiconductor Newsletter")->with(array('file_id'=>$this->data['file_id']));
             //return \File::get(public_path().$blade_file);
         }
         else
