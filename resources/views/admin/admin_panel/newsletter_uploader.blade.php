@@ -26,11 +26,11 @@
                                 
                                     <div class="form-group m-t-20">
                                         <label><b>Newsletter Title</b> <small class="text-muted">max 100 char</small></label>
-                                        <input type="text" class="form-control date-inputmask" name="newsletter_title" id="newsletter_title" placeholder="Enter Title">
+                                        <input type="text" class="form-control date-inputmask" name="newsletter_title" id="newsletter_title" required placeholder="Enter Title">
                                     </div>
                                     <div class="form-group">
                                         <label><b>Newsletter Description</b> <small class="text-muted">Max 190 char</small></label>
-                                        <textarea type="textarea" cols="9" rows="5" class="form-control phone-inputmask" name="newsletter_description" id="newsletter_description" ></textarea>
+                                        <textarea type="textarea" cols="9" rows="5" class="form-control phone-inputmask" required name="newsletter_description" id="newsletter_description" ></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label><b>Uploaded by</b> <small class="text-muted">admin</small></label>
@@ -38,12 +38,18 @@
                                     </div>
                                     <div class="form-group">
                                             <label><b>upload a file</b> <small class="text-muted">extension must: .blade.php</small></label>
-                                            <input type="file" name="newsletter_file" class="form-control xphone-inputmask" id="newsletter_file" >
+                                            <input required type="file" name="newsletter_file" class="form-control xphone-inputmask" id="newsletter_file" >
                                     </div>
 
                                     <input type="submit" class="form-control btn-lg btn-primary" value="Upload Now">
                                     <br>
-                                  <h4 style="color:green;"><i id="message_status">@if(!empty($uploaded_newsletter)){{ $uploaded_newsletter }} @endif</i></h4>
+                                  <h4 style="color:green;"><i id="message_status">
+                                    @if(!empty($uploaded_newsletter))
+                                      {{ $uploaded_newsletter }}
+                                      <br>
+                                  <a style="color:white;" href="{{URL::to('admin/newsletter_control')}}"><p style="color:white;" class="btn btn-info">Go for operation</button></a> 
+                                     @endif
+                                  </p></h4>
 
                                 </form>
                             </div>

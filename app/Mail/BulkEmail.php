@@ -41,7 +41,7 @@ class BulkEmail extends Mailable
             $file_name = $this->data['newsletter_name'];
             //$blade_file='/uploads/'.$file_name;
 
-            return $this->view($file_name)->from($address, $name)->replyTo($address, $name)->subject("Frontier Semiconductor Newsletter")->with(array('file_id'=>$this->data['file_id']));
+            return $this->view($file_name)->from($address, $name)->cc($address, $name)->replyTo($address, $name)->subject("Newsletter from Frontier Semiconductor")->with(array('file_id'=>$this->data['file_id']));
             //return \File::get(public_path().$blade_file);
         }
         else

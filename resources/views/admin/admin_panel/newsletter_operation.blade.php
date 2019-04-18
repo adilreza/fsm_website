@@ -35,7 +35,9 @@
         </div>
         <div class="col-md-3">
                 <div class="col-md-3">
-                    <button class="btn btn-warning">Blank option</button>
+                    <a href="{{URL::to('/admin/client_mail_list')}}">
+                        <button class="btn btn-warning">Check clients</button>
+                    </a>
                 </div>
         </div>
         <div class="col-md-3">
@@ -61,7 +63,7 @@ function mobile()
     document.getElementById('newsletter_preview').style.width="40%";
     document.getElementById('newsletter_preview').style.margin="auto";
 }
-document.getElementById('newsletter_preview').style.width="40%";
+document.getElementById('newsletter_preview').style.width="100%";
 document.getElementById('newsletter_preview').style.margin="auto";
 
 </script>
