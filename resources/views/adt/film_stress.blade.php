@@ -27,15 +27,25 @@
           <div class="card">
             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Film Stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menuone" class="collapse">
-              <div class="card-body"> Film stress and and wafer bow measurements are an integral part in the process of reliability monitoring of deposited thin films during the chip making process.
-                Stress monitoring has become increasingly critical with the advent of 3D integrated circuits. </div>
+              <div class="card-body"> 
+                <p style="font-size:12px;">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film. 
+                </p>
+              </div>
             </div>
           </div>
           <br>
           <div class="card">
                 <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:green;">FSM's success in film stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                 <div id="menu3" class="collapse show">
-                  <div class="card-body"> Frontier semiconductor offers solutions for all types like local, global and lattice level stress. For measuring this stress fsm offer product which series 128/500/900 series, 127 series, and Raman 360 tools. </div>
+                  <div class="card-body"> 
+                    <p style="font-size:12px;">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers. 
+                      </p>
+                      <p style="font-size:12px;">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
+                      </p>
+                      <p style="font-size:12px;">
+                          temperature or high temperature for semiconductor, optoelectronic and flat panel applications.
+                      </p>  
+                  </div>
                 </div>
               </div>
             <br> 

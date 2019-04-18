@@ -278,6 +278,7 @@ Our Featured Wrapper Start -->
 </div>
 <div class="row">
 <div class="col-md-6">
+    <a href="{{URL::to('/product_413_C2C')}}" style="text-decoration:none;text-transform:none;">
 <div class="blog_box_wrapper">
   <div class="blog_img_wraper text-center"> <img height="420px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}" alt=""> </div>
   <div class="blog_icon_overlay">
@@ -289,11 +290,13 @@ Our Featured Wrapper Start -->
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 413 C2C</h2>
-    <p class="pad-b-10">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</p>
+    <h6 class="pad-b-10" style="color:gray;font-size:13px;">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</h6>
     <a href="{{URL::to('/product_413_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>
+</a>
 <div class="col-md-6">
+    <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20" style="text-transform:none;">
 <div class="blog_box_wrapper">
   <div class="blog_img_wraper text-center" > <img height="420px" class="text-center" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNG')}}" alt=""> </div>
   <div class="blog_icon_overlay">
@@ -305,9 +308,10 @@ Our Featured Wrapper Start -->
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 128 C2C</h2>
-    <p class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
+    <p class="pad-b-10" style="font-size:13px;">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
     <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
+    </a>
 </div>
 </div>
 </div>
