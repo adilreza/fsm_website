@@ -44,6 +44,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/newsletter_operation/{id}','admin_controller@newsletter_operation');
     Route::get('/news_letter_api/{id}','admin_controller@news_letter_api');
     Route::get('/newsletter_delete/{id}','admin_controller@newsletter_delete');
+    Route::post('/single_email_insert', 'admin_controller@single_email_insert');
     
 
   
@@ -57,6 +58,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/library_text_editor','admin_controller@library_text_editor')->middleware('admin_permission');
     Route::post('/library_text_editor','admin_controller@library_text_editor_post')->middleware('admin_permission');
     Route::get('/drf_test','admin_controller@drf_test');
+    
     
 });
 

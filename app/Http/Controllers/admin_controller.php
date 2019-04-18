@@ -427,6 +427,25 @@ class admin_controller extends Controller
         return redirect('admin/newsletter_control')->with(['all_newsletters'=>$all_newsletter]);
     }
 
+    public function single_email_insert(Request $data)
+    {
+        //echo "success";
+        $email = $data->email;
+        $name = $data->name;
+        $cnt = DB::table('client_lists')->where('email',$email)->count();
+        if($cnt>0)
+        {
+            echo 'failed';
+        }
+        else
+        {
+            $make_array = array('name'=>$name,'email'=>$email);
+            DB::table('client_lists')->insert($make_array);
+            echo 'success';
+        }
+
+    }
+
 
 
 }

@@ -145,7 +145,6 @@
 <div class="inner-page-wrapper search-results-wrapper" style="height:600px;">
 <div class="container">
 
-
         <div class="login-box" style="background:#c8d6e5;width:50%;">
                 <div class="login-title">
                   <h3>Admin Sign In</h3>
