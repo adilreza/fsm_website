@@ -7,6 +7,7 @@
 <title>@yield('page_title')</title>
 <link href="{{ URL::asset('fsm_all_web_file/assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 <link href="{{ URL::asset('fsm_all_web_file/css/style.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('fsm_all_web_file/css/zestostyle.css') }}" rel="stylesheet">
 <link href="{{ URL::asset('fsm_all_web_file/css/one.css') }}" id="style_theme" rel="stylesheet">
 <link href="{{ URL::asset('fsm_all_web_file/assets/owl-carousel/css/owl.carousel.min.css')}}" rel ="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -14,9 +15,7 @@
 
 <style>
   @media only screen and (max-width : 990px) {
- #mailandcont {
-   display: none!important;
- }    
+ 
 }
 
 </style>
@@ -32,153 +31,104 @@
 <body>
 <!-- Pre Loader -->
 <div id="dvLoadingg"></div>
-<!-- Top Wrapper Start -->
 
-{{-- <div class="top-wrapper">
-  <div class="container">
-    <div class="row"> 
-      <!-- TOP LEFT -->
-      <div class="col-md-8 col-sm-9">
-        <div class="top-address">
-          <p>Welcome to our Prohub template </p>
-        </div>
-      </div>
-      <!-- TOP RIGHT -->
-      <div class="col-md-4 col-sm-3">
-        <div class="top-right-menu">
-          <ul class="social-icons text-right">
-            <li><a class="facebook social-icon" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter social-icon" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="pinterest social-icon" href="javascript:void(0)" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-            <li><a class="linkedin social-icon" href="javascript:void(0)" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
-            <li><a class="dribbble social-icon" href="javascript:void(0)" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> --}}
+<script>
 
-<!-- Top Wrapper End -->
-<!-- Header Logo Area Start -->
-<div class="header-logo-area" style="height:130px;margin-top:-30px;">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-5 col-lg-3 col-md-12">
-{{-- 
-      <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"> F<span>SM</span></a> </div> --}}
-
-      <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="140px" height="95px" alt=""></a> </div>
+</script>
 
 
 
-
-      </div>
-      <div class="col-xl-7 col-lg-9 col-md-12 d-none d-lg-block d-md-block" id="mailandcont" style="margin-top:30px;">
-        <div class="row">
-          <div class="col-md-6 col-sm-6">
-            <div class="header-logo-address">
-              <div class="header-logo-icon">  </div>
-              <div class="header-logo-text">
-                
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="header-logo-address">
-              <div class="header-logo-icon"> <i class="far fa-address-book"></i></i> </div>
-              <div class="header-logo-text">
-                <p>+1 408 432 8838</p>
-                <p>fsm100@frontiersemi.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Header Logo Area End -->
-<!-- Menu Area Start -->
-<div class="mainmenu-area header-sticky bg-dark-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 d-none d-md-block d-lg-block">
-          <div class="main-menu-area">
-            <nav>
-              <ul>
-              <li class=""><a href="{{route('index')}}">Home</a></li>
-               
-      			
-           
-              <li><a href="{{URL::to('/product_list')}}">Products </a></li>
-              <li><a href="{{URL::to('/application')}}">Application </a></li>
-              
-              <li><a href="#">Company<i class="fa fa-angle-down"></i></a>
-                <ul class="dropdown_menu">
-                    <li><a href="{{URL::to('/contact_us')}}">Contact Us</a></li>
-                    <li><a href="{{route('about_us')}}">About Us</a></li>
-                      
-                </ul>
-              </li>
-              
-
-            <li><a href="{{URL::to('/library')}}">Library</a></li>
-            @if(empty(session('user_name')))
-            <li><a href="#">My account<i class="fa fa-angle-down"></i></a>
-              <ul class="dropdown_menu">
-                  <li><a href="{{URL::to('/user/register')}}">Registration</a></li>
-                  <li><a href="{{URL::to('/user/login')}}">login</a></li>
+<header class="daz-header header mobile-nav">
+		<div class="topbar bg-default text-white" style="background:#f5f6fa;">
+			<div class="container">
+				<div class="row d-flex justify-content-between">
+					<div class="topbar-left">
+						<ul class="top-author-link">
+							<li><a href="about-1.html">Welcome To Frontier Semiconductor</a></li>
+						
+						</ul>
+					</div>
+					<div class="topbar-right topbar-social">
+						<ul>
+							<li><a href="#" class="site-button-link facebook hover"><i class="far fa-envelope" style="color:#4AC8ED;"></i> fsm100@frontiersemi.com</a></li>
+							<li><a href="#" class="site-button-link facebook hover"><i class="fa fa-phone" style="color:#4AC8ED"></i> +1 408 432 8838</a></li>
+						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- main header -->
+        <div class="header-sticky menu-bar-content navbar-expand-lg">
+            <div class="main-bar clearfix ">
+                <div class="container clearfix">
+                    <!-- website logo -->
+                    <div class="daz-logo">
+                        <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="FSM"></a> 
+					</div>
+                    <!-- nav toggle button -->
+                    <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarLeft" aria-controls="navbarLeft" aria-expanded="false" aria-label="Toggle navigation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+                    <!-- extra nav -->
                     
-              </ul>
-            </li>
-            @endif
-            @if(!empty(session('user_name')))
-              <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}">my account</a></li>
-            @endif  
-
-
-
-
-
-              </ul>
-		    	{{-- <div class="search-form d-sm-none d-md-none d-xl-block">
-              <form method="post" action="contact-us.html">
-                <div class="form-group clearfix">
-                  <input name="email" value="" placeholder="Search" required="" type="email">
-                  <button type="submit" class="theme-btn subscribe-btn"><span class="fa fa-search"></span></button>
+                    <!-- Quik search -->
+                    
+                    <!-- main nav -->
+                    <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarLeft">
+                        <ul class="nav navbar-nav">	
+							<li class="active"><a href="{{route('index')}}">HOME</a>
+								
+							</li>
+							<li><a href="{{URL::to('/product_list')}}">PRODUCTS</a>
+								
+							</li>
+							<li><a href="{{URL::to('/application')}}">APPLICATIONS</a>
+							
+							</li>
+							<li><a href="#">COMPANY<i class="fa fa-chevron-down"></i></a>
+								<ul class="sub-menu">
+									<li><a href="{{URL::to('/contact_us')}}" class="dez-page">Contact Us</a></li>
+									<li><a href="{{route('about_us')}}" class="dez-page">About Us</a></li>
+								
+								</ul>
+              </li>
+              <li><a href="{{URL::to('/library')}}">LIBRARY </a></li>
+              
+							
+                @if(empty(session('user_name')))
+                <li><a href="#">MY ACCOUNT<i class="fa fa-chevron-down"></i></a>
+                  <ul class="sub-menu">
+                      <li><a href="{{URL::to('/user/register')}}" class="dez-page">REGISTRATION</a></li>
+                      <li><a href="{{URL::to('/user/login')}}" class="dez-page">LOGIN</a></li>
+                        
+                  </ul>
+                </li>
+                @endif
+                @if(!empty(session('user_name')))
+                  <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}">MY ACCOUNT</a></li>
+                @endif  
+								
+							
+             
+              
+						</ul>		
+                    </div>
                 </div>
-              </form>
-            </div>	   --}}
-            </nav>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 d-block d-md-none d-lg-none"> 
-          <!-- Mobile Menu Area Start -->
-          <div class="mobile-menu-area">
-            <div class="mobile-menu">
-              <nav id="mobile-menu-active">
-                <ul>
-                <li class="active"><a href="{{URL::to('/')}}">Home</a></li>
-               			
-					  
-                <li><a href="{{URL::to('/product_list')}}">Products</a></li>
-                <li><a href="{{URL::to('/application')}}">Application </a></li>
-                <li><a href="{{URL::to('/about_us')}}">About Us</a></li>
-               
-                <li><a href="{{URL::to('/contact_us')}}">Contact Us</a></li>
-              </ul>
-              </nav>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Mobile Menu Area End --> 
-<!-- common header End-->
+        <!-- main header END -->
+    </header>
+
+
+
+
+
+
+
+
 
 
 @yield('index_page')

@@ -53,8 +53,8 @@
                     <div class="price_table_title">
                         <h5>Laser Scanning</h5>
                     </div>
-                    <div class="price_table_list" style="width:90%;margin:0 auto;">
-                        <p>FSM uses patented Laser Scanning technology to measure the radius of curvature and bow of wafers. A laser beam is directed to the wafer. The beam is reflected at an angle...</p>
+                    <div class="price_table_list" style="width:90%;margin: auto;">
+                        <p>FSM uses patented Laser Scanning technology to measure the radius of curvature and bow of wafers. A laser beam is directed to the wafer. The beam is reflected ...</p>
                     </div>
                     <div class="price_table_btn"> <a href="{{URL::to('/laser_scanning')}}">Details</a> </div>
                 </div>

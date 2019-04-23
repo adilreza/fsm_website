@@ -76,6 +76,7 @@
         
    
     <a href="{{URL::to('/article/article_details/'.$article->id)}}">
+        
         <div class="row" id="library_single">
        
                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -87,12 +88,13 @@
             <div class="col-lg-8 col-md-8 col-sm-6">
             <h3 style="text-align:left;color:#4AC8ED;">{{$article->post_title}}</h3>
                 <hr>
-                <p style="text-align:left;">{!! str_limit($article->main_content, $limit = 300, $end = '...') !!}</p>
+                <h6 style="text-align:left;">{!! str_limit($article->main_content, $limit = 300, $end = '...') !!}</h6>
             </div>
           
         </div>
     </a>
-        <br>
+    <br>
+
     @endforeach
 
     </div>

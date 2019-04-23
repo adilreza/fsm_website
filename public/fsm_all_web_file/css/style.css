@@ -1208,6 +1208,7 @@ figure:hover {
 	width: 100%;
 	padding: 70px 0 80px;
 	overflow-x: hidden;
+	background: #d1d8e0;
 }
 .inner-page-wrapper.blog-grid {
 	padding: 70px 0 40px;
@@ -2381,6 +2382,7 @@ figure:hover {
 	border-radius: 3px;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+	height: 450px;
 }
 .pricing_table:hover .top_border_1:before, .pricing_table:hover .top_border_2:before, .pricing_table:hover .top_border_3:before {
 	visibility: visible;
@@ -2576,6 +2578,7 @@ figure:hover {
 	float: left;
 	width: 100%;
 	padding: 60px 0;
+	background: #d1d8e0;
 }
 .newsletter form input {
 	background-color: #ffffff;

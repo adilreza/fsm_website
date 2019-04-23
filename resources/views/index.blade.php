@@ -210,7 +210,7 @@ Our Featured Wrapper Start -->
 </div>
  Our Team Wrapper End -->
 <!-- Numbering Wrapper Start -->
-<div class="counter-wrapper">
+{{-- <div class="counter-wrapper">
   <div class="container text-center">
     <div class="row">
       <div class="col-lg-3 col-md-6">
@@ -267,10 +267,10 @@ Our Featured Wrapper Start -->
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 <!-- Numbering Wrapper End -->
 <!-- Our Blog Wrapper Start -->
-<div class="blog-wrapper">
+<div class="blog-wrapper" style="background:##d1ccc0;">
 <div class="container">
 <div class="section-title">
 <h2><i> <b>Our Featured Product</b></i></h2>
@@ -308,7 +308,7 @@ Our Featured Wrapper Start -->
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 128 C2C</h2>
-    <p class="pad-b-10" style="font-size:13px;">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
+    <h6 class="pad-b-10" style="font-size:13px;color:gray;">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</h6>
     <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
     </a>
@@ -319,7 +319,7 @@ Our Featured Wrapper Start -->
 <!-- Our Blog Wrapper End -->
 
 
-<div class="container-fluid" style="width:96%">
+<div class="container-fluid" style="width:96%; border-buttom:1px solid #d1d8e0;">
 
 
     <h3 class="text-center">OUR CLIENTS</h3>
@@ -344,7 +344,7 @@ Our Featured Wrapper Start -->
 
 
 <!-- Our Blog Wrapper End -->
-<div class="container" style="margin-top:160px;">
+<div class="container" style="margin-top:160px;" style="background:red;">
   <h3 class="text-center" style="margin-top:80px;">Our Branch & Distributor</h3>
     <div class="separator"></div>
 
@@ -404,7 +404,7 @@ Our Featured Wrapper Start -->
               var newline ="<br/>";
               var line = "<hr>"
               var title ="<h3 style='color:green;font-size:22px;'>FSM IN BANGLADESH</h3>";
-              var image = '<img height="160px" width="190px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/masum_vaiya_pub.jpg')}}" alt="" class="">';
+              //var image = '<img height="160px" width="190px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/masum_vaiya_pub.jpg')}}" alt="" class="">';
               var campanyName = "<span style='font-size:20px;'>DHAKA DOHS</span>";
               //var type = "<span style='font-size:17px;'>Services & Engineering</span>";
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
@@ -412,7 +412,7 @@ Our Featured Wrapper Start -->
               var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
               var newline ="<br/>";
               var address = "Room 2906, Fu Li Ying Building "+newline+"Guanghou, mirpur 510623";
-              $('#name').html(title+line+campanyName+newline+image+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+campanyName+newline+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
             }
             else if(code ==="us")
@@ -422,7 +422,7 @@ Our Featured Wrapper Start -->
               var title ="<h3 style='color:green;'> AMERICA </h3>";
               var campanyName = "<span style='font-size:20px;'>FRONTIER SEMICONDUCTOR</span>";
               var type = "<span style='font-size:17px;'>Corporate Head Office</span>";
-              var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+1 408 432 8838 ";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+1 408 232 1115"
               var email = "<span style='color:blue;'>fsm100@frontiersemi.com</span>";
@@ -431,7 +431,7 @@ Our Featured Wrapper Start -->
 
 
               
-              $('#name').html(title+line+campanyName+newline+type+newline+image+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
               
             }
             else if(code === "cn")
@@ -442,14 +442,14 @@ Our Featured Wrapper Start -->
               var title ="<h3 style='color:green;font-size:22px;'>FSM CHINA SALES REPRESENTATIVE</h3>";
               // var campanyName = "<span style='font-size:20px;'>TONY HUANG</span>";
               // var type = "<span style='font-size:17px;'>Sales & Services</span>";
-              var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
 
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
               var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
               var newline ="<br/>";
               var address = "Room 2906, Fu Li Ying Building, No. 2 Huaqiang Road, Tianhe District"+newline+"Guanghou, China 510623";
-              $('#name').html(title+line+image+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
 
             }
@@ -460,13 +460,13 @@ Our Featured Wrapper Start -->
               var title ="<h3 style='color:green;'>FSM EUROPE</h3>";
               //var campanyName = "<span style='font-size:20px;'>ADRIAN CAILEAN</span>";
               //var type = "<span style='font-size:17px;'>Sales & Service</span>";
-              var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+33 (0) 676 494 487";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+33(0)4 76 35 77 61 "
               var email = "<span style='color:blue;'>adrianc@frontiersemi.com</span>";
               var newline ="<br/>";
               var address = "196C Rue du Rocher de Lorzier, 38430 Moirans, France";
-              $('#name').html(title+line+image+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
 
             }
@@ -478,13 +478,13 @@ Our Featured Wrapper Start -->
               var title ="<h3 style='color:green;'> FSM TAIWAN</h3>";
               //var campanyName = "<span style='font-size:20px;'>ALEX CHENG</span>";
               //var type = "<span style='font-size:17px;'>Sales & Service</span>";
-              var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="">';
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+886-3-658-7061";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+886-3-658-9600"
               var email = "<span style='color:blue;'>AlexCgeng@frontiersemi.com</span>";
               var newline ="<br/>";
               var address = "Jhubei City, Hsinchu County 302, Taiwan(R.O.C)";
-              $('#name').html(title+line+image+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
             }
             else if(code === "kr")
@@ -530,13 +530,13 @@ Our Featured Wrapper Start -->
               var title ="<h3 style='color:green;'> AMERICA </h3>";
               var campanyName = "<span style='font-size:20px;'>FRONTIER SEMICONDUCTOR</span>";
               var type = "<span style='font-size:17px;'>Corporate Head Office</span>";
-              var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+1 408 432 8838 ";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+1 408 232 1115"
               var email = "<span style='color:blue;'>fsm100@frontiersemi.com</span>";
               var newline ="<br/>";
               var address = "165 Topaz St.,"+newline+"Milpitas, CA 95035";
-               $('#name').html(title+line+campanyName+newline+type+newline+image+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+               $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
 
 

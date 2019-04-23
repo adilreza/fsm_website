@@ -25,10 +25,10 @@
             </div>
         </div>
         <div class="auth-wrapper d-flex no-block justify-content-center align-items-center ">
-            <div class="auth-box  border-top border-secondary" style="border-radius:10px;">
+            <div class="auth-box  border-top border-secondary" style="border-radius:10px;width:500px!important;">
                 <div>
                     <div class="text-center p-t-20 p-b-20">
-                        <span class="db"><a href="{{URL::to('/')}}"> <img style="height:50px;width:100px;" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="fsm_logo" /></a></span>
+                        <span class="db"><a href="{{URL::to('/')}}"> <img style="height:80px;width:130px;" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="fsm_logo" /></a></span>
                     </div>
                     <!-- Form -->
                 <form class="form-horizontal m-t-20" action="{{URL::to('/user/register')}}" method="post">
@@ -59,7 +59,13 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text bg-info text-white" id="basic-addon2"><i class="ti-pencil"></i></span>
                                     </div>
-                                    <input  type="password" name="password" class="form-control form-control-lg" placeholder=" Choose Password" aria-label="Password" aria-describedby="basic-addon1" required>
+                                    <input  type="password" id="password" name="password" class="form-control form-control-lg" placeholder=" Choose Password" aria-label="Password" aria-describedby="basic-addon1" required>
+                                </div>
+                                <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text bg-info text-white" id="basic-addon2"><i class="ti-pencil"></i></span>
+                                        </div>
+                                        <input  type="password" id="confirm_password" name="password2" class="form-control form-control-lg" placeholder="Confirm Password" aria-label="Password" aria-describedby="basic-addon1" required>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +85,7 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <div class="p-t-20">
-                                        <button type="submit" class="btn btn-block btn-lg btn-info" type="submit">Sign Up</button>
+                                        <button type="submit" class="btn btn-block btn-lg btn-info" id="subButton" type="submit">Sign Up</button>
                                     </div>
                                 </div>
                             </div>
@@ -101,6 +107,32 @@
     $('[data-toggle="tooltip"]').tooltip();
     $(".preloader").fadeOut();
     </script>
+
+
+<script>
+
+   // document.getElementById("subButton").disabled = true;
+
+    var password = document.getElementById("password");
+    var  confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+
+
+</script>
+
+
+
+
 </body>
 
 </html>

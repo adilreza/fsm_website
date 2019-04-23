@@ -30,7 +30,7 @@
                 <div id="loginform">
                     <div class="text-center p-t-20 p-b-20">
                         <span class="db">
-                        <a href="{{URL::to('/')}}"> <img style="height:50px;width:100px;" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="fsm_logo" /></a></span>
+                        <a href="{{URL::to('/')}}"> <img style="height:80px;width:130px;" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="fsm_logo" /></a></span>
                     </div>
                     <!-- Form -->
                     <form class="form-horizontal m-t-20" id="loginform" action="{{URL::to('/user/login')}}" method="post">
