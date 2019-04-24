@@ -352,7 +352,7 @@ Our Featured Wrapper Start -->
 
 <div class="containerrr text-center" style="width: 96%;margin-top:80px; margin-left:23px; ">
   <div class="row">
-    <div id="vmap" class="col-md-8" style="height: 380px;background:blueviolet; border-radius:15px 0px 0px 15px;"></div>
+    <div id="vmap" class="col-md-8" style="height: 380px;background:blueviolet; border-radius:5px 0px 0px 5px;"></div>
     <div id="name" class="col-md-4" style="box-shadow: 1px 1px 1px 1px #bdc3c7;padding-bottom: 50px;border-radius: 3px;"></div>
 
   </div>
@@ -405,14 +405,14 @@ Our Featured Wrapper Start -->
               var line = "<hr>"
               var title ="<h3 style='color:green;font-size:22px;'>FSM IN BANGLADESH</h3>";
               //var image = '<img height="160px" width="190px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/masum_vaiya_pub.jpg')}}" alt="" class="">';
-              var campanyName = "<span style='font-size:20px;'>DHAKA DOHS</span>";
-              //var type = "<span style='font-size:17px;'>Services & Engineering</span>";
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
+              var campanyName = "<span style='font-size:20px;'>ABDULLAH AL MASUM</span>";
+              var type = "<span style='font-size:17px;'>Services & Engineering</span>";
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+" +88 01992526419";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
-              var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
+              var email = "<span style='color:blue;'>masuma@frontiersemi.com</span>";
               var newline ="<br/>";
-              var address = "Room 2906, Fu Li Ying Building "+newline+"Guanghou, mirpur 510623";
-              $('#name').html(title+line+campanyName+newline+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              var address = "House no: 1078, Road No: 06, Mirpur DOHS,"+newline+"Dhaka 1216 ";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+newline+email+newline+newline+address);
 
             }
             else if(code ==="us")
@@ -439,9 +439,9 @@ Our Featured Wrapper Start -->
 
               var newline ="<br/>";
               var line = "<hr>"
-              var title ="<h3 style='color:green;font-size:22px;'>FSM CHINA SALES REPRESENTATIVE</h3>";
-              // var campanyName = "<span style='font-size:20px;'>TONY HUANG</span>";
-              // var type = "<span style='font-size:17px;'>Sales & Services</span>";
+              var title ="<h3 style='color:green;font-size:22px;'>FSM IN CHINA</h3>";
+               var campanyName = "<span style='font-size:20px;'>TONY HUANG</span>";
+               var type = "<span style='font-size:17px;'>Sales & Services</span>";
               //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
 
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
@@ -449,7 +449,7 @@ Our Featured Wrapper Start -->
               var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
               var newline ="<br/>";
               var address = "Room 2906, Fu Li Ying Building, No. 2 Huaqiang Road, Tianhe District"+newline+"Guanghou, China 510623";
-              $('#name').html(title+line+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
 
             }
@@ -458,15 +458,15 @@ Our Featured Wrapper Start -->
               var newline ="<br/>";
               var line = "<hr>"
               var title ="<h3 style='color:green;'>FSM EUROPE</h3>";
-              //var campanyName = "<span style='font-size:20px;'>ADRIAN CAILEAN</span>";
-              //var type = "<span style='font-size:17px;'>Sales & Service</span>";
+              var campanyName = "<span style='font-size:20px;'>ADRIAN CAILEAN</span>";
+              var type = "<span style='font-size:17px;'>Sales & Service</span>";
               //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+33 (0) 676 494 487";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+33(0)4 76 35 77 61 "
               var email = "<span style='color:blue;'>adrianc@frontiersemi.com</span>";
               var newline ="<br/>";
               var address = "196C Rue du Rocher de Lorzier, 38430 Moirans, France";
-              $('#name').html(title+line+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
 
             }
@@ -476,15 +476,15 @@ Our Featured Wrapper Start -->
               var newline ="<br/>";
               var line = "<hr>"
               var title ="<h3 style='color:green;'> FSM TAIWAN</h3>";
-              //var campanyName = "<span style='font-size:20px;'>ALEX CHENG</span>";
-              //var type = "<span style='font-size:17px;'>Sales & Service</span>";
+              var campanyName = "<span style='font-size:20px;'>ALEX CHENG</span>";
+              var type = "<span style='font-size:17px;'>Sales & Service</span>";
               //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+886-3-658-7061";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+886-3-658-9600"
               var email = "<span style='color:blue;'>AlexCgeng@frontiersemi.com</span>";
               var newline ="<br/>";
               var address = "Jhubei City, Hsinchu County 302, Taiwan(R.O.C)";
-              $('#name').html(title+line+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
 
             }
             else if(code === "kr")
@@ -550,5 +550,16 @@ Our Featured Wrapper Start -->
 
     
     </script>
+
+    <script>
+      
+      $(document).ready(function(){
+        onRegionClick('da','bd','');
+      });
+    
+    </script>
+
+
+
 
 @endsection
