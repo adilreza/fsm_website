@@ -2329,14 +2329,14 @@ figure:hover {
 	bottom: 0;
 	content: "";
 	left: 0;
-	opacity: 0.6;
+	opacity: 0.2;
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: -1;
 }
 .our-cta-wrapper {
-	background-image:url('/fsm_all_web_file/fsm_image_gallery/fortest/fsm_demo_image.jpg');
+	background-image:url('/fsm_all_web_file/fsm_image_gallery/fortest/fsm_brand_image22.jpg');
 	background-position: center center;
 	background-size: cover;
 	float: left;
