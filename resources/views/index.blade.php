@@ -17,8 +17,8 @@
     <div class="row">
       <div class="sb-nivo-slider-wrapper kc-elm kc-css-242493">
         <div id="mainSlider" class="nivoSlider sb-slider-image"> 
-        <img  src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/back_slide7e.jpg')}}" alt="" title="#htmlcaption1_30"/>
-		<img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/back_slide7e.jpg')}}" alt="" title="#htmlcaption1_28" /> </div>
+        <img  src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/back_slide10e.jpg')}}" alt="" title="#htmlcaption1_30"/>
+		<img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/back_slide10e.jpg')}}" alt="" title="#htmlcaption1_28" /> </div>
         <!-- sb-slider style-1 start -->
         <div id="htmlcaption1_30" class="nivo-html-caption sb-slider-content-nivo">
           <div class="sb-slider_inner container  text-left">
