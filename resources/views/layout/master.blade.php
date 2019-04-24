@@ -14,8 +14,19 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}">
 
 <style>
+  #chet{
+    display: none;
+  }
   @media only screen and (max-width : 990px) {
- 
+    #chet{
+    display: block;
+    
+  }
+  #chet a{
+    margin-left:20px;
+    text-decoration: italic;
+    font-size:15px; 
+  }
 }
 
 </style>
@@ -87,7 +98,8 @@
 							</li>
 							<li><a href="{{URL::to('/application')}}">APPLICATIONS</a>
 							
-							</li>
+              </li>
+              
 							<li><a href="#">COMPANY<i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
 									<li><a href="{{URL::to('/contact_us')}}" class="dez-page">Contact Us</a></li>
@@ -95,6 +107,11 @@
 								
 								</ul>
               </li>
+
+
+              <li id="chet"><a href="{{URL::to('/contact_us')}}">Contact Us </a></li>
+              <li id="chet"><a href="{{route('about_us')}}">About Us </a></li>
+
               <li><a href="{{URL::to('/library')}}">LIBRARY </a></li>
               
 							
@@ -106,6 +123,8 @@
                         
                   </ul>
                 </li>
+                <li id="chet"><a href="{{URL::to('/user/register')}}" class="dez-page">REGISTRATION</a></li>
+                <li id="chet"><a href="{{URL::to('/user/login')}}" class="dez-page">LOGIN</a></li>
                 @endif
                 @if(!empty(session('user_name')))
                   <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}">MY ACCOUNT</a></li>
