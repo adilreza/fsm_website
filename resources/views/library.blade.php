@@ -31,10 +31,16 @@
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 800px) {
     #single_art{
         float: none!important;
-        width: 100%!important;
+        
+        width:auto!important;
+        margin-right: 0px!important;
+        
+    }
+    #font_siz{
+        font-size: 12px;
     }
 }
 
@@ -102,7 +108,7 @@
         <div id="single_art" style="width:31%;float:left;overflow:hidden; height:250px;;margin-right:22px;padding:5px;margin-bottom:10px;">
             <h3 style="text-align:left; "><i style="background:#273c75; border-radius:50%;color:#00a8ff;padding:10px;"class="fas fa-book-reader"></i></h3>
             <a href="{{URL::to('/article/article_details/'.$article->id)}}">
-            <h5 style="text-align:left;color:#4AC8ED;">{!! str_limit($article->post_title, $limit=100,$end='...') !!}</h5>
+            <h5 style="text-align:left;color:#4AC8ED;" id="font_siz">{!! str_limit($article->post_title, $limit=100,$end='...') !!}</h5>
 
             </a>
             <br>
