@@ -28,9 +28,9 @@
             <div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0s">
               <h1 class="sb-slider-sub-title"> Range of Advanced Metrology Products</h1>
             </div>
-            <div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0s">
+            {{-- <div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0s">
               <h1 class="sb-slider-sub-title">We Are Creative </h1>
-            </div>
+            </div> --}}
             <div class="wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
               <p  class="sb-slider-descript"> We make solutions for semiconductor, LED, Solar, FPD, Data Storage and MEMS applications</p>
             </div>
@@ -68,7 +68,7 @@ Our Featured Wrapper Start -->
 <section class="our-services-wrapper">
 <div class="container">
 <div class="section-title">
-<h2>Applications Domains & Technology </h2>
+<h2>Applications & Technology </h2>
 <div class="separator"></div>
 </div>
 <div class="row">
@@ -319,7 +319,7 @@ Our Featured Wrapper Start -->
 <!-- Our Blog Wrapper End -->
 
 
-<div class="container-fluid" style="width:96%; border-buttom:1px solid #d1d8e0;">
+{{-- <div class="container-fluid" style="width:96%; border-buttom:1px solid #d1d8e0;">
 
 
     <h3 class="text-center">OUR CLIENTS</h3>
@@ -339,7 +339,7 @@ Our Featured Wrapper Start -->
     <br/>  
     
     
-</div>
+</div> --}}
 
 
 

@@ -210,8 +210,8 @@
 <div class="our-cta-wrapper">
     <div class="container">
         <div class="cta-content">
-            <h2>Your request for Information or proposal</h2>
-            <a href="{{URL::to('/contact_us')}}" class="bttn">RFP / RFI</a>
+            <h2>Request for More Informations</h2>
+            <a href="{{URL::to('/contact_us')}}" class="bttn">More Informations</a>
         </div>
     </div>
 </div>

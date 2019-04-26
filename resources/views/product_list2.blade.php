@@ -12,7 +12,7 @@
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
   <div class="container">
-    <h1>All Product Of FSM</h1>
+    <h1>All Product Of Frontier Semiconductor (FSM)</h1>
     <ul class="page-breadcrumb">
       <li><a href="index.html">Home</a></li>
 	    <li>product</li>
@@ -260,8 +260,8 @@
 <div class="our-cta-wrapper">
 <div class="container">
 <div class="cta-content">
-<h2>Your request for Information or proposal</h2>
-<a href="{{URL::to('/contact_us')}}" class="bttn">RFP / RFI</a>
+<h2>Request for More Informations</h2>
+<a href="{{URL::to('/contact_us')}}" class="bttn">More Informations</a>
 </div>
 </div>
 </div>
