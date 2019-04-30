@@ -202,6 +202,7 @@
 
 
     </div>
+</div>
 
 
 
@@ -212,7 +213,8 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Your request for Information or proposal</h2>
-                <a href="#" class="bttn">RFI / RFP</a> </div>
+                <a href="#" class="bttn">RFI / RFP</a> 
+            </div>
         </div>
     </div>
     <!-- Our CTA Wrapper End -->
