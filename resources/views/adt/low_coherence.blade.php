@@ -11,7 +11,7 @@
         <div class="container">
             <h1> All about Low Coherence Interferometry</h1>
             <ul class="page-breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{URL::to('/')}}">Home</a></li>
                 <li>Application</li>
                 <li>Low Coherence Interferometry</li>
             </ul>
@@ -27,21 +27,44 @@
                         <div class="card">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Low Coherence Interferometry?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
-                                <div class="card-body"> Substrate Thickness, Warp, and TTV Measurement - with or without Tape - for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Substrate Thickness, Warp, and TTV Measurement - with or without Tape - for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3">Which services you will get?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">Which services you will get?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Based on low-coherence interferometry (LCI) technology, FSM tools can measure a wide range of materials and parts:
+
+                                        <br><strong>-objects:</strong> industrial components and materials, films and coatings, biological tissues
+
+                                    <br><strong>-industrial materials:</strong> plastics, polymers, glass, metals, silicone, adhesives, specular or non-specular, reflective, non reflective, turbid, semi-transparent or transparent
+                                    <br><strong>-material transparency:</strong> For thickness or cross-sectional measurements, the maximum depth of light penetration depends on the material index of refraction. Most materials are somewhat transparent. Thickness of completely non-transparent films can be addressed by combining low-coherence interferometry.
+                                    <br><strong>-sample sizes: </strong>objects from several microns wide.  No upper limit.
+                                    <br><strong>-range of surface shapes:</strong> rough, smooth, interiors of bores and small-diameter tubes, exteriors of cylinders, concave or convex spherical shapes, filaments, thin tubing
+                                    <br><strong>-static or moving surfaces:</strong> rotating or spinning objects, web inspection, in-tray inspection
+                                    <br><strong>-material states:</strong> solid, liquid
+                                    <br><strong>-sample temperature:</strong> from cryogenic to very hot
+
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:green;">Types of Low Coherence Interferometry.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Low Coherence Interferometry.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
-                                <div class="card-body">FSM offers solutions for all three types in our 413 series. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        FSM offers solutions for all three types in our 413 series.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
@@ -51,19 +74,55 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:#B53471">Traditional Low Coherence Interferometry.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue;">Traditional Low Coherence Interferometry.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        There are remains some limitations with traditional technologies:
+                                        <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci.png')}}" alt="">
+                                        <br><strong>Capacitive probes:</strong></p>
+                                    <p style="font-size:12px; font-family: 'Josefin Sans'; padding-left: 10px;">
+                                        -Useful for insulating or
+                                        rough materials
+                                        <br>-Not suitable for structured, multi-layered materials
+                                    </p>
+
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lic2.png')}}" alt="">
+                                    <br><strong>Air Pressure probes:</strong>
+                                    </p>
+                                    <p style="font-size:12px; font-family: 'Josefin Sans'; padding-left: 10px;">
+                                        -Very reliable and fast for
+                                        thick uniform wafer
+                                        <br>-Delivers one value
+                                        related to pressure drop
+                                    </p>
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <br><strong>Capacitive probes:</strong>
+                                    </p>
+                                    <p style="font-size:12px; font-family: 'Josefin Sans'; padding-left: 10px;">
+                                        -Microscope based
+                                        (DOF limited probes)
+                                        <br>-Triangulation probes
+                                    </p>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:#0652DD;">What FSM's achievement about Low Coherence Interferometry!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Low Coherence Interferometry!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
-                                    <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci413.png')}}" alt="">
-                                   <p>
-                                       Substrate Thickness, Warp, and TTV Measurement - with or without Tape - for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
+                                    {{--<img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci413.png')}}" alt="">--}}
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        The low coherence interferometry of FSM is accurate,
+                                        fast and reproducible tool for measurements for
+                                        MEMs structures.
+                                        It provides nondestructive alternative to
+                                        complicated and time consuming methods based
+                                        on electron microscope or x-ray scattering
+                                        techniques
                                     </p>
                                 </div>
                             </div>
@@ -193,7 +252,7 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Your request for Information or proposal</h2>
-                <a href="{{URL::to('/contact_us')}}" class="bttn">RFI / RFP</a> </div>
+                <a href="#" class="bttn">RFI / RFP</a> </div>
         </div>
     </div>
     <!-- Our CTA Wrapper End -->

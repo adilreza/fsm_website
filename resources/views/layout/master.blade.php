@@ -5,6 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>@yield('page_title')</title>
+
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
 <link href="{{ URL::asset('fsm_all_web_file/assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 <link href="{{ URL::asset('fsm_all_web_file/css/style.css') }}" rel="stylesheet">
 <link href="{{ URL::asset('fsm_all_web_file/css/zestostyle.css') }}" rel="stylesheet">

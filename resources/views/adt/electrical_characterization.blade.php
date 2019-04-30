@@ -11,7 +11,7 @@
         <div class="container">
             <h1> All about Electrical Characterization</h1>
             <ul class="page-breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{URL::to('/')}}">Home</a></li>
                 <li>Application</li>
                 <li>Electrical Characterization</li>
             </ul>
@@ -27,21 +27,46 @@
                         <div class="card">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Electrical Characterization?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
-                                <div class="card-body"> FSM offers contact and non-contact electrical characterization metrology used in FEOL device making. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:green;">Fsm's success about electrical characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">Fsm's success about electrical characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <img width="360px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsl.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Production controls for USJ (ultra-shallow junctions) requires in-line
+                                        methods for measurements of sheet resistance (Rs) in the range
+                                        from 100 to 900 Ohm/square for junction depths (X<sub>j</sub>), in the range of
+                                        30 to less than 10 nm (according to tte ITRS03 requirements).
+                                        Direct contact probes are limited by probe punch through, healing
+                                        from prcbe currents and interference from surface oxide and
+                                        leakage current. Optical probes give structural information on
+                                        junction depth and damage levels but not electrical activation. Ihe
+                                        FSM RsL tool is designed to provide direct non-contact mapping of
+                                        sheet resistance and leakage current independent of junction depth.
+                                        Ihese features also help fill the current metrology gaps in the
+                                        evaluation of new implant and annealing tools for USJ ih the 65
+                                        and 45 nm technology nodes.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:green;">Types of Electrical Characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Electrical Characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
-                                <div class="card-body"> FSM offers solutions for Electrical Characterization in our 4pp , RsL tools. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        FSM offers solutions for Electrical Characterization in our 4pp , RsL tools.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
@@ -51,18 +76,22 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:#B53471">Traditional Electrical Characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue;">Traditional Electrical Characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Develop and maintain capabilities for electrical characterization with traditional technologies, including process monitoring and control, compact device modeling, RF characterization, ESD testing, technology qualification, mixed signal prototype testing, radiation hardness testing. Comprehensive on wafer characterization of devices and circuits for development and qualification of innovative technologies.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:#0652DD;">What FSM's achievement about Electrical Characterization!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Electrical Characterization!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
-                                    <img width="190px" height="160px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/ecdefault.png')}}" alt="">
-                                    <p>FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.</p>
+                                    <img width="280px" height="240px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/ecdefault.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.</p>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +192,7 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Your request for Information or proposal</h2>
-                <a href="{{URL::to('/contact_us')}}" class="bttn">RFI / RFP</a> </div>
+                <a href="#" class="bttn">RFI / RFP</a> </div>
         </div>
     </div>
     <!-- Our CTA Wrapper End -->

@@ -11,7 +11,7 @@
   <div class="container">
     <h1> All about Film Stress</h1>
     <ul class="page-breadcrumb">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="{{URL::to('/')}}">Home</a></li>
       <li>Application</li>
       <li>Film stress</li>
     </ul>
@@ -28,21 +28,21 @@
             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Film Stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menuone" class="collapse">
               <div class="card-body"> 
-                <p style="font-size:12px;">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film. 
+                <p style="font-size:12px; font-family: 'Josefin Sans' ; ">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
                 </p>
               </div>
             </div>
           </div>
           <br>
           <div class="card">
-                <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:green;">FSM's success in film stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">FSM's success in film stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                 <div id="menu3" class="collapse show">
                   <div class="card-body"> 
-                    <p style="font-size:12px;">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers. 
+                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
                       </p>
-                      <p style="font-size:12px;">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
-                      </p>
-                      <p style="font-size:12px;">
+                      <p style="font-size:12px; font-family: 'Josefin Sans'; ">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
+
+
                           temperature or high temperature for semiconductor, optoelectronic and flat panel applications.
                       </p>  
                   </div>
@@ -50,9 +50,13 @@
               </div>
             <br> 
           <div class="card">
-            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:green;">Types of Film Stress.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Film Stress.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menutwo" class="collapse">
-              <div class="card-body"> There are three types of film stress: global, local, and lattice level stress. FSM offers solutions for all three types in our 128/500/900 Series, 127 Series, and Raman 360 tools. </div>
+              <div class="card-body">
+                  <p style="font-size:12px; font-family: 'Josefin Sans';">
+                      There are three types of film stress: global, local, and lattice level stress. FSM offers solutions for all three types in our 128/500/900 Series, 127 Series, and Raman 360 tools.
+                  </p>
+              </div>
             </div>
           </div>
           <br>
@@ -62,24 +66,23 @@
       <div class="col-lg-6 col-md-12">
         <div id="accordion" class="accordion-new">
           <div class="card">
-            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:green;">What FSM's achievement about film stress!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about film stress!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menu31" class="collapse show">
               <div class="card-body"> 
-              <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs128.png')}}" alt="">
-                  <p>
+              <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs128.png')}}" alt="">
+                  <p style="font-size:12px; font-family: 'Josefin Sans';">
                     Global film stress measurements at room Temperature
                   </p>
                 <hr>
-                <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs500.png')}}" alt="">
-                  <p>
+                <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs500.png')}}" alt="">
+                  <p style="font-size:12px; font-family: 'Josefin Sans';">
                     Stress Hysteresis Measurement up to 500C for thermal property and stability tests of thin films in air.
                   </p>
 
                   <hr>
-                <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs900.jpg')}}" alt="">
-                  <p>
+                <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs900.jpg')}}" alt="">
+                  <p style="font-size:12px; font-family: 'Josefin Sans';">
                     Stress Hysteresis in vacuum or gas up to 900C for the study of annealing cycles. Thermal Desorption, Film Shrinkage, Reflectivity, and Resistivity options provide additional insight to causes of material changes with temperature.
-
 
                   </p>
 
@@ -281,7 +284,7 @@
   <div class="container">
     <div class="cta-content">
       <h2>Your request for Information or proposal</h2>
-    <a href="{{URL::to('/contact_us')}}" class="bttn">RFI / RFP</a> </div>
+      <a href="#" class="bttn">RFI / RFP</a> </div>
   </div>
 </div>
 <!-- Our CTA Wrapper End --> 

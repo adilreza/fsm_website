@@ -11,7 +11,7 @@
         <div class="container">
             <h1> All about Thin Wafer Metrology</h1>
             <ul class="page-breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{URL::to('/')}}">Home</a></li>
                 <li>Application</li>
                 <li>Thin Wafer Metrology</li>
             </ul>
@@ -27,21 +27,49 @@
                         <div class="card">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Thin Wafer Metrology?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
-                                <div class="card-body">Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV) and warp. FSM offers solutions for measurement of wafers and wafers on tape. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV) and warp. FSM offers solutions for measurement of wafers and wafers on tape.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:green;">FSM's success about thin wafer metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">FSM's success about thin wafer metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fsm413.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        The FSM 413 EchoprobeTM sensor uses a patented infrared (IR) interferometry
+                                        technique that provides a direct and accurate substrate thickness and thickness
+                                        variation (TTV) measurement of thick to ultra-thin wafers. Configured as a Single
+                                        Probe system, several materials transparent to the IR beam, such as Si, GaAs,
+                                        InP, SiC, Glass, Quartz and many polymers, are readily measured. Substrate
+                                        thickness of conventional wafers with patterns, tapes, bumps or bonded wafers
+                                        mounted on carriers can be determined with high precision and accuracy. When
+                                        configured as a Dual Probe system, the FSM 413 also provides measurements of
+                                        the total thickness of the wafer, including substrate thickness and the patterned
+                                        height thickness in cases the beam cannot penetrate through the material. The
+                                        FSM 413PR system is specially designed to measure in addition depth of through
+                                        silicon vias (TSV) as well as bump height automatically. By means of an integrated
+                                        microscope and pattern recognition, the system effectively locates the bumps or
+
+                                        TSV automatically without operator intervention. This leads to high, operator inde-
+                                        pendent, reproducibility.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:green;">Types of Thin Wafer Metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Thin Wafer Metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
-                                <div class="card-body">FSM offers solutions for thin wafer metrology in our 413 Series. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        FSM offers solutions for thin wafer metrology in our 413 Series.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
@@ -51,18 +79,29 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:#B53471">Traditional Thin Wafer Metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue;">Traditional Thin Wafer Metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <img width="450px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/traditional_413.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Metrology generally means a method of measuring numbers and volumes, mainly by using metrology equipment.
+                                        Thin Wafer Metrology, though often considered synonymous with measurement, is a more comprehensive concept that refers not only to an act of measurement of thin wafer but to measurement performed by factoring in errors and accuracy, as well as the performance and mechanisms of metrology equipment.
+                                        Metrology is undertaken according to the following sampling method:<br>
+                                        -10 to 100 points for one die
+                                        <br>- 5 to 20 dies taken from one wafer
+                                        <br>- 1 to 2 wafers taken from one lot (25 wafers).
+
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:#0652DD;">What FSM's achievement about Thin Wafer Metrology!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Thin Wafer Metrology!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
-                                    <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/twm413.png')}}" alt="">
-                                     <p>
+                                    <img width="300px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/twm413.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
                                          Substrate Thickness, Warp, and TTV Measurement with or without Tape for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
 
                                      </p>
@@ -194,7 +233,7 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Your request for Information or proposal</h2>
-                <a href="{{URL::to('/contact_us')}}" class="bttn">RFI / RFP</a> </div>
+                <a href="#" class="bttn">RFI / RFP</a> </div>
         </div>
     </div>
     <!-- Our CTA Wrapper End -->

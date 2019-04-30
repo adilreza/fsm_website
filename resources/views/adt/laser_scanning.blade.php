@@ -27,21 +27,50 @@
                         <div class="card">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Laser Scanning?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
-                                <div class="card-body">FSM uses patented Laser Scanning technology to measure the radius of curvature and bow of wafers. A laser beam is directed to the wafer. The beam is reflected at an angle that corresponds to the radius of curvature of the wafer. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        FSM uses patented Laser Scanning technology to measure the radius of curvature and bow of wafers. A laser beam is directed to the wafer. The beam is reflected at an angle that corresponds to the radius of curvature of the wafer.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:green;">Which services you will get?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">Which services you will get?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
-                                <div class="card-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget fringilla erat. Morbi tempor diam a est cursus eleifend. Integer odio nisi, porta ac dui vel, elementum aliquet massa.Lorem ipsum dolor sit amet. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        Within the field of 3D object scanning, laser scanning combines controlled steering of laser beams with a laser rangefinder. Within patented Laser Scanning technology of FSM
+                                        you will get several types of services in real life application.
+
+                                                <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                                   <strong>3D object scanning :</strong> 3D object scanning allows enhancing the design process, speeds up and reduces data collection errors, saves time and money, and thus makes it an attractive alternative to traditional data collection techniques.
+                                                </p>
+
+                                                <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                                    <strong>Material processing :</strong> Depending on the power of the laser, its influence on a working piece differs: lower power values are used for laser engraving and laser ablation, where material is partially removed by the laser.
+                                                </p>
+
+                                                <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                                    <strong>Barcode readers :</strong>Many barcode readers, especially those with the ability to read bar codes at a distance of a few meters, use scanned laser beams. In these devices, a semiconductor laser beam is usually scanned with the help of a resonant mirror scanner.
+                                                </p>
+
+                                                <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                                    <strong>Space flight :</strong>When a space transporter has to dock to the space station, it must carefully maneuver to the correct position. In order to determine its relative position to the space station, laser scanners built into the front of the space transporter scan the shape of the space station and then determine, through a computer, the maneuvering commands.
+                                                </p>
+
+                                </div>
                             </div>
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:green;">Types of Laser Scanning.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Laser Scanning.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
-                                <div class="card-body"> FSM offers solutions for laser scanning in our 128/500/900 Series. </div>
+                                <div class="card-body">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                        FSM offers solutions for laser scanning in our 128/500/900 Series.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <br>
@@ -52,25 +81,25 @@
                     <div id="accordion" class="accordion-new">
                        
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:#0652DD;">What FSM's achievement about Laser Scanning!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Laser Scanning!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
 
-                                    <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs128.png')}}" alt="">
-                                    <p>
-                                            Bow and Global Film Stress Measurement. Non-contact full wafer stress mapping for semiconductor and flat panel application. Dual Laser Switching Technology
+                                    <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/500 series.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                            We use FSM900 for laser scanning and FSM900 products can reach upto 900 degree celsius, while othe customers product can reach on 500 degree celsius.
                                     </p>
                                   <hr>
-                                  <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs500.png')}}" alt="">
-                                    <p>
-                                      Stress Hysteresis Measurement up to 500C for thermal property and stability tests of thin films in air.
+                                  <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/128.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                      FSM128 series products takes 12,000 data per scan in less than 20 sec, many more data points to reduce the standard deviation.
+
                                     </p>
                   
                                     <hr>
-                                  <img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs900.jpg')}}" alt="">
-                                    <p>
-                                      Stress Hysteresis in vacuum or gas up to 900C for the study of annealing cycles. Thermal Desorption, Film Shrinkage, Reflectivity, and Resistivity options provide additional insight to causes of material changes with temperature.
-                  
+                                  <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/wafer.png')}}" alt="">
+                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                      FSM laser scanning products can handle upto 300mm wafers.
                   
                                     </p>
 
@@ -301,7 +330,7 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Your request for Information or proposal</h2>
-                <a href="{{URL::to('/contact_us')}}" class="bttn">RFI / RFP</a> </div>
+                <a href="#" class="bttn">RFI / RFP</a> </div>
         </div>
     </div>
     <!-- Our CTA Wrapper End -->
