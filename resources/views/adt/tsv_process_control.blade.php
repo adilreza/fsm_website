@@ -216,13 +216,13 @@
 
         <!-- Inner Page Wrapper End -->
         <!-- Our CTA Wrapper Start -->
-        <div class="our-cta-wrapper">
+        {{-- <div class="our-cta-wrapper">
             <div class="container">
                 <div class="cta-content">
                     <h2>Your request for Information or proposal</h2>
                     <a href="#" class="bttn">RFI / RFP</a> </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Our CTA Wrapper End -->
 
 @endsection
