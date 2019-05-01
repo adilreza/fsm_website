@@ -10,7 +10,7 @@
 
 <div class="breadcrumb-wrapper">
   <div class="container">
-    <h1>About Us</h1>
+    <h1>Frontier Semiconductor</h1>
     <ul class="page-breadcrumb">
       <li><a href="index.html">Home</a></li>
 
