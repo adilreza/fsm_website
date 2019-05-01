@@ -13,7 +13,7 @@
     <h1>About Us</h1>
     <ul class="page-breadcrumb">
       <li><a href="index.html">Home</a></li>
-	  <li>Pages</li>
+
       <li>About Us</li>
     </ul>
   </div>
@@ -43,7 +43,7 @@
 
   <br>
 
-  <div class="row">
+  {{-- <div class="row">
     <div class="col-lg-8">
       <div id="accordion" role="tablist">
         <div class="card">
@@ -98,12 +98,12 @@
         <div class="image"> <img src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fortest/videotest.jpg')}}" alt=""> <a href="https://www.youtube.com/watch?v=UvluuAIiA50" class="overlay-link play-now video-btn"><span class="fa fa-play"></span> </a> <span class="ripple"></span> </div>
       </div>
     </div>
-  </div>
+  </div> --}}
   </div>
 
 <!--end of this section --->
 
-
+{{-- 
 <section class="bar background-pentagon no-mb" style="background:url('fsm_all_web_file/images/texture-turquoise.png'); margin-bottom:7px;">
   <div class="container">
     <div class="row showcase text-center">
@@ -134,7 +134,7 @@
     </div>
   </div>
 
-</section>
+</section> --}}
 
 
 
