@@ -52,7 +52,7 @@
                     <div>
 
 
-                        <h2 style="padding-bottom:60px;font-size:1px;">.</h2>
+                        <h2 style="padding:20px 0px;font-size:1px;">.</h2>
                         <p>Below all about the product's feature specification and applications</p>
 
                         <div class="tab">
@@ -157,28 +157,28 @@
                             <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C_sm.PNG')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_128L_C2C')}}">128L C2C</a></h5>
-                                <div class="sc_blog_date">June 28, 2018</div>
+                                <div class="sc_blog_date r_date">June 28, 2018</div>
                             </div>
                         </div>
                         <div class="blog_wrapper2">
                             <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128G-450_sm.png')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_128G_450')}}">128G-450</a></h5>
-                                <div class="sc_blog_date">June 28, 2018</div>
+                                <div class="sc_blog_date r_date">June 28, 2018</div>
                             </div>
                         </div>
                         <div class="blog_wrapper3">
                             <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_sm.png')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_128L')}}">128L</a></h5>
-                                <div class="sc_blog_date">June 28, 2018</div>
+                                <div class="sc_blog_date r_date">June 28, 2018</div>
                             </div>
                         </div>
                         <div class="blog_wrapper3">
                             <div class="sc_blog_image"> <img alt="blog_img1" class="img-responsive" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128_C2C_sm.png')}}"> </div>
                             <div class="sc_blog_text">
                                 <h5><a href="{{URL::to('/product_128_C2C')}}">128 C2C</a></h5>
-                                <div class="sc_blog_date">June 28, 2018</div>
+                                <div class="sc_blog_date r_date">June 28, 2018</div>
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,7 @@
 <div class="inner-page-wrapper search-results-wrapper" style="padding-bottom:30px">
     @foreach ($single_article as $article)
         
-   <div style="background-image: linear-gradient(to bottom right, #3c40c6, white)">
+   <div style="background-image: linear-gradient(to bottom right, #3c40c6, gray)">
         <div class="container" style="padding:30px 0px;;" >
             <div class="row">
                 <div class="col-md-7">
