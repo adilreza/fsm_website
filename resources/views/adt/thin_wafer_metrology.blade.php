@@ -25,10 +25,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Thin Wafer Metrology?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Thin Wafer Metrology?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV) and warp. FSM offers solutions for measurement of wafers and wafers on tape.
                                     </p>
                                 </div>
@@ -36,11 +36,11 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">FSM's success about thin wafer metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success about Thin wafer metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
                                     <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fsm413.png')}}" alt="">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         The FSM 413 EchoprobeTM sensor uses a patented infrared (IR) interferometry
                                         technique that provides a direct and accurate substrate thickness and thickness
                                         variation (TTV) measurement of thick to ultra-thin wafers. Configured as a Single
@@ -63,10 +63,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Thin Wafer Metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Thin Wafer Metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for thin wafer metrology in our 413 Series.
                                     </p>
                                 </div>
@@ -79,11 +79,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue;">Traditional Thin Wafer Metrology.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Thin Wafer Metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
                                 <div class="card-body">
                                     <img width="450px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/traditional_413.png')}}" alt="">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         Metrology generally means a method of measuring numbers and volumes, mainly by using metrology equipment.
                                         Thin Wafer Metrology, though often considered synonymous with measurement, is a more comprehensive concept that refers not only to an act of measurement of thin wafer but to measurement performed by factoring in errors and accuracy, as well as the performance and mechanisms of metrology equipment.
                                         Metrology is undertaken according to the following sampling method:<br>
@@ -97,11 +97,11 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Thin Wafer Metrology!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Thin Wafer Metrology?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
                                     <img width="300px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/twm413.png')}}" alt="">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                          Substrate Thickness, Warp, and TTV Measurement with or without Tape for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
 
                                      </p>
@@ -136,10 +136,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_C2C')}}">
                                 <div class="blog_btm_cntnt">
@@ -155,10 +155,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_PR.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_PR')}}">
                                 <div class="blog_btm_cntnt">
@@ -175,10 +175,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA.png" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_SA')}}">
                                 <div class="blog_btm_cntnt">
@@ -200,10 +200,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413MOT.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_MOT')}}">
                                 <div class="blog_btm_cntnt">

@@ -25,22 +25,22 @@
       <div class="col-lg-6 col-md-12">
         <div id="accordion">
           <div class="card">
-            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Film Stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menuone" class="collapse">
               <div class="card-body"> 
-                <p style="font-size:12px; font-family: 'Josefin Sans' ; ">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
+                <p style="color:gray;font-size:14px;">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
                 </p>
               </div>
             </div>
           </div>
           <br>
           <div class="card">
-                <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">FSM's success in film stress?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+              <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success in film stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                 <div id="menu3" class="collapse show">
                   <div class="card-body"> 
-                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
+                    <p style="color:gray;font-size:14px;">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
                       </p>
-                      <p style="font-size:12px; font-family: 'Josefin Sans'; ">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
+                      <p style="color:gray;font-size:14px;">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
 
 
                           temperature or high temperature for semiconductor, optoelectronic and flat panel applications.
@@ -50,10 +50,10 @@
               </div>
             <br> 
           <div class="card">
-            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Film Stress.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Stress</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menutwo" class="collapse">
               <div class="card-body">
-                  <p style="font-size:12px; font-family: 'Josefin Sans';">
+                  <p style="color:gray;font-size:14px;">
                       There are three types of film stress: global, local, and lattice level stress. FSM offers solutions for all three types in our 128/500/900 Series, 127 Series, and Raman 360 tools.
                   </p>
               </div>
@@ -66,22 +66,22 @@
       <div class="col-lg-6 col-md-12">
         <div id="accordion" class="accordion-new">
           <div class="card">
-            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about film stress!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about film stress!</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menu31" class="collapse show">
               <div class="card-body"> 
               <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs128.png')}}" alt="">
-                  <p style="font-size:12px; font-family: 'Josefin Sans';">
+                  <p style="color:gray;font-size:14px;">
                     Global film stress measurements at room Temperature
                   </p>
                 <hr>
                 <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs500.png')}}" alt="">
-                  <p style="font-size:12px; font-family: 'Josefin Sans';">
+                  <p style="color:gray;font-size:14px;">
                     Stress Hysteresis Measurement up to 500C for thermal property and stability tests of thin films in air.
                   </p>
 
                   <hr>
                 <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs900.jpg')}}" alt="">
-                  <p style="font-size:12px; font-family: 'Josefin Sans';">
+                  <p style="color:gray;font-size:14px;">
                     Stress Hysteresis in vacuum or gas up to 900C for the study of annealing cycles. Thermal Desorption, Film Shrinkage, Reflectivity, and Resistivity options provide additional insight to causes of material changes with temperature.
 
                   </p>
@@ -116,10 +116,10 @@
                     <div class="blog_box_wrapper">
                     <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900_C2C.png')}}" alt=""> </div>
                       <div class="blog_icon_overlay">
-                        <ul>
+                        {{-- <ul>
                           <li> 19 <span> SOLD</span> </li>
                          
-                        </ul>
+                        </ul> --}}
                       </div>
                       <a href="{{URL::to('/product_900_C2C')}}">
                         <div class="blog_btm_cntnt">
@@ -135,10 +135,10 @@
                       <div class="blog_box_wrapper">
                         <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900TC_VAC.png')}}" alt=""> </div>
                         <div class="blog_icon_overlay">
-                          <ul>
+                          {{-- <ul>
                             <li> 19 <span> SOLD</span> </li>
                             
-                          </ul>
+                          </ul> --}}
                         </div>
                         <a href="{{URL::to('/product_900TC_VAC')}}">
                           <div class="blog_btm_cntnt">
@@ -167,10 +167,10 @@
                   <div class="blog_box_wrapper">
                   <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L.jpg')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
-                      <ul>
+                      {{-- <ul>
                         <li> 19 <span> SOLD</span> </li>
                         
-                      </ul>
+                      </ul> --}}
                     </div>
                   <a href="{{URL::to('/product_128L')}}">
                       <div class="blog_btm_cntnt">
@@ -187,10 +187,10 @@
                   <div class="blog_box_wrapper">
                     <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128G-450.png')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
-                      <ul>
+                      {{-- <ul>
                         <li> 19 <span> SOLD</span> </li>
                         
-                      </ul>
+                      </ul> --}}
                     </div>
                     <a href="{{URL::to('/product_128G_450')}}">
                       <div class="blog_btm_cntnt">
@@ -207,10 +207,10 @@
                     <div class="blog_box_wrapper">
                       <div class="blog_img_wraper"> <img width="400" height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128NT.PNG" alt=""> </div>
                       <div class="blog_icon_overlay">
-                        <ul>
+                        {{-- <ul>
                           <li> 19 <span> SOLD</span> </li>
                         
-                        </ul>
+                        </ul> --}}
                       </div>
                       <a href="{{URL::to('/product_128NT')}}">
                         <div class="blog_btm_cntnt">
@@ -232,10 +232,10 @@
                   <div class="blog_box_wrapper">
                   <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128_C2C.png')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
-                      <ul>
+                      {{-- <ul>
                         <li> 19 <span> SOLD</span> </li>
                         
-                      </ul>
+                      </ul> --}}
                     </div>
                     <a href="{{URL::to('/product_128_C2C')}}">
                       <div class="blog_btm_cntnt">
@@ -252,10 +252,10 @@
                   <div class="blog_box_wrapper">
                     <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNG')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
-                      <ul>
+                      {{-- <ul>
                         <li> 19 <span> SOLD </span> </li>
                         
-                      </ul>
+                      </ul> --}}
                     </div>
                     <a href="{{URL::to('/product_128L_C2C')}}">
                       <div class="blog_btm_cntnt">

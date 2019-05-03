@@ -25,10 +25,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Raman Spectroscopy?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Raman Spectroscopy?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">size:12px; font-family: 'Josefin Sans';">
                                     The Raman effect is the inelastic scattering of photons. The shift in energy gives information about the vibrational modes in the system. The vibrational modes are a sensitive measure of stress and composition.
                                     </p>
                                 </div>
@@ -36,28 +36,28 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">FSM's success in raman spectroscopy<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success in Raman Spectroscopy</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
 
                                         Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
                                         We offer tools to monitor Fab based process. Now, FSM is the leading manufacturer of raman spectroscopy tools.
                                     </p>
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                         FSM Raman offers you -
 
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                         <strong>Stress and Wafer Process Strain zones :</strong>
                                         Hair Treatment,Electrical Mobility, Trench, Gates, Walls etc.
                                     </p>
 
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                         <strong>Composition or concentration :</strong>
                                         Contaminents, III-V and Si-compounds.
                                     </p>
 
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                         <strong>Crystal geometry and phase :</strong>
                                         Deposition conditions and roughness.
                                     </p>
@@ -66,10 +66,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Raman Spectroscopy.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Raman Spectroscopy</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                     FSM offers solutions for Raman Spectroscopy in our Raman 360 Series and FSM127 Series tools.
                                     </p>
                                 </div>
@@ -82,11 +82,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue">Traditional Raman Spectroscopy.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Raman Spectroscopy</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
                                 <div class="card-body">
 
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                     Semiconductors have well defined crystal lattice structures.Atoms are connected through bonds. These
                                     atoms are vibrate at certain frequency called modes. Lattice vibrational modes are also known as Phonons.
                                     To perform Raman spectroscopy, a laser beam is directed onto the sample. This laser will be aprtially absobed
@@ -102,11 +102,11 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Raman Spectroscopy!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Raman Spectroscopy?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
                                     <img width="300px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsdefault.png')}}" alt="">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; ">
+                                    <p style="color:gray;font-size:14px;">
                                     The Raman effect is the inelastic scattering of photons. The shift in energy gives information about the vibrational modes in the system. The vibrational modes are a sensitive measure of stress and composition.
                                 </p>
                                 </div>
@@ -139,10 +139,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper text-center"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_raman_360.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD </span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_raman360')}}">
                                 <div class="blog_btm_cntnt">
@@ -158,10 +158,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper text-center"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_127_C2C.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD </span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_127_C2C')}}">
                                 <div class="blog_btm_cntnt">

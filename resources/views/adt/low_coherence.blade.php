@@ -25,10 +25,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Low Coherence Interferometry?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Low Coherence Interferometry?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         Substrate Thickness, Warp, and TTV Measurement - with or without Tape - for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
                                     </p>
                                 </div>
@@ -36,10 +36,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">Which services you will get?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>Which services you will get?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         Based on low-coherence interferometry (LCI) technology, FSM tools can measure a wide range of materials and parts:
 
                                         <br><strong>-objects:</strong> industrial components and materials, films and coatings, biological tissues
@@ -58,10 +58,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Low Coherence Interferometry.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Low Coherence Interferometry</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for all three types in our 413 series.
                                     </p>
                                 </div>
@@ -74,33 +74,33 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue;">Traditional Low Coherence Interferometry.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Low Coherence Interferometry</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         There are remains some limitations with traditional technologies:
                                         <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci.png')}}" alt="">
                                         <br><strong>Capacitive probes:</strong></p>
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; padding-left: 10px;">
+                                    <p style="color:gray;font-size:14px;"> padding-left: 10px;">
                                         -Useful for insulating or
                                         rough materials
                                         <br>-Not suitable for structured, multi-layered materials
                                     </p>
 
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lic2.png')}}" alt="">
                                     <br><strong>Air Pressure probes:</strong>
                                     </p>
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; padding-left: 10px;">
+                                    <p style="color:gray;font-size:14px;"> padding-left: 10px;">
                                         -Very reliable and fast for
                                         thick uniform wafer
                                         <br>-Delivers one value
                                         related to pressure drop
                                     </p>
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                     <br><strong>Capacitive probes:</strong>
                                     </p>
-                                    <p style="font-size:12px; font-family: 'Josefin Sans'; padding-left: 10px;">
+                                    <p style="color:gray;font-size:14px;"> padding-left: 10px;">
                                         -Microscope based
                                         (DOF limited probes)
                                         <br>-Triangulation probes
@@ -111,11 +111,11 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Low Coherence Interferometry!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Low Coherence Interferometry?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
                                     {{--<img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci413.png')}}" alt="">--}}
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         The low coherence interferometry of FSM is accurate,
                                         fast and reproducible tool for measurements for
                                         MEMs structures.
@@ -153,10 +153,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_C2C')}}">
                                 <div class="blog_btm_cntnt">
@@ -172,10 +172,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_PR.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_PR')}}">
                                 <div class="blog_btm_cntnt">
@@ -192,10 +192,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA.png" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_SA')}}">
                                 <div class="blog_btm_cntnt">
@@ -217,10 +217,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413MOT.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_413_MOT')}}">
                                 <div class="blog_btm_cntnt">

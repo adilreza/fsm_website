@@ -33,9 +33,9 @@
                 <div class="blog_box_wrapper blog_box_padding posts">
                     <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:400px; width:380px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128G-450.png')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
-                        <ul>
+                        {{-- <ul>
                             <li> 10 <span> SOLD</span> </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                     <div class="btc_blog_cate_cont_wrapper">
                         <h5>About 128G-450 Product </h5>
@@ -53,7 +53,7 @@
                     <div>
 
 
-                        <h2>128G-450</h2>
+                        <h2 style="padding-bottom:60px;font-size:1px;">.</h2>
                         <p>Below all about the product's feature specification and applications</p>
 
                         <div class="tab">

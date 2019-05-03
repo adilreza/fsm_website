@@ -36,10 +36,10 @@
       <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L.jpg')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
             
-          </ul>
+          </ul> --}}
         </div>
       <a href="{{URL::to('/product_128L')}}">
           <div class="blog_btm_cntnt">
@@ -56,10 +56,10 @@
       <div class="blog_box_wrapper">
         <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128G-450.png')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
             
-          </ul>
+          </ul> --}}
         </div>
         <a href="{{URL::to('/product_128G_450')}}">
           <div class="blog_btm_cntnt">
@@ -76,10 +76,10 @@
         <div class="blog_box_wrapper">
           <div class="blog_img_wraper"> <img width="400" height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128NT.PNG" alt=""> </div>
           <div class="blog_icon_overlay">
-            <ul>
+            {{-- <ul>
               <li> 19 <span> SOLD</span> </li>
             
-            </ul>
+            </ul> --}}
           </div>
           <a href="{{URL::to('/product_128NT')}}">
             <div class="blog_btm_cntnt">
@@ -101,9 +101,9 @@
       <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128_C2C.png')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-            
+             --}}
           </ul>
         </div>
         <a href="{{URL::to('/product_128_C2C')}}">
@@ -121,10 +121,10 @@
       <div class="blog_box_wrapper">
         <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNG')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD </span> </li>
             
-          </ul>
+          </ul> --}}
         </div>
         <a href="{{URL::to('/product_128L_C2C')}}">
           <div class="blog_btm_cntnt">
@@ -153,10 +153,10 @@
         <div class="blog_box_wrapper">
         <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}" alt=""> </div>
           <div class="blog_icon_overlay">
-            <ul>
+            {{-- <ul>
               <li> 19 <span> SOLD</span> </li>
               
-            </ul>
+            </ul> --}}
           </div>
           <a href="{{URL::to('/product_413_C2C')}}">
             <div class="blog_btm_cntnt">
@@ -172,10 +172,10 @@
       <div class="blog_box_wrapper">
         <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_PR.png')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
           
-          </ul>
+          </ul> --}}
         </div>
         <a href="{{URL::to('/product_413_PR')}}">
           <div class="blog_btm_cntnt">
@@ -192,10 +192,10 @@
     <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img height="300px" src="fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_SA.png" alt=""> </div>
       <div class="blog_icon_overlay">
-        <ul>
+        {{-- <ul>
           <li> 19 <span> SOLD</span> </li>
          
-        </ul>
+        </ul> --}}
       </div>
       <a href="{{URL::to('/product_413_SA')}}">
         <div class="blog_btm_cntnt">
@@ -217,10 +217,10 @@
       <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413MOT.png')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
           
-          </ul>
+          </ul> --}}
         </div>
         <a href="{{URL::to('/product_413_MOT')}}">
           <div class="blog_btm_cntnt">
@@ -252,10 +252,10 @@
       <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_VIT_C2C.PNG')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
             
-          </ul>
+          </ul> --}}
         </div>
       <a href="{{URL::to('/product_VITE_C2C')}}">
           <div class="blog_btm_cntnt">
@@ -272,10 +272,10 @@
     <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_8108_VITE.png')}}" alt=""> </div>
       <div class="blog_icon_overlay">
-        <ul>
+        {{-- <ul>
           <li> 19 <span> SOLD</span> </li>
           
-        </ul>
+        </ul> --}}
       </div>
       <a href="{{URL::to('/product_8108_VITE')}}">
         <div class="blog_btm_cntnt">
@@ -309,10 +309,10 @@
           <div class="blog_box_wrapper">
           <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900_C2C.png')}}" alt=""> </div>
             <div class="blog_icon_overlay">
-              <ul>
+              {{-- <ul>
                 <li> 19 <span> SOLD</span> </li>
                
-              </ul>
+              </ul> --}}
             </div>
             <a href="{{URL::to('/product_900_C2C')}}">
               <div class="blog_btm_cntnt">
@@ -328,10 +328,10 @@
             <div class="blog_box_wrapper">
               <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_900TC_VAC.png')}}" alt=""> </div>
               <div class="blog_icon_overlay">
-                <ul>
+                {{-- <ul>
                   <li> 19 <span> SOLD</span> </li>
                   
-                </ul>
+                </ul> --}}
               </div>
               <a href="{{URL::to('/product_900TC_VAC')}}">
                 <div class="blog_btm_cntnt">

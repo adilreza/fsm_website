@@ -25,10 +25,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:blue;">What is Electrical Characterization?<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Electrical Characterization?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.
                                     </p>
                                 </div>
@@ -36,11 +36,11 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:blue;">Fsm's success about electrical characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success about electrical characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
                                     <img width="360px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsl.png')}}" alt="">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         Production controls for USJ (ultra-shallow junctions) requires in-line
                                         methods for measurements of sheet resistance (Rs) in the range
                                         from 100 to 900 Ohm/square for junction depths (X<sub>j</sub>), in the range of
@@ -60,10 +60,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:blue;">Types of Electrical Characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Electrical Characterization.</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for Electrical Characterization in our 4pp , RsL tools.
                                     </p>
                                 </div>
@@ -76,10 +76,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:blue;">Traditional Electrical Characterization.<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Electrical Characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse">
                                 <div class="card-body">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                         Develop and maintain capabilities for electrical characterization with traditional technologies, including process monitoring and control, compact device modeling, RF characterization, ESD testing, technology qualification, mixed signal prototype testing, radiation hardness testing. Comprehensive on wafer characterization of devices and circuits for development and qualification of innovative technologies.
                                     </p>
                                 </div>
@@ -87,11 +87,11 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:blue;">What FSM's achievement about Electrical Characterization!<span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Electrical Characterization?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
                                     <img width="280px" height="240px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/ecdefault.png')}}" alt="">
-                                    <p style="font-size:12px; font-family: 'Josefin Sans';">FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.</p>
+                                    <p style="color:gray;font-size:14px;">FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.</p>
                                 </div>
                             </div>
                         </div>
@@ -122,10 +122,10 @@
                         <div class="blog_box_wrapper">
                             <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_4PP.png')}}" alt=""> </div>
                             <div class="blog_icon_overlay">
-                                <ul>
+                                {{-- <ul>
                                     <li> 19 <span> SOLD</span> </li>
 
-                                </ul>
+                                </ul> --}}
                             </div>
                             <a href="{{URL::to('/product_4pp')}}">
                                 <div class="blog_btm_cntnt">
@@ -156,10 +156,10 @@
                             <div class="blog_box_wrapper">
                                 <div class="blog_img_wraper"> <img height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_RSL.png')}}" alt=""> </div>
                                 <div class="blog_icon_overlay">
-                                    <ul>
+                                    {{-- <ul>
                                         <li> 19 <span> SOLD</span> </li>
 
-                                    </ul>
+                                    </ul> --}}
                                 </div>
                                 <a href="{{URL::to('/product_rsl')}}">
                                     <div class="blog_btm_cntnt">

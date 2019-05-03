@@ -33,9 +33,9 @@
                 <div class="blog_box_wrapper blog_box_padding posts">
                     <div class="blog_img_wraper blog_img_wraper_2 text-center" > <img style="height:450px; width:360px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_PR.png')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
-                        <ul>
+                        {{-- <ul>
                             <li> 10 <span> SOLD</span> </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                     <div class="btc_blog_cate_cont_wrapper">
                         <h5>About 413 PR Product </h5>
@@ -51,7 +51,8 @@
                     <div class="detailstab">
 
 
-                        <h2>413 PR</h2>
+                        <h2 style="padding-bottom:60px;font-size:1px;">.</h2>
+                      
                         <p>Below all about the product's feature specification and applications</p>
 
                         <div class="tab">

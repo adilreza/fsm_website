@@ -17,8 +17,8 @@
     <div class="row">
       <div class="sb-nivo-slider-wrapper kc-elm kc-css-242493">
         <div id="mainSlider" class="nivoSlider sb-slider-image"> 
-        <img  src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/background_fsm_image2final.png')}}" alt="" title="#htmlcaption1_30"/>
-		<img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/background_fsm_image_final.png')}}" alt="" title="#htmlcaption1_28" /> </div>
+        <img  src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/background_fsm_image_final.png')}}" alt="" title="#htmlcaption1_30"/>
+		    <img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/background_fsm_image_final.png')}}" alt="" title="#htmlcaption1_28" /> </div>
         <!-- sb-slider style-1 start -->
         <div id="htmlcaption1_30" class="nivo-html-caption sb-slider-content-nivo">
           <div class="sb-slider_inner container  text-left">
@@ -282,15 +282,15 @@ Our Featured Wrapper Start -->
 <div class="blog_box_wrapper">
   <div class="blog_img_wraper text-center"> <img height="420px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}" alt=""> </div>
   <div class="blog_icon_overlay">
-    <ul>
+    {{-- <ul>
       <li> 19 <span> JUNE</span> </li>
       <li> 02 <span> COM.</span> </li>
      
-    </ul>
+    </ul> --}}
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 413 C2C</h2>
-    <h6 class="pad-b-10" style="color:gray;font-size:13px;">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</h6>
+    <p class="pad-b-10" style="font-size:14px;">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</p>
     <a href="{{URL::to('/product_413_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>
@@ -300,15 +300,14 @@ Our Featured Wrapper Start -->
 <div class="blog_box_wrapper">
   <div class="blog_img_wraper text-center" > <img height="420px" class="text-center" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNG')}}" alt=""> </div>
   <div class="blog_icon_overlay">
-    <ul>
+    {{-- <ul>
       <li> 19 <span> JUNE</span> </li>
       <li> 02 <span> COM.</span> </li>
-     
-    </ul>
+    </ul> --}}
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 128 C2C</h2>
-    <h6 class="pad-b-10" style="font-size:13px;color:gray;">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</h6>
+    <p style="font-size:14px;" class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
     <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
     </a>

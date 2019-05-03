@@ -34,10 +34,10 @@
                     <div class="blog_box_wrapper">
                     <div class="blog_img_wraper text-center"> <img height="380px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_500TC.png')}}" alt=""> </div>
                       <div class="blog_icon_overlay">
-                        <ul>
+                        {{-- <ul>
                           <li> 19 <span> SOLD </span> </li>
                          
-                        </ul>
+                        </ul> --}}
                       </div>
                       <a href="{{URL::to('/product_500TC')}}">
                         <div class="blog_btm_cntnt">
@@ -66,10 +66,10 @@
         <div class="blog_box_wrapper">
         <div class="blog_img_wraper text-center"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_raman_360.png')}}" alt=""> </div>
           <div class="blog_icon_overlay">
-            <ul>
+            {{-- <ul>
               <li> 19 <span> SOLD </span> </li>
              
-            </ul>
+            </ul> --}}
           </div>
         <a href="{{URL::to('/product_raman360')}}">
             <div class="blog_btm_cntnt">
@@ -85,10 +85,10 @@
         <div class="blog_box_wrapper">
           <div class="blog_img_wraper text-center"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_127_C2C.png')}}" alt=""> </div>
           <div class="blog_icon_overlay">
-            <ul>
+            {{-- <ul>
               <li> 19 <span> SOLD </span> </li>
               
-            </ul>
+            </ul> --}}
           </div>
           <a href="{{URL::to('/product_127_C2C')}}">
             <div class="blog_btm_cntnt">
@@ -118,10 +118,10 @@
         <div class="blog_box_wrapper">
         <div class="blog_img_wraper"> <img height="380px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_rms.png')}}" alt=""> </div>
           <div class="blog_icon_overlay">
-            <ul>
+            {{-- <ul>
               <li> 19 <span> SOLD</span> </li>
              
-            </ul>
+            </ul> --}}
           </div>
           <a href="{{URL::to('/product_rms')}}">
             <div class="blog_btm_cntnt">
@@ -149,9 +149,9 @@
       <div class="blog_box_wrapper">
       <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_melt.PNG')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-          </ul>
+          </ul> --}}
         </div>
         <a href="{{URL::to('/product_melt')}}">
           <div class="blog_btm_cntnt">
@@ -167,9 +167,9 @@
       <div class="blog_box_wrapper">
         <div class="blog_img_wraper"> <img width="320px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_AQUAFLEX.PNG')}}" alt=""> </div>
         <div class="blog_icon_overlay">
-          <ul>
+          {{-- <ul>
             <li> 19 <span> SOLD </span> </li>
-          
+           --}}
           </ul>
         </div>
         <a href="{{URL::to('/product_aquaflex')}}">
@@ -198,10 +198,10 @@
             <div class="blog_box_wrapper">
             <div class="blog_img_wraper"> <img height="300px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_4PP.png')}}" alt=""> </div>
               <div class="blog_icon_overlay">
-                <ul>
+                {{-- <ul>
                   <li> 19 <span> SOLD</span> </li>
                   
-                </ul>
+                </ul> --}}
               </div>
               <a href="{{URL::to('/product_4pp')}}">
                 <div class="blog_btm_cntnt">
@@ -217,10 +217,10 @@
               <div class="blog_box_wrapper">
                 <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_RSL.png')}}" alt=""> </div>
                 <div class="blog_icon_overlay">
-                  <ul>
+                  {{-- <ul>
                     <li> 19 <span> SOLD</span> </li>
                     
-                  </ul>
+                  </ul> --}}
                 </div>
                 <a href="{{URL::to('/product_rsl')}}">
                   <div class="blog_btm_cntnt">
