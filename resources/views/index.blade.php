@@ -270,7 +270,7 @@ Our Featured Wrapper Start -->
 </div> --}}
 <!-- Numbering Wrapper End -->
 <!-- Our Blog Wrapper Start -->
-<div class="blog-wrapper" style="background:##d1ccc0;">
+<div class="blog-wrapper" style="background:#F1F2F6;">
 <div class="container">
 <div class="section-title">
 <h2><i> <b>Our Featured Product</b></i></h2>

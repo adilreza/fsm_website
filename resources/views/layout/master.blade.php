@@ -202,7 +202,7 @@
 
 <!-- common footer start -->
 
-  <section class="newsletter">
+  <section class="newsletter" style="background:#F1F2F6!important">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-12">

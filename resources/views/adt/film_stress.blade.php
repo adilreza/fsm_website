@@ -156,7 +156,7 @@
 
 
 
-          <div class="inner-page-wrapper blog-wrapper blog-grid">
+          <div class="inner-page-wrapper blog-wrapper blog-grid" style="background:white">
                 <div id="128series" class="container">
                     <h3>128 Series for Film Stress</h3>
                     <hr style="width:75%;">

@@ -145,7 +145,7 @@
         <br>
 
 
-        <div class="inner-page-wrapper blog-wrapper blog-grid">
+        <div class="inner-page-wrapper blog-wrapper blog-grid" style="background:white;">
             <div id="128series" class="container">
                 <h3>RsL for Electrical Characterization </h3>
                 <hr style="width:75%;">
