@@ -25,8 +25,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Low Coherence Interferometry?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuone" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Low Coherence Interferometry?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         Substrate Thickness, Warp, and TTV Measurement - with or without Tape - for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
@@ -58,8 +58,8 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Low Coherence Interferometry</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menutwo" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Low Coherence Interferometry</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for all three types in our 413 series.
@@ -74,8 +74,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Low Coherence Interferometry</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuonee" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Low Coherence Interferometry</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuonee" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         There are remains some limitations with traditional technologies:

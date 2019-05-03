@@ -25,8 +25,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Thin Wafer Metrology?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuone" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Thin Wafer Metrology?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV) and warp. FSM offers solutions for measurement of wafers and wafers on tape.
@@ -63,8 +63,8 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Thin Wafer Metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menutwo" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Thin Wafer Metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for thin wafer metrology in our 413 Series.
@@ -79,8 +79,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Thin Wafer Metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuonee" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Thin Wafer Metrology</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuonee" class="collapse show">
                                 <div class="card-body">
                                     <img width="450px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/traditional_413.png')}}" alt="">
                                     <p style="color:gray;font-size:14px;">

@@ -25,8 +25,8 @@
       <div class="col-lg-6 col-md-12">
         <div id="accordion">
           <div class="card">
-              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-            <div id="menuone" class="collapse">
+              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+            <div id="menuone" class="collapse show">
               <div class="card-body"> 
                 <p style="color:gray;font-size:14px;">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
                 </p>
@@ -50,8 +50,8 @@
               </div>
             <br> 
           <div class="card">
-              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Stress</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-            <div id="menutwo" class="collapse">
+              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Stress</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+            <div id="menutwo" class="collapse show">
               <div class="card-body">
                   <p style="color:gray;font-size:14px;">
                       There are three types of film stress: global, local, and lattice level stress. FSM offers solutions for all three types in our 128/500/900 Series, 127 Series, and Raman 360 tools.

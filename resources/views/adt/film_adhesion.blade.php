@@ -25,8 +25,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Adhesion?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuone" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Adhesion?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                     Film adhesion tests are a critical step in film process development and reliability control. Adhesive failures indicate voids, contamination, and/or composition variations in a film. FSM offers systems testing in air as well as in liquid. Testing in liquid reveals the effect of solutions on the material's cohesive strength and interfaces.
@@ -61,8 +61,8 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menutwo" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                     There are two types of film adhesion testers: MELT, Aquaflex. FSM offers solutions for all these two types in our Melt and Aquaflex tools.
@@ -77,8 +77,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Film Adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuonee" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Film Adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuonee" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                     In a traditional adhesion testing,

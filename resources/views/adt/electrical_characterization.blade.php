@@ -25,8 +25,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Electrical Characterization?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuone" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Electrical Characterization?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         FSM offers contact and non-contact electrical characterization metrology used in FEOL device making.
@@ -36,7 +36,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success about electrical characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success about electrical characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> 
+                            
+                            </div>
+                            
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
                                     <img width="360px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsl.png')}}" alt="">
@@ -57,11 +60,12 @@
                                     </p>
                                 </div>
                             </div>
+
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Electrical Characterization.</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menutwo" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Electrical Characterization.</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for Electrical Characterization in our 4pp , RsL tools.
@@ -76,8 +80,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Electrical Characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuonee" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Electrical Characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuonee" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         Develop and maintain capabilities for electrical characterization with traditional technologies, including process monitoring and control, compact device modeling, RF characterization, ESD testing, technology qualification, mixed signal prototype testing, radiation hardness testing. Comprehensive on wafer characterization of devices and circuits for development and qualification of innovative technologies.

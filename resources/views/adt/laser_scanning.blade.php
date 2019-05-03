@@ -25,8 +25,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Laser Scanning?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuone" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Laser Scanning?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         FSM uses patented Laser Scanning technology to measure the radius of curvature and bow of wafers. A laser beam is directed to the wafer. The beam is reflected at an angle that corresponds to the radius of curvature of the wafer.
@@ -64,8 +64,8 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Laser Scanning.</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menutwo" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Laser Scanning.</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         FSM offers solutions for laser scanning in our 128/500/900 Series.

@@ -25,8 +25,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is 3DIC TSV PROCESS CONTROL?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuone" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is 3DIC TSV PROCESS CONTROL?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
                                         3DIC manufacturing is facing enormous process control issues. FSM developed an innovative technology to meet the process control needs of TSV creation, copper reveal, and bump height measurement.
@@ -48,7 +48,7 @@
                         <br>
                         <div class="card">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="false" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of 3DIC</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menutwo" class="collapse">
+                            <div id="menutwo" class="collapse show">
                                 <div class="card-body">  <p style="color:gray;font-size:14px;"> FSM offers solutions for 3DIC in our 413 series (413 C2C, 413 PR, 413SA, 413MOT). </p></div>
                             </div>
                         </div>
@@ -59,8 +59,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
-                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="false" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional 3DIC TSV PROCESS CONTROL</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menuonee" class="collapse">
+                            <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional 3DIC TSV PROCESS CONTROL</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menuonee" class="collapse show">
                                 <div class="card-body">
                                     <img width="450px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/3DIC.jpg')}}" alt="">
                                     <p style="color:gray;font-size:14px;">
