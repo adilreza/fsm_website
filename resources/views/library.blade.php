@@ -57,12 +57,12 @@
 
 
 
-<div class="inner-page-wrapper pricing-wrapper text-center" style="background:#f1f2f6;">
-    <div class="container" style="width:96%;">
-                    <div class="containr" style="background:white; padding:50px 10px;border-radius:10px;">
+<div class="inner-page-wrapper pricing-wrapper text-center" style="background:#494BBA;">
+    <div class="container" style="width:96%; background:white;">
+                    <div class="containr" style="padding:30px 10px;border-radius:10px;">
                     
                         <div class="row" style="">
-                            <div class="col-md-12 col-sm-12">
+                            <div class="col-md-12 col-sm-12" style="height:10px;">
                             <form method="post" action="{{URL::to('/library')}}">
                                 {{ csrf_field() }}
                                     <div class="row">
@@ -99,13 +99,18 @@
         <br>
 
 
+    </div>
+</div>
 
-<div class="dynamic_article_div" style="width:100%;padding:10px 0px;margin:auto;">
+
+<div style="margin-top:200px;position:relative;background:#f1f2f6!important">
+
+<div class="dynamic_article_div" style="width:100%;padding:50px 0px;margin:auto;background:white;">
         
-    
+<div style="width:85%; text-align:center; margin: auto; background:#f1f2f6!important">
     
     @foreach ($all_article as $article)
-        <div  id="single_art" style="width:31%;float:left;overflow:hidden; height:250px;;margin-right:22px;padding:5px;margin-bottom:10px; text-align:center;">
+        <div  id="single_art" style="width:31%;float:left;overflow:hidden; height:250px;;margin-right:22px;padding:5px;margin-bottom:10px; text-align:center; background:#f1f2f6!important">
             <h3 style="text-align:center; "><i style="background:#273c75; border-radius:50%;color:#00a8ff;padding:10px;"class="fas fa-book-reader"></i></h3>
             <a href="{{URL::to('/article/article_details/'.$article->id)}}">
             <h5 style="text-align:left;color:#0652DD;font-size:23px;text-shadow:1px 0px 0px black;text-align:center;" id="font_siz">{!! str_limit($article->post_title, $limit=100,$end='...') !!}</h5>
@@ -119,10 +124,13 @@
         
     @endforeach
 
+</div>
+
 
 </div>
+
 </div>
-</div>
+
         
 
 
