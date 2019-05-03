@@ -34,7 +34,7 @@
             <div class="wow slideInRight" data-wow-duration="3s" data-wow-delay="0s">
               <p  class="sb-slider-descript"> We make solutions for semiconductor, LED, Solar, FPD, Data Storage and MEMS applications</p>
             </div>
-          <div class="sb-slider-button wow bounceInUp sb-button-button-area" data-wow-duration="3s" data-wow-delay="0s"> <a class="sb-active-button" href="{{URL::to('/application')}}">SEE DETAILS</a> </div>
+          <div class="sb-slider-button wow bounceInUp sb-button-button-area " data-wow-duration="3s" data-wow-delay="0s"> <a class="sb-active-button bg-success" href="{{URL::to('/application')}}">SEE DETAILS</a> </div>
           </div>
         </div>
         <!-- sb-slider style-1 end --> 
@@ -51,7 +51,7 @@
             <div class="wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0s">
               <p  class="sb-slider-descript">We have over 25 years experience in stress measurement, film adhesion testing, wafer topography metrology, and electrical characterization</p>
             </div>
-            <div class="sb-slider-button wow  bounceInUp  sb-button-button-area" data-wow-duration="3s" data-wow-delay="0.5s"> <a class="sb-active-button" href="{{URL::to('/application')}}">SEE DETAILS</a> </div>
+            <div class="sb-slider-button wow  bounceInUp  sb-button-button-area" data-wow-duration="3s" data-wow-delay="0.5s"> <a class="sb-active-button bg-success" href="{{URL::to('/application')}}">SEE DETAILS</a> </div>
           </div>
         </div>
       </div>
