@@ -343,16 +343,21 @@ Our Featured Wrapper Start -->
 
 
 <!-- Our Blog Wrapper End -->
-<div class="container" style="margin-top:160px;" style="background:red;">
-  <h3 class="text-center" style="margin-top:80px;">Our Branch & Distributor</h3>
-    <div class="separator"></div>
 
-</div>
+<div class="blog-wrapper" style="background:white!important">
 
-<div class="containerrr text-center" style="width: 96%;margin-top:80px; margin-left:23px; ">
-  <div class="row">
-    <div id="vmap" class="col-md-8" style="height: 380px;background:blueviolet; border-radius:5px 0px 0px 5px;"></div>
-    <div id="name" class="col-md-4" style="box-shadow: 1px 1px 1px 1px #bdc3c7;padding-bottom: 50px;border-radius: 3px;"></div>
+  <div class="container" style="" style="background:red;">
+    <h3 class="text-center" >Our Branch & Distributor</h3>
+      <div class="separator"></div>
+
+  </div>
+
+  <div class="containerrr text-center" style="width: 96%;margin-top:80px; margin-left:23px; ">
+    <div class="row">
+      <div id="vmap" class="col-md-8" style="height: 380px;background:blueviolet; border-radius:5px 0px 0px 5px;"></div>
+      <div id="name" class="col-md-4" style="box-shadow: 1px 1px 1px 1px #bdc3c7;padding-bottom: 50px;border-radius: 3px;"></div>
+
+    </div>
 
   </div>
 
