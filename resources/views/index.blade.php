@@ -111,7 +111,7 @@ Our Featured Wrapper Start -->
 </div>
 <div class="col-md-6 col-lg-4">
   <div class="single-services">
-    <div class="media"><a href="{{URL::to('laser_scanning')}}"><img src="{{URL::asset('fsm_all_web_file/adt_image/laser_scan.png')}}" style="height:120px; width:150px;"></a>
+    <div class="media"><a href="{{URL::to('laser_scanning')}}"><img src="{{URL::asset('fsm_all_web_file/adt_image/lase scanningw.png')}}" style="height:120px; width:150px;"></a>
       <div class="media-body"> <h3><a href="{{URL::to('laser_scanning')}}">Laser Scanning</a></h3>
         <p>FSM uses patented Laser Scanning technology to measure the .. </p>
       </div>
@@ -139,7 +139,7 @@ Our Featured Wrapper Start -->
   </div>
   <div class="col-md-6 col-lg-6">
     <div class="single-services">
-    <div class="media"> <a href="{{URL::to('low_coherence')}}"> <img src="{{URL::asset('fsm_all_web_file/adt_image/low_coherency.png')}}" style="height:120px; width:150px;"></a>
+    <div class="media"> <a href="{{URL::to('low_coherence')}}"> <img src="{{URL::asset('fsm_all_web_file/adt_image/coherencyw.png')}}" style="height:120px; width:150px;"></a>
         <div class="media-body"> <h3><a href="{{URL::to('low_coherence')}}">Low Coherence Interferometry</a></h3>
           <p>A Michelson Interferometer with a low coherence light source ..</p>
         </div>
