@@ -23,6 +23,6 @@ class contact_controller extends Controller
 
         DB::table('customer_queries')->insert($make_array);
 
-        return view('contact_us')->with('successMsg','successfully received your message! Our team will replay your query as soon as possible!! thank you');
+        return view('contact_us')->with('successMsg','Successfully received your message! Our team will replay your query as soon as possible. ');
     }
 }

@@ -10,14 +10,15 @@
     <h1>Subscription Status</h1>
     <ul class="page-breadcrumb">
     <li><a href="{{URL::to('/')}}">Home</a></li>
-	  <li>Features</li>
-      <li>subscriber</li>
+	  <li>Subscription</li>
+	  <li>Success</li>
+     
     </ul>
   </div>
 </div>
 <!-- Breadcrumb Wrapper End -->
 <!-- Inner Page Wrapper Start -->
-<div class="inner-page-wrapper search-results-wrapper" style="height:400px;">
+<div class="inner-page-wrapper" style="height:400px;">
 <div class="container">
   <div class="row">
     <div class="col-md-8">
@@ -30,7 +31,10 @@
           @else
             @if(!empty($thank_you_message))
               @if($thank_you_message!='')
-              <h3>{{$thank_you_message}}</h3>
+              <div class="alert alert-danger alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Sorry</strong> This email is already subcribed.
+              </div>
               @endif
             @endif
               

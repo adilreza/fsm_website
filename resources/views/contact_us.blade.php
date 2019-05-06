@@ -25,7 +25,9 @@
 
         <h3>We are here to help you</h3>
         <hr style="width:70%;padding:0.5px;">
-        <p>Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+        <p>Are you curious about something? Do you have some kind of problem with our products? Want to contact with our team.
+          <br>
+          Please put down your Query and we will response soon.
         </p>
     
     </div>
@@ -81,7 +83,7 @@
         </div>
       </form>
     </div>
-  <h6 style="color:firebrick;">@if(!empty($successMsg)){{$successMsg}}@endif</h6>
+  <h5 style="color:firebrick;">@if(!empty($successMsg)){{$successMsg}}@endif</h5>
   </div>
   <div class="col-lg-5 mb-md-5 pl-lg-5">
     <div class="title">
