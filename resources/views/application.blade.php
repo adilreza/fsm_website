@@ -49,7 +49,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="pricing_table">
                     <div class="top_border_1"></div>
-                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/laser_scan.png')}}" style="height:100px; width:120px;"> </div>
+                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/lase scanningw.png')}}" style="height:100px; width:120px;"> </div>
                     <div class="price_table_title">
                         <h5>Laser Scanning</h5>
                     </div>
@@ -129,7 +129,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="pricing_table">
                     <div class="top_border_1"></div>
-                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/low_coherency.png')}}" style="height:100px; width:120px;"> </div>
+                    <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/coherencyw.png')}}" style="height:100px; width:120px;"> </div>
                     <div class="price_table_title" >
                         <h5>Low Coherence Interferometry</h5>
                     </div>
