@@ -35,8 +35,11 @@
     #single_art{
         float: none!important;
         
-        width:auto!important;
+        width:500px;
+        background:red;
+
         margin-right: 0px!important;
+        margin-bottom: 20px;
         
     }
     #font_siz{
@@ -103,11 +106,11 @@
 </div>
 
 
-<div style="margin-top:200px;position:relative;background:#f1f2f6!important">
+<div class="inner-page-wrapper" style="background:white!important">
 
-<div class="dynamic_article_div" style="width:100%;padding:50px 0px;margin:auto;background:white;">
+<div class="dynamic_article_div" style="width:100%;margin:auto;background:white;">
         
-<div style="width:85%; text-align:center; margin: auto; background:#f1f2f6!important">
+<div style="width:85%; text-align:center; margin: auto; background:#f1f2f6!important;">
     
     @foreach ($all_article as $article)
         <div  id="single_art" style="width:31%;float:left;overflow:hidden; height:250px;;margin-right:22px;padding:5px;margin-bottom:10px; text-align:center; background:#f1f2f6!important">
