@@ -13,7 +13,7 @@
                 <div class="card">
                     @if (!empty($msg_status))
                         <div class="alert alert-success">
-                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>successfull inserted your article
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>Successfully inserted your article
                         </div>
                     @endif
 
@@ -52,7 +52,13 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <label for="content">Main Content..</label>
+                                    <label><b>Attach a pdf file</b></label>
+                                    <br>
+                                    <input type="file" name="attached_pdf_file">
+                                    <br>
+                                    <br>
+                                    <label for="content"><b>Main Content..</b></label>
+
                                     <textarea required id="content" name="main_content" type="text" class="required form-control">
                                    </textarea>
                                 </section>

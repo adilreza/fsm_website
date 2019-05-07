@@ -157,7 +157,20 @@ class admin_controller extends Controller
             //return ("succesfull inserted you ")
 
         }
-        $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name,'blasting'=>'not published', 'main_content'=>$main_content,'admin_email'=>session('admin_email') );
+        $file_name='';
+        if($data->hasfile('attached_pdf_file'))
+        {
+            $file_name  = $data->file('attached_pdf_file')->getClientOriginalName();
+            $data->file('attached_pdf_file')->move(public_path().'/fsm_all_web_file/fsm_image_gallery/library_image',$file_name);
+        }
+        if($file_name=='')
+        {
+            $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name,'blasting'=>'not published', 'main_content'=>$main_content,'admin_email'=>session('admin_email'),'attace_file_name'=>'none' );
+        }
+        else
+        {
+            $make_array = array('post_title'=>$post_title, 'application_type'=>$application_type, 'display_image'=>$image_name,'blasting'=>'not published', 'main_content'=>$main_content,'admin_email'=>session('admin_email'),'attace_file_name'=>$file_name);
+        }
         DB::table('article_tables')->insert($make_array);
         //DB::table('article_tables')->where('id',$article_id)->update(['blasting'=>'already published']);
         return view("admin.admin_panel.library_text_editor")->with('msg_status','success');

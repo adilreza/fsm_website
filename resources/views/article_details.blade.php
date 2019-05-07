@@ -42,7 +42,10 @@
             <div class="col-md-12">
                 <p>{!! $article->main_content !!}</p>
             </div>
-           
+            <br>
+        @if($article->attace_file_name!='none')
+         <a href="{{URL::asset('/fsm_all_web_file/fsm_image_gallery/library_image/'.$article->attace_file_name)}}"><h4 style="padding:10px 50px; background:#4AC8ED;color:white;border-radius:40px;cursor:pointer;">Read More <i class="fas fa-arrow-right"></i></h4></a>
+        @endif
        </div>
     </div>
 

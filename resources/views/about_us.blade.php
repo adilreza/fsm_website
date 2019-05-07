@@ -139,7 +139,7 @@
 
 
 
-  <div class="container">
+  {{-- <div class="container">
       
           <div class="heading" >
             <h5>..</h5>
@@ -218,10 +218,11 @@
           </div>
           
 
-  </div>
+  </div> --}}
 
 
 
+<div >
 
 
 <div class="container">
@@ -272,7 +273,7 @@
 
 
 
-
+{{-- 
 <section class="testimonials-wrapper">
   <div class="container">
   <div class="section-title">
@@ -326,7 +327,7 @@
   </div>
   </div>
   </div>
-  </section>
+  </section> --}}
 
 
 
@@ -336,7 +337,7 @@
 
 <!-- News Letter Wrapper End -->
 
-
+</div>
 
 
 
