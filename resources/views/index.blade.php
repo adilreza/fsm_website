@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('page_title', "Homepage | Frontier Semicondructor")
+@section('page_title', "Homepage | Frontier Semiconductor")
 @section('custome_static')
 <link href="{{ URL::asset('fsm_all_web_file/css/customer_slider_css.css') }}" rel="stylesheet">
 <link href="{{ URL::asset('fsm_all_web_file/fsm_work/dist/jqvmap.css') }}" media="screen" rel="stylesheet" type="text/css"/>

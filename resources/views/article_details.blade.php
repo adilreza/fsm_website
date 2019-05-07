@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('page_title', "Article details  | Frontier Semicondructor")
+@section('page_title', "Article details  | Frontier Semiconductor")
 
 
 @section('index_page')

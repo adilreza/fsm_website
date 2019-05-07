@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('page_title', "Library | Frontier Semicondructor")
+@section('page_title', "Library | Frontier Semiconductor")
 @section('custome_static')
 <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">    
 @endsection
