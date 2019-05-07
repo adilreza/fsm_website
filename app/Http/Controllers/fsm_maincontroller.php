@@ -212,7 +212,7 @@ class fsm_maincontroller extends Controller
     }
     public function library_page()
     {
-        $all_article_post = DB::table('published_articles')->get();
+        $all_article_post = DB::table('published_articles')->orderBy('id', 'DESC')->get();
         return view('library')->with('all_article',$all_article_post);
     }
     public function filter_by_application(request $data)
@@ -220,12 +220,12 @@ class fsm_maincontroller extends Controller
         $application_type = $data->cars;
         if($application_type!='Application All Type')
         {
-        $all_article_post = DB::table('published_articles')->where('application_type',$application_type)->get();
+        $all_article_post = DB::table('published_articles')->where('application_type',$application_type)->orderBy('id', 'DESC')->get();
         return view('library')->with('all_article',$all_article_post);
         }
         else
         {
-        $all_article_post = DB::table('published_articles')->get();
+        $all_article_post = DB::table('published_articles')->orderBy('id', 'DESC')->get();
         return view('library')->with('all_article',$all_article_post);
 
         }
