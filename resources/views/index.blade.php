@@ -404,112 +404,31 @@ Our Featured Wrapper Start -->
 
             if(code==="bd")
             {
-
-              var newline ="<br/>";
-              var line = "<hr>"
-              var title ="<h3 style='color:green;font-size:22px;'>FSM IN BANGLADESH</h3>";
-              //var image = '<img height="160px" width="190px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/masum_vaiya_pub.jpg')}}" alt="" class="">';
-              var campanyName = "<span style='font-size:20px;'>ABDULLAH AL MASUM</span>";
-              var type = "<span style='font-size:17px;'>Services & Engineering</span>";
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+" +88 01992526419";
-              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
-              var email = "<span style='color:blue;'>masuma@frontiersemi.com</span>";
-              var newline ="<br/>";
-              var address = "House no: 1078, Road No: 06, Mirpur DOHS,"+newline+"Dhaka 1216 ";
-              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+newline+email+newline+newline+address);
-
+              bd();
             }
             else if(code ==="us")
             {
-              var newline ="<br/>";
-              var line = "<hr>"
-              var title ="<h3 style='color:green;'> AMERICA </h3>";
-              var campanyName = "<span style='font-size:20px;'>FRONTIER SEMICONDUCTOR</span>";
-              var type = "<span style='font-size:17px;'>Corporate Head Office</span>";
-              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+1 408 432 8838 ";
-              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+1 408 232 1115"
-              var email = "<span style='color:blue;'>fsm100@frontiersemi.com</span>";
-              var newline ="<br/>";
-              var address = "165 Topaz St.,"+newline+"Milpitas, CA 95035";
-
-
-              
-              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
-              
+              us()
             }
             else if(code === "cn")
             {
-
-              var newline ="<br/>";
-              var line = "<hr>"
-              var title ="<h3 style='color:green;font-size:22px;'>FSM IN CHINA</h3>";
-               var campanyName = "<span style='font-size:20px;'>TONY HUANG</span>";
-               var type = "<span style='font-size:17px;'>Sales & Services</span>";
-              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
-
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
-              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
-              var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
-              var newline ="<br/>";
-              var address = "Room 2906, Fu Li Ying Building, No. 2 Huaqiang Road, Tianhe District"+newline+"Guanghou, China 510623";
-              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
-
-
+              cn();
             }
             else if(code === "fr")
             {
-              var newline ="<br/>";
-              var line = "<hr>"
-              var title ="<h3 style='color:green;'>FSM EUROPE</h3>";
-              var campanyName = "<span style='font-size:20px;'>ADRIAN CAILEAN</span>";
-              var type = "<span style='font-size:17px;'>Sales & Service</span>";
-              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+33 (0) 676 494 487";
-              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+33(0)4 76 35 77 61 "
-              var email = "<span style='color:blue;'>adrianc@frontiersemi.com</span>";
-              var newline ="<br/>";
-              var address = "196C Rue du Rocher de Lorzier, 38430 Moirans, France";
-              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
-
-
+              fr();
             }
             else if(code === "tw")
             {
-
-              var newline ="<br/>";
-              var line = "<hr>"
-              var title ="<h3 style='color:green;'> FSM TAIWAN</h3>";
-              var campanyName = "<span style='font-size:20px;'>ALEX CHENG</span>";
-              var type = "<span style='font-size:17px;'>Sales & Service</span>";
-              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="">';
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+886-3-658-7061";
-              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+886-3-658-9600"
-              var email = "<span style='color:blue;'>AlexCgeng@frontiersemi.com</span>";
-              var newline ="<br/>";
-              var address = "Jhubei City, Hsinchu County 302, Taiwan(R.O.C)";
-              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
-
+              tw();
             }
             else if(code === "kr")
             {
-              var newline ="<br/>";
-              var line = "<hr>"
-              var title ="<h3 style='color:green;'> FSM KOREA</h3>";
-              var campanyName = "<span style='font-size:20px;'>SHAWN(SUNG-HYUN) KWON</span>";
-              var type = "<span style='font-size:17px;'>Sales & Service</span>";
-              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+82-31-8015-5458";
-              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+82-31-8015-5459"
-              var email = "<span style='color:blue;'>shawnk@frontiersemi.com</span>";
-              var newline ="<br/>";
-              var address = "#310, Dongtan Paragon-II 106-1, Bansong-dong, Hwasung-si"+newline+"Gyeonggi-do, Korea, 18455";
-              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
-
-
+              kr();
             }
             else
             {
-              $('#name').html(region+"("+code+")"+newline+newline+line+"<h1 style='color:red;'>NO Branch In this Country</h1>");
+              $('#name').html(region+"("+code+")"+newline+newline+line+"<h3 style='color:red;'>NO Branch In this Country</h3>");
 
 
             }
@@ -528,6 +447,8 @@ Our Featured Wrapper Start -->
 
         });
         
+        function us()
+        {
 
         var newline ="<br/>";
               var line = "<hr>"
@@ -541,15 +462,107 @@ Our Featured Wrapper Start -->
               var newline ="<br/>";
               var address = "165 Topaz St.,"+newline+"Milpitas, CA 95035";
                $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+        }
 
+        function kr()
+        {
+          var newline ="<br/>";
+              var line = "<hr>"
+              var title ="<h3 style='color:green;'> FSM KOREA</h3>";
+              var campanyName = "<span style='font-size:20px;'>SHAWN(SUNG-HYUN) KWON</span>";
+              var type = "<span style='font-size:17px;'>Sales & Service</span>";
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+82-31-8015-5458";
+              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+82-31-8015-5459"
+              var email = "<span style='color:blue;'>shawnk@frontiersemi.com</span>";
+              var newline ="<br/>";
+              var address = "#310, Dongtan Paragon-II 106-1, Bansong-dong, Hwasung-si"+newline+"Gyeonggi-do, Korea, 18455";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+        }
+        function tw()
+        {
+          var newline ="<br/>";
+              var line = "<hr>"
+              var title ="<h3 style='color:green;'> FSM TAIWAN</h3>";
+              var campanyName = "<span style='font-size:20px;'>ALEX CHENG</span>";
+              var type = "<span style='font-size:17px;'>Sales & Service</span>";
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="">';
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+886-3-658-7061";
+              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+886-3-658-9600"
+              var email = "<span style='color:blue;'>AlexCgeng@frontiersemi.com</span>";
+              var newline ="<br/>";
+              var address = "Jhubei City, Hsinchu County 302, Taiwan(R.O.C)";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+        }
+        function fr()
+        {
+          var newline ="<br/>";
+              var line = "<hr>"
+              var title ="<h3 style='color:green;'>FSM EUROPE</h3>";
+              var campanyName = "<span style='font-size:20px;'>ADRIAN CAILEAN</span>";
+              var type = "<span style='font-size:17px;'>Sales & Service</span>";
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+33 (0) 676 494 487";
+              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+33(0)4 76 35 77 61 "
+              var email = "<span style='color:blue;'>adrianc@frontiersemi.com</span>";
+              var newline ="<br/>";
+              var address = "196C Rue du Rocher de Lorzier, 38430 Moirans, France";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+        }
+        function cn()
+        {
+          var newline ="<br/>";
+              var line = "<hr>"
+              var title ="<h3 style='color:green;font-size:22px;'>FSM IN CHINA</h3>";
+               var campanyName = "<span style='font-size:20px;'>TONY HUANG</span>";
+               var type = "<span style='font-size:17px;'>Sales & Services</span>";
+              //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
 
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+86 20 83295780";
+              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
+              var email = "<span style='color:blue;'>admin@apolloswing.com</span>";
+              var newline ="<br/>";
+              var address = "Room 2906, Fu Li Ying Building, No. 2 Huaqiang Road, Tianhe District"+newline+"Guanghou, China 510623";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
+        }
+        function bd()
+        {
+          var newline ="<br/>";
+              var line = "<hr>"
+              var title ="<h3 style='color:green;font-size:22px;'>FSM IN BANGLADESH</h3>";
+              //var image = '<img height="160px" width="190px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/masum_vaiya_pub.jpg')}}" alt="" class="">';
+              var campanyName = "<span style='font-size:20px;'>ABDULLAH AL MASUM</span>";
+              var type = "<span style='font-size:17px;'>Services & Engineering</span>";
+              var telePhone = "<span style='font-weight:bold'>Tel: </span>"+" +88 01992526419";
+              var fax = "<span style='font-weight:bold'>Fax: </span>"+"+86 20 83295780"
+              var email = "<span style='color:blue;'>masuma@frontiersemi.com</span>";
+              var newline ="<br/>";
+              var address = "House no: 1078, Road No: 06, Mirpur DOHS,"+newline+"Dhaka 1216 ";
+              $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+newline+email+newline+newline+address);
 
+        }
+        looppp();
+        us();
+        function looppp(){
+       
+          setTimeout(us,3000);
+          setTimeout(cn,6000);
+          setTimeout(bd,9000);
+          setTimeout(tw,12000);
+          setTimeout(kr,15000);
+          setTimeout(fr,18000);
+          
+        }
+
+        setInterval(looppp,20000);
         
         var colorr = "#e67e22";
-        jQuery('#vmap').vectorMap('set', 'colors', { cn: colorr, us: colorr, bd: colorr, ph: colorr, id:colorr, tw: colorr, fr: colorr, kr: colorr });
+        jQuery('#vmap').vectorMap('set', 'colors', { cn: colorr, us: colorr, bd: colorr, tw: colorr, fr: colorr, kr: colorr });
 
 
       });
+
+
+      
 
 
     
@@ -557,10 +570,6 @@ Our Featured Wrapper Start -->
 
     <script>
       
-      $(document).ready(function(){
-        onRegionClick('da','bd','');
-      });
-    
     </script>
 
 
