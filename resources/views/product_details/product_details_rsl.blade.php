@@ -66,11 +66,33 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li><strong>Rs Range : </strong>10 to >100k Ohm/square</li>
+                                    <li><strong>Junction Depth </strong>10 nm to >2 &micro;m</li>
+                                    <li><strong>Dose Range : </strong>
+                                        ~ 10<sup>11</sup> to >10<sup>15</sup> ions/cm<sup>2</sup>
+                                    </li>
+                                    <li><strong>Repeatability : </strong>
+                                        <0.1 %
+                                    </li>
+                                    <li><strong>Edge Exclusion : </strong>
+                                        3 mm</li>
+                                    <li><strong>Leakage Current : </strong>
+                                        10<sup>-7</sup> to 10<sup>-2</sup> A/cm<sup>2</sup>
+                                    </li>
+                                    <li><strong>Mapping Time : </strong>
+                                        120 pts: <1.3 min,
+
+                                        973 pts: <2.5 min
+                                    </li>
+                                    <li>
+                                        <strong>Configurations : </strong>
+                                        200/300 mm (C2C)
+                                        1.1x
+                                        2.0 m footprint,
+
+                                        200/300 mm R&D (manual)
+                                        0.67 x 0.92
+                                        m footprint</li>
                                 </ul>
                             </div>
                         </div>
@@ -81,11 +103,37 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li><strong>RsL : </strong>
+
+                                    JPV, carrier spreading , carrier recombination
+                                    </li>
+                                    <li>
+                                        <strong>Rs mapping : </strong>
+
+                                        Dose uniformity, channeling, strain relaxation
+
+                                    </li>
+                                    <li>
+                                        <strong>Dose tracking : </strong>
+
+                                    Implanter-implanter, RsL repeatability
+                                    </li>
+                                    <li>
+                                        <strong>Anneal tracking : </strong>
+
+                                    RTP temperature, RTP uniformity, ms-annealers
+                                    </li>
+                                    <li>
+                                        <strong>Leakage current : </strong>
+
+                                    Dose & damage effects in transistors, damage accumulation in implanters
+                                    </li>
+
+                                    <li>
+                                        <strong>RsL calibration with 4PP databases : </strong>
+
+                                    4PP variations, USJ effects
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -96,11 +144,30 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li><strong>Non-contact : </strong>
+
+                                        No probe penetration or punch through for shallow junctions.
+
+                                        No probe wear out or conditioning.
+
+                                        Fast mapping using continuous wafer motion.
+                                    </li>
+                                    <li>
+                                        <strong>Independent measurements of Rs and leakage : </strong>
+                                        No Rs errors from leakage current effects.
+                                    </li>
+                                    <li>
+                                        <strong>Wide process range (all CMOS doping steps covered) : </strong>
+
+                                        <u> Dose range:</u> ~10<sup>11</sup> to >10<sup>16</sup> ions/cm<sup>2</sup>; Xj <10 nm to >2&micro;m.
+
+                                        <u>Leakage:</u> 10<sup>-7</sup> to >10<sup>-3</sup> A/cm2.
+                                    </li>
+                                    <li>
+                                        <strong>No pre-measurement chemistry steps needed : </strong>
+                                        No HF cleans or screen oxidations prior to measurement. Low cost.
+                                        No dopant loss for shallow junctions.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -144,6 +211,12 @@
     </div>
 </div>
 <!-- Inner Page Wrapper End -->
+
+
+
+<script type="text/javascript">
+    document.getElementById("defaultOpen").click();
+</script>
 
 
 

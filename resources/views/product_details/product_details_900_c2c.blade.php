@@ -64,36 +64,54 @@
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Specification</h3>
                             <hr style="width:70%">
-                            <div style="margin-left:20px;" id="listdetails">
+                            <div style="margin-left:5px;" id="listdetails">
                                 <ul type="square">
-                                    <li>FSM 900TC-VRC-C2C-SF-450 FULLY AUTOMATED SINGLE FOUP - STRESS
-                                        HYSTERESIS MEASUREMENT SYSTEM WITH AUTOMATIC STAGE
-                                        ROTATION FOR 3D MAPPING, HIGH AND CRYO TEMPERATURE VACUUM
-                                        CHAMBER AND INTEGRATED METROLOGY FOR LOW K, CU AND NOVEL
-                                        FILMS CHARACTERIZATION</li>
-                                    <li>The system is a fully automated stress measurements tool with heating
-                                        capability. Wafer stress is determined by measuring the wafer curvature before
-                                        and after film deposition on silicon wafers</li>
-                                    <li>FSM control module with Intel Core i5/i7 or later processor, greater than or
-                                        equial to 1TB of data storage capacity, 2GB of RAM, 4 USB ports min., 2RJ-45
-                                        Ethernet connections, and DVD R/W drive</li>
-                                    <li><strong>Stress Range</strong> : 1 x 10<sup>7</sup>
+                                    <strong>Film Stress</strong>
+                                    <li class="ml-3"><strong>Technique: </strong>Laser Scanning /Cantilever. Dual Lasers</li>
+                                    <li class="ml-3"><strong>Range: </strong>1 to 4000 MPa</li>
+                                    <li class="ml-3"><strong>Repeatability: </strong>1.25% (1 sigma ) using a 5000A W deposited film, for
+                                        a 300mm wafer, repeat 30 Xs</li>
+                                    <li class="ml-3"><strong>Temperature :</strong>Ambient to 900 deg C</li>
+                                    <li class="ml-3"><strong>Temperature Ramp :</strong> 1 to 35 deg C/min for annealing cycles ( without
+                                    metrology ). Typical ramp rate for Stress Hysteresrs is 2 deg C/ min to
+                                        8 deg C / Min</li>
+                                    <br>
+                                    <strong>Wafer Substrate Thickness ( Ambient )</strong>
+                                    <li class="ml-3"><strong>Range : </strong>300 to 800 microns</li>
+                                    <li class="ml-3"><strong>Precision : </strong>Within 2 microns ( 1 sigma ), repeat 30 xs</li>
+                                    <br>
+                                    <strong>TDS ( Thermal Desorytion Spectroscopy )</strong>
+                                    <li class="ml-3"><strong> Base operating Pressure : </strong>2 x 10<sup>-5</sup> Torr to 5 x 10<sup>-6</sup> Torr
+                                        ( Higher vacuum available as option )</li>
+                                    <li class="ml-3"><strong> Detection Range: </strong>1 to 200 AMU ( Faraday cup detector ).
+                                        PMT option available</li>
+                                    <li class="ml-3"><strong> Resolution : </strong>0.5 AMU at 10% height</li>
 
-                                        to 4 x 10<sup>10</sup> dynes/cm<sup>2</sup></li>
-                                    <li><strong>Scan range</strong> : Up to 447mm</li>
-                                    <li><strong>General
-                                            Capabilities</strong> : Capable of 300/450mm wafer
-                                        w/ or w/o notch (P1)</li>
-                                    <li><strong>Wafer Position Accuracy</strong> : Translation: <0.1mm
-                                        Rotation:<1 degree (P1)
-                                    </li>
-                                    <li><strong>Tool up time</strong> : >95% (P1)</li>
-                                    <li><strong>Safety Specs</strong> : <br>(1) SEMI S2, S8 (P1)<br>
-                                        &nbsp;(2) CE and Oregon State
-                                        approved 3rd party electrical
-                                        inspection (P1)</li>
-                                    <li><strong>Temperature range:
-                                            Vacuum mode</strong>Ambient to 900 C.</li>
+                                    <li class="ml-3"><strong> Monitoring Channels : </strong>Whole wafer monitoring up to 200 AMUs simul-
+                                        taneously over programmed temperature cycle</li>
+                                    <br>
+                                    <strong>Wafer Sizes </strong>
+                                    <li class="ml-3">300mm . 200mm available as option (with FOUP inserts)</li>
+                                    <br>
+                                    <strong>Vacuum Annealing Chamber</strong>
+                                    <li class="ml-3"><strong> Type : </strong>Cold wall with highly reflective chamber walls</li>
+                                    <li class="ml-3"><strong> Heating Type : </strong>W halogen lamps</li>
+                                    <li class="ml-3"><strong> Vacuum level:</strong> 2 x 10<sup>-5</sup> Torr to 5 x 10<sup>-6</sup> Torr ( Better vacuum available
+                                        as option )</li>
+                                    <li class="ml-3"><strong> Turbo pump capacity : </strong>2501/s</li>
+                                    <li class="ml-3"><strong> Temperature control : </strong>Programmable ramping, cooling, annealing</li>
+                                    <li class="ml-3"><strong> Temperature Range : </strong>Ambient to 900 deg C</li>
+
+                                    <li class="ml-3"><strong> Temperature Stability : </strong>Within 2 deg C at set point after 1 min stabiliza
+                                        tion</li>
+
+                                    <li class="ml-3"><strong>Temperature Ramp : </strong>1 to 35 deg C/min</li>
+                                    <br>
+                                    <strong>Wafer Automation</strong>
+                                    <li class="ml-3">Robotic Handler with Notch Aligner</li>
+                                    <li class="ml-3"><strong> Minienvironment : </strong>ULPA filter. Class 1 or 2</li>
+                                    <li class="ml-3"><strong> FOUP : </strong>Single or Dual FOUPs</li>
+                                    <li class="ml-3"><strong> Fab Automation : </strong>300 mm SECS/GEM complaint</li>
                                 </ul>
                             </div>
                         </div>
@@ -104,16 +122,24 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>The system is able to determine film stress (either compressive or tensile) from
-                                        1X10<sup>7</sup> dynes/cm<sup>2</sup> to 4X10<sup>10</sup> dynes/cm2</li>
-                                    <li>System is capable of performing up to 180 line scans, user programmable</li>
-                                    <li>The system is capable of Stress vs. Temperature and Stress vs. Time Profiles</li>
-                                    <li>Film stress measurement data and wafer bow results can be displayed and printed
-                                        in tabular formats</li>
-                                    <li>Temperature range from ambient to 900oC; cryo cooling to -50 ̊C</li>
-                                    <li>The system is capable of determining temperature expansion coefficients and
-                                        thermal stability of thin films after multiple thermal cycles</li>
-                                    <li>The pre and post stress wafers can be tracked by slot number or wafer ID</li>
+                                    <li>The FSM 900TC-vac has been used routinely for thermal
+                                        stability evaluation of new materials, by several leading fabs
+                                        and R&D centers around the world. With the Automated
+
+                                        FSM 900C2C, the power of Film Stress and Material char-
+                                        acterization can now migrate right into the 300mm produc-
+                                        tion facilities</li>
+                                    <li>Thermal Mechanical Characterization with the FSM 900C2C
+                                        is rapid . Whole 300mm or 200mm wafers can be measured
+                                        simultaneously for :
+                                        Residual Film Stress ( Room Temperature),
+                                        High Temperature Stress Hysteresis (ambient to 9000 C),
+
+                                        TDS (Thermal Desorption Spectroscopy) for material out-
+                                        gassing analysis.</li>
+                                    <li>
+                                        The system can also be used to extract information like CIE
+                                        ( Coefficient of Thermal Expansion ) of new films</li>
                                 </ul>
                             </div>
                         </div>
@@ -124,26 +150,29 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>One FEM unit equipped with robotic handler and pre-aligner</li>
-                                    <li>FSM control module with Intel Core i5/i7 or later processor, greater than or
-                                        equial to 1TB of data storage capacity, 2GB of RAM, 4 USB ports min., 2RJ-45
-                                        Ethernet connections, and DVD R/W drive</li>
-                                    <li>The system includes a 19” Flat Screen color monitor, 104 keyboard and mouse</li>
-                                    <li>One fully automated vacuum pumping system complete with turbo-molecular
-                                        pump</li>
-                                    <li>Programmable recipes for stress, wafer bow and hysteresis measurement</li>
-                                    <li>Can operate in automated non-heating mode for room temperature stress
-                                        and wafer bow measurement</li>
-                                    <li>The system conforms to S2 and S8 guidelines. (3rd party certification.</li>
-                                    <li>An emergency shut off (EMO) circuit is provided to totally de-energize the
-                                        equipment in the event of an emergency situation – EMO circuits are
+                                    <li>Fully robotic control, with Factory Automation for 300mm Material
+                                        Characterization and Film Stress Measurements
+                                        Options<br>
+                                        <aside>
+                                            <strong>Single Chamber Version </strong> ( Single or Dual FOUP) :
 
-                                        supplemented by a control circuit which must be manually activated to re-
-                                        energize the equipment. EMO buttons are of mushroom style, one inch in
+                                            High Temperature Stress Hysteresr.s and TDS for material Characterization ( Up to 900 deg C)
+                                        </aside>
 
-                                        diameter, red in color, and with a protective collar to prevent accidental
-                                        activation.</li>
-                                    <li>All System software is the most current version offered by FSM</li>
+                                        <aside>
+                                            <strong>Dual Chamber Version : </strong>
+                                            <u>First Chamber</u>: Automated Film Sfress, WaferBow Mapper
+                                            with Substrate Thickness Measurements,
+                                            <u>Second Chamber : </u>High Temperature Stress Hysteresis and
+                                            TDS for Material Characterization ( up to
+                                            900 deg C)
+                                        </aside>
+                                    </li>
+                                    <li>
+                                        <strong>Dual chamber Features: </strong>Capable of Room Temperature Stress, 3 D wafer
+                                        Mapping and Substrate Thickness Measurement in one chamber and High
+                                        Temperature Material characterization in another chamber simultaneously
+                                    </li>
                                 </ul>
                             </div>
                         </div>

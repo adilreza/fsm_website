@@ -66,11 +66,59 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>
+                                    <strong>Test Method : </strong>4 Point Bend Technique
+                                    </li>
+                                    <li>
+                                        <strong>Test Failures : </strong>Related to Adhesive or
+                                    Cohesive Strengths
+                                    </li>
+                                    <li>
+                                        <strong>Load Cell Capacity : </strong>120 N ( standard)
+                                    </li>
+                                    <li>
+                                        <strong>Load Displacement Velocity : </strong>0.12μ to 2 mm/s
+                                    </li>
+                                    <li>
+                                        <strong>Sample size : </strong> <u>Length</u> : 1.4 to 3 " , <u>Width</u> : up to 0.4 " ,<u>Thickness</u> : up to 0.25"
+                                    </li>
+                                    <li>
+                                        <strong>Chamber internal dimensions : </strong>
+                                    5" (W) x 3"(H) x 2" (D)
+                                    </li>
+                                    <li>
+                                        <strong> Number of Test Chambers: </strong>Up to 6
+                                    Test Solution Reservoir: Qty 1 per Chamber
+                                    (Optional)
+                                    </li>
+                                    <li>
+                                        <strong>Rinse Solution Reservoir: </strong>Qty: 1 per chamber
+                                    (Optional)
+
+                                    Manual Fill and Drain Valve
+                                    </li>
+                                    <li>
+                                        <strong>Controller : </strong> Pentium Based PC with 17" SVGA
+                                    Monitor Adhesion Software
+                                    </li>
+                                    <li>
+                                        <strong>Power : </strong> 110 V, 13 A.
+                                    </li>
+
+                                    <li>
+                                        <strong>Footprint : </strong> 26"(W) x 16"(D) x 20"(H) - Single
+                                    chamber
+                                    </li>
+                                    <li>
+                                        <strong>Facilities Requirements : </strong>
+                                    Fume cupboard or equivalent fixtures- if the
+                                    testing solutions are corrosive.
+                                    All applicable safety regulations should be
+                                    complied with.
+                                    Sample Preparation Equipment Required:
+                                    Convection Oven ,Wafer Dicing Saw
+                                    Wafer Polisher
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -79,13 +127,50 @@
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Applications</h3>
                             <hr style="width:70%">
-                            <div style="margin-left:20px;" id="listdetails">
+                            <div style="margin-left:5px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <strong>Evaluating the Effects of CMP  </strong>
+                                    <li class="ml-3">
+                                    New porous low k materials in a Cu damascene
+                                    structure must be compatible with CMP
+                                    processes and their consumables. Cap punch
+                                    through during CMP can be a major problem,
+                                    and the chemical effects on the cohesive or
+                                    adhesive interfacial adhesion strength should
+                                    be studied.The results of such studies are
+                                    useful to determine the effects of exposure of
+                                    the underlying stacked structure to low
+                                    selectivity or high selectivity slurry solutions
+                                    during polishing.
+                                    </li>
+                                    <br>
+
+                                    <strong>Evaluating the Effects of Plating Solutions </strong>
+                                    <li class="ml-3"> Microdiscontinuities, like pinholes or
+                                    subcritical crack growth in barrier materials,
+                                    are normally detected only at the end of the
+                                    integration cycle. In general, 4 Point Bend
+                                    testing of these materials in an ambient
+                                    environment are not sensitive enough to
+                                    uncover such micro defects. With the FSM
+                                    AquaFlex however, Cu barrier materials can
+                                    now be measured in both an ambient
+                                    environment and plating solutions to detect
+                                    potential degradation of adhesion energies. The
+                                    FSM AquaFlex provides a convenient method
+                                    to evaluate the effectiveness of the barrier
+                                    material's pore coverage in the next generation
+                                    ULK (ultra low k) materials.
+                                    </li>
+                                    <br>
+                                    <strong>Evaluating the Impact of Pretreatment </strong>
+                                    <li class="ml-3">
+                                    Compatibility to Plasma, Thermal Processes
+                                    and Wet cleans on adhesion of hardmasks,
+                                    etch-stops and diffusion barriers can also be
+                                    easily quantified with the FSM Aqua Flex
+                                    system.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -96,11 +181,14 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <strong>Simulate Real Enviromental Conditions</strong>
+                                    <li class="ml-3">Evaluate effects of CMP Slurry solutions on low k/ Cu/ Cap/ Etch stop interfaces</li>
+                                    <li class="ml-3">Plating solutions on Barrier materials</li>
+                                    <li class="ml-3">Cleaning a solutions on materials on cohesive strength and interfaces</li>
+                                    <strong>Fast and Simultaneous Testing</strong>
+                                    <li class="ml-3">Multi-chambers for rapid testing.Up to 6 chambers can be controlled for
+                                        simultaneous sample testing</li>
+                                    <li class="ml-3">Compare adhesion energies of interfaces in ambient and in aqueous solutions.</li>
                                 </ul>
                             </div>
                         </div>
@@ -144,7 +232,9 @@
 </div>
 <!-- Inner Page Wrapper End -->
 
-
+<script type="text/javascript">
+    document.getElementById("defaultOpen").click();
+</script>
 
 
 

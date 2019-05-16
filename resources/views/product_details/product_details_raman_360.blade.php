@@ -64,13 +64,27 @@
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Specification</h3>
                             <hr style="width:70%">
-                            <div style="margin-left:20px;" id="listdetails">
+                            <div style="margin-left:5px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <strong>UV Ar laser (364 nm) excitation </strong>
+                                    <li class="ml-4">Short term stability at 363.98 nm on Si samples (std-dev) +/- 0.025
+                                        cm-1</li>
+                                    <li class="ml-4">Penetration depth ~ 10 nm.</li>
+                                    <li class="ml-4">Resonant excitation at 364 nm provides enhancement of Raman
+                                        cross section by factor > 40X</li>
+                                    <br>
+                                    <strong>Visible Ar laser (488 nm) excitation</strong>
+                                    <li class="ml-4">Penetration depth ~ 500 nm.</li>
+                                    <br>
+                                    <li class="ml-3">0.9 NA ( 100 X ) UV microscope objective with < 1 um spot size</li>
+
+                                    <li class="ml-3">Effective focal length 1.34 m (Double Pass)</li>
+                                    <li class="ml-3">Small Spot Size</li>
+                                    <li class="ml-3">Auto-focus and Auto-calibration features</li>
+                                    <li class="ml-3">For High Throughput elimination of grating based filter
+                                        by use of holographic (in VIS) and multilayer filters (in
+                                        UV).</li>
+                                    <li class="ml-3">Fully automated solution for 200 and 300 mm wafers.</li>
                                 </ul>
                             </div>
                         </div>
@@ -81,11 +95,19 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li><strong>Stress Measurement: </strong>Variation in Raman position can reveal the amount of stress
+                                        in the sample.</li>
+                                    <li><strong>Local Area Scan Capability: </strong>Local Area scan with 1 um or
+                                        larger step size possible.Such a scan reveals smaller
+                                        features in the sample than a full
+                                        wafer map.Very Useful for patterned wafer
+                                        to show the stress in 2-D map
+                                        near any device.</li>
+                                    <li>Best commercially available resolution for single
+                                        spectrometer industrial automated Raman system</li>
+                                    <li>UV Ar laser (364 nm) excitation</li>
+                                    <li>Visible Ar laser (488 nm) excitation</li>
+
                                 </ul>
                             </div>
                         </div>
@@ -96,11 +118,15 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Local strain (and stress) by measuring line positions</li>
+                                    <li>Local chemical composition by measuring different lines
+                                        intensities</li>
+                                    <li>Local damage (crystal quality) by measuring spectral line
+                                        widths</li>
+                                    <li>Auto-calibration routines to eliminate thermal drift and provide very
+                                        accurate and repeatable measurements.</li>
+                                    <li>Autofocus system to give the strongest signal and high signal-to-noise ratio.</li>
+                                    <li>Pattern Recognition Capability</li>
                                 </ul>
                             </div>
                         </div>
@@ -145,6 +171,9 @@
 </div>
 <!-- Inner Page Wrapper End -->
 
+<script type="text/javascript">
+    document.getElementById("defaultOpen").click();
+</script>
 
 
 

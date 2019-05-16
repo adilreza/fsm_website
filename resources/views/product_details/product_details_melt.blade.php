@@ -45,7 +45,7 @@
                             Film adhesion testing of thin films and stacks on substrates for material evaluation.
                             <br>
                             <br>
-                            Modified Edge Liftoff Test to measure adhesion of thin film and thin film stacks on a wide variety of crystalline and non-crystaline substrates, such as Silicon, III-V compounds, glass, etc. Suitable for mid adhesion samples.
+                            Modified Edge Lift off Test to measure adhesion of thin film and thin film stacks on a wide variety of crystalline and non-crystaline substrates, such as Silicon, III-V compounds, glass, etc. Suitable for mid adhesion samples.
                     </div>
 
                     <div>
@@ -66,11 +66,13 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Modified Edge Lift Off Test</li>
+                                    {{--<img style="height:320px; width:520px;" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_melt2.PNG')}}" alt="">--}}
+                                    <li><strong>Throughput: </strong> 12 to 18 wafers/day</li>
+                                    <li><strong>Ease of us: </strong>Relatively simple</li>
+                                    <li><strong>Dynamic range: </strong>Limited to mid adhesion samples</li>
+                                    <li><strong>Consumable cost: </strong>Relatively high</li>
+                                    <li><strong>Testing: </strong>Fixed in low temperature</li>
                                 </ul>
                             </div>
                         </div>
@@ -81,11 +83,8 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>The modified edge lift-off test (MELT) has gained enough acceptance in the community for evaluating interfacial adhesion that there is now commercial equipment for automating the test.</li>
+                                    <li>Experimental data suggested that for crack lengths greater than 5% of the film thickness the energy release rate was independent of crack length, contradicting the rule of thumb suggesting that the crack length should be greater than 10–20 times the film thickness to obtain a steady-state energy release rate in the edge crack problem.</li>
                                 </ul>
                             </div>
                         </div>
@@ -96,11 +95,9 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Can <strong>quantify</strong> adhesive and cohesive properties</li>
+                                    <li>Can test <strong>real BEOL multilayer</strong> structures</li>
+                                    <li>Will generate <strong>surfaces for further analysis</strong></li>
                                 </ul>
                             </div>
                         </div>
@@ -143,6 +140,9 @@
     </div>
 </div>
 <!-- Inner Page Wrapper End -->
+<script type="text/javascript">
+    document.getElementById("defaultOpen").click();
+</script>
 
 
 

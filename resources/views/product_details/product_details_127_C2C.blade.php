@@ -65,13 +65,23 @@
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Specification</h3>
                             <hr style="width:70%">
-                            <div style="margin-left:20px;" id="listdetails">
+                            <div style="margin-left:5px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <strong>Topography (Litho) specifications</strong>
+                                    <li class="ml-4">Edge exclusion below 100 μm (ITRS 2005: starting materials edge
+                                        exclusion 1.5 mm in 2007 (down from 2 mm in 2003))
+                                    </li>
+                                    <li class="ml-4">Flatness reproducibility for non-patterned wafers 2 nm (ITRS
+                                        2005: 20 nm)</li>
+                                    <li class="ml-4">
+                                        Capability to measure patterned and non-patterned wafers
+                                    </li>
+                                    <strong>Stress measurements</strong>
+                                    <li class="ml-4">Input parameters specifications(Site topography - above, wafer thickness reproducibility
+                                        better than 0.1 &#181m, thin film reproducibility as in standard Fabry-Perot or 4PP tools.)</li>
+                                    <li class="ml-4">All four lateral stress tensor components measured</li>
+                                    <li class="ml-4">Technology can be extended to 450 mm wafers, Flat Panel
+                                        Displays, Solar Cells</li>
                                 </ul>
                             </div>
                         </div>
@@ -82,11 +92,11 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Stress metrology in film stacks and micro-features</li>
+                                    <li>Management process uniformity  and stress during deposition on patterned production wafers.</li>
+                                    <li>Diagnostics for preventing via plug pull-out, voiding in Cu, low-k dielectric de-lamination, other defects)</li>
+                                    <li>Patterned production wafer topography for packaging
+                                        and back-end manufacturing</li>
                                 </ul>
                             </div>
                         </div>
@@ -97,11 +107,13 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>Finite Elements Analysis software for
+                                        non-uniform and anisotropic layers</li>
+                                    <li>Multilayer analysis</li>
+                                    <li>Combined total stress tool with Raman
+                                        spectroscopy (compatibility)</li>
+                                    <li>Increase of speed in progress</li>
+                                    <li>Increase of accuracy</li>
                                 </ul>
                             </div>
                         </div>

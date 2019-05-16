@@ -66,11 +66,37 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>
+                                        <strong>Film types : </strong>Ti, TiN, W, WN, Cu, Al, WSi,
+                                    poly-Si, doped-Si, bulk-Si, etc.
+                                    </li>
+                                    <li>
+                                        <strong>Rs range : </strong> 1m&#8486; - 1M&#8486;
+                                    </li>
+                                    <li>
+                                        <strong>Accuracy: </strong><0.5% of NIST standard
+                                    </li>
+                                    <li>
+                                        <strong>Repeatibility : </strong>static < O.2%, 1 sigma
+
+                                    (same point, 20 repeat, on stable film),
+                                    dynamic < 0.2%, 1 sigma
+                                    (same point, 7 load-unload)
+                                    <li>
+                                        <strong>Long Term Repeatibility : </strong> < 0.3% lsigma in 7days
+                                    </li>
+                                    <li>
+                                        <strong>Sampling Speed : </strong>< 2 seconds per sample
+                                    </li>
+                                    <li>
+                                        <strong>Edge exclusion : </strong> 1 mm
+                                    </li>
+                                    <li><strong>Foot print : </strong>
+                                        <u>200/30Omm C2C dualFOUP</u> :
+                                        1.16m(width)x 2.O1 m (depth),
+                                        <u>2O0/300mm manual</u> :
+                                        0.35m (width)x 0.75m (depth)x 0.5m (height)</li>
+
                                 </ul>
                             </div>
                         </div>
@@ -81,11 +107,10 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <li>FSM 4pp tool is available in semiautomatic(manual wafer loading) and cassette lo cassette (c2c) versions
+                                        for both 200 ard 300mm wafers with single FOUP. 
+                                        Dual FOUP system with SECS/GEM capability
+                                        are available as option</li>
                                 </ul>
                             </div>
                         </div>
@@ -94,13 +119,25 @@
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Features</h3>
                             <hr style="width:70%">
-                            <div style="margin-left:20px;" id="listdetails">
+                            <div style="margin-left:5px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
-                                    <li>Specification</li>
+                                    <strong>Hardware Features</strong>
+                                    <li class="ml-3">Adjustable pressure WC or Auzmiun tip probe</li>
+                                    <li class="ml-3">Standard single probe</li>
+                                    <li class="ml-3">Configuration switching</li>
+                                    <li class="ml-3">Standard single hand robot</li>
+                                    <li class="ml-3">Automatic probe conditioning</li>
+                                    <li class="ml-3">Option: Multiple probe configuration</li>
+                                    <li class="ml-3">Option: dualhand robot</li>
+                                    <li class="ml-3">Option: Non-contact RsL probe for junction wafer</li>
+                                    <br>
+                                    <strong>Analysis Features</strong>
+                                    <li class="ml-3">Recipe driven mapping coordinate</li>
+                                    <li class="ml-3">Rs Contour and color map</li>
+                                    <li class="ml-3">Line scan and circular scan</li>
+                                    <li class="ml-3">Probe qualification and calibration routine</li>
+                                    <li class="ml-3">Text raw data and pdf summary export</li>
+                                    <li class="ml-3">Complete statistic result summary</li>
                                 </ul>
                             </div>
                         </div>
