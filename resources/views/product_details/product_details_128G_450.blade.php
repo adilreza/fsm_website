@@ -73,9 +73,6 @@
                                     <li>The system is a semi automated room temperature stress measurement tool.Wafer stress is determined by measuring the wafer curvature before and after
                                         film deposition on silicon wafers.</li>
 
-                                    <li>FSM control module with Intel Core i3/i5 or later of greater than or equal to 1.0
-                                        TB of data storage capacity, 2 GB of RAM, 4 USB ports min., 2RJ-45 ethernet
-                                        connections, and DVD R/W drive.</li>
                                     <li><strong>Stress range</strong> : 1 x 10<sup>7</sup>
 
                                         to 4 x 10<sup>10</sup> dynes/cm<sup>2</sup> (Provided the wafer curvature change before and after

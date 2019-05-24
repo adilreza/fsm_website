@@ -40,12 +40,25 @@
                     <div class="btc_blog_cate_cont_wrapper">
                         <h5>About 413 C2C Product </h5>
                         <hr style="background:#071E33;width:70%;">
-                        <br>
+
                         <p>
-                            Substrate and tape total and individual thicknesses, warpage, and TTV Measurement. Able to measure with or without backing tape. For wafer back-grind and etch thinning processes control. Non-contact Echoprobe or VITE Technology. Thin film and surface roughness options.
+                            FSM 413 provides a direct and accurate substrate
+                            thickness measurement and thickness variation (TTV) of thick to ultra-thin
+                            wafers. Several materials transparent in IR beam, such as Si, GaAs, InP,
+                            SiC, Glass, Quartz and many polymers are readily measured with standard
+                            spatial resolution of 60 microns spot, (smaller spot sizes are available). Using
+                            a single probe system, substrate thickness of conventional wafers with
+                            patterns, tapes, bumps or bonded wafers mounted on carriers can be
+                            determined with high precision and accuracy. When configured as a Dual
+                            probe system, the FSM413 also provides measurements of total thickness of
+                            the wafer, including substrate thickness and the patterned height thickness.
+                            Options are available to measure trench depth and via holes, including high
+                            aspect ratio trenches and vias in MEMs type applications. Various
+                            specialized MEMs applications including membrane metrology and Bump
+                            Height metrology are also optionally available. FSM 413 Echoprobe<sup>TM</sup> sensor uses patent pending infrared (lR)
+                            interferometric technique.
                             <br>
-                            <br>
-                            Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM compliant. Warp, Roughness, and Thin Film Thickness measurement options.
+                            413 C2C has provides thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. It also provides fully automated cassette to cassette system, SECS/GEM compliant. It also includes warp, roughness, and thin film thickness measurement options.
                     </div>
 
                     <div>
@@ -76,7 +89,7 @@
                                     <li>The system is able to measure Wafer Substrate Thickness after backgrind or
                                         etching, when at least one surface is smooth not patterned and other surface is
                                         smooth, not patterned, or patterned</li>
-                                    <li>Improved range of Si wafer thickness is from 20 microns6
+                                    <li>Improved range of Si wafer thickness is from 20 microns
 
                                         to 780 microns, when
 
@@ -106,7 +119,7 @@
                             <hr style="width:70%">
                             <div style="margin-left:20px;" id="listdetails">
                                 <ul type="square">
-                                    <li>Measuring the Wafer substrates with grinding tape5
+                                    <li>Measuring the Wafer substrates with grinding tape
 
                                         (with probe facing the backside of
 
