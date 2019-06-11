@@ -115,7 +115,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="pricing_table">
                         <div class="top_border_1"></div>
-                        <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/tsv413.png')}}" style="height:100px; width:120px;"></div>
+                        <div class="price_table_icon"> <img src="{{URL::asset('fsm_all_web_file/adt_image/3DIC_TSV.png')}}" style="height:100px; width:120px;"></div>
                         <div class="price_table_title">
                             <h5>3DIC TSV Process Control </h5>
                         </div>
