@@ -235,7 +235,7 @@
            <a class="footer-logo" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="120px" height="60px" alt=""></a> 
 
             <p>Frontier Semiconductor is the leading manufacturer of stress measurement tools for semiconductor, MEMS, optoelectronic, and flat panel applications.</p>
-            <div class="social-icons"> <a href="javascript:void(0)" class="bttn"> <i class="fab fa-twitter"></i> </a> <a href="https://www.linkedin.com/company/frontier-semiconductor-fsm-/about/" class="bttn"><i class="fab fa-linkedin"></i></a> <a href="https://web.facebook.com/fsmofp" class="bttn"> <i class="fab fa-facebook"></i> </a> <a href="javascript:void(0)" class="bttn"> <i class="fab fa-skype"></i> </a> <a href="javascript:void(0)" class="bttn"> <i class="fab fa-pinterest-p"></i> </a> </div>
+            <div class="social-icons">  <a href="https://www.linkedin.com/company/frontier-semiconductor-fsm-/about/" class="bttn"><i class="fab fa-linkedin"></i></a> <a href="https://web.facebook.com/fsmofp" class="bttn"> <i class="fab fa-facebook"></i> </a> </div>
           </div>
         </div>
         <div class="col-xl-2 col-md-3">
