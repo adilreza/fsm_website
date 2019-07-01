@@ -74,6 +74,7 @@ class sendgrid_bulkemail extends Controller
             array_push($mail_array,$mail);
         }
         $name = DB::table('newsletter_lists')->where('id',$id)->value('newsletter_name');
+        $newsletter_subject = DB::table('newsletter_lists')->where('id',$id)->value('newsletter_title');
         $l = strlen($name);
         $name2="";
         for($i=0;$i<($l-10);$i++)
@@ -81,7 +82,7 @@ class sendgrid_bulkemail extends Controller
             $name2 = $name2.$name[$i];
         }
 
-        $data_object = ['type'=>'newsletter','file_id'=>$id,'newsletter_name'=>$name2];
+        $data_object = ['type'=>'newsletter','file_id'=>$id,'newsletter_name'=>$name2, 'custome_sub'=>$newsletter_subject];
 
 
         Mail::to($mail_array)->send(new BulkEmail($data_object));

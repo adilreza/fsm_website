@@ -25,11 +25,11 @@
                                    {{ csrf_field() }}
                                 
                                     <div class="form-group m-t-20">
-                                        <label><b>Newsletter Title</b> <small class="text-muted">max 100 char</small></label>
-                                        <input type="text" class="form-control date-inputmask" name="newsletter_title" id="newsletter_title" required placeholder="Enter Title">
+                                        <label><b>Newsletter Subject</b> <small style="color:red;"> (<i>Subject should be precious, this will apear in clients mail</i> )</small></label>
+                                        <input type="text" class="form-control date-inputmask" name="newsletter_title" id="newsletter_title" required placeholder="Newsletter Subject">
                                     </div>
                                     <div class="form-group">
-                                        <label><b>Newsletter Description</b> <small class="text-muted">Max 190 char</small></label>
+                                        <label><b>Newsletter Description</b> <small class=""> ( <b style="color:red;">Optional!! </b> only for admin recognition ) </small></label>
                                         <textarea type="textarea" cols="9" rows="5" class="form-control phone-inputmask" required name="newsletter_description" id="newsletter_description" ></textarea>
                                     </div>
                                     <div class="form-group">
@@ -37,7 +37,7 @@
                                     <input type="text" class="form-control international-inputmask" id="international-mask" readonly value="{{session('admin_email')}}">
                                     </div>
                                     <div class="form-group">
-                                            <label><b>upload a file</b> <small class="text-muted">extension must: .blade.php</small></label>
+                                            <label><b>upload a file</b> <small class="text-muted"> ( extension must be:<b style="color:red;"> .blade.php </b> )</small></label>
                                             <input required type="file" name="newsletter_file" class="form-control xphone-inputmask" id="newsletter_file" >
                                     </div>
 
