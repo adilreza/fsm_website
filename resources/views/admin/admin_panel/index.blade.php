@@ -205,10 +205,10 @@
                 @endif
                 <div class="row">
                     <!-- column -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <div class="card" style="height:520px;">
                             <div class="card-body">
-                            <h4 class="card-title">DRF Request From FSM Client <a href="{{URL::to('/admin/home/drf')}}"><span class="float-right"><i style="color:green;cursor:pointer;hover:orange;" class="fas fa-th"></i></span></a></h4>
+                            <h4 class="card-title">DRF Request from FSM Clients... <a href="{{URL::to('/admin/home/drf')}}"><span class="float-right"><i style="color:green;cursor:pointer;hover:orange;" class="fas fa-th"></i></span></a></h4>
                                 
                                 <hr>
                             </div>
@@ -242,7 +242,7 @@
                             </div>
                         </div>
                         <!-- Card -->
-                        <div class="card">
+                        {{-- <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">To Do List</h4>
                                 <div class="todo-widget scrollable" style="height:450px;">
@@ -307,8 +307,8 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- card -->
-                        <div class="card">
+                        <!-- card --> --}}
+                        {{-- <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title m-b-0">Progress Box</h4>
                                 <div class="m-t-20">
@@ -356,9 +356,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- card new -->
-                        <div class="card">
+                        {{-- <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title m-b-0">News Updates</h4>
                             </div>
@@ -430,10 +430,12 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- column -->
 
-                    <div class="col-lg-6">
+
+
+                    {{-- <div class="col-lg-6">
                         <!-- Card -->
                         <div class="card">
                             <div class="card-body">
@@ -501,7 +503,7 @@
                             </div>
                         </div>
                         <!-- card -->
-                        <div class="card">
+                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Our partner (Box with Fix height)</h4>
                             </div>
@@ -549,7 +551,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                         <!-- accoridan part -->
                         <div class="accordion" id="accordionExample">
                             <div class="card m-b-0">
@@ -661,6 +663,12 @@
                             </div>
                         </div>
                     </div>
+
+
+ --}}
+
+
+
                 </div>
                 <!-- ============================================================== -->
                 <!-- Recent comment and chats -->
