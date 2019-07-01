@@ -27,40 +27,10 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-5 col-lg-3 col-md-12">
-          <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="120px" height="50px" alt=""></a> </div>
+          <div class="logo"> <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="100px" height="50px" alt=""></a> </div>
 
       </div>
-      <div class="col-xl-7 col-lg-9 col-md-12 d-none d-lg-block d-md-block">
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <div class="header-logo-address">
-              <div class="header-logo-icon"> <i class="fa fa-phone-square"></i> </div>
-              <div class="header-logo-text">
-                <p>+01 666 777 999</p>
-                <p>+01 555 222 457</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="header-logo-address">
-              <div class="header-logo-icon"> <i class="fa fa-envelope"></i> </div>
-              <div class="header-logo-text">
-                <p>info@gmail.com</p>
-                <p>info@test.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="header-logo-address last-child">
-              <div class="header-logo-icon"> <i class="fa fa-globe"></i> </div>
-              <div class="header-logo-text">
-                <p>www.website.com</p>
-                <p>www.test.com</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
 </div>
@@ -145,7 +115,7 @@
 <div class="inner-page-wrapper search-results-wrapper" style="height:600px;">
 <div class="container">
 
-        <div class="login-box" style="background:#c8d6e5;width:50%;">
+        <div class="login-box" style="background:#01a3a4;width:45%;">
                 <div class="login-title">
                   <h3>Admin Sign In</h3>
                 </div>
@@ -166,10 +136,6 @@
                 </form>
             <div class="dont_have"> <a href="{{URL::to('/fsm_admin/admin_report')}}">Face problem? Report the problem</a> </div>
         </div>
-
-
-
-
  
 
 
