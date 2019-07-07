@@ -461,4 +461,84 @@ class admin_controller extends Controller
 
 
 
+
+    public function client_conversation($user_name)
+    {
+        session(['current_user'=>$user_name]);
+        return view('admin.admin_panel.conversation_with_client');
+    }
+    public function conversation_message_store(Request $data)
+    {
+        //return "Ok";
+        $omsg = $data->message;
+        $user_name = session('current_user');
+        $table_name = $user_name.'chatting_table';
+        //return $table_name;
+
+        $msg_from = "admin";
+        $msg_to = session('current_user');
+        //return $msg_to;
+        $make_array = array('msg_from'=>$msg_from, 'msg_to'=>$msg_to,'msg'=>$omsg);
+        DB::table($table_name)->insert($make_array);
+        
+        echo 'success';
+    }
+
+    public function conversation_message_read()
+    {
+        $user_name = session('user_name');
+        $table_name = $user_name.'chatting_table';
+        $all_data = DB::table($table_name)->get();
+        //echo $all_data;
+
+        //echo "adil reza";
+
+        $original_boss_data = '<ul class="chat-list">';
+        $flag = 0;
+        foreach($all_data as $data)
+        {
+            if($data->msg_from !='admin')
+            {
+                $var1 = '<li class="chat-item">
+                                <div class="chat-img"><img src="https://motsandco.com/wp-content/uploads/avatar-4-300x300.png" alt="user"></div>
+                                <div class="chat-content">
+                                    <h6 class="font-medium">'.$data->msg_from.'</h6>
+                                    <div class="box bg-light-info">'.$data->msg.'</div>
+                                </div>
+                                <!-- <div class="chat-time">10:56 am</div> -->
+                            </li>';
+
+                $flag=1;
+
+            }
+            else
+            {
+                $var2 = ' <li class="odd chat-item">
+                <div class="chat-content">
+                    <div class="box bg-light-inverse">'.$data->msg.'</div>
+                    <br>
+                </div>
+            </li>';
+                $flag=0;
+            }
+
+
+            if($flag==1)
+            {
+                $original_boss_data = $original_boss_data.$var1;
+            }
+            else
+            {
+                $original_boss_data = $original_boss_data.$var2;
+            }
+        }
+
+        $original_boss_data= $original_boss_data.'</ul>';
+
+        echo $original_boss_data;
+
+    }
+
+
+
 }

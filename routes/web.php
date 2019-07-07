@@ -45,6 +45,11 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/news_letter_api/{id}','admin_controller@news_letter_api');
     Route::get('/newsletter_delete/{id}','admin_controller@newsletter_delete');
     Route::post('/single_email_insert', 'admin_controller@single_email_insert');
+
+    Route::get('/client_name/{user_name}','admin_controller@client_conversation');
+    Route::post('/conversation_message_store','admin_controller@conversation_message_store');
+    Route::get('/conversation_message_read','admin_controller@conversation_message_read');
+
     
 
   

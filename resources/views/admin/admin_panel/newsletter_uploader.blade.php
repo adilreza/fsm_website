@@ -1,9 +1,5 @@
 @extends('/admin/admin_panel/admin_master')
-
 @section('page_title', 'newsletter uploader | Frontier Semiconductor')
-
-
-
 @section('admin_tables_page')
 
 

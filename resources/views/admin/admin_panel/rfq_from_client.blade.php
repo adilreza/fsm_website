@@ -35,7 +35,7 @@
                                             <td>{{$i++}}</td>
                                             <td>{{$user->user_name}}</td>
                                             <td>{{$all_client[$user->user_name]}}</td>
-                                        <td><a href="{{URL::to('/admin/rfq_replay_admin/'.$user->user_name)}}">Go For Conversation</a></td>
+                                        <td><a href="{{URL::to('/admin/client_name/'.$user->user_name)}}">Go For Conversation</a></td>
                                             
                                         </tr>
                                         @endforeach
