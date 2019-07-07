@@ -166,6 +166,129 @@ class user_controller extends Controller
     }
 
 
+    public function conversation_with_admin_page()
+    {
+        $user_name = session('user_name');
+        $table_name = $user_name."chatting_table";
+        $c_date = date('h:i a');
+        //return $c_date;
+        $db = DB::connection();
+        //$testname="adil_dynamic_test"; 
+       // $sql = "CREATE TABLE IF NOT EXISTS ".$table_name." ( id int(10), msg_from VARCHAR(100), msg_to VARCHAR(100),msg  VARCHAR(1000), status1 VARCHAR(5), 
+        //status2 VARCHAR(5), created_at timestamp DEFAULT CURRENT_TIMESTAMP"; 
+
+        $sql = "CREATE TABLE IF NOT EXISTS ".$table_name." (
+            `id` int(10) UNSIGNED NOT NULL,
+            `msg_from` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `msg_to` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `status2` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+            `status1` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+            `msg` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+          ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci";
+
+        $res = $db->statement($sql);
+        $flag = DB::table($table_name)->get()->count();
+        
+
+        if($flag<=0)
+        {
+            $sql2 =" ALTER TABLE ".$table_name."
+            ADD PRIMARY KEY (`id`)";
+            $db->statement($sql2);
+            $sql3 = " ALTER TABLE ".$table_name."
+            MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT"; 
+            $db->statement($sql3);
+            $user_name= session('user_name');
+            $message = "Hei, ".$user_name ." welcome to Frontier Semiconductor";
+            $make_array = array('msg_from'=>'admin','msg_to'=>session('user_name'),'msg'=>$message);
+            DB::table($table_name)->insert($make_array);
+
+        }
+
+
+        return view('user.user_panel.conversation_with_admin');
+    }
+    public function conversation_message_store(Request $data)
+    {
+        //echo 'success';
+        
+        $omsg = $data->message;
+        $user_name = session('user_name');
+        $table_name = $user_name.'chatting_table';
+
+        $msg_from = session('user_name');
+        $msg_to ="admin" ;
+        $make_array = array('msg_from'=>$msg_from, 'msg_to'=>$msg_to,'msg'=>$omsg);
+        DB::table($table_name)->insert($make_array);
+
+        echo 'success';
+
+
+    }
+
+    public function conversation_message_read()
+    {
+        $user_name = session('user_name');
+        $table_name = $user_name.'chatting_table';
+        $all_data = DB::table($table_name)->get();
+        //echo $all_data;
+
+        //echo "adil reza";
+
+        $original_boss_data = '<ul class="chat-list">';
+        $flag = 0;
+        foreach($all_data as $data)
+        {
+            if($data->msg_from =='admin')
+            {
+                $var1 = '<li class="chat-item">
+                                <div class="chat-img"><img src="https://motsandco.com/wp-content/uploads/avatar-4-300x300.png" alt="user"></div>
+                                <div class="chat-content">
+                                    <h6 class="font-medium">FSM Admin</h6>
+                                    <div class="box bg-light-info">'.$data->msg.'</div>
+                                </div>
+                                <!-- <div class="chat-time">10:56 am</div> -->
+                            </li>';
+
+                $flag=1;
+
+            }
+            else
+            {
+                $var2 = ' <li class="odd chat-item">
+                <div class="chat-content">
+                    <div class="box bg-light-inverse">'.$data->msg.'</div>
+                    <br>
+                </div>
+            </li>';
+                $flag=0;
+            }
+
+
+            if($flag==1)
+            {
+                $original_boss_data = $original_boss_data.$var1;
+            }
+            else
+            {
+                $original_boss_data = $original_boss_data.$var2;
+            }
+        }
+
+        $original_boss_data= $original_boss_data.'</ul>';
+
+        echo $original_boss_data;
+
+    }
+
+
+
+
+
+
+
 
 
 

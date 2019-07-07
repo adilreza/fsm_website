@@ -92,6 +92,11 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
     Route::post('/rfq_page','user_controller@rfq_page_insert');
     Route::get('/rfq_page/history','user_controller@show_user_rfq_history');
     //Route::get('/global_conversation','user_controller@global_conversation');
+
+    Route::get('/conversation_with_admin','user_controller@conversation_with_admin_page');
+    Route::post('/conversation_message_store','user_controller@conversation_message_store');
+    Route::get('/conversation_message_read','user_controller@conversation_message_read');
+
 });
 
 
