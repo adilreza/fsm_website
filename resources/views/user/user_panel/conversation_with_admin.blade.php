@@ -209,7 +209,16 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Conversation History..</h4>
+                  <div class="row">
+                    <div class="col-md-8">
+                        <h5 class="card-title">Conversation History..</h4>
+                    </div>
+                    <div class="col-md-4">
+                      <button type="button" class="btn btn-warning "><a style="color:black" href="{{URL::to('/fsm_client/drf_form')}}">RFQ</a></button>
+                      <button type="button" class="btn btn-info "><a style="color:black" href="{{URL::to('/fsm_client/presentation_list')}}">Presentation</a></button>
+                    </div>
+                  </div>
+                   
                     <hr>
                     <div class="chat-box scrollable" style="height:475px;">      
 
@@ -236,10 +245,10 @@
                               @csrf
                               <div class="row">
                                     <div class="col-md-7">
-                                      <input type="file" name="file" id="file" />
+                                      <input type="file" name="file" style="bodrder:none;border-radius:5px;" id="file" />
                                     </div>
                                     <div class="col-md-5">
-                                      <input type="submit" name="upload" value="Upload" class="btn btn-success" />
+                                      <input type="submit" name="upload" value="Upload" class="btn btn-sm btn-success" />
                                     </div>
                                 </div>
                             </form>

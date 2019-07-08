@@ -58,7 +58,7 @@
                            <h6 style="color:green;"> {{$msg}}</h6>
                            <script type="text/javascript">
                                 setTimeout(function(){
-                                    window.location.href="{{URL::to('fsm_client/dashboard')}}"
+                                    window.location.href="{{URL::to('fsm_client/conversation_with_admin')}}"
                                 },2000);
                            </script>
                         @endif

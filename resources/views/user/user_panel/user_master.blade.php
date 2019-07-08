@@ -92,7 +92,7 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
       <li class="nav-item active">
-      <a class="nav-link" href="{{URL::to('fsm_client/dashboard')}}">
+      <a class="nav-link" href="{{URL::to('fsm_client/conversation_with_admin')}}">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span>
         </a>
