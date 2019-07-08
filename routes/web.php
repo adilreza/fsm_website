@@ -69,6 +69,11 @@ Route::group(['prefix'=>'admin'], function(){
 
 Route::get('/adil','admin_controller@adil_reza');
 
+Route::post('/conversation_file_upload','file_upload_controller@upload_file')->name('conversation_file_upload');
+Route::post('/conversation_file_upload_admin','file_upload_controller@upload_file_admin')->name('conversation_file_upload_admin');
+
+
+
 //End of admin Section
 
 

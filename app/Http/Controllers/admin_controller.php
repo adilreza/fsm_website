@@ -478,7 +478,7 @@ class admin_controller extends Controller
         $msg_from = "admin";
         $msg_to = session('current_user');
         //return $msg_to;
-        $make_array = array('msg_from'=>$msg_from, 'msg_to'=>$msg_to,'msg'=>$omsg);
+        $make_array = array('msg_from'=>$msg_from, 'msg_to'=>$msg_to,'msg'=>$omsg,'msg_type'=>'msg');
         DB::table($table_name)->insert($make_array);
         
         echo 'success';
@@ -499,8 +499,11 @@ class admin_controller extends Controller
         {
             if($data->msg_from !='admin')
             {
+                if($data->msg_type!='file')
+                {
+                
                 $var1 = '<li class="chat-item">
-                                <div class="chat-img"><img src="https://motsandco.com/wp-content/uploads/avatar-4-300x300.png" alt="user"></div>
+                                <div class="chat-img"><img src="https://res.cloudinary.com/fsm/image/upload/v1562570331/fsm_media/fsm_demo_icon_avatar_ykcqjq.png" alt="user"></div>
                                 <div class="chat-content">
                                     <h6 class="font-medium">'.$data->msg_from.'</h6>
                                     <div class="box bg-light-info">'.$data->msg.'</div>
@@ -509,16 +512,44 @@ class admin_controller extends Controller
                             </li>';
 
                 $flag=1;
+                }
+                else
+                {
+                    $var1 = '<li class="chat-item">
+                                <div class="chat-img"><img src="https://res.cloudinary.com/fsm/image/upload/v1562570331/fsm_media/fsm_demo_icon_avatar_ykcqjq.png" alt="user"></div>
+                                <div class="chat-content">
+                                    <h6 class="font-medium">'.$data->msg_from.'</h6>
+                                    <div class="box bg-light-info"><a style="color:blue;" href="../../conversation_file/'.$data->msg.'">'.$data->msg.'</a></div>
+                                </div>
+                                <!-- <div class="chat-time">10:56 am</div> -->
+                            </li>';
+
+                $flag=1;
+
+                }
 
             }
             else
             {
+                if($data->msg_type=='file')
+                {
+                    $var2 = ' <li class="odd chat-item">
+                <div class="chat-content">
+                    <div class="box bg-light-inverse"><a style="color:white;" href="../../conversation_file/'.$data->msg.'">'.$data->msg.'</a></div>
+                    <br>
+                </div>
+                </li>';
+
+                }
+                else
+                {
                 $var2 = ' <li class="odd chat-item">
                 <div class="chat-content">
                     <div class="box bg-light-inverse">'.$data->msg.'</div>
                     <br>
                 </div>
-            </li>';
+                </li>';
+                }
                 $flag=0;
             }
 

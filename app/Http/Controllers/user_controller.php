@@ -184,6 +184,7 @@ class user_controller extends Controller
             `status2` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
             `status1` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
             `msg` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `msg_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
             `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
             `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
           ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci";
@@ -202,7 +203,7 @@ class user_controller extends Controller
             $db->statement($sql3);
             $user_name= session('user_name');
             $message = "Hei, ".$user_name ." welcome to Frontier Semiconductor";
-            $make_array = array('msg_from'=>'admin','msg_to'=>session('user_name'),'msg'=>$message);
+            $make_array = array('msg_from'=>'admin','msg_to'=>session('user_name'),'msg'=>$message,'msg_type'=>'msg');
             DB::table($table_name)->insert($make_array);
 
         }
@@ -220,7 +221,7 @@ class user_controller extends Controller
 
         $msg_from = session('user_name');
         $msg_to ="admin" ;
-        $make_array = array('msg_from'=>$msg_from, 'msg_to'=>$msg_to,'msg'=>$omsg);
+        $make_array = array('msg_from'=>$msg_from, 'msg_to'=>$msg_to,'msg'=>$omsg,'msg_type'=>'msg');
         DB::table($table_name)->insert($make_array);
 
         echo 'success';
@@ -243,8 +244,10 @@ class user_controller extends Controller
         {
             if($data->msg_from =='admin')
             {
+                if($data->msg_type!='file')
+                {
                 $var1 = '<li class="chat-item">
-                                <div class="chat-img"><img src="https://motsandco.com/wp-content/uploads/avatar-4-300x300.png" alt="user"></div>
+                                <div class="chat-img"><img src="https://res.cloudinary.com/fsm/image/upload/v1562570331/fsm_media/fsm_demo_icon_avatar_ykcqjq.png" alt="user"></div>
                                 <div class="chat-content">
                                     <h6 class="font-medium">FSM Admin</h6>
                                     <div class="box bg-light-info">'.$data->msg.'</div>
@@ -253,17 +256,59 @@ class user_controller extends Controller
                             </li>';
 
                 $flag=1;
+                }
+                else if($data->msg_type=='file')
+                {
+
+                    $var1 = '<li class="chat-item">
+                                <div class="chat-img"><img src="https://res.cloudinary.com/fsm/image/upload/v1562570331/fsm_media/fsm_demo_icon_avatar_ykcqjq.png" alt="user"></div>
+                                <div class="chat-content">
+                                    <h6 class="font-medium">FSM Admin</h6>
+                                    <div class="box bg-light-info"><a style="color:blue;" href="../conversation_file/'.$data->msg.'">'.$data->msg.'</a></div>
+                                </div>
+                                <!-- <div class="chat-time">10:56 am</div> -->
+                            </li>';
+
+
+                    $flag=1;
+
+                   
+                }
 
             }
             else
             {
-                $var2 = ' <li class="odd chat-item">
+                if($data->msg_type!='file')
+                {
+                    $var2 = ' <li class="odd chat-item">
                 <div class="chat-content">
                     <div class="box bg-light-inverse">'.$data->msg.'</div>
                     <br>
                 </div>
             </li>';
                 $flag=0;
+
+                }
+                else if($data->msg_type=='file')
+                {
+                        //$file_name = $file_name.'/conversation_file';
+                        
+    
+
+                    $var2 = ' <li class="odd chat-item">
+                <div class="chat-content">
+                    <div class="box bg-light-inverse"><a style="color:white;" href="../conversation_file/'.$data->msg.'">'.$data->msg.'</a></div>
+                    <br>
+                </div>
+            </li>';
+                $flag=0;
+
+                }
+
+
+                
+
+
             }
 
 

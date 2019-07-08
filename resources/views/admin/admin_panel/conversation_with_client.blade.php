@@ -39,7 +39,32 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <a class="btn-circle btn-lg btn-cyan float-right text-white" href="javascript:void(0)"><i class="fas fa-paper-plane"></i></a>
+
+                                    <form method="post" action="{{route('conversation_file_upload_admin')}}" enctype="multipart/form-data">
+                                        @csrf
+                                        <div class="row">
+                                              <div class="col-md-7">
+                                                <input type="file" name="file" id="file" />
+                                              </div>
+                                              <div class="col-md-5">
+                                                <input type="submit" name="upload" value="Upload" class="btn btn-success" />
+                                              </div>
+                                          </div>
+                                      </form>
+                                      <br />
+                                      {{-- <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow=""
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                          0%
+                                        </div> --}}
+                                      </div>
+                                      <br />
+                                      <div id="success">
+                  
+                                      </div>
+          
+
+
                             </div>
                         </div>
                     </div>
@@ -103,7 +128,36 @@
             document.getElementById("textarea1").value ="";
         }
          $(document).ready(function(){
-             read_message()
+             read_message();
+
+             $('form').ajaxForm({
+      beforeSend:function(){
+        $('#success').empty();
+      },
+      uploadProgress:function(event, position, total, percentComplete)
+      {
+        $('.progress-bar').text(percentComplete + '%');
+        $('.progress-bar').css('width', percentComplete + '%');
+      },
+      success:function(data)
+      {
+        if(data.errors)
+        {
+          $('.progress-bar').text('0%');
+          $('.progress-bar').css('width', '0%');
+          $('#success').html('<span class="text-danger"><b>'+data.errors+'</b></span>');
+        }
+        if(data.success)
+        {
+          $('.progress-bar').text('Uploaded');
+          $('.progress-bar').css('width', '100%');
+          $('#success').html('<span class="text-success"><b>'+data.success+'</b></span><br /><br />');
+          $('#success').append(data.image);
+        }
+      }
+    });
+
+
          });
     
          setInterval(() => {
