@@ -8,21 +8,14 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                    <h4 class="card-title">Conversation with <i><b>{{session('current_user')}}</b></i></h4>
+                    <h4 class="card-title">Conversation with <i><a href="{{URL::to('admin/about_client/client_name/'.session('current_user'))}}"><b>{{session('current_user')}}</b></a></i></h4>
                         <hr>
                         <div class="chat-box scrollable" style="height:475px;">
                             <!--chat Row -->
     
-                            
-    
                                
                                <span id="all_conv"></span>
                                
-                                    
-    
-    
-                              
-                            
     
     
                         </div>

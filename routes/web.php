@@ -49,6 +49,7 @@ Route::group(['prefix'=>'admin'], function(){
     Route::get('/client_name/{user_name}','admin_controller@client_conversation');
     Route::post('/conversation_message_store','admin_controller@conversation_message_store');
     Route::get('/conversation_message_read','admin_controller@conversation_message_read');
+    Route::get('/about_client/client_name/{client_user_name}','admin_controller@about_client');
 
     
 

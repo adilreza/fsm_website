@@ -570,6 +570,13 @@ class admin_controller extends Controller
 
     }
 
+    public function about_client($client_name)
+    {
+        $all_about = DB::table('user_registrations')->where('user_name',$client_name)->get();
+
+        return view('admin.admin_panel.about_client')->with(['about_user'=>$all_about]);
+    }
+
 
 
 }

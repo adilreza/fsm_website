@@ -29,7 +29,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-  <a class="navbar-brand mr-1" href="{{URL::to('/fsm_client/dashboard')}}">{{session('user_name')}}</a>
+  <a class="navbar-brand mr-1" href="{{URL::to('/fsm_client/conversation_with_admin')}}">{{session('user_name')}}</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>
