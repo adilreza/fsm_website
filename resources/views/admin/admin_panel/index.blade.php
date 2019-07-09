@@ -222,7 +222,7 @@
                                         <div class="d-flex flex-row comment-row m-t-0">
                                         <div class="p-2"><img src="{{URL::asset('fsm_admin/assets/images/users/1.jpg')}}" alt="user" width="50" class="rounded-circle"></div>
                                             <div class="comment-text w-100">
-                                            <h6 class="font-medium"><a href="{{URL::to('/admin/home/send_sample/'.$unseen_drf->drf_from)}}"> Send Sample</a> To {{$unseen_drf->drf_from}}</h6>
+                                            <h6 class="font-medium"><a href="{{URL::to('/admin/client_name/'.$unseen_drf->drf_from)}}"> Send Sample</a> To {{$unseen_drf->drf_from}}</h6>
                                             <p class="m-b-15 d-block"><span><i style="color:orange;">{{$unseen_drf->drf_from}}</i> from the company  "<b> {{$all_client[$unseen_drf->drf_from]}} </b>" sent a DRF to frontier Semiconductor  </span></p>
                                                 <div class="comment-footer">
                                                 <span class="text-muted float-right">{{$unseen_drf->created_at}}</span> 
