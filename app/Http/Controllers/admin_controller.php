@@ -486,7 +486,7 @@ class admin_controller extends Controller
 
     public function conversation_message_read()
     {
-        $user_name = session('user_name');
+        $user_name = session('current_user');
         $table_name = $user_name.'chatting_table';
         $all_data = DB::table($table_name)->get();
         //echo $all_data;
