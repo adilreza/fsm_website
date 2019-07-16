@@ -577,6 +577,21 @@ class admin_controller extends Controller
         return view('admin.admin_panel.about_client')->with(['about_user'=>$all_about]);
     }
 
+    public function single_communication_req()
+    {
+        return view('admin.admin_panel.single_communication');
+    }
+
+    public function admin_controller_send(Request $data)
+    {
+        $subject = $data->communication_subject;
+        $msg = $data->communication_message;
+        $email_address = $data->email_address;
+        $make_array = array('email_address'=>$email_address, 'communication_subject'=>$subject,'communication_message'=>$msg);
+        DB::table('email_communications')->insert($make_array);
+        return response("hello adil ");
+    }
+
 
 
 }

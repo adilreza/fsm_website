@@ -50,6 +50,8 @@ Route::group(['prefix'=>'admin'], function(){
     Route::post('/conversation_message_store','admin_controller@conversation_message_store');
     Route::get('/conversation_message_read','admin_controller@conversation_message_read');
     Route::get('/about_client/client_name/{client_user_name}','admin_controller@about_client');
+    Route::get('/single_communication','admin_controller@single_communication_req');
+    Route::post('/single_communication','admin_controller@admin_controller_send');
 
     
 
