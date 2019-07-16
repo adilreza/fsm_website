@@ -96,6 +96,10 @@ class sendgrid_bulkemail extends Controller
         $subject = $data->communication_subject;
         $messag = $data->communication_message;
         $email_address = $data->email_address;
+
+        $auto_user = substr($email_address, 0, strpos($email_address, "@"));
+        $auto_user = $auto_user.'fsm'.rand(1,500);
+
         $make_array = array('email_address'=>$email_address, 'communication_subject'=>$subject,'communication_message'=>$messag);
         DB::table('email_communications')->insert($make_array);
         if($subject=='')
@@ -103,7 +107,7 @@ class sendgrid_bulkemail extends Controller
             $subject="Invitations from Frontier Semiconductor";
         }
 
-        $data_object = ['type'=>'single_email','communication_subject'=>$subject, 'communication_message'=>$messag];
+        $data_object = ['type'=>'single_email','communication_subject'=>$subject, 'communication_message'=>$messag,'auto_user'=>$auto_user];
 
         Mail::to($email_address)->send(new BulkEmail($data_object));
 

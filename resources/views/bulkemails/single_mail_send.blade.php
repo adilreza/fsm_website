@@ -28,7 +28,7 @@
 
 </div>
 
-<h6 style="margin:0 auto;"><a style="background:blue;color:white;padding:10px;font-size:20px;" href="http://webtest.fsmtranscriber.com/application">Click Her to replay</a></h6>
+<h6 style="margin:0 auto;"><a style="background:blue;color:white;padding:10px;font-size:20px;" href="http://webtest.fsmtranscriber.com/auto_registration_and_conversation/"{{$auto_user}}>Click Her to replay</a></h6>
 
 <br>
 <hr>

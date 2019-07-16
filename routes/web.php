@@ -113,6 +113,9 @@ Route::group(['prefix'=>'fsm_client', 'middleware'=>'user_permission'], function
 });
 
 
+Route::get('/auto_registration_and_conversation/{user_name}','user_controller@auto_registration_and_conversation');
+
+
 //article section
 
 Route::get('/article/article_details/{article_id}','article_handler@article_details');
@@ -213,6 +216,8 @@ Route::post('/fsm_admin/login_request','admin_controller@admin_login_request');
 
 Route::get('/fsm_admin/admin_report','admin_controller@admin_report');
 Route::post('/fsm_admin/admin_report',"admin_controller@admin_report_request");
+
+
 
 
 Route::get('/testroute','sendgrid_bulkemail@testfun');

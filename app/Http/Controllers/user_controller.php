@@ -330,6 +330,13 @@ class user_controller extends Controller
 
 
 
+    public function  auto_registration_and_conversation($user_name)
+    {
+        return response($user_name);
+    }
+
+
+
 
 
 

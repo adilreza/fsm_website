@@ -50,8 +50,9 @@ class BulkEmail extends Mailable
             $address = session('admin_email');
             $subject = $this->data['communication_subject'];
             $msg = $this->data['communication_message'];
+            $auto_user = $this->data['auto_user'];
             $name = 'Frontier Semiconductor';
-            return $this->view('bulkemails.single_mail_send')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('com_message'=>$msg,'subject'=>$this->data['communication_subject']));
+            return $this->view('bulkemails.single_mail_send')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('com_message'=>$msg,'auto_user'=>$auto_user,'subject'=>$this->data['communication_subject']));
         }
         else
         {
