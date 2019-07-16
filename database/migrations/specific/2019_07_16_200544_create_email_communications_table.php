@@ -17,7 +17,7 @@ class CreateEmailCommunicationsTable extends Migration
             $table->increments('id');
             $table->string('email_address');
             $table->string('communication_subject')->default('Invitations from Frontier semiconductor');
-            $table->string('communication_message',3000);
+            $table->text('communication_message',3000);
         
             $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));

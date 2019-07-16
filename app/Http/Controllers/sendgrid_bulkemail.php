@@ -91,5 +91,27 @@ class sendgrid_bulkemail extends Controller
 
     }
 
+    public function admin_controller_send(Request $data)
+    {
+        $subject = $data->communication_subject;
+        $messag = $data->communication_message;
+        $email_address = $data->email_address;
+        $make_array = array('email_address'=>$email_address, 'communication_subject'=>$subject,'communication_message'=>$messag);
+        DB::table('email_communications')->insert($make_array);
+        if($subject=='')
+        {
+            $subject="Invitations from Frontier Semiconductor";
+        }
+
+        $data_object = ['type'=>'single_email','communication_subject'=>$subject, 'communication_message'=>$messag];
+
+        Mail::to($email_address)->send(new BulkEmail($data_object));
+
+        return back();
+
+
+    }
+
+
 }
 

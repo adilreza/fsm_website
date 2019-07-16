@@ -45,6 +45,14 @@ class BulkEmail extends Mailable
             return $this->view($file_name)->from($address, $name)->replyTo($address, $name)->subject($subject_from_db)->with(array('file_id'=>$this->data['file_id']));
             //return \File::get(public_path().$blade_file);
         }
+        else if($type=="single_email")
+        {
+            $address = session('admin_email');
+            $subject = $this->data['communication_subject'];
+            $msg = $this->data['communication_message'];
+            $name = 'Frontier Semiconductor';
+            return $this->view('bulkemails.single_mail_send')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('com_message'=>$msg,'subject'=>$this->data['communication_subject']));
+        }
         else
         {
         //$address = '';
