@@ -335,7 +335,7 @@ class user_controller extends Controller
         $company = $user_name;
         $user_name = $user_name;
         $user_email = $user_name;
-        $password = $user_name.reand(500,1000);
+        $password = $user_name.rand(500,1000);
         $make_array = array('company'=>$company, 'user_name'=>$user_name,'email'=>$user_email,'password'=>$password,'token'=>$user_name);
         DB::table('user_registrations')->insert($make_array);         
 
