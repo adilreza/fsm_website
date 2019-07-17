@@ -332,7 +332,56 @@ class user_controller extends Controller
 
     public function  auto_registration_and_conversation($user_name)
     {
-        return response($user_name);
+        $company = $user_name;
+        $user_name = $user_name;
+        $user_email = $user_name;
+        $password = $user_name.reand(500,1000);
+        $make_array = array('company'=>$company, 'user_name'=>$user_name,'email'=>$user_email,'password'=>$password,'token'=>$user_name);
+        DB::table('user_registrations')->insert($make_array);         
+
+        $user_name = $user_name;
+        session(['user_name'=>$user_name]);
+        $table_name = $user_name."chatting_table";
+        $c_date = date('h:i a');
+        //return $c_date;
+        $db = DB::connection();
+        //$testname="adil_dynamic_test"; 
+       // $sql = "CREATE TABLE IF NOT EXISTS ".$table_name." ( id int(10), msg_from VARCHAR(100), msg_to VARCHAR(100),msg  VARCHAR(1000), status1 VARCHAR(5), 
+        //status2 VARCHAR(5), created_at timestamp DEFAULT CURRENT_TIMESTAMP"; 
+
+        $sql = "CREATE TABLE IF NOT EXISTS ".$table_name." (
+            `id` int(10) UNSIGNED NOT NULL,
+            `msg_from` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `msg_to` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `status2` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+            `status1` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+            `msg` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `msg_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+            `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+          ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci";
+
+        $res = $db->statement($sql);
+        $flag = DB::table($table_name)->get()->count();
+        
+
+        if($flag<=0)
+        {
+            $sql2 =" ALTER TABLE ".$table_name."
+            ADD PRIMARY KEY (`id`)";
+            $db->statement($sql2);
+            $sql3 = " ALTER TABLE ".$table_name."
+            MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT"; 
+            $db->statement($sql3);
+            $user_name= session('user_name');
+            $message = "Hei, ".$user_name ." welcome to Frontier Semiconductor";
+            $make_array = array('msg_from'=>'admin','msg_to'=>session('user_name'),'msg'=>$message,'msg_type'=>'msg');
+            DB::table($table_name)->insert($make_array);
+
+        }
+
+
+        return view('user.user_panel.conversation_with_admin');
     }
 
 
