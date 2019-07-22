@@ -239,6 +239,11 @@ class fsm_maincontroller extends Controller
     {
         return view('admin.newsletter.fsm_newsletter2');
     }
+    
+    public function webcam()
+    {
+        return view('webcam');
+    }
 
 
 
