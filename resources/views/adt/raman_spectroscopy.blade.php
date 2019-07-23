@@ -94,7 +94,7 @@
                                     Amount of energy lost by the incident photon is characteristics of each material like fingerprints.
                                     Output laser signal has lower energy, lower frequency and higher wavelength (inelastic scattering). Output signal is
                                     called Raman signal.
-                                        <img style="margin-right:20px;" width="500px" height="300px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/raman.png')}}" alt="">
+                                        {{--<img style="margin-right:20px;" width="500px" height="300px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/raman.png')}}" alt="">--}}
 
 
                                 </div>
@@ -105,7 +105,7 @@
                             <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Raman Spectroscopy?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">
-                                    <img width="300px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsdefault.png')}}" alt="">
+                                    {{--<img width="300px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsdefault.png')}}" alt="">--}}
                                     <p style="color:gray;font-size:14px;">
                                     The Raman effect is the inelastic scattering of photons. The shift in energy gives information about the vibrational modes in the system. The vibrational modes are a sensitive measure of stress and composition.
                                 </p>

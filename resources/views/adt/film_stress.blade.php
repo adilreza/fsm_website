@@ -47,42 +47,40 @@
                     </div>
                 </div>
             </div>
-            <br>
-          <div class="card">
-              <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success in film stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                <div id="menu3" class="collapse show">
-                  <div class="card-body"> 
-                    <p style="color:gray;font-size:14px;">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
-                      </p>
-                      <p style="color:gray;font-size:14px;">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
 
 
-                          temperature or high temperature for semiconductor, optoelectronic and flat panel applications.
-                      </p>  
-                  </div>
-                </div>
-              </div>
-
-
-
-            <br> 
-          <div class="card">
-              <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Stress</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-            <div id="menutwo" class="collapse show">
-              <div class="card-body">
-                  <p style="color:gray;font-size:14px;">
-                      There are three types of film stress: global, local, and lattice level stress. FSM offers solutions for all three types in our 128/500/900 Series, 127 Series, and Raman 360 tools.
-                  </p>
-              </div>
-            </div>
-          </div>
           <br>
          
         </div>
       </div>
       <div class="col-lg-6 col-md-12">
         <div id="accordion" class="accordion-new">
-          <div class="card">
+            <div class="card">
+                <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success in film stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                <div id="menu3" class="collapse show">
+                    <div class="card-body">
+                        <p style="color:gray;font-size:14px;">Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
+                        </p>
+                        <p style="color:gray;font-size:14px;">FSM is the leading Manufacturer of Stress Measurement Tools capable of operating at room
+
+
+                            temperature or high temperature for semiconductor, optoelectronic and flat panel applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Stress</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                <div id="menutwo" class="collapse show">
+                    <div class="card-body">
+                        <p style="color:gray;font-size:14px;">
+                            There are three types of film stress: global, local, and lattice level stress. FSM offers solutions for all three types in our 128/500/900 Series, 127 Series, and Raman 360 tools.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          <div class="card d-none">
             <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about film stress!</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menu31" class="collapse show">
               <div class="card-body"> 

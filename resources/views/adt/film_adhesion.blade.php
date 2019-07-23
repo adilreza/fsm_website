@@ -35,31 +35,7 @@
                             </div>
                         </div>
                         <br>
-                        <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success in film_adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menu3" class="collapse show">
-                                <div class="card-body">
-                                    <p style="color:gray;font-size:14px;">
-                                        Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
 
-                                    </p>
-                                    <p style="color:gray;font-size:14px;">
-
-                                    FSM is the leading Manufacturer of Adhesion testing Tools capable of operating at room
-                                    temperature or high temperature for Cu film, Low K dielectric film, High K dielectric film,
-                                        CMP and other new films in new processes in Stud pull, nanoindenters, scotch tape, peel tests
-                                        blister tests.
-                                        FSM offers "complete solutions including training for sample preparations".
-                                    </p>
-                                    <p style="color:gray;font-size:14px;">
-                                    FSM success on adhesion testing tools rather than other competitors:<br>
-                                        <strong>MELT :</strong> FSM only, no competitors<br>
-                                        <strong>4PB :</strong> Many suppliers of 4PB materials characterization, but only a few
-                                        in film/wafer applications.
-                                </div>
-                            </div>
-                        </div>
-                        <br>
                         <div class="card">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menutwo" aria-expanded="true" aria-controls="menutwo" style="color:rgb(74,200,237);"><b>Types of Film Adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menutwo" class="collapse show">
@@ -77,6 +53,31 @@
                 <div class="col-lg-6 col-md-12">
                     <div id="accordion" class="accordion-new">
                         <div class="card">
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success in film_adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menu3" class="collapse show">
+                                <div class="card-body">
+                                    <p style="color:gray;font-size:14px;">
+                                        Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
+
+                                    </p>
+                                    <p style="color:gray;font-size:14px;">
+
+                                        FSM is the leading Manufacturer of Adhesion testing Tools capable of operating at room
+                                        temperature or high temperature for Cu film, Low K dielectric film, High K dielectric film,
+                                        CMP and other new films in new processes in Stud pull, nanoindenters, scotch tape, peel tests
+                                        blister tests.
+                                        FSM offers "complete solutions including training for sample preparations".
+                                    </p>
+                                    <p style="color:gray;font-size:14px;">
+                                        FSM success on adhesion testing tools rather than other competitors:<br>
+                                        <strong>MELT :</strong> FSM only, no competitors<br>
+                                        <strong>4PB :</strong> Many suppliers of 4PB materials characterization, but only a few
+                                        in film/wafer applications.
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card d-none">
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuonee" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>Traditional Film Adhesion</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuonee" class="collapse show">
                                 <div class="card-body">
@@ -90,7 +91,7 @@
                             </div>
                         </div>
                         <br>
-                        <div class="card">
+                        <div class="card d-none d-sm-block d-md-none">
                             <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about film adhesion!</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu31" class="collapse show">
                                 <div class="card-body">

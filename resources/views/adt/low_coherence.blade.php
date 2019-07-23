@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <br>
-                        <div class="card">
+                        <div class="card d-none">
                             <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>Which services you will get?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
@@ -68,6 +68,24 @@
                             </div>
                         </div>
                         <br>
+
+                        <div class="card">
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Low Coherence Interferometry?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
+                            <div id="menu31" class="collapse show">
+                                <div class="card-body">
+                                    {{--<img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci413.png')}}" alt="">--}}
+                                    <p style="color:gray;font-size:14px;">
+                                        The low coherence interferometry of FSM is accurate,
+                                        fast and reproducible tool for measurements for
+                                        MEMs structures.
+                                        It provides nondestructive alternative to
+                                        complicated and time consuming methods based
+                                        on electron microscope or x-ray scattering
+                                        techniques
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -109,24 +127,7 @@
                                 </div>
                             </div>
                         </div>
-                        <br>
-                        <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about Low Coherence Interferometry?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
-                            <div id="menu31" class="collapse show">
-                                <div class="card-body">
-                                    {{--<img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci413.png')}}" alt="">--}}
-                                    <p style="color:gray;font-size:14px;">
-                                        The low coherence interferometry of FSM is accurate,
-                                        fast and reproducible tool for measurements for
-                                        MEMs structures.
-                                        It provides nondestructive alternative to
-                                        complicated and time consuming methods based
-                                        on electron microscope or x-ray scattering
-                                        techniques
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
                         <br>
 
                     </div>
