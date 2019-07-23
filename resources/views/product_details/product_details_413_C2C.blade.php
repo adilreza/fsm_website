@@ -64,16 +64,16 @@
                     <div>
 
 
-                        <h2 style="padding:20px 0px;font-size:1px;">.</h2>
-                        <p>Below all about the product's feature specification and applications</p>
+                        <h2 style="padding:20px 0px;font-size:1px;"></h2>
+                        <p class="d-none">Below all about the product's feature specification and applications</p>
 
-                        <div class="tab">
-                            {{--<button class="tablinks" onclick="openCity(event, 'specific')" id="defaultOpen">Specification</button>--}}
+                        <div class="tab d-none">
+                            <button class="tablinks" onclick="openCity(event, 'specific')" id="defaultOpen">Specification</button>
                             <button class="tablinks" onclick="openCity(event, 'application')">Application</button>
                             <button class="tablinks" onclick="openCity(event, 'feature')">Features</button>
                         </div>
 
-                        <div id="specific" class="tabcontent">
+                        <div id="specific" class="tabcontent d-none">
                             <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
                             <h3>Specification</h3>
                             <hr style="width:70%">
