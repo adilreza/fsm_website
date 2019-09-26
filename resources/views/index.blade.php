@@ -428,8 +428,8 @@ Our Featured Wrapper Start -->
             }
             else
             {
+              console.log(code)
               $('#name').html(region+"("+code+")"+newline+newline+line+"<h3 style='color:red;'>NO Branch In this Country</h3>");
-
 
             }
 
@@ -512,7 +512,7 @@ Our Featured Wrapper Start -->
         {
           var newline ="<br/>";
               var line = "<hr>"
-              var title ="<h3 style='color:green;font-size:22px;'>FSM IN CHINA</h3>";
+              var title ="<h3 style='color:green;'>FSM CHINA</h3>";
                var campanyName = "<span style='font-size:20px;'>TONY HUANG</span>";
                var type = "<span style='font-size:17px;'>Sales & Services</span>";
               //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member4.jpg')}}" alt="" class="">';
@@ -528,7 +528,7 @@ Our Featured Wrapper Start -->
         {
           var newline ="<br/>";
               var line = "<hr>"
-              var title ="<h3 style='color:green;font-size:22px;'>FSM IN BANGLADESH</h3>";
+              var title ="<h3 style='color:green;'>FSM BANGLADESH</h3>";
               //var image = '<img height="160px" width="190px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/masum_vaiya_pub.jpg')}}" alt="" class="">';
               var campanyName = "<span style='font-size:20px;'>ABDULLAH AL MASUM</span>";
               var type = "<span style='font-size:17px;'>Services & Engineering</span>";
@@ -544,19 +544,68 @@ Our Featured Wrapper Start -->
         us();
         function looppp(){
        
-          setTimeout(us,3000);
-          setTimeout(cn,6000);
-          setTimeout(bd,9000);
-          setTimeout(tw,12000);
-          setTimeout(kr,15000);
-          setTimeout(fr,18000);
+          setTimeout(us,5000);
+          setTimeout(cn,10000);
+          setTimeout(bd,15000);
+          setTimeout(tw,20000);
+          setTimeout(kr,25000);
+          setTimeout(fr,30000);
           
         }
 
         setInterval(looppp,20000);
         
         var colorr = "#e67e22";
-        jQuery('#vmap').vectorMap('set', 'colors', { cn: colorr, us: colorr, bd: colorr, tw: colorr, fr: colorr, kr: colorr });
+        jQuery('#vmap').vectorMap('set', 'colors', { 
+          cn: colorr, 
+          us: colorr, 
+          bd: colorr, 
+          tw: colorr, 
+          fr: colorr, 
+          kr: colorr,
+          gb: colorr,
+          es: colorr,
+          de: colorr,
+          cz: colorr,
+          pl: colorr,
+          pt: colorr,
+          FI: colorr,
+          HR: colorr,
+          AD: colorr,
+          al: colorr,
+          am: colorr,
+          at: colorr,
+          az: colorr,
+          ba: colorr,
+          be: colorr,
+          by: colorr,
+          ch: colorr,
+          bg: colorr,
+          by: colorr,
+          cy: colorr,
+          cz: colorr,
+          dk: colorr,
+          dz: colorr,
+          ee: colorr,
+          ge: colorr,
+          gl: colorr,
+          gr: colorr,
+          hu: colorr,
+          ie: colorr,
+          ir: colorr,
+          is: colorr,
+          it: colorr,
+          lb: colorr,
+          ma: colorr,
+          no: colorr,
+          ru: colorr,
+          se: colorr,
+          ua: colorr,
+          sk: colorr,
+          sm: colorr,
+          sr: colorr,
+
+           });
 
 
       });

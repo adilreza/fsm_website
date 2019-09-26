@@ -214,7 +214,7 @@
                         <h5 class="card-title">Conversation History..</h4>
                     </div>
                     <div class="col-md-4">
-                      <button type="button" class="btn btn-warning "><a style="color:black" href="{{URL::to('/fsm_client/drf_form')}}">RFQ</a></button>
+                      <button type="button" class="btn btn-warning "><a style="color:black" href="{{URL::to('/fsm_client/drf_form')}}">DRF</a></button>
                       <button type="button" class="btn btn-info "><a style="color:black" href="{{URL::to('/fsm_client/presentation_list')}}">Presentation</a></button>
                     </div>
                   </div>
@@ -275,21 +275,10 @@
     
 </div>
 
-
-
 <script>
-
-
-
 <script>
-
-
-
 
 </script>
-
-
-
 
 </script>
 
