@@ -598,7 +598,6 @@ Our Featured Wrapper Start -->
           lb: colorr,
           ma: colorr,
           no: colorr,
-          ru: colorr,
           se: colorr,
           ua: colorr,
           sk: colorr,
