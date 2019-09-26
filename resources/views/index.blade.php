@@ -414,7 +414,7 @@ Our Featured Wrapper Start -->
             {
               cn();
             }
-            else if(code === "fr")
+            else if(code === "fr"|| code ==="es" || code ==="de"|| code ==="cz"|| code ==="pl"|| code ==="pt"|| code ==="ba"|| code ==="gb"|| code ==="ad"|| code ==="fi"|| code ==="hr"|| code ==="gr"|| code ==="gl"|| code ==="ee"|| code ==="az"|| code ==="gr"|| code ==="hu"|| code ==="is"|| code ==="ir"|| code ==="ie"|| code ==="lb"|| code ==="it"|| code ==="ma"|| code ==="ua"|| code ==="se"|| code ==="no"|| code ==="sk"|| code ==="sm"|| code ==="sr"|| code==="am"|| code==="at"|| code==="be"|| code==="by"|| code==="ch"|| code==="dk"|| code==="dz"|| code==="cy"|| code==="al")
             {
               fr();
             }
@@ -553,7 +553,7 @@ Our Featured Wrapper Start -->
           
         }
 
-        setInterval(looppp,20000);
+        setInterval(looppp,35000);
         
         var colorr = "#e67e22";
         jQuery('#vmap').vectorMap('set', 'colors', { 
