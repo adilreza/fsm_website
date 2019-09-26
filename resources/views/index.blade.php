@@ -414,7 +414,7 @@ Our Featured Wrapper Start -->
             {
               cn();
             }
-            else if(code === "fr"|| code ==="es" || code ==="de"|| code ==="cz"|| code ==="pl"|| code ==="pt"|| code ==="ba"|| code ==="gb"|| code ==="ad"|| code ==="fi"|| code ==="hr"|| code ==="gr"|| code ==="gl"|| code ==="ee"|| code ==="az"|| code ==="gr"|| code ==="hu"|| code ==="is"|| code ==="ir"|| code ==="ie"|| code ==="lb"|| code ==="it"|| code ==="ma"|| code ==="ua"|| code ==="se"|| code ==="no"|| code ==="sk"|| code ==="sm"|| code ==="sr"|| code==="am"|| code==="at"|| code==="be"|| code==="by"|| code==="ch"|| code==="dk"|| code==="dz"|| code==="cy"|| code==="al")
+            else if(code === "fr"|| code ==="es" || code ==="de"|| code ==="cz"|| code ==="pl"|| code ==="pt"|| code ==="ba"|| code ==="gb"|| code ==="ad"|| code ==="fi"|| code ==="hr"|| code ==="gr"|| code ==="gl"|| code ==="ee"|| code ==="az"|| code ==="gr"|| code ==="hu"|| code ==="is"|| code ==="ie"|| code ==="lb"|| code ==="it"|| code ==="ma"|| code ==="ua"|| code ==="se"|| code ==="no"|| code ==="sk"|| code ==="sm"|| code ==="sr"|| code==="am"|| code==="at"|| code==="be"|| code==="by"|| code==="ch"|| code==="dk"|| code==="cy"|| code==="al")
             {
               fr();
             }
@@ -571,11 +571,8 @@ Our Featured Wrapper Start -->
           pt: colorr,
           FI: colorr,
           HR: colorr,
-          AD: colorr,
-          al: colorr,
           am: colorr,
           at: colorr,
-          az: colorr,
           ba: colorr,
           be: colorr,
           by: colorr,
@@ -585,14 +582,12 @@ Our Featured Wrapper Start -->
           cy: colorr,
           cz: colorr,
           dk: colorr,
-          dz: colorr,
           ee: colorr,
           ge: colorr,
           gl: colorr,
           gr: colorr,
           hu: colorr,
           ie: colorr,
-          ir: colorr,
           is: colorr,
           it: colorr,
           lb: colorr,
