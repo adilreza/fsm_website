@@ -414,7 +414,7 @@ Our Featured Wrapper Start -->
             {
               cn();
             }
-            else if(code === "fr"|| code ==="es" || code ==="de"|| code ==="cz"|| code ==="pl"|| code ==="pt"|| code ==="ba"|| code ==="gb"|| code ==="ad"|| code ==="fi"|| code ==="hr"|| code ==="gr"|| code ==="gl"|| code ==="ee"|| code ==="az"|| code ==="gr"|| code ==="hu"|| code ==="is"|| code ==="ie"|| code ==="lb"|| code ==="it"|| code ==="ma"|| code ==="ua"|| code ==="se"|| code ==="no"|| code ==="sk"|| code ==="sm"|| code ==="sr"|| code==="am"|| code==="at"|| code==="be"|| code==="by"|| code==="ch"|| code==="dk"|| code==="cy"|| code==="al")
+            else if(code === "fr"|| code ==="es" || code ==="de"|| code ==="cz"|| code ==="pl"|| code ==="pt"|| code ==="ba"|| code ==="gb"|| code ==="ad"|| code ==="fi"|| code ==="gr"|| code ==="gl"|| code ==="ee"|| code ==="az"|| code ==="gr"|| code ==="hu"|| code ==="is"|| code ==="ie"|| code ==="mc"|| code ==="it"|| code ==="ua"|| code ==="se"|| code ==="no"|| code ==="sk"|| code ==="sm"|| code ==="nl"|| code==="am"|| code==="at" || code==="si"|| code==="be"|| code==="by"|| code==="ch"|| code==="dk"|| code==="mk"|| code==="al"|| code ==="rs"|| code ==="hr"|| code==="md"|| code ==="al"|| code ==="lt"|| code ==="lv"|| code ==="mt")
             {
               fr();
             }
@@ -488,7 +488,7 @@ Our Featured Wrapper Start -->
               //var image = '<img height="160px" width="190px"   src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_team/fsm_team_member2.jpg')}}" alt="" class="">';
               var telePhone = "<span style='font-weight:bold'>Tel: </span>"+"+886-3-658-7061";
               var fax = "<span style='font-weight:bold'>Fax: </span>"+"+886-3-658-9600"
-              var email = "<span style='color:blue;'>AlexCgeng@frontiersemi.com</span>";
+              var email = "<span style='color:blue;'>AlexCheng@frontiersemi.com</span>";
               var newline ="<br/>";
               var address = "Jhubei City, Hsinchu County 302, Taiwan(R.O.C)";
               $('#name').html(title+line+campanyName+newline+type+newline+newline+telePhone+newline+fax+newline+email+newline+newline+address);
@@ -564,13 +564,15 @@ Our Featured Wrapper Start -->
           fr: colorr, 
           kr: colorr,
           gb: colorr,
+          ro: colorr,
+          rs: colorr,
+          nl: colorr,
           es: colorr,
           de: colorr,
           cz: colorr,
           pl: colorr,
           pt: colorr,
-          FI: colorr,
-          HR: colorr,
+          hr: colorr,
           am: colorr,
           at: colorr,
           ba: colorr,
@@ -579,7 +581,6 @@ Our Featured Wrapper Start -->
           ch: colorr,
           bg: colorr,
           by: colorr,
-          cy: colorr,
           cz: colorr,
           dk: colorr,
           ee: colorr,
@@ -590,14 +591,20 @@ Our Featured Wrapper Start -->
           ie: colorr,
           is: colorr,
           it: colorr,
-          lb: colorr,
-          ma: colorr,
           no: colorr,
           se: colorr,
           ua: colorr,
           sk: colorr,
           sm: colorr,
-          sr: colorr,
+          fi: colorr,
+          si: colorr,
+          md: colorr,
+          mk: colorr,
+          al: colorr,
+          mc: colorr,
+          lv: colorr,
+          lt: colorr,
+          mt: colorr,
 
            });
 
