@@ -12,7 +12,7 @@
             <h1> All about Low Coherence Interferometry</h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{URL::to('/')}}">Home</a></li>
-                <li>Application</li>
+                <li><a href="{{URL::to('application')}}">Application</a></li>
                 <li>Low Coherence Interferometry</li>
             </ul>
         </div>
@@ -242,7 +242,7 @@
 
 
 </div>
-    
+
 
 
 

@@ -12,7 +12,7 @@
             <h1> All about Thin Wafer Metrology</h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{URL::to('/')}}">Home</a></li>
-                <li>Application</li>
+                <li><a href="{{URL::to('application')}}">Application</a></li>
                 <li>Thin Wafer Metrology</li>
             </ul>
         </div>
@@ -29,7 +29,7 @@
                             <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
-                                        Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV) and warp. FSM offers solutions for measurement of wafers and wafers on tape.
+                                        Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV),bow and warp. FSM offers solutions for measurement of wafers and wafers on tape.
                                     </p>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@
                                          Substrate Thickness, Warp, and TTV Measurement with or without Tape for Wafer Backgrind and Etch Thinning processes. Non-contact Echoprobe Technology. Thin film and surface roughness options.
 
                                      </p>
-                                
+
                                 </div>
                             </div>
                         </div>

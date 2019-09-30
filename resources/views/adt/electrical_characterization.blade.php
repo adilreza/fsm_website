@@ -12,7 +12,7 @@
             <h1> All about Electrical Characterization</h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{URL::to('/')}}">Home</a></li>
-                <li>Application</li>
+                <li><a href="{{URL::to('application')}}">Application</a></li>
                 <li>Electrical Characterization</li>
             </ul>
         </div>
@@ -36,10 +36,10 @@
                         </div>
                         <br>
                         <div class="card">
-                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success about electrical characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> 
-                            
+                            <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu3" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>FSM's success about electrical characterization</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a>
+
                             </div>
-                            
+
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
                                     <img width="360px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsl.png')}}" alt="">

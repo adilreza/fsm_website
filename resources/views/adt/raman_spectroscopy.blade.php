@@ -12,7 +12,7 @@
             <h1> All about Raman Spectroscopy</h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{URL::to('/')}}">Home</a></li>
-                <li>Application</li>
+                <li><a href="{{URL::to('application')}}">Application</a></li>
                 <li>Raman Spectroscopy</li>
             </ul>
         </div>

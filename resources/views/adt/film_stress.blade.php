@@ -3,7 +3,7 @@
 @section('page_title','Film Stress | Frontier Semiconductor')
 
 @section('film_stress_page')
- 
+
 
 
 <!-- Breadcrumb Wrapper Start -->
@@ -12,12 +12,12 @@
     <h1> All about Film Stress</h1>
     <ul class="page-breadcrumb">
       <li><a href="{{URL::to('/')}}">Home</a></li>
-      <li>Application</li>
+      <li><a href="{{URL::to('application')}}">Application</a></li>
       <li>Film stress</li>
     </ul>
   </div>
 </div>
-<!-- Breadcrumb Wrapper End --> 
+<!-- Breadcrumb Wrapper End -->
 <!-- Inner Page Wrapper Start -->
 <div class="inner-page-wrapper accordion-wrapper">
   <div class="container">
@@ -27,7 +27,7 @@
           <div class="card">
               <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menuone" class="collapse show">
-              <div class="card-body"> 
+              <div class="card-body">
                 <p style="color:gray;font-size:14px;">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
                 </p>
               </div>
@@ -50,7 +50,7 @@
 
 
           <br>
-         
+
         </div>
       </div>
       <div class="col-lg-6 col-md-12">
@@ -83,7 +83,7 @@
           <div class="card d-none">
             <div class="card-header"> <a class="card-link current" data-toggle="collapse"  href="#menu31" aria-expanded="true" aria-controls="menu3" style="color:rgb(74,200,237);"><b>What FSM's achievement about film stress!</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menu31" class="collapse show">
-              <div class="card-body"> 
+              <div class="card-body">
               <img width="300px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/fs128.png')}}" alt="">
                   <p style="color:gray;font-size:14px;">
                     Global film stress measurements at room Temperature
@@ -105,7 +105,7 @@
             </div>
           </div>
           <br>
-       
+
         </div>
       </div>
     </div>
@@ -120,7 +120,7 @@
             <div class="separator"></div>
         </div>
 
-    
+
         <div id="900series" class="container">
                 <h3>900 Series for Film Stress</h3>
                 <hr style="width:75%;">
@@ -133,7 +133,7 @@
                       <div class="blog_icon_overlay">
                         {{-- <ul>
                           <li> 19 <span> SOLD</span> </li>
-                         
+
                         </ul> --}}
                       </div>
                       <a href="{{URL::to('/product_900_C2C')}}">
@@ -152,7 +152,7 @@
                         <div class="blog_icon_overlay">
                           {{-- <ul>
                             <li> 19 <span> SOLD</span> </li>
-                            
+
                           </ul> --}}
                         </div>
                         <a href="{{URL::to('/product_900TC_VAC')}}">
@@ -184,7 +184,7 @@
                     <div class="blog_icon_overlay">
                       {{-- <ul>
                         <li> 19 <span> SOLD</span> </li>
-                        
+
                       </ul> --}}
                     </div>
                   <a href="{{URL::to('/product_128L')}}">
@@ -196,7 +196,7 @@
                   </div>
                   </div>
                 </a>
-            
+
                 <div class="col-md-4">
                 <a href="{{URL::to('/product_128G_450')}}">
                   <div class="blog_box_wrapper">
@@ -204,7 +204,7 @@
                     <div class="blog_icon_overlay">
                       {{-- <ul>
                         <li> 19 <span> SOLD</span> </li>
-                        
+
                       </ul> --}}
                     </div>
                     <a href="{{URL::to('/product_128G_450')}}">
@@ -215,7 +215,7 @@
                     </a>
                   </div>
                 </a>
-            
+
                 </div>
                 <a href="{{URL::to('/product_128NT')}}">
                     <div class="col-md-4">
@@ -224,7 +224,7 @@
                       <div class="blog_icon_overlay">
                         {{-- <ul>
                           <li> 19 <span> SOLD</span> </li>
-                        
+
                         </ul> --}}
                       </div>
                       <a href="{{URL::to('/product_128NT')}}">
@@ -237,19 +237,19 @@
                     </div>
                   </a>
                 </div>
-            
-            
+
+
                 <br>
                 <!-- second row------------------------------------------ -->
                 <div class="row">
-                <a href="{{URL::to('/product_128_C2C')}}">  
+                <a href="{{URL::to('/product_128_C2C')}}">
                   <div class="col-md-4">
                   <div class="blog_box_wrapper">
                   <div class="blog_img_wraper"> <img  height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128_C2C.png')}}" alt=""> </div>
                     <div class="blog_icon_overlay">
                       {{-- <ul>
                         <li> 19 <span> SOLD</span> </li>
-                        
+
                       </ul> --}}
                     </div>
                     <a href="{{URL::to('/product_128_C2C')}}">
@@ -261,7 +261,7 @@
                   </div>
                   </div>
                 </a>
-            
+
                 <a href="{{URL::to('/product_128L_C2C')}}">
                   <div class="col-md-4">
                   <div class="blog_box_wrapper">
@@ -269,7 +269,7 @@
                     <div class="blog_icon_overlay">
                       {{-- <ul>
                         <li> 19 <span> SOLD </span> </li>
-                        
+
                       </ul> --}}
                     </div>
                     <a href="{{URL::to('/product_128L_C2C')}}">
@@ -281,11 +281,11 @@
                   </div>
                   </div>
                 </a>
-            
+
                 </div>
             </div>
         </div>
-                
+
 
 
 </div>
@@ -293,7 +293,7 @@
 
 
 
-<!-- Inner Page Wrapper End --> 
+<!-- Inner Page Wrapper End -->
 <!-- Our CTA Wrapper Start -->
 {{-- <div class="our-cta-wrapper">
   <div class="container">
@@ -302,6 +302,6 @@
       <a href="#" class="bttn">RFI / RFP</a> </div>
   </div>
 </div> --}}
-<!-- Our CTA Wrapper End --> 
+<!-- Our CTA Wrapper End -->
 
 @endsection

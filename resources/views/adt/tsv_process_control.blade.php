@@ -12,7 +12,7 @@
             <h1> All about 3DIC TSV PROCESS CONTROL</h1>
             <ul class="page-breadcrumb">
                 <li><a href="{{URL::to('/')}}">Home</a></li>
-                <li>Application</li>
+                <li><a href="{{URL::to('application')}}">Application</a></li>
                 <li>3DIC TSV PROCESS CONTROL</li>
             </ul>
         </div>

@@ -12,7 +12,7 @@
             <h1> All about Laser Scanning</h1>
             <ul class="page-breadcrumb">
             <li><a href="{{URL::to('/')}}">Home</a></li>
-                <li>Application</li>
+                <li><a href="{{URL::to('application')}}">Application</a></li>
                 <li>Laser Scanning</li>
             </ul>
         </div>
@@ -95,12 +95,12 @@
                                       FSM128 series products takes 12,000 data per scan in less than 20 sec, many more data points to reduce the standard deviation.
 
                                     </p>
-                  
+
                                     <hr>
                                   <img width="400px" height="300px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/wafer.PNG')}}" alt="">
                                     <p style="color:gray;font-size:14px;">
                                       FSM laser scanning products can handle upto 300mm wafers.
-                  
+
                                     </p>
 
                             </div>

@@ -21,12 +21,12 @@
   @media only screen and (max-width : 990px) {
     #chet{
     display: block;
-    
+
   }
   #chet a{
     margin-left:20px;
     text-decoration: italic;
-    font-size:15px; 
+    font-size:15px;
   }
 }
 
@@ -57,14 +57,14 @@
 					<div class="topbar-left">
 						<ul class="top-author-link">
 							<li><a href="about-1.html">Welcome To Frontier Semiconductor</a></li>
-						
+
 						</ul>
 					</div>
 					<div class="topbar-right topbar-social">
 						<ul>
 							<li><a href="#" class="site-button-link facebook hover"><i class="far fa-envelope" style="color:#4AC8ED;"></i> fsm100@frontiersemi.com</a></li>
 							<li><a href="#" class="site-button-link facebook hover"><i class="fa fa-phone" style="color:#4AC8ED"></i> +1 408 432 8838</a></li>
-						
+
 						</ul>
 					</div>
 				</div>
@@ -76,7 +76,7 @@
                 <div class="container clearfix">
                     <!-- website logo -->
                     <div class="daz-logo">
-                        <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="FSM"></a> 
+                        <a class="main_sticky_main_l" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" alt="FSM"></a>
 					</div>
                     <!-- nav toggle button -->
                     <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarLeft" aria-controls="navbarLeft" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,27 +85,46 @@
 						<span></span>
 					</button>
                     <!-- extra nav -->
-                    
+
                     <!-- Quik search -->
-                    
+
                     <!-- main nav -->
                     <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarLeft">
-                        <ul class="nav navbar-nav">	
+                        <ul class="nav navbar-nav">
 							<li class="active"><a href="{{route('index')}}">HOME</a>
-								
+
 							</li>
 							<li><a href="{{URL::to('/product_list')}}">PRODUCTS</a>
-								
+
 							</li>
-							<li><a href="{{URL::to('/application')}}">APPLICATIONS</a>
-							
+							<li><a href="{{URL::to('/application')}}">APPLICATIONS<i class="fa fa-chevron-down"></i></a>
+
+                <ul class="sub-menu">
+                  <li><a href="{{URL::to('film_stress')}}" class="dez-page">Film Stress</a></li>
+                  <li><a href="{{URL::to('film_adhesion')}}" class="dez-page">Film Adhesion</a></li>
+                  <li><a href="{{URL::to('thin_wafer_metrology')}}" class="dez-page">Thin Wafer Metrology</a></li>
+                  <li><a href="{{URL::to('electrical_characterization')}}" class="dez-page">Electrical Characterization</a></li>
+                  <li><a href="{{URL::to('laser_scanning')}}" class="dez-page">Laser Scanning</a></li>
+                  <li><a href="{{URL::to('low_coherence')}}" class="dez-page">Low Coherence</a></li>
+                  <li><a href="{{URL::to('raman_spectroscopy')}}" class="dez-page">Raman Spectroscopy</a></li>
+                  <li><a href="{{URL::to('tsv_process_control')}}" class="dez-page">TSV Process Control</a></li>
+                </ul>
+
               </li>
-              
+              <li id="chet"><a href="{{URL::to('film_stress')}}" class="dez-page">Film Stress</a></li>
+              <li id="chet"><a href="{{URL::to('film_adhesion')}}" class="dez-page">Film Adhesion</a></li>
+              <li id="chet"><a href="{{URL::to('thin_wafer_metrology')}}" class="dez-page">Thin Wafer Metrology</a></li>
+              <li id="chet"><a href="{{URL::to('electrical_characterization')}}" class="dez-page">Electrical Characterization</a></li>
+              <li id="chet"><a href="{{URL::to('laser_scanning')}}" class="dez-page">Laser Scanning</a></li>
+              <li id="chet"><a href="{{URL::to('low_coherence')}}" class="dez-page">Low Coherence</a></li>
+              <li id="chet"><a href="{{URL::to('raman_spectroscopy')}}" class="dez-page">Raman Spectroscopy</a></li>
+              <li id="chet"><a href="{{URL::to('tsv_process_control')}}" class="dez-page">TSV Process Control</a></li>
+
 							<li><a href="#">COMPANY<i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
 									<li><a href="{{URL::to('/contact_us')}}" class="dez-page">Contact Us</a></li>
 									<li><a href="{{route('about_us')}}" class="dez-page">About Us</a></li>
-								
+
 								</ul>
               </li>
 
@@ -114,14 +133,14 @@
               <li id="chet"><a href="{{route('about_us')}}">About Us </a></li>
 
               <li><a href="{{URL::to('/library')}}">LIBRARY </a></li>
-              
-							
+
+
                 @if(empty(session('user_name')))
                 <li><a href="#">MY ACCOUNT<i class="fa fa-chevron-down"></i></a>
                   <ul class="sub-menu">
                       <li><a href="{{URL::to('/user/register')}}" class="dez-page">REGISTRATION</a></li>
                       <li><a href="{{URL::to('/user/login')}}" class="dez-page">LOGIN</a></li>
-                        
+
                   </ul>
                 </li>
                 <li id="chet"><a href="{{URL::to('/user/register')}}" class="dez-page">REGISTRATION</a></li>
@@ -129,12 +148,12 @@
                 @endif
                 @if(!empty(session('user_name')))
                   <li class=""><a href="{{URL::to('/fsm_client/dashboard')}}">MY ACCOUNT</a></li>
-                @endif  
-								
-							
-             
-              
-						</ul>		
+                @endif
+
+
+
+
+						</ul>
                     </div>
                 </div>
             </div>
@@ -231,8 +250,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-3 col-md-6">
-          <div class="footer-text"> 
-           <a class="footer-logo" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="120px" height="60px" alt=""></a> 
+          <div class="footer-text">
+           <a class="footer-logo" href="{{route('index')}}" title="Frontier Semiconductor"><img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/logo/fsm_logo_png.png') }}" width="120px" height="60px" alt=""></a>
 
             <p>Frontier Semiconductor is the leading manufacturer of stress measurement tools for semiconductor, MEMS, optoelectronic, and flat panel applications.</p>
             <div class="social-icons">  <a href="https://www.linkedin.com/company/frontier-semiconductor-fsm-/about/" class="bttn"><i class="fab fa-linkedin"></i></a> <a href="https://web.facebook.com/fsmofp" class="bttn"> <i class="fab fa-facebook"></i> </a> </div>
@@ -245,8 +264,8 @@
             <li><a href="{{route('index')}}">Home Page</a></li>
             <li><a href="{{route('about_us')}}">About Us</a></li>
             <li><a href="{{route('contact_us')}}">Contact Us</a></li>
-            <li><a href="{{route('services')}}">Our Services</a></li>
-           
+            <li><a href="#">Privacy Policy</a></li>
+
             </ul>
           </div>
         </div>
@@ -269,13 +288,13 @@
               <li class="col-xs-4 col-4"><a href="#"><img  style="height:110px;width:80px;"  alt="" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_128L_C2C.PNG')}}"></a></li>
               <li class="col-xs-4 col-4"><a href="#"><img  style="height:110px;width:80px;"  alt="" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_413_C2C.png')}}"></a></li>
               <li class="col-xs-4 col-4"><a href="#"><img  style="height:110px;width:80px;"  alt="" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/allproducts/fsm_product_VIT_C2C.PNG')}}"></a></li>
-              
+
             </ul>
           </div>
         </div>
-        
-        <!-- BACK TO TOP BUTTON --> 
-        <!-- COPY RIGHT --> 
+
+        <!-- BACK TO TOP BUTTON -->
+        <!-- COPY RIGHT -->
       </div>
       <div class="copyright">
         <hr>
@@ -290,17 +309,17 @@
     </div>
   </footer>
 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery-min.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/plugins.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.animateNumber.min.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/bootstrap/js/bootstrap.min.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/owl-carousel/js/owl.carousel.min.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/wow/wow.min.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.mainmenu.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.nivo.slider.pack.js') }}"></script> 
-  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/magnific-popup.min.js') }}"></script> 
+  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery-min.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/plugins.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.animateNumber.min.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/bootstrap/js/bootstrap.min.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/owl-carousel/js/owl.carousel.min.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/wow/wow.min.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.mainmenu.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/jquery.nivo.slider.pack.js') }}"></script>
+  <script src="{{ URL::asset('fsm_all_web_file/assets/jquery/magnific-popup.min.js') }}"></script>
   <script src="{{ URL::asset('fsm_all_web_file/js/custom.js') }}"></script>
-  
+
   @yield('custome_js_file')
 
   </body>

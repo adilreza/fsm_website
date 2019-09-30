@@ -12,7 +12,7 @@
                 <h1> All about Film Adhesion</h1>
                 <ul class="page-breadcrumb">
                     <li><a href="{{URL::to('/')}}">Home</a></li>
-                    <li>Application</li>
+                    <li><a href="{{URL::to('application')}}">Application</a></li>
                     <li>Film Adhesion</li>
                 </ul>
             </div>
@@ -126,7 +126,7 @@
                                     </p>
 
 
-                                
+
                                 </div>
                             </div>
                         </div>
@@ -214,7 +214,7 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Your request for Information or proposal</h2>
-                <a href="#" class="bttn">RFI / RFP</a> 
+                <a href="#" class="bttn">RFI / RFP</a>
             </div>
         </div>
     </div> --}}
