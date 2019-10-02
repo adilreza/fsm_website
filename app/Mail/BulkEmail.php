@@ -15,7 +15,7 @@ class BulkEmail extends Mailable
      * Create a new message instance.
      *
      * @return void
-     * 
+     *
      */
     public $data;
 
@@ -35,7 +35,7 @@ class BulkEmail extends Mailable
         if($type=='newsletter')
         {
             $name = 'Frontier Semiconductor';
-            
+
             $address = session('admin_email');
             $file_id = $this->data['file_id'];
             $file_name = $this->data['newsletter_name'];
@@ -54,6 +54,10 @@ class BulkEmail extends Mailable
             $name = 'Frontier Semiconductor';
             return $this->view('bulkemails.single_mail_send')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('com_message'=>$msg,'auto_user'=>$auto_user,'subject'=>$this->data['communication_subject']));
         }
+        else if($type=="fsmlog")
+        {
+          return $this->view('bulkemails.fsmlog')->from($this->data['contact_email'], "Contact Request from Website")->replyTo($this->data['contact_email'], "Contact Request from website")->subject($this->data['contact_subject'])->with(array('contact_message'=>$this->data['contact_message'], 'subject'=>$this->data['contact_subject']));
+        }
         else
         {
         //$address = '';
@@ -62,7 +66,7 @@ class BulkEmail extends Mailable
         $newsletter = $this->data['message'];
         //$newsletter = "this is another testing";
         $name = 'fsm_webserver';
-        
+
         return $this->view('bulkemails.dynamic_message')->from($address, $name)->replyTo($address, $name)->subject($subject)->with(array('msgggg'=>$this->data['message'],'post_title'=>$this->data['post_title'],'display_image'=>$this->data['display_image']));
         }
     }

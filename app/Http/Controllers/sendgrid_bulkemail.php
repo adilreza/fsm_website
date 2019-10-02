@@ -67,7 +67,7 @@ class sendgrid_bulkemail extends Controller
         $mail_array = array();
         $all_email_from_db = DB::table('client_lists')->get();
 
-        
+
 
         foreach($all_email_from_db as $mail)
         {
@@ -113,9 +113,8 @@ class sendgrid_bulkemail extends Controller
 
         return back();
 
-
     }
 
 
-}
 
+}

@@ -7,8 +7,16 @@ use Illuminate\database\migrations;
 use Illuminate\Support\Facades\DB;
 use \Input as Input;
 
+use App\Mail\BulkEmail;
+use Mail;
+
 class contact_controller extends Controller
 {
+
+    public function fsmLog_message(Request $data)
+    {
+
+    }
     public function contact_us_message(request $customer_ask_data)
     {
         $contact_name = $customer_ask_data->input('contact_name');
@@ -23,6 +31,18 @@ class contact_controller extends Controller
 
         DB::table('customer_queries')->insert($make_array);
 
+        $data_object = ['type'=>'fsmlog','contact_name'=>$contact_name, 'contact_email'=>$contact_email, 'contact_phone'=>$contact_phone,
+            'contact_subject'=>$contact_subject, 'contact_message'=>$contact_message];
+
+        Mail::to('linuxgeekup@gmail.com')->send(new BulkEmail($data_object));
+
+
         return view('contact_us')->with('successMsg','Successfully received your message! Our team will replay your query as soon as possible. ');
     }
+
+
+
+
+
+
 }

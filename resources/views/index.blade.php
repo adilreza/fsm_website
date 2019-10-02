@@ -8,7 +8,7 @@
 @endsection
 
 @section('index_page')
-    
+
 
 
  <!-- SLIDER  AREA Start -->
@@ -16,9 +16,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="sb-nivo-slider-wrapper kc-elm kc-css-242493">
-        <div id="mainSlider" class="nivoSlider sb-slider-image"> 
+        <div id="mainSlider" class="nivoSlider sb-slider-image">
         <img  src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/background_fsm_image_final.png')}}" alt="" title="#htmlcaption1_30"/>
-		    <img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/background_fsm_image_final.png')}}" alt="" title="#htmlcaption1_28" /> </div>
+		    <img src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/slider/fsm_background_image_final2.png')}}" alt="" title="#htmlcaption1_28" /> </div>
         <!-- sb-slider style-1 start -->
         <div id="htmlcaption1_30" class="nivo-html-caption sb-slider-content-nivo">
           <div class="sb-slider_inner container  text-left">
@@ -37,8 +37,8 @@
           <div class="sb-slider-button wow bounceInUp sb-button-button-area " data-wow-duration="3s" data-wow-delay="0s"> <a class="sb-active-button bg-success" href="{{URL::to('/application')}}">SEE DETAILS</a> </div>
           </div>
         </div>
-        <!-- sb-slider style-1 end --> 
-        
+        <!-- sb-slider style-1 end -->
+
         <!-- sb-slider style-1 start -->
         <div id="htmlcaption1_28" class="nivo-html-caption sb-slider-content-nivo">
           <div class="sb-slider_inner container">
@@ -59,7 +59,7 @@
   </div>
 </div>
 <!-- Slider Wrapper End -->
-<!-- Our Featured Wrapper Start 
+<!-- Our Featured Wrapper Start
 <div class="featured-wrapper">
 
 </div>
@@ -151,7 +151,7 @@ Our Featured Wrapper Start -->
 </div>
 </section>
 <!-- Our Services Wrapper End -->
-<!-- Our Team Wrapper Start 
+<!-- Our Team Wrapper Start
 <div class="our-team-wrapper">
 <div class="container">
 <div class="row">
@@ -285,7 +285,7 @@ Our Featured Wrapper Start -->
     {{-- <ul>
       <li> 19 <span> JUNE</span> </li>
       <li> 02 <span> COM.</span> </li>
-     
+
     </ul> --}}
   </div>
   <div class="blog_btm_cntnt">
@@ -331,13 +331,13 @@ Our Featured Wrapper Start -->
         <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/nasa_logo.png') }}" /></li>
         <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/samsung.png') }}" /></li>
         <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/fujitsu.png') }}" /></li>
-        <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/amd_logo.png') }}" /></li> 
-        <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/sony_logo.png') }}" /></li>                                                  
-    </ul>    
-    
-    <br/>  
-    
-    
+        <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/amd_logo.png') }}" /></li>
+        <li><img width="130px" height="90px" src="{{ URL::asset('fsm_all_web_file/fsm_image_gallery/fsm_customer/sony_logo.png') }}" /></li>
+    </ul>
+
+    <br/>
+
+
 </div> --}}
 
 
@@ -375,7 +375,7 @@ Our Featured Wrapper Start -->
 @section('custome_js_file')
 
 <script src="{{ URL::asset('fsm_all_web_file/js/custome_js_adil.js') }}"></script>
-    
+
     <script type="text/javascript" src="{{ URL::asset('fsm_all_web_file/fsm_work/dist/jquery.vmap.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('fsm_all_web_file/fsm_work/dist/maps/jquery.vmap.world.js') }}" charset="utf-8"></script>
     <script type="text/javascript" src="{{ URL::asset('fsm_all_web_file/fsm_work/js/jquery.vmap.sampledata.js') }}"></script>
@@ -446,7 +446,7 @@ Our Featured Wrapper Start -->
 		    // }
 
         });
-        
+
         function us()
         {
 
@@ -543,25 +543,25 @@ Our Featured Wrapper Start -->
         looppp();
         us();
         function looppp(){
-       
+
           setTimeout(us,5000);
           setTimeout(cn,10000);
           setTimeout(bd,15000);
           setTimeout(tw,20000);
           setTimeout(kr,25000);
           setTimeout(fr,30000);
-          
+
         }
 
         setInterval(looppp,35000);
-        
+
         var colorr = "#e67e22";
-        jQuery('#vmap').vectorMap('set', 'colors', { 
-          cn: colorr, 
-          us: colorr, 
-          bd: colorr, 
-          tw: colorr, 
-          fr: colorr, 
+        jQuery('#vmap').vectorMap('set', 'colors', {
+          cn: colorr,
+          us: colorr,
+          bd: colorr,
+          tw: colorr,
+          fr: colorr,
           kr: colorr,
           gb: colorr,
           ro: colorr,
@@ -612,14 +612,14 @@ Our Featured Wrapper Start -->
       });
 
 
-      
 
 
-    
+
+
     </script>
 
     <script>
-      
+
     </script>
 
 

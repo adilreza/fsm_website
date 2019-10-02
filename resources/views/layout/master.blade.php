@@ -56,7 +56,7 @@
 				<div class="row d-flex justify-content-between">
 					<div class="topbar-left">
 						<ul class="top-author-link">
-							<li><a href="about-1.html">Welcome To Frontier Semiconductor</a></li>
+							<li><a href="#">Welcome To Frontier Semiconductor</a></li>
 
 						</ul>
 					</div>
