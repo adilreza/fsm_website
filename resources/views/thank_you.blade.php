@@ -2,7 +2,7 @@
 
 @section('page_title', "Thank You | Frontier Semiconductor")
 @section('index_page')
-    
+
 
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
@@ -12,7 +12,7 @@
     <li><a href="{{URL::to('/')}}">Home</a></li>
 	  <li>Subscription</li>
 	  <li>Success</li>
-     
+
     </ul>
   </div>
 </div>
@@ -23,8 +23,8 @@
   <div class="row">
     <div class="col-md-8">
           @if(session('subscriber_name')!=''&& session('status','')=='done')
-            <h5>Hei , <span style="color:green;"><i>{{session('subscriber_name','')}}</i></span></h5>
-            <h5>Thank Your for your response....</h5>
+            <h5>Hei, <span style="color:green;"><i>{{session('subscriber_name','')}}</i></span></h5>
+            <h5> Thank you for your response....</h5>
             <hr style="width:80%;background:darkslateblue;">
             <br>
             <h5>You will be notified in your provided email <strong style="color:firebrick;"> {{session('subscriber_email','')}}</strong> </h5>
@@ -33,11 +33,11 @@
               @if($thank_you_message!='')
               <div class="alert alert-danger alert-dismissible fade show">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <strong>Sorry</strong> This email is already subcribed.
+                <strong>Sorry!</strong> This email is already subcribed.
               </div>
               @endif
             @endif
-              
+
           @endif
       </div>
       <div class="col-md-4">
@@ -55,10 +55,9 @@
             </div>
       </div>
 </div>
-  
+
 </div>
 </div>
 
 @endsection
 <!-- Inner Page Wrapper End -->
-

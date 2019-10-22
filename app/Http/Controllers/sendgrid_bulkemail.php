@@ -113,8 +113,8 @@ class sendgrid_bulkemail extends Controller
 
         return back();
 
-    }
 
+    }
 
 
 }
