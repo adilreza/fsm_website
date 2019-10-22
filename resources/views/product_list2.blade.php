@@ -7,7 +7,7 @@
 @endsection
 
 @section('product_list2_page')
- 
+
 
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
@@ -36,7 +36,7 @@
                       <div class="blog_icon_overlay">
                         {{-- <ul>
                           <li> 19 <span> SOLD </span> </li>
-                         
+
                         </ul> --}}
                       </div>
                       <a href="{{URL::to('/product_500TC')}}">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
               </a>
-             
+
             </div>
     </div>
 
@@ -68,7 +68,7 @@
           <div class="blog_icon_overlay">
             {{-- <ul>
               <li> 19 <span> SOLD </span> </li>
-             
+
             </ul> --}}
           </div>
         <a href="{{URL::to('/product_raman360')}}">
@@ -87,7 +87,7 @@
           <div class="blog_icon_overlay">
             {{-- <ul>
               <li> 19 <span> SOLD </span> </li>
-              
+
             </ul> --}}
           </div>
           <a href="{{URL::to('/product_127_C2C')}}">
@@ -99,10 +99,10 @@
         </div>
         </div>
     </a>
-    
+
         </div>
-    
-    
+
+
     </div>
 
 
@@ -120,7 +120,7 @@
           <div class="blog_icon_overlay">
             {{-- <ul>
               <li> 19 <span> SOLD</span> </li>
-             
+
             </ul> --}}
           </div>
           <a href="{{URL::to('/product_rms')}}">
@@ -200,7 +200,7 @@
               <div class="blog_icon_overlay">
                 {{-- <ul>
                   <li> 19 <span> SOLD</span> </li>
-                  
+
                 </ul> --}}
               </div>
               <a href="{{URL::to('/product_4pp')}}">
@@ -219,7 +219,7 @@
                 <div class="blog_icon_overlay">
                   {{-- <ul>
                     <li> 19 <span> SOLD</span> </li>
-                    
+
                   </ul> --}}
                 </div>
                 <a href="{{URL::to('/product_rsl')}}">
@@ -268,4 +268,3 @@
 <!-- Our CTA Wrapper End -->
 
 @endsection
-

@@ -29,7 +29,7 @@
                             <div id="menuone" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
-                                        Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV),bow and warp. FSM offers solutions for measurement of wafers and wafers on tape.
+                                        Thinning and backgrinding of wafers requires precise control of thickness, total thickness variation (TTV), bow and warp. FSM offers solutions for measurements of wafers and wafers on tape.
                                     </p>
                                 </div>
                             </div>
@@ -55,8 +55,7 @@
                                         silicon vias (TSV) as well as bump height automatically. By means of an integrated
                                         microscope and pattern recognition, the system effectively locates the bumps or
 
-                                        TSV automatically without operator intervention. This leads to high, operator inde-
-                                        pendent, reproducibility.
+                                        TSV automatically without operator intervention. This leads to high, operator independent, reproducibility.
                                     </p>
                                 </div>
                             </div>

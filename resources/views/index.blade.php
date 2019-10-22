@@ -113,7 +113,7 @@ Our Featured Wrapper Start -->
   <div class="single-services">
     <div class="media"><a href="{{URL::to('laser_scanning')}}"><img src="{{URL::asset('fsm_all_web_file/adt_image/lase scanningw.png')}}" style="height:120px; width:150px;"></a>
       <div class="media-body"> <h3><a href="{{URL::to('laser_scanning')}}">Laser Scanning</a></h3>
-        <p>FSM uses patented Laser Scanning technology to measure the .. </p>
+        <p>FSM uses patented Laser scanning technology to measure the .. </p>
       </div>
     </div>
   </div>
@@ -123,7 +123,7 @@ Our Featured Wrapper Start -->
     <div class="single-services">
       <div class="media"><a href="{{URL::to('/thin_wafer_metrology')}}"><img src="{{URL::asset('fsm_all_web_file/adt_image/thin_wafer.gif')}}" style="height:120px; width:150px;"></a>
         <div class="media-body"> <h3><a href="{{URL::to('/thin_wafer_metrology')}}">Thin wafer metrology</a></h3>
-          <p>Thinning and backgrinding of wafers requires precise contro ..</p>
+          <p>Thinning and backgrinding of wafers requires precise control ..</p>
         </div>
       </div>
     </div>
@@ -290,7 +290,7 @@ Our Featured Wrapper Start -->
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 413 C2C</h2>
-    <p class="pad-b-10" style="font-size:14px;">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM..</p>
+    <p class="pad-b-10" style="font-size:14px;">Thickness and total thickness variation (TTV) mapping system. TTV and Thickness of wafer substrate, thick layers, wafers on tape, bonded wafers, etc. Fully automated cassette to cassette system, SECS/GEM...</p>
     <a href="{{URL::to('/product_413_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
 </div>
@@ -307,7 +307,7 @@ Our Featured Wrapper Start -->
   </div>
   <div class="blog_btm_cntnt">
     <h2>Featured 128 C2C</h2>
-    <p style="font-size:14px;" class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool....</p>
+    <p style="font-size:14px;" class="pad-b-10">Dedicated Film Stress mapping system with high resolution for high throughput process control. Fully automated cassette to cassette, SECS/GEM compliant 300mm Film Stress and Bow Measurement tool...</p>
     <a href="{{URL::to('/product_128L_C2C')}}" class="tb_toppadder20">read more</a> </div>
 </div>
     </a>

@@ -70,8 +70,8 @@
                                     </p>
                                     <p style="color:gray;font-size:14px;">
                                         FSM success on adhesion testing tools rather than other competitors:<br>
-                                        <strong>MELT :</strong> FSM only, no competitors<br>
-                                        <strong>4PB :</strong> Many suppliers of 4PB materials characterization, but only a few
+                                        <strong>MELT:</strong> FSM only, no competitors<br>
+                                        <strong>4PB:</strong> Many suppliers of 4PB materials characterization, but only a few
                                         in film/wafer applications.
                                 </div>
                             </div>

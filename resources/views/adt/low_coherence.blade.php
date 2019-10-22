@@ -75,13 +75,8 @@
                                 <div class="card-body">
                                     {{--<img width="100px" height="100px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci413.png')}}" alt="">--}}
                                     <p style="color:gray;font-size:14px;">
-                                        The low coherence interferometry of FSM is accurate,
-                                        fast and reproducible tool for measurements for
-                                        MEMs structures.
-                                        It provides nondestructive alternative to
-                                        complicated and time consuming methods based
-                                        on electron microscope or x-ray scattering
-                                        techniques
+                                      The low coherence interferometry of FSM is the accurate, fast and reproducible tool for measurements for MEMs structures. It provides a nondestructive alternative to complicated and time-consuming methods based on electron microscope or x-ray scattering techniques
+
                                     </p>
                                 </div>
                             </div>
@@ -99,29 +94,29 @@
                                         There are remains some limitations with traditional technologies:
                                         <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lci.png')}}" alt="">
                                         <br><strong>Capacitive probes:</strong></p>
-                                    <p style="color:gray;font-size:14px;"> padding-left: 10px;">
-                                        -Useful for insulating or
+                                    <p style="color:gray;font-size:14px;padding-left: 10px;">
+                                        - Useful for insulating or
                                         rough materials
-                                        <br>-Not suitable for structured, multi-layered materials
+                                        <br>- Not suitable for structured, multi-layered materials
                                     </p>
 
                                     <p style="color:gray;font-size:14px;">
                                         <img width="200px" height="200px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/lic2.png')}}" alt="">
                                     <br><strong>Air Pressure probes:</strong>
                                     </p>
-                                    <p style="color:gray;font-size:14px;"> padding-left: 10px;">
-                                        -Very reliable and fast for
+                                    <p style="color:gray;font-size:14px; padding-left: 10px;">
+                                        - Very reliable and fast for
                                         thick uniform wafer
-                                        <br>-Delivers one value
+                                        <br>- Delivers one value
                                         related to pressure drop
                                     </p>
                                     <p style="color:gray;font-size:14px;">
                                     <br><strong>Capacitive probes:</strong>
                                     </p>
-                                    <p style="color:gray;font-size:14px;"> padding-left: 10px;">
-                                        -Microscope based
+                                    <p style="color:gray;font-size:14px; padding-left: 10px;">
+                                        - Microscope based
                                         (DOF limited probes)
-                                        <br>-Triangulation probes
+                                        <br>- Triangulation probes
                                     </p>
                                     </p>
                                 </div>

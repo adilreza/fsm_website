@@ -28,7 +28,7 @@
               <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Film Stress?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
             <div id="menuone" class="collapse show">
               <div class="card-body">
-                <p style="color:gray;font-size:14px;">When thin films are deposited at high temperature or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
+                <p style="color:gray;font-size:14px;">When thin films are deposited at high temperatures or annealed at high temperature, intrinsic stresses develop in the film due to mismatch of thermal expansion coefficients between the film and substrate material. The wafer will visibly bow or bend to a measurable degree based on the stress developed in the film.
                 </p>
               </div>
             </div>
@@ -39,9 +39,9 @@
                 <div id="menuone" class="collapse show">
                     <div class="card-body">
                         <p style="color:gray;font-size:14px;">
-                            Thin film stress measurement is a important factor for the fabricating devices. Because when the stress becomes high, the film may have suffer from delamination and adhesion issues.
+                            Thin-film stress measurement is an important factor for fabricating devices. Because when the stress becomes high, the film may have suffered from delamination and adhesion issues.
                             <br>
-                            Some devices have free standing beams or membranes are released, then the stress of the released film or film stack becomes critical.For beams (cantilevers), stress gradients through the thickness of the film will cause the beam to curve. For released membranes, a slightly tensile film stress is desired since compressive stress will cause membranes to buckle.
+                            Some devices have freestanding beams or membranes are released, then the stress of the released film or film stack becomes critical. For beams (cantilevers), stress gradients through the thickness of the film will cause the beam to curve. For released membranes, slightly tensile film stress is desired since compressive stress will cause membranes to buckle.
 
                         </p>
                     </div>

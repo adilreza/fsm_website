@@ -41,7 +41,7 @@
                             <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
-                                        FSM offers solutions for laser scanning in our 128/500/900 Series.
+                                        FSM offers solutions for laser scanning in our 128/500/900 series.
                                     </p>
                                 </div>
                             </div>
@@ -57,23 +57,23 @@
                             <div id="menu3" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
-                                        Within the field of 3D object scanning, laser scanning combines controlled steering of laser beams with a laser rangefinder. Within patented Laser Scanning technology of FSM
-                                        you will get several types of services in real life application.
+                                        Within the field of 3D object scanning, laser scanning combines controlled steering of laser beams with a laser rangefinder. Within the patented Laser Scanning technology of FSM,
+                                        you will get several types of services in real-life application.
 
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>3D object scanning :</strong> 3D object scanning allows enhancing the design process, speeds up and reduces data collection errors, saves time and money, and thus makes it an attractive alternative to traditional data collection techniques.
+                                        <strong>3D object scanning:</strong> 3D object scanning allows enhancing the design process, speeds up and reduces data collection errors, saves time and money, and thus makes it an attractive alternative to traditional data collection techniques.
                                     </p>
 
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>Material processing :</strong> Depending on the power of the laser, its influence on a working piece differs: lower power values are used for laser engraving and laser ablation, where material is partially removed by the laser.
+                                        <strong>Material processing:</strong> Depending on the power of the laser, its influence on a working piece differs: lower power values are used for laser engraving and laser ablation, where the material is partially removed by the laser.
                                     </p>
 
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>Barcode readers :</strong>Many barcode readers, especially those with the ability to read bar codes at a distance of a few meters, use scanned laser beams. In these devices, a semiconductor laser beam is usually scanned with the help of a resonant mirror scanner.
+                                        <strong>Barcode readers:</strong> Many barcode readers, especially those with the ability to read bar codes at a distance of a few meters, use scanned laser beams. In these devices, a semiconductor laser beam is usually scanned with the help of a resonant mirror scanner.
                                     </p>
 
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>Space flight :</strong>When a space transporter has to dock to the space station, it must carefully maneuver to the correct position. In order to determine its relative position to the space station, laser scanners built into the front of the space transporter scan the shape of the space station and then determine, through a computer, the maneuvering commands.
+                                        <strong>Space flight:</strong> When a space transporter has to dock to the space station, it must carefully maneuver to the correct position. In order to determine its relative position to the space station, laser scanners built into the front of the space transporter scan the shape of the space station and then determine, through a computer, the maneuvering commands.
                                     </p>
 
                                 </div>

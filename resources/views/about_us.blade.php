@@ -6,7 +6,7 @@
 @section('custome_static')
 <link rel="stylesheet" href="{{URL::asset('fsm_all_web_file/assets/font-awesome/font-awesome/css/font-awesome.min.css')}}">
 @endsection
- 
+
 
 <div class="breadcrumb-wrapper">
   <div class="container">
@@ -33,10 +33,10 @@
   <div class="container">
     <h3 style="color:" class="text-primary">About Frontier Semiconductor</h3>
     <hr/>
-    <p style="font-size:17px;">Frontier Semiconductor&nbsp;is the leading manufacturer of stress measurement tools for semiconductor, MEMS, optoelectronic, and flat panel applications. Stress and wafer bow maps can be acquired over the entire wafer surface, providing process engineers means to characterize and develop new processes using different thin film materials
+    <p style="font-size:17px;">Frontier Semiconductor&nbsp;is the leading manufacturer of stress measurement tools for semiconductor, MEMS, optoelectronics, and flat panel applications. Stress and wafer bow maps can be acquired over the entire wafer surface, providing process engineers means to characterize and develop new processes using different thin film materials
     <br>
     <br>
-    Frontier Semiconductor (FSM), offers a range of advanced metrology products and solutions for semiconductor, LED, Solar, FPD, Data Storage and MEMS applications. We have over 25 years experience in stress measurement, film adhesion testing, wafer topography metrology, and electrical characterization. Our latest offerings include unique technology to meet the metrology needs of 3DIC manufacturing and to monitor stress of large flat panels.
+    Frontier Semiconductor (FSM), offers a range of advanced metrology products and solutions for semiconductor, LED, Solar, FPD, Data Storage and MEMS applications. We have over 25 of years experience in stress measurement, film adhesion testing, wafer topography metrology, and electrical characterization. Our latest offerings include unique technology to meet the metrology needs of 3DIC manufacturing and to monitor the stress of large flat panels.
 
 
   </p>
@@ -103,7 +103,7 @@
 
 <!--end of this section --->
 
-{{-- 
+{{--
 <section class="bar background-pentagon no-mb" style="background:url('fsm_all_web_file/images/texture-turquoise.png'); margin-bottom:7px;">
   <div class="container">
     <div class="row showcase text-center">
@@ -140,7 +140,7 @@
 
 
   {{-- <div class="container">
-      
+
           <div class="heading" >
             <h5>..</h5>
           </div>
@@ -216,7 +216,7 @@
 
             </div>
           </div>
-          
+
 
   </div> --}}
 
@@ -243,18 +243,18 @@
   </ul>
   <div class="tab-content">
     <div class="tab-item active-tab" id="tab-one">
-      <div class="text"><strong>FSM</strong> are manufacturing metrological devices and offering solutions for <strong>semiconductor</strong>, <strong>LED</strong>, <strong>Solar</strong>, <strong>FPD</strong>, <strong>Data Storage</strong> and <strong>MEMS</strong> applications for over 25 years. Customer’s from around the world come to us and expect a reliable, dependable products which can provide them highly accurate results. So we focus on our customers’ demand, evaluate their investments. Our mission is to provide them the best products that combine speed, reliability, quality and high performance as far as their requirements. 
+      <div class="text"><strong>FSM</strong> is manufacturing metrological devices and offering solutions for <strong>semiconductor</strong>, <strong>LED</strong>, <strong>Solar</strong>, <strong>FPD</strong>, <strong>Data Storage</strong> and <strong>MEMS</strong> applications for over 25 years. Customer’s from around the world come to us and expect a reliable, dependable products which can provide them highly accurate results. So we focus on our customers’ demand, evaluate their investments. Our mission is to provide them the best products that combine speed, reliability, quality and high performance as far as their requirements.
       </div>
     </div>
     <div class="tab-item" id="tab-two">
-      <div class="text">With the advancement of nano technology one day the earth will be totally computerized. All people’s basic needs will be fulfilled by the most efficient way possible. Our vision is to be the part of that world, be the part for the improvement of electronics devices.
+      <div class="text">With the advancement of nanotechnology one day, the earth will be totally computerized. All people’s basic needs will be fulfilled by the most efficient way possible. Our vision is to be the part of that world, be the part for the improvement of electronics devices.
       </div>
     </div>
     <div class="tab-item" id="tab-three">
       <div class="text">
         <ul>
           <li>Improve our service approach for new and existing customers. </li>
-          <li>Provide best possible solutions to our customers with high quality products. </li>
+          <li>Provide the best possible solutions to our customers with high-quality products. </li>
           <li>Expand our sales to existing customers.</li>
           <li>Introduce new and advance products to new and existing markets. </li>
         </ul>
@@ -273,7 +273,7 @@
 
 
 
-{{-- 
+{{--
 <section class="testimonials-wrapper">
   <div class="container">
   <div class="section-title">

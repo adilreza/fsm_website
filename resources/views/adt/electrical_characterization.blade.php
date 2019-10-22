@@ -44,19 +44,7 @@
                                 <div class="card-body">
                                     <img width="360px" height="250px" src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/rsl.png')}}" alt="">
                                     <p style="color:gray;font-size:14px;">
-                                        Production controls for USJ (ultra-shallow junctions) requires in-line
-                                        methods for measurements of sheet resistance (Rs) in the range
-                                        from 100 to 900 Ohm/square for junction depths (X<sub>j</sub>), in the range of
-                                        30 to less than 10 nm (according to tte ITRS03 requirements).
-                                        Direct contact probes are limited by probe punch through, healing
-                                        from prcbe currents and interference from surface oxide and
-                                        leakage current. Optical probes give structural information on
-                                        junction depth and damage levels but not electrical activation. Ihe
-                                        FSM RsL tool is designed to provide direct non-contact mapping of
-                                        sheet resistance and leakage current independent of junction depth.
-                                        Ihese features also help fill the current metrology gaps in the
-                                        evaluation of new implant and annealing tools for USJ ih the 65
-                                        and 45 nm technology nodes.
+                                        Production controls for USJ(ultra-shallow junctions) require in-line methods for measurements of sheet resistance (Rs) in the range from 100 to 900 Ohm/square for junction depths (Xj), in the range of 30 to less than 10 nm (according to the ITRS03 requirements). Direct contact probes are limited by probe punch through, healing from probe currents and interference from surface oxide and leakage current. Optical probes give structural information on junction depth and damage levels but not electrical activation. The FSM RsL tool is designed to provide a direct non-contact mapping of sheet resistance and leakage current independent of junction depth. These features also help fill the current metrology gaps in the evaluation of new implant and annealing tools for USJ in the 65 and 45 nm technology nodes.
                                     </p>
                                 </div>
                             </div>
@@ -68,7 +56,7 @@
                             <div id="menutwo" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
-                                        FSM offers solutions for Electrical Characterization in our 4pp , RsL tools.
+                                        FSM offers solutions for Electrical Characterization in our 4pp, RsL tools.
                                     </p>
                                 </div>
                             </div>
@@ -84,7 +72,7 @@
                             <div id="menuonee" class="collapse show">
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
-                                        Develop and maintain capabilities for electrical characterization with traditional technologies, including process monitoring and control, compact device modeling, RF characterization, ESD testing, technology qualification, mixed signal prototype testing, radiation hardness testing. Comprehensive on wafer characterization of devices and circuits for development and qualification of innovative technologies.
+                                        Develop and maintain capabilities for electrical characterization with traditional technologies, including process monitoring and control, compact device modeling, RF characterization, ESD testing, technology qualification, mixed-signal prototype testing, radiation hardness testing. Comprehensive on-wafer characterization of devices and circuits for development and qualification of innovative technologies.
                                     </p>
                                 </div>
                             </div>

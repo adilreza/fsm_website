@@ -28,7 +28,7 @@
                             <div class="card-header"> <a class="card-link" data-toggle="collapse"  href="#menuone" aria-expanded="true" aria-controls="menuone" style="color:rgb(74,200,237);"><b>What is Raman Spectroscopy?</b><span class="collapsed"><i class='icofont-long-arrow-right'></i></span> <span class="expanded"><i class='icofont-long-arrow-down'></i></span></a> </div>
                             <div id="menuone" class="collapse show">
                                 <div class="card-body">
-                                    <p style="color:gray;font-size:14px;">size:12px; font-family: 'Josefin Sans';">
+                                    <p style="color:gray;font-size:14px;">
                                     The Raman effect is the inelastic scattering of photons. The shift in energy gives information about the vibrational modes in the system. The vibrational modes are a sensitive measure of stress and composition.
                                     </p>
                                 </div>
@@ -41,24 +41,23 @@
                                 <div class="card-body">
                                     <p style="color:gray;font-size:14px;">
 
-                                        Frontier Semiconductor, FSM, was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
-                                        We offer tools to monitor Fab based process. Now, FSM is the leading manufacturer of raman spectroscopy tools.
+                                        Frontier Semiconductor(FSM) was founded in 1988. It currently offers a range of advanced metrology products for semiconductor applications, including Measurement Systems for Film Stress, Material Characterization for new films, Thermal Desorption Spectroscopy, Quantitative Adhesion Testers. Non-contact Electrical Characterization systems for Sheet Resistance and Leakage Current Measurements for USJ and Metal Contamination, diffusion length measurements for patterned wafers.
+                                        We offer tools to monitor Fab based process. Now, FSM is the leading manufacturer of Raman spectroscopy tools.
                                     </p>
                                     <p style="color:gray;font-size:14px;">
                                         FSM Raman offers you -
-
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>Stress and Wafer Process Strain zones :</strong>
-                                        Hair Treatment,Electrical Mobility, Trench, Gates, Walls etc.
+                                        <strong>Stress and Wafer Process Strain zones: </strong>
+                                        Hair Treatment, Electrical Mobility, Trench, Gates, Walls, etc.
                                     </p>
 
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>Composition or concentration :</strong>
+                                        <strong>Composition or concentration: </strong>
                                         Contaminents, III-V and Si-compounds.
                                     </p>
 
                                     <p style="color:gray;font-size:14px;">
-                                        <strong>Crystal geometry and phase :</strong>
+                                        <strong>Crystal geometry and phase: </strong>
                                         Deposition conditions and roughness.
                                     </p>
                                 </div>
@@ -87,13 +86,8 @@
                                 <div class="card-body">
 
                                     <p style="color:gray;font-size:14px;">
-                                    Semiconductors have well defined crystal lattice structures.Atoms are connected through bonds. These
-                                    atoms are vibrate at certain frequency called modes. Lattice vibrational modes are also known as Phonons.
-                                    To perform Raman spectroscopy, a laser beam is directed onto the sample. This laser will be aprtially absobed
-                                    in sample. Input laser couples some light energy to these vibrational modes. This is the Stokes Raman Effect.
-                                    Amount of energy lost by the incident photon is characteristics of each material like fingerprints.
-                                    Output laser signal has lower energy, lower frequency and higher wavelength (inelastic scattering). Output signal is
-                                    called Raman signal.
+                                      Semiconductors have well-defined crystal lattice structures. Atoms are connected through bonds. These atoms are vibrated at a certain frequency called modes. Lattice vibrational modes are also known as Phonons. To perform Raman spectroscopy, a laser beam is directed onto the sample. This laser will be partially absorbed in the sample. Input laser couples some light energy to these vibrational modes. This is the Stokes Raman Effect. The amount of energy lost by the incident photon is the characteristics of each material like fingerprints. Output laser signal has lower energy, lower frequency and higher wavelength (inelastic scattering). Output of the signal is called the Raman signal.
+
                                         {{--<img style="margin-right:20px;" width="500px" height="300px"  src="{{URL::asset('fsm_all_web_file/fsm_image_gallery/adt_success/raman.png')}}" alt="">--}}
 
 

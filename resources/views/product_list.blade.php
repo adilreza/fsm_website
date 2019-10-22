@@ -7,7 +7,7 @@
 @endsection
 
 @section('product_list_page')
- 
+
 
 
 
@@ -27,7 +27,7 @@
 <!-- Inner Page Wrapper Start -->
 <div class="inner-page-wrapper blog-wrapper blog-grid">
     <div id="128series" class="container">
-        <h3>128 series All product</h3>
+        <h3>128 SERIES ALL PRODUCT</h3>
         <hr style="width:75%;">
         <br>
     <div class="row">
@@ -38,7 +38,7 @@
         <div class="blog_icon_overlay">
           {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-            
+
           </ul> --}}
         </div>
       <a href="{{URL::to('/product_128L')}}">
@@ -58,7 +58,7 @@
         <div class="blog_icon_overlay">
           {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-            
+
           </ul> --}}
         </div>
         <a href="{{URL::to('/product_128G_450')}}">
@@ -78,7 +78,7 @@
           <div class="blog_icon_overlay">
             {{-- <ul>
               <li> 19 <span> SOLD</span> </li>
-            
+
             </ul> --}}
           </div>
           <a href="{{URL::to('/product_128NT')}}">
@@ -123,7 +123,7 @@
         <div class="blog_icon_overlay">
           {{-- <ul>
             <li> 19 <span> SOLD </span> </li>
-            
+
           </ul> --}}
         </div>
         <a href="{{URL::to('/product_128L_C2C')}}">
@@ -144,7 +144,7 @@
     <br>
     <!-- third--------------------------------------------------- Row -->
     <div id="413series" class="container">
-        <h3>413 SERIES  All product</h3>
+        <h3>413 SERIES  ALL PRODUCT</h3>
         <hr style="width:75%;">
         <br>
     <div class="row">
@@ -155,7 +155,7 @@
           <div class="blog_icon_overlay">
             {{-- <ul>
               <li> 19 <span> SOLD</span> </li>
-              
+
             </ul> --}}
           </div>
           <a href="{{URL::to('/product_413_C2C')}}">
@@ -174,7 +174,7 @@
         <div class="blog_icon_overlay">
           {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-          
+
           </ul> --}}
         </div>
         <a href="{{URL::to('/product_413_PR')}}">
@@ -194,7 +194,7 @@
       <div class="blog_icon_overlay">
         {{-- <ul>
           <li> 19 <span> SOLD</span> </li>
-         
+
         </ul> --}}
       </div>
       <a href="{{URL::to('/product_413_SA')}}">
@@ -219,7 +219,7 @@
         <div class="blog_icon_overlay">
           {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-          
+
           </ul> --}}
         </div>
         <a href="{{URL::to('/product_413_MOT')}}">
@@ -232,7 +232,7 @@
       </div>
     </a>
 
-      
+
     </div>
     <br>
     <br>
@@ -254,7 +254,7 @@
         <div class="blog_icon_overlay">
           {{-- <ul>
             <li> 19 <span> SOLD</span> </li>
-            
+
           </ul> --}}
         </div>
       <a href="{{URL::to('/product_VITE_C2C')}}">
@@ -274,7 +274,7 @@
       <div class="blog_icon_overlay">
         {{-- <ul>
           <li> 19 <span> SOLD</span> </li>
-          
+
         </ul> --}}
       </div>
       <a href="{{URL::to('/product_8108_VITE')}}">
@@ -300,7 +300,7 @@
 
 
 <div id="900series" class="container">
-      <h3>900 SERIES  All product</h3>
+      <h3>900 SERIES  All PRODUCT</h3>
       <hr style="width:75%;">
       <br>
   <div class="row">
@@ -311,7 +311,7 @@
             <div class="blog_icon_overlay">
               {{-- <ul>
                 <li> 19 <span> SOLD</span> </li>
-               
+
               </ul> --}}
             </div>
             <a href="{{URL::to('/product_900_C2C')}}">
@@ -330,7 +330,7 @@
               <div class="blog_icon_overlay">
                 {{-- <ul>
                   <li> 19 <span> SOLD</span> </li>
-                  
+
                 </ul> --}}
               </div>
               <a href="{{URL::to('/product_900TC_VAC')}}">
@@ -380,4 +380,3 @@
 <script src="{{ URL::asset('fsm_all_web_file/js/custome_js_adil.js') }}"></script>
 
 @endsection
-
