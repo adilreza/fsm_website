@@ -3,7 +3,7 @@
 @section('page_title','FAQ | Frontier Semiconductor')
 
 @section('faq_page')
- 
+
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
   <div class="container">
@@ -15,7 +15,7 @@
     </ul>
   </div>
 </div>
-<!-- Breadcrumb Wrapper End --> 
+<!-- Breadcrumb Wrapper End -->
 <!-- Inner Page Wrapper Start -->
 <div class="inner-page-wrapper faq-wrapper">
   <div class="container">
@@ -40,8 +40,8 @@
         </div>
       </div>
     </div>
-	<div class="row"> 
-  <!-- Faq Section --> 
+	<div class="row">
+  <!-- Faq Section -->
   <div class="col-lg-6 col-12">
     <div class="faq-accordion">
 	<h3>FAQ’s</h3>
@@ -69,7 +69,7 @@
       </div>
     </div>
   </div>
-  <!-- Faq Section --> 
+  <!-- Faq Section -->
   <!-- Testimonial Section -->
   <div class="col-lg-6 col-12">
     <div class="faq-testimoni">
@@ -99,20 +99,20 @@
           </div>
         </div>
       </div>
-      <!-- Start Col --> 
+      <!-- Start Col -->
     </div>
   </div>
-  <!-- Testimonial Section --> 
+  <!-- Testimonial Section -->
 </div>
   </div>
 </div>
-<!-- Inner Page Wrapper End --> 
+<!-- Inner Page Wrapper End -->
 <!-- Our CTA Wrapper Start -->
 <div class="our-cta-wrapper">
   <div class="container">
     <div class="cta-content">
-      <h2>Do you Need This Template. Please Download Now!</h2>
-      <a href="https://themeforest.net/user/sbtechnosoft/portfolio" class="bttn">Buy Now</a> </div>
+      <h2>Request For More Informatoin</h2>
+      <a href="{{URL::to('/contact_us')}}" class="bttn">More Information</a> </div>
   </div>
 </div>
 <!-- Our CTA Wrapper End -->
