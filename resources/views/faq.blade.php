@@ -9,8 +9,7 @@
   <div class="container">
     <h1>FAQ</h1>
     <ul class="page-breadcrumb">
-      <li><a href="index.html">Home</a></li>
-      <li>Pages</li>
+      <li><a href="{{URL::To('/')}}">Home</a></li>
       <li>FAQ</li>
     </ul>
   </div>
@@ -24,25 +23,25 @@
       <div class="col-md-6 col-lg-4">
         <div class="faq-block"> <span class="icon icofont-headphone-alt"></span>
           <h3>Contact us <br>
-            <span>+ 01 555 222 457</span></h3>
+            <span>+1 408 432 8838</span></h3>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="faq-block"> <span class="icon icofont-email"></span>
           <h3>Email us <br>
-            <span>info@gmail.com</span></h3>
+            <span>fsm100@frontiersemi.com</span></h3>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="faq-block"> <span class="icon icofont-support-faq"></span>
           <h3>Ask us <br>
-            <span>Help Desk</span></h3>
+            <span><a style="color:white;" href="{{URL::to('/contact_us')}}">Go for Ask a Question</a></span></h3>
         </div>
       </div>
     </div>
 	<div class="row">
   <!-- Faq Section -->
-  <div class="col-lg-6 col-12">
+  <div class="col-lg-8 col-12">
     <div class="faq-accordion">
 	<h3>FAQ’s</h3>
       <div id="accordion">
@@ -71,10 +70,12 @@
   </div>
   <!-- Faq Section -->
   <!-- Testimonial Section -->
+
+
+  <!--
   <div class="col-lg-6 col-12">
     <div class="faq-testimoni">
 	<h3>Testimonials</h3>
-      <!-- Start Col -->
       <div class="col-12 faq-testi">
         <div id="testimonial-2" class="owl-carousel owl-theme">
           <div class="item">
@@ -99,9 +100,14 @@
           </div>
         </div>
       </div>
-      <!-- Start Col -->
     </div>
-  </div>
+  </div> -->
+
+
+
+
+
+
   <!-- Testimonial Section -->
 </div>
   </div>

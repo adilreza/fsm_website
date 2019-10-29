@@ -263,8 +263,8 @@
             <ul class="">
             <li><a href="{{route('index')}}">Home Page</a></li>
             <li><a href="{{route('about_us')}}">About Us</a></li>
-            <li><a href="{{route('contact_us')}}">Contact Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="{{route('faq')}}">Faq</a></li>
+            <li><a href="{{route('privacy_policy')}}">Privacy Policy</a></li>
 
             </ul>
           </div>
