@@ -7,11 +7,10 @@
 <!-- Breadcrumb Wrapper Start -->
 <div class="breadcrumb-wrapper">
   <div class="container">
-    <h1>Terms of use</h1>
+    <h1>FSM privacy Policy</h1>
     <ul class="page-breadcrumb">
-      <li><a href="index.html">Home</a></li>
-	  <li>Extras</li>
-      <li>Terms of use</li>
+      <li><a href="{{URL::to('/')}}">Home</a></li>
+      <li>Privacy policy</li>
     </ul>
   </div>
 </div>
